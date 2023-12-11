@@ -25,4 +25,25 @@ AAAAAAA                   AAAAAAAMMMMMMMM               MMMMMMMMAAAAAAA         
 						MANAGEMENT TOOL
 ```
 
-## More information coming SOON!
+# Description: 
+This management tool is to help with navigating Rust server. This tool can check Server Details, Console, Backups, Check/Clear logs, Modify Files and MORE. 
+
+
+# Install 
+1) Download AMAP<br>
+```git clone https://github.com/Alienatedmamal/NoobsOnTheRunPublic.git```
+
+2) Go into the NoobsOnTheRunPublic<br>
+   ```cd NoobsOnTheRunPublic```
+
+3) Make the Install file an executable.<br>
+```chmod +x Install```
+
+4) Run the Install file.<br>
+```./Install```
+
+5) Once installer is completed go back a directory and go into the AMAP folder.<br>
+``` cd ..//``` then ```cd AMAP```
+
+   
+
