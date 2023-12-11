@@ -1,7 +1,0 @@
-﻿[03:38:20] INFO > Alienatedmammal: Opened the menu
-[03:38:25] INFO > Alienatedmammal: Viewed inventory of 76561198206232972
-[04:28:53] INFO > Alienatedmammal: Opened the menu
-[04:32:39] INFO > Alienatedmammal: Opened the menu
-[04:32:42] INFO > Alienatedmammal: Opened the menu
-[04:32:45] INFO > Alienatedmammal: Opened the menu
-[05:41:02] INFO > Alienatedmammal: Opened the menu

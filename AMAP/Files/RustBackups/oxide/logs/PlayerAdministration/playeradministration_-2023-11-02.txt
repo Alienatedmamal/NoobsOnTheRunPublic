@@ -1,5 +1,0 @@
-﻿[02:38:16] INFO > Alienatedmammal: Opened the menu
-[02:38:19] INFO > Alienatedmammal: Opened the menu
-[02:47:52] INFO > Alienatedmammal: Opened the menu
-[03:15:54] INFO > Alienatedmammal: Opened the menu
-[03:39:34] INFO > Alienatedmammal: Opened the menu

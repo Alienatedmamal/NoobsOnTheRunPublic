@@ -1,3 +1,0 @@
-﻿[10:03:41] ERROR > Alienatedmammal: Tried to execute a command requiring the '' permission
-[11:50:31] INFO > Alienatedmammal: Opened the menu
-[11:50:39] INFO > Alienatedmammal: Teleported to user ID 76561197992384542

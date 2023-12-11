@@ -1,4 +1,0 @@
-﻿[10:40:41] INFO > Alienatedmammal: Opened the menu
-[03:06:34] INFO > Alienatedmammal: Opened the menu
-[03:06:39] INFO > Alienatedmammal: Teleported to user ID 76561197992384542
-[04:52:47] INFO > Alienatedmammal: Opened the menu
