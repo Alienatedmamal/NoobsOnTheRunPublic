@@ -10,7 +10,7 @@ sleep 3
 echo "Install Completed" 
 echo "Moving files" 
 mv lgsm /home/$USERNAME/
-mv rusterver /home/$USERNAME/
+mv rustserver /home/$USERNAME/
 mv linuxgsm.sh /home/$USERNAME/
 echo "Files have been moved"
 echo "Starting Rust Server Install" 
