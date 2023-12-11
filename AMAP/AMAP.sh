@@ -27,7 +27,7 @@ cat $DIR/$OPTIONS
 
                 case $subchoice in
 			1) clear && $SERVERDETAILS && $AMAPNC && exit;;
-			2) $SERVERCONSOLE && $AMAP ;;
+			2) $SERVERCONSOLE && $AMAP && exit ;;
 		    3) read -p "Are you sure you want to BACK UP SERVER? (y/n): " confirm_ServerBackup
                 if [ "$confirm_ServerBackup" == "y" ]; then
                         $SERVERBACKUP && $AMAPNC && exit
@@ -44,7 +44,7 @@ cat $DIR/$OPTIONS
 				;;
 			5) read -p "Are you sure you want to start the Rust server? (y/n): " confirm_start
 				if [ "$confirm_start" == "y" ]; then
-        		 $SERVERSTOP && $AMAP
+        		 $SERVERSTOP && $AMAP && exit
 				else
             		echo "Starting Rust server aborted." && $AMAP
 				fi
