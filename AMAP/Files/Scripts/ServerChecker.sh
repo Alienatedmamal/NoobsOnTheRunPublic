@@ -18,7 +18,7 @@ else
     then
         echo "$(date)" "ServerChecker: Rust Server is now running." >> "$LOG_FILE"
     else
-        discord_url="DISCORDURLHERE"
+        discord_url="https://discord.com/api/webhooks/1181718409466097765/l6rD3t6sVc-z6sDVUk3QsQbyFA7kryIOPlDMIwGKHaqkvKgl0r0mDSUcGvwesHTEi9yw"
 
 generate_post_data() {
   cat <<EOF

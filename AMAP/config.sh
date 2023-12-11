@@ -4,7 +4,7 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 
 
 
-USERNAME="USERNAME HERE"
+USERNAME="alienatedmammal"
 
 
 
