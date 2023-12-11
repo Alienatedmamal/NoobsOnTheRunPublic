@@ -38,10 +38,10 @@ Console, Backups, Check/Clear logs, Modify Files and MORE.
    ```cd NoobsOnTheRunPublic```
 
 3) Make the Install file an executable.<br>
-```chmod +x Install```
+```chmod +x Install.sh```
 
 4) Run the Install file.<br>
-```./Install```
+```./Install.sh```
 
 5) Once installer is completed go back a directory and go into the AMAP folder.<br>
 ``` cd ..//``` then ```cd AMAP```
