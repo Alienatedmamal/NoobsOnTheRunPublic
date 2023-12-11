@@ -1,18 +1,15 @@
 # config.sh
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 
-LOGS="$DIR/Files/Logs/Logs.txt"
-SERVERNAME="Rust"
-CLEANLOGS="echo > $LOGS"
 
-# Replace USERNAME
-SERVER="/home/alienatedmammal/./rustserver"
-#SERVER="$SCRIPT_DIR/./rustserver"
+# Input system users name
+USERNAME="ENTER-USER-NAME-HERE"
+
+
 
 
 # Location of Rust Server
-SERVER_LOCATION="/home/alienatedmammal/"
-#SERVER_LOCATION="$SCRIPT_DIR/"
+SERVER_LOCATION="/home/$USERNAME/"
 
 # Rust Server Control:
 SERVERDETAILS="$SERVER details"
@@ -30,24 +27,22 @@ CONFIG="Files/config.sh"
 AMAPLOGO="Files/logo"
 OPTIONS="Files/menu"
 
+# Scripts
+SERVERNAME="Rust"
+SAYDATE="echo $(date)"
+USER="sudo -u $USERNAME"
+SYNC="rsync --copy-links -avzh -s --delete"
+SAY="echo $(date)"
+BACKUPS="$DIR/Files/RustBackups/"
+LOGS="$DIR/Files/Logs/Logs.txt"
+SERVERNAME="Rust"
+CLEANLOGS="echo > $LOGS"
+SERVER="/home/$USERNAME/./rustserver"
 
 # Running Scripts:
 LOGCLEANER="$SCRIPT_DIR/Files/Scripts/./LogCleaner.sh"
 SERVERBACKUP="$SCRIPT_DIR/Files/Scripts/./ServerBackups.sh"
 WIPECONFIGURE="$SCRIPT_DIR/Files/Scripts/./WipeConfigure.sh"
-
-
-# Sripts File Locations:
-FULLWIPESH="$SCRIPT_DIR/Files/Scripts/Fullwipe.sh"
-MAPWIPESH="$SCRIPT_DIR/Files/Scripts/Mapwipe.sh"
-NIGHTLYSH="$SCRIPT_DIR/Files/Scripts/Nightly.sh"
-SERVERBACKUPSH="$SCRIPT_DIR/Files/Scripts/ServerBackup.sh"
-SERVERCHECKERSH="$SCRIPT_DIR/Files/Scripts/ServerChecker.sh"
-SERVERSTARTSH="$SCRIPT_DIR/Files/Scripts/ServerStart.sh"
-SCHEDULESH="$SCRIPT_DIR/Files/Scripts/Schedule.sh"
-LOGCLEANERSH="$SCRIPT_DIR/Files/Scripts/LogCleaner.sh"
-EAMAPSH="$SCRIPT_DIR/AMAP.sh"
-
 
 #OXIDE LOCATIONS:
 OXIDECONFIG="$SCRIPT_DIR/serverfiles/oxide/config/"
@@ -68,12 +63,13 @@ SMARTCHATBOT="$SCRIPT_DIR/serverfiles/oxide/config/SmartChatBot.json"
 TIMEDEXECUTE="$SCRIPT_DIR/serverfiles/oxide/config/TimedExecute.json"
 VIPTRIAL="$SCRIPT_DIR/serverfiles/oxide/config/VIPTrial.json"
 
-
-# Scripts
-SERVERNAME="Rust"
-SAYDATE="echo $(date)"
-#Change User Name
-USER="sudo -u alienatedmammal"
-SYNC="rsync --copy-links -avzh -s --delete"
-SAY="echo $(date)"
-BACKUPS="$DIR/Files/RustBackups/"
+# Sripts File Locations:
+FULLWIPESH="$SCRIPT_DIR/Files/Scripts/Fullwipe.sh"
+MAPWIPESH="$SCRIPT_DIR/Files/Scripts/Mapwipe.sh"
+NIGHTLYSH="$SCRIPT_DIR/Files/Scripts/Nightly.sh"
+SERVERBACKUPSH="$SCRIPT_DIR/Files/Scripts/ServerBackup.sh"
+SERVERCHECKERSH="$SCRIPT_DIR/Files/Scripts/ServerChecker.sh"
+SERVERSTARTSH="$SCRIPT_DIR/Files/Scripts/ServerStart.sh"
+SCHEDULESH="$SCRIPT_DIR/Files/Scripts/Schedule.sh"
+LOGCLEANERSH="$SCRIPT_DIR/Files/Scripts/LogCleaner.sh"
+EAMAPSH="$SCRIPT_DIR/AMAP.sh"
