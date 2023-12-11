@@ -33,6 +33,6 @@ done
 echo "Files are now Executable"
 sleep 1
 echo "Moving AMAP files"
+mv AMAP ..//
+echo "Move Completed" || echo "Failed"
 
-mv "$DIR/$FILEMAIN/AMAP" "..//"
-echo "Move Completed" || echo "FAILED TO MOVE FILES"
