@@ -1,0 +1,106 @@
+{
+  "Chat Prefix": "<color=#FF0000>Server </color>",
+  "Show Chat Prefix": true,
+  "Bot Icon (SteamID)": 76561198206232972,
+  "Cooldown Between Auto Responses For User": "10s",
+  "Global Cooldown Between Auto Responses": "2s",
+  "Use Default Chat (0), Chat Plus (1), Better Chat (2)": 2,
+  "Debug": false,
+  "Allow Multiple Auto Responses": false,
+  "Minimal Time Between Message And Answer": 1,
+  "Maximal Time Between Message And Answer": 2,
+  "Joining Message": [
+    "Welcome, {name}!",
+    "Hello, dear {name}!",
+    "{name} came from ({countrycode})"
+  ],
+  "Leaving Message": [
+    "Bye, {name} ({id}, {ip})!\nReason: {reason}",
+    "{name} ({id}, {ip}) left the game. Reason: {reason}",
+    "{name} from {country} ({countrycode}) just left the game!"
+  ],
+  "Joining Message Enabled": false,
+  "Leaving Message Enabled": false,
+  "Auto Messages": [
+    {
+      "Permission": "smartchatbot.messages",
+      "Message Frequency": "5m",
+      "Auto Messages": [
+        {
+          "Is Enabled": true,
+          "Message": "Do not mind, I am just a stupid bot."
+        }
+      ]
+    }
+  ],
+  "Auto Responses": [
+    {
+      "Permission": "smartchatbot.response",
+      "Auto Responses": [
+        {
+          "Is Enabled": true,
+          "Remove Message From Sender": false,
+          "Send Response For Everyone (true) or Only For Sender (false)": true,
+          "Triggers": [
+            {
+              "Percentage Of Contained Words": 0.75,
+              "Regex Enabled": false,
+              "Words": [
+                "When",
+                "is",
+                "wipe",
+                "next"
+              ]
+            }
+          ],
+          "Answers": [
+            "<color=#39FF14>Always wipe after using the restroom\nMap wipe every 2 weeks.\nBP's first Thursday of every month.</color>",
+	    "<color=#39FF14>Next wipe will be</color> <color=red>12/21/23</color>" 
+          ]
+        },
+	{
+          "Is Enabled": true,
+          "Remove Message From Sender": false,
+          "Send Response For Everyone (true) or Only For Sender (false)": true,
+          "Triggers": [
+            {
+              "Percentage Of Contained Words": 0.25,
+              "Regex Enabled": false,
+              "Words": [
+                "Hacker",
+                "admin",
+                "cheater",
+                "report"
+		
+              ]
+            }
+          ],
+          "Answers": [
+            "<color=orange>F7</color> <color=#39FF14>and</color> <color=orange>/report</color> <color=#39FF14>to report a player and open a ticket in our discord.</color>"
+          ]
+        },
+	{
+          "Is Enabled": true,
+          "Remove Message From Sender": false,
+          "Send Response For Everyone (true) or Only For Sender (false)": true,
+          "Triggers": [
+            {
+              "Percentage Of Contained Words": 0.25,
+              "Regex Enabled": false,
+              "Words": [
+                "Help",
+                "Info",
+                "Server",
+                "Rules"
+		
+              ]
+            }
+          ],
+          "Answers": [
+            "<color=#39FF14>Type</color> <color=orange> /info </color> <color=#39FF14>in chat for more info</color>"
+          ]
+        }
+      ]
+    }
+  ]
+}

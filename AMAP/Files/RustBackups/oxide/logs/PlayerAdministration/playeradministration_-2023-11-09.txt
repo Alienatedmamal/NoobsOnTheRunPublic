@@ -1,0 +1,23 @@
+﻿[10:14:47] INFO > Alienatedmammal: Opened the menu
+[10:14:51] INFO > Alienatedmammal: Healed user ID 76561198018231506 for 100 points
+[10:14:52] INFO > Alienatedmammal: Reset the metabolism of user ID 76561198018231506
+[07:52:04] INFO > Alienatedmammal: Opened the menu
+[07:52:40] INFO > Alienatedmammal: Opened the menu
+[07:52:46] INFO > Alienatedmammal: Teleported to user ID 76561197992384542
+[07:56:09] INFO > Alienatedmammal: Opened the menu
+[07:56:13] INFO > Alienatedmammal: Teleported to user ID 76561197992384542
+[07:56:38] INFO > Alienatedmammal: Opened the menu
+[07:56:56] INFO > Alienatedmammal: Opened the menu
+[07:56:59] INFO > Alienatedmammal: Teleported to user ID 76561197992384542
+[07:58:54] INFO > Alienatedmammal: Opened the menu
+[07:59:13] INFO > Godzilla: Teleported to admin Alienatedmammal
+[08:04:08] INFO > Alienatedmammal: Opened the menu
+[08:04:40] INFO > Godzilla: Teleported to admin Alienatedmammal
+[08:07:58] INFO > Alienatedmammal: Opened the menu
+[08:08:01] INFO > Alienatedmammal: Viewed inventory of 76561197992384542
+[08:10:15] INFO > Alienatedmammal: Opened the menu
+[08:11:00] INFO > Alienatedmammal: Opened the menu
+[09:15:34] INFO > Alienatedmammal: Opened the menu
+[09:15:37] INFO > Alienatedmammal: Viewed inventory of 76561197992384542
+[09:15:44] INFO > Alienatedmammal: Opened the menu
+[09:15:48] INFO > Alienatedmammal: Viewed inventory of 76561197992384542

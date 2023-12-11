@@ -1,0 +1,16 @@
+{
+  "Messaging": {
+    "DisplayCountEvery": 30,
+    "MainColor": "<color=orange>",
+    "MSGColor": "<color=#939393>"
+  },
+  "Options": {
+    "RequiredVotePercentage": 0.5,
+    "TimeToOpen": "20:30:00",
+    "TimeToSet": "07:15:00"
+  },
+  "VoteTimers": {
+    "TimeBetweenVotes": 5,
+    "VoteOpenTimer": 4
+  }
+}

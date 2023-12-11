@@ -1,0 +1,45 @@
+{
+  "PlayerData": {
+    "76561197992384542": {
+      "ChangeHammer": true,
+      "NeedsRepair": true,
+      "EnableAnimation": true
+    },
+    "76561198206232972": {
+      "ChangeHammer": true,
+      "NeedsRepair": true,
+      "EnableAnimation": true,
+      "RandomColor": true,
+      "Color": 7,
+      "Wood": 10224,
+      "Stone": 10223
+    },
+    "76561198251883560": {
+      "ChangeHammer": true,
+      "NeedsRepair": true,
+      "EnableAnimation": true
+    },
+    "76561198975768444": {
+      "ChangeHammer": true,
+      "NeedsRepair": true,
+      "EnableAnimation": true
+    },
+    "76561198018231506": {
+      "ChangeHammer": true,
+      "NeedsRepair": true,
+      "EnableAnimation": true
+    },
+    "76561197973288538": {
+      "ChangeHammer": true,
+      "NeedsRepair": true,
+      "EnableAnimation": true,
+      "Color": 9
+    },
+    "76561198266832661": {
+      "ChangeHammer": true,
+      "NeedsRepair": true,
+      "EnableAnimation": true,
+      "Color": 9
+    }
+  }
+}

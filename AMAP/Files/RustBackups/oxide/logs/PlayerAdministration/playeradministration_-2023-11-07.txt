@@ -1,0 +1,8 @@
+﻿[12:13:06] INFO > Alienatedmammal: Opened the menu
+[12:13:10] INFO > Alienatedmammal: Teleported to user ID 76561198018231506
+[12:13:59] INFO > Alienatedmammal: Opened the menu
+[12:14:04] INFO > Alienatedmammal: Teleported to user ID 76561198018231506
+[12:20:28] INFO > Alienatedmammal: Opened the menu
+[12:20:31] INFO > Alienatedmammal: Viewed inventory of 76561198018231506
+[12:20:35] INFO > Alienatedmammal: Opened the menu
+[12:20:38] INFO > Alienatedmammal: Teleported to user ID 76561198018231506

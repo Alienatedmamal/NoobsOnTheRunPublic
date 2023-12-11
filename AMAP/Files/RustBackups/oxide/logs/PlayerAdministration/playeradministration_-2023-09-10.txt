@@ -1,0 +1,268 @@
+﻿[06:58:27] INFO > Alienatedmammal: Opened the menu
+[06:58:32] INFO > Alienatedmammal: Teleported to user ID 76561197992384542
+[07:07:19] INFO > Alienatedmammal: Opened the menu
+[07:07:22] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[07:07:23] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561197992384542
+[07:07:24] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561197992384542
+[07:07:25] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[07:07:25] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561197992384542
+[07:07:26] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[07:07:27] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561197992384542
+[07:07:27] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[07:07:29] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561197992384542
+[07:07:29] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 0 points
+[07:07:30] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[07:23:20] INFO > Alienatedmammal: Opened the menu
+[07:23:23] INFO > Godzilla: Teleported to admin Alienatedmammal
+[07:24:15] INFO > Alienatedmammal: Opened the menu
+[07:24:18] INFO > Godzilla: Teleported to admin Alienatedmammal
+[07:27:28] INFO > Alienatedmammal: Opened the menu
+[07:27:31] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[07:27:31] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 0 points
+[07:27:32] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561197992384542
+[07:28:23] INFO > Alienatedmammal: Opened the menu
+[07:28:30] INFO > Godzilla: Teleported to admin Alienatedmammal
+[07:29:14] INFO > Alienatedmammal: Opened the menu
+[07:29:17] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[07:29:17] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 0 points
+[07:29:18] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561197992384542
+[07:29:57] INFO > Alienatedmammal: Opened the menu
+[07:30:07] INFO > Alienatedmammal: Viewed inventory of 76561197992384542
+[07:30:17] INFO > Alienatedmammal: Opened the menu
+[07:30:22] INFO > Alienatedmammal: Viewed inventory of 76561197992384542
+[07:30:52] INFO > Alienatedmammal: Opened the menu
+[07:30:56] INFO > Alienatedmammal: Viewed inventory of 76561197992384542
+[07:33:27] INFO > Alienatedmammal: Opened the menu
+[07:33:32] INFO > Alienatedmammal: Started spectating user ID 76561197992384542
+[07:34:04] INFO > Alienatedmammal: Opened the menu
+[07:34:08] INFO > Alienatedmammal: Teleported to user ID 76561197992384542
+[07:35:08] INFO > Alienatedmammal: Opened the menu
+[07:35:13] INFO > Godzilla: Teleported to admin Alienatedmammal
+[07:35:40] INFO > Alienatedmammal: Opened the menu
+[07:35:42] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 0 points
+[07:35:43] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[07:35:43] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[07:35:43] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[07:35:43] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[07:35:43] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[07:35:44] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[07:35:44] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[07:35:44] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[07:35:44] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[07:35:44] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[07:35:44] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[07:35:45] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[07:35:45] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[07:35:45] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[07:35:51] INFO > Alienatedmammal: Opened the menu
+[07:35:59] INFO > Alienatedmammal: Viewed inventory of 76561197992384542
+[07:36:47] INFO > Alienatedmammal: Opened the menu
+[07:36:55] INFO > Godzilla: Teleported to admin Alienatedmammal
+[07:39:39] INFO > Alienatedmammal: Opened the menu
+[07:39:43] INFO > Alienatedmammal: Viewed inventory of 76561198206232972
+[07:40:42] INFO > Alienatedmammal: Opened the menu
+[07:40:46] INFO > Alienatedmammal: Teleported to user ID 76561197992384542
+[07:49:32] INFO > Alienatedmammal: Opened the menu
+[07:49:36] INFO > Alienatedmammal: Healed user ID 76561198206232972 for 100 points
+[07:49:37] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198206232972
+[07:49:40] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561197992384542
+[07:49:41] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[07:49:41] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 0 points
+[07:49:49] INFO > Alienatedmammal: Viewed inventory of 76561197992384542
+[07:57:08] INFO > Alienatedmammal: Opened the menu
+[07:57:11] INFO > Alienatedmammal: Healed user ID 76561198206232972 for 100 points
+[07:57:12] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198206232972
+[07:57:13] INFO > Alienatedmammal: Healed user ID 76561198206232972 for 100 points
+[07:58:44] INFO > Alienatedmammal: Opened the menu
+[07:58:47] INFO > Godzilla: Teleported to admin Alienatedmammal
+[08:02:42] INFO > Alienatedmammal: Opened the menu
+[08:02:47] INFO > Godzilla: Teleported to admin Alienatedmammal
+[08:03:02] INFO > Alienatedmammal: Opened the menu
+[08:03:06] INFO > Alienatedmammal: Viewed inventory of 76561197992384542
+[08:08:49] INFO > Alienatedmammal: Opened the menu
+[08:08:52] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:08:53] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561197992384542
+[08:09:38] INFO > Alienatedmammal: Opened the menu
+[08:09:42] INFO > Godzilla: Teleported to admin Alienatedmammal
+[08:10:20] INFO > Alienatedmammal: Opened the menu
+[08:10:24] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:10:24] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561197992384542
+[08:11:12] INFO > Alienatedmammal: Opened the menu
+[08:11:15] INFO > Alienatedmammal: Viewed inventory of 76561197992384542
+[08:14:30] INFO > Alienatedmammal: Opened the menu
+[08:14:35] INFO > Alienatedmammal: Viewed inventory of 76561197992384542
+[08:18:03] INFO > Alienatedmammal: Opened the menu
+[08:18:05] INFO > Alienatedmammal: Viewed inventory of 76561197992384542
+[08:23:50] INFO > Alienatedmammal: Opened the menu
+[08:23:54] INFO > Godzilla: Teleported to admin Alienatedmammal
+[08:24:07] INFO > Alienatedmammal: Opened the menu
+[08:24:11] INFO > Godzilla: Teleported to admin Alienatedmammal
+[08:25:00] INFO > Alienatedmammal: Opened the menu
+[08:25:03] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:04] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:04] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:04] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:04] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:05] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:23] INFO > Alienatedmammal: Opened the menu
+[08:25:27] INFO > Godzilla: Teleported to admin Alienatedmammal
+[08:25:28] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:28] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:28] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:28] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:29] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:29] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:29] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:29] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:29] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:29] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:30] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:30] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:30] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:30] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:30] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:30] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:31] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:31] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:31] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:31] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:31] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:31] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:31] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:32] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:32] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:32] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:32] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:32] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:32] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:33] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:33] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:33] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:33] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:33] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:33] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:34] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:34] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:34] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:34] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:34] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:34] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:35] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:35] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:35] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:35] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:35] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:36] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:36] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:36] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:36] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:37] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:37] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:37] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:37] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:37] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:37] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:38] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:38] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:38] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:38] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:38] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:39] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:39] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:39] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:39] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:39] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:39] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:40] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:40] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:40] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:40] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:40] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:40] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:41] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:41] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:41] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:41] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:41] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:41] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:42] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:42] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:42] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:42] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:42] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:43] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:43] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:43] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:43] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:44] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:44] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:44] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:44] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:45] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:45] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:45] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:45] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:45] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:45] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:46] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:46] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:46] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:46] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:47] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:47] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:47] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:49] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:49] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:50] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:50] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:50] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:50] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:50] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:51] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:51] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:52] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:52] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:52] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:53] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:53] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:53] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:53] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:54] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:54] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:56] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:57] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:57] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:57] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:57] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:58] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:58] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:58] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:58] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:59] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:25:59] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:26:00] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:26:00] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:26:00] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:26:01] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:26:01] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:26:01] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:26:02] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:26:11] INFO > Alienatedmammal: Opened the menu
+[08:26:13] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:26:14] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:26:14] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:26:15] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561197992384542
+[08:26:16] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561197992384542
+[08:26:17] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:26:17] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561197992384542
+[08:26:18] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:26:29] INFO > Alienatedmammal: Viewed inventory of 76561197992384542
+[08:29:45] INFO > Alienatedmammal: Opened the menu
+[08:29:49] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:29:50] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:29:50] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:29:50] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:29:50] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:29:50] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:29:50] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[08:30:10] INFO > Alienatedmammal: Opened the menu

@@ -1,0 +1,1238 @@
+00:00 [Info] [Better Say] SERVER
+ <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+00:00 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+12:10 AM [Warning] [Discord Extension] [Warning]: Discord WebSocket closed with abnormal close code. Code: 1006, reason: An exception has occurred while connecting.
+12:10 AM [Warning] [Discord Extension] [Warning]: Attempting to reconnect to Discord... [Retry=2]
+12:10 AM [Warning] [Discord Extension] [Warning]: Discord WebSocket closed with abnormal close code. Code: 1006, reason: An exception has occurred while connecting.
+12:10 AM [Warning] [Discord Extension] [Warning]: Attempting to reconnect to Discord... [Retry=3]
+12:10 AM [Warning] [Discord Extension] [Warning]: Discord WebSocket closed with abnormal close code. Code: 1006, reason: An exception has occurred while connecting.
+12:10 AM [Warning] [Discord Extension] [Warning]: Attempting to reconnect to Discord... [Retry=4]
+12:11 AM [Error] [Discord Extension] [Exception]: A web request exception occured (internal error) [RETRY=1/3].
+Request URL: [GET] https://discord.com/api/v9/gateway
+System.Net.WebException: The operation has timed out.
+  at System.Net.HttpWebRequest.RunWithTimeoutWorker[T] (System.Threading.Tasks.Task`1[TResult] workerTask, System.Int32 timeout, System.Action abort, System.Func`1[TResult] aborted, System.Threading.CancellationTokenSource cts) [0x000f8] in <a6e4b4aa6fb04ea29ee289948685adca>:0 
+  at System.Net.HttpWebRequest.GetResponse () [0x00016] in <a6e4b4aa6fb04ea29ee289948685adca>:0 
+  at Oxide.Ext.Discord.Rest.Request.Fire () [0x0002a] in <04348bf9a35746d283d4a8b439245576>:0  (WebException: The operation has timed out.)
+  at System.Net.HttpWebRequest.RunWithTimeoutWorker[T] (System.Threading.Tasks.Task`1[TResult] workerTask, System.Int32 timeout, System.Action abort, System.Func`1[TResult] aborted, System.Threading.CancellationTokenSource cts) [0x000f8] in <a6e4b4aa6fb04ea29ee289948685adca>:0 
+  at System.Net.HttpWebRequest.GetResponse () [0x00016] in <a6e4b4aa6fb04ea29ee289948685adca>:0 
+  at Oxide.Ext.Discord.Rest.Request.Fire () [0x0002a] in <04348bf9a35746d283d4a8b439245576>:0 
+12:11 AM [Error] [Discord Extension] [Exception]: A web request exception occured (internal error) [RETRY=2/3].
+Request URL: [GET] https://discord.com/api/v9/gateway
+System.Net.WebException: The operation has timed out.
+  at System.Net.HttpWebRequest.RunWithTimeoutWorker[T] (System.Threading.Tasks.Task`1[TResult] workerTask, System.Int32 timeout, System.Action abort, System.Func`1[TResult] aborted, System.Threading.CancellationTokenSource cts) [0x000f8] in <a6e4b4aa6fb04ea29ee289948685adca>:0 
+  at System.Net.HttpWebRequest.GetResponse () [0x00016] in <a6e4b4aa6fb04ea29ee289948685adca>:0 
+  at Oxide.Ext.Discord.Rest.Request.Fire () [0x0002a] in <04348bf9a35746d283d4a8b439245576>:0  (WebException: The operation has timed out.)
+  at System.Net.HttpWebRequest.RunWithTimeoutWorker[T] (System.Threading.Tasks.Task`1[TResult] workerTask, System.Int32 timeout, System.Action abort, System.Func`1[TResult] aborted, System.Threading.CancellationTokenSource cts) [0x000f8] in <a6e4b4aa6fb04ea29ee289948685adca>:0 
+  at System.Net.HttpWebRequest.GetResponse () [0x00016] in <a6e4b4aa6fb04ea29ee289948685adca>:0 
+  at Oxide.Ext.Discord.Rest.Request.Fire () [0x0002a] in <04348bf9a35746d283d4a8b439245576>:0 
+12:11 AM [Error] [Discord Extension] [Exception]: A web request exception occured (internal error) [RETRY=3/3].
+Request URL: [GET] https://discord.com/api/v9/gateway
+System.Net.WebException: The operation has timed out.
+  at System.Net.HttpWebRequest.RunWithTimeoutWorker[T] (System.Threading.Tasks.Task`1[TResult] workerTask, System.Int32 timeout, System.Action abort, System.Func`1[TResult] aborted, System.Threading.CancellationTokenSource cts) [0x000f8] in <a6e4b4aa6fb04ea29ee289948685adca>:0 
+  at System.Net.HttpWebRequest.GetResponse () [0x00016] in <a6e4b4aa6fb04ea29ee289948685adca>:0 
+  at Oxide.Ext.Discord.Rest.Request.Fire () [0x0002a] in <04348bf9a35746d283d4a8b439245576>:0  (WebException: The operation has timed out.)
+  at System.Net.HttpWebRequest.RunWithTimeoutWorker[T] (System.Threading.Tasks.Task`1[TResult] workerTask, System.Int32 timeout, System.Action abort, System.Func`1[TResult] aborted, System.Threading.CancellationTokenSource cts) [0x000f8] in <a6e4b4aa6fb04ea29ee289948685adca>:0 
+  at System.Net.HttpWebRequest.GetResponse () [0x00016] in <a6e4b4aa6fb04ea29ee289948685adca>:0 
+  at Oxide.Ext.Discord.Rest.Request.Fire () [0x0002a] in <04348bf9a35746d283d4a8b439245576>:0 
+00:15 [Info] [Better Say] SERVER
+ <color=#39FF14>Use</color> <color=orange>/viptrial</color> <color=#39FF14>to get a 7 day VIP trial FREE.</color>
+00:15 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Use</color> <color=orange>/viptrial</color> <color=#39FF14>to get a 7 day VIP trial FREE.</color>
+00:25 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+00:30 [Info] [Better Say] SERVER
+ <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+00:30 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+00:35 [Info] [Better Say] SERVER
+ <color=orange>/info</color> <color=#40E0D0>for server info</color>
+00:35 [Info] [Timed Execute] ran CMD: say <color=orange>/info</color> <color=#40E0D0>for server info</color>
+00:42 [Info] [Better Say] SERVER
+ <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+00:42 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+00:57 [Info] [Better Say] SERVER
+ <color=orange>/pop</color> <color=#40E0D0>for population</color>
+00:57 [Info] [Timed Execute] ran CMD: say <color=orange>/pop</color> <color=#40E0D0>for population</color>
+00:59 [Info] [Automated Events] Spawning RustTanic
+01:00 [Info] [Better Say] SERVER
+ <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+01:00 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+01:30 [Info] [Better Say] SERVER
+ <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+01:30 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+01:30 [Info] [Better Say] SERVER
+ <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+01:30 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+01:40 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+01:52 [Info] [Better Say] SERVER
+ <color=orange>/info</color> <color=#40E0D0>for server info</color>
+01:52 [Info] [Timed Execute] ran CMD: say <color=orange>/info</color> <color=#40E0D0>for server info</color>
+02:00 [Info] [Better Say] SERVER
+ <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+02:00 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+02:13 [Info] [Automated Events] Spawning Cargo Plane
+02:15 [Info] [Better Say] SERVER
+ <color=#39FF14>Use</color> <color=orange>/viptrial</color> <color=#39FF14>to get a 7 day VIP trial FREE.</color>
+02:15 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Use</color> <color=orange>/viptrial</color> <color=#39FF14>to get a 7 day VIP trial FREE.</color>
+02:17 [Info] [Better Say] SERVER
+ <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+02:17 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+02:19 [Info] [Automated Events] Next CargoPlane event will be ran after 02:10:49
+02:30 [Info] [Better Say] SERVER
+ will restart in 30 Mins
+02:30 [Info] [Timed Execute] ran CMD: say will restart in 30 Mins
+02:34 [Info] [Better Say] SERVER
+ <color=orange>/pop</color> <color=#40E0D0>for population</color>
+02:34 [Info] [Timed Execute] ran CMD: say <color=orange>/pop</color> <color=#40E0D0>for population</color>
+02:36 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+02:42 [Info] [Automated Events] Spawning Chinook
+02:45 [Info] [Better Say] SERVER
+ will restart in 15 Mins
+02:45 [Info] [Timed Execute] ran CMD: say will restart in 15 Mins
+02:55 [Info] [Better Say] SERVER
+ will restart in 5 Mins
+02:55 [Info] [Timed Execute] ran CMD: say will restart in 5 Mins
+02:55 [Info] [Timed Execute] ran CMD: save
+02:56 [Info] [Timed Execute] ran CMD: server.writecfg
+02:59 [Info] [Better Say] SERVER
+ is now restarting we will be back soon
+02:59 [Info] [Timed Execute] ran CMD: say is now restarting we will be back soon
+03:00 [Info] Loading Oxide Core v2.0.4077...
+03:00 [Info] Loading extensions...
+03:00 [Info] Loaded extension CSharp v2.0.4126 by Oxide Team and Contributors
+03:00 [Info] Loaded extension MySql v2.0.3774 by Oxide Team and Contributors
+03:00 [Info] Loaded extension SQLite v2.0.3804 by Oxide Team and Contributors
+03:00 [Info] Unity version: 2021.3.29f1
+03:00 [Info] Loaded extension Unity v2.0.3777 by Oxide Team and Contributors
+03:00 [Info] Loaded extension Rust v2.0.6089 by Oxide Team and Contributors
+03:00 [Info] Loaded extension Discord v2.1.9 by PsychoTea & DylanSMR & Tricky & Kirollos & MJSU
+03:00 [Info] [CSharp] Checking for updates for Oxide.Compiler | Local MD5: 838a94f8cbd89daa1153012c04b4b95a | Last modified: 2023-12-07 22:07:43
+03:00 [Info] [CSharp] Oxide.Compiler is up to date
+03:00 [Info] File permissions set for Oxide.Compiler
+03:00 [Info] Using Covalence provider for game 'Rust'
+03:00 [Info] Loading plugins...
+03:00 [Info] Loaded plugin Unity v2.0.3777 by Oxide Team and Contributors
+03:00 [Info] Loaded plugin Rust v2.0.6089 by Oxide Team and Contributors
+03:00 [Info] Added '// Reference: Facepunch.Sqlite' in plugin 'ImageLibrary'
+03:00 [Info] Added '// Reference: UnityEngine.UnityWebRequestModule' in plugin 'ImageLibrary'
+03:00 [Info] [CSharp] Started Oxide.Compiler v successfully
+03:00 [Info] AdminAntiHackFix, AdminHammer, AdminNoLoot, AdminRadar, AutomatedEvents, BGrade, Backpacks, BanDeleteBy, BetterChat, BetterChatFlood, BetterSay, BlueprintManager, BodiesToBags, BuildingSkins, BypassQueue, ColouredChat, CopyPaste, CustomIcon, DiscordReport, DiscordStatus, FireworkGun, Freeze, ImageLibrary, InfiniteAmmo, InventoryViewer, Kits, LoadingMessages, MagicImagesPanel, MagicMessagePanel, MagicPanel, NoGiveNotices, Payback, PermissionsManager, PlayerAdministration, Rustcord, ServerInfo, ServerPop, Skins, SkipNightVote, SmartChatBot, TimeOfDay, TimedExecute, UFilter, VIPTrial, Vanish, VoiceMute and Welcomer were compiled successfully in 0ms
+03:00 [Info] Loaded plugin Admin AntiHack Fix v1.0.0 by Solarix
+03:00 [Info] Loaded plugin AdminHammer v1.13.0 by mvrb
+03:00 [Warning] [Admin No Loot] Config Loaded
+03:00 [Info] Loaded plugin Admin No Loot v0.1.3 by Dana
+03:00 [Info] Loaded plugin Admin Radar v5.3.2 by nivex
+03:00 [Info] Loaded plugin Automated Events v1.0.11 by k1lly0u/mspeedie/Arainrr
+03:00 [Info] Loaded plugin BGrade v1.1.5 by Ryan / Rustoria.co
+03:00 [Info] Loaded plugin Backpacks v3.13.3 by WhiteThunder
+03:00 [Info] Loaded plugin Ban Delete By v1.0.4 by Ryan
+03:00 [Info] Loaded plugin Better Chat v5.2.12 by LaserHydra
+03:00 [Info] Loaded plugin BetterChatFlood v1.0.5 by Ryan
+03:00 [Info] Loaded plugin Better Say v3.0.1 by LaserHydra
+03:00 [Info] Loaded plugin Blueprint Manager v2.0.6 by Whispers88
+03:00 [Info] Loaded plugin Bodies to Bags v2.0.0 by Ryan
+03:00 [Info] Loaded plugin Building Skins v2.0.1 by Marat
+03:00 [Info] Loaded plugin Bypass Queue v1.0.4 by Orange
+03:00 [Info] Loaded plugin Coloured Chat v2.2.7 by collect_vood
+03:00 [Info] Loaded plugin Copy Paste v4.1.37 by misticos
+03:00 [Info] Loaded plugin Custom Icon v1.0.4 by collect_vood
+03:00 [Info] Loaded plugin Discord Report v1.2.0 by misticos
+03:00 [Info] Loaded plugin Discord Status v4.0.1 by Gonzi
+03:00 [Info] Loaded plugin Firework Gun v1.1.0 by k1lly0u and Kusha
+03:00 [Info] Loaded plugin Freeze v3.0.3 by Wulf
+03:00 [Info] Loaded plugin Image Library v2.0.62 by Absolut & K1lly0u
+03:00 [Info] Loaded plugin Infinite Ammo v1.3.0 by collect_vood & Mughisi
+03:00 [Info] Loaded plugin Inventory Viewer v4.0.6 by Whispers88
+03:00 [Info] Loaded plugin Kits v4.4.0 by k1lly0u
+03:00 [Info] Loaded plugin Loading Messages v1.0.9 by CosaNostra/Def/klauz24
+03:00 [Info] Loaded plugin Magic Images Panel v1.0.3 by MJSU
+03:00 [Info] Loaded plugin Magic Message Panel v1.2.1 by MJSU
+03:00 [Info] Loaded plugin Magic Panel v1.0.8 by MJSU
+03:00 [Info] Loaded plugin No Give Notices v0.3.0 by Wulf
+03:00 [Info] Loaded plugin Payback v2.0.9 by 1928Tommygun
+03:00 [Info] Loaded plugin PermissionsManager v2.0.9 by Steenamaroo
+03:00 [Info] Loaded plugin PlayerAdministration v1.6.8 by ThibmoRozier
+03:00 [Warning] Rustcord has replaced the 'report' command previously registered by DiscordReport
+03:00 [Info] Loaded plugin Rustcord v3.3.2 by Kirollos & OuTSMoKE
+03:00 [Info] Loaded plugin Server Info v0.5.8 by FastBurst
+03:00 [Info] Loaded plugin ServerPop v1.0.0 by Mabel
+03:00 [Info] Loaded plugin Skins v2.2.3 by misticos
+03:00 [Info] Loaded plugin SkipNightVote v0.1.4 by k1lly0u
+03:00 [Info] Loaded plugin Smart Chat Bot v2.0.13 by Iv Misticos
+03:00 [Info] Loaded plugin TimeOfDay v2.3.4 by FuJiCuRa
+03:00 [Info] Loaded plugin Timed Execute v0.7.4 by PaiN & misticos
+03:00 [Info] Loaded plugin UFilter v5.1.2 by Wulf/lukespragg
+03:00 [Info] [VIP Trial] Nobody needs to be removed.
+03:00 [Info] Loaded plugin VIP Trial v1.3.5 by Maik8
+03:00 [Info] Loaded plugin Vanish v1.8.0 by Whispers88
+03:00 [Info] Loaded plugin Voice Mute v1.0.3 by Tori1157
+03:00 [Info] Loaded plugin Welcomer v2.1.0 by Dana
+3:00 AM [Info] [Discord Extension] [Info]: Discord socket opened!
+3:00 AM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+03:01 [Info] Shutting down compiler because idle shutdown
+03:01 [Info] Compiler shutdown completed
+03:08 [Info] IP address from external API: 10.0.35.2
+03:08 [Info] [Blueprint Manager] Configuration changes saved to BlueprintManager.json
+03:08 [Warning] [Smart Chat Bot] Detected Better Chat. Make sure you enabled it in your configuration.
+03:08 [Info] [Timed Execute] The RealTime timer has started
+03:08 [Info] [Timed Execute] The Repeat timer has started
+03:08 [Info] [Payback] 
+Check out the sequel to this plugin Payback 2! there's a lot more Payback to be had at https://payback.fragmod.com !
+
+03:08 [Info] [Admin Radar] Cached 3559/84134 entities in 3.651339 seconds!
+03:08 [Info] [Image Library] Starting order Kits
+03:30 [Info] [Better Say] SERVER
+ <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+03:30 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+03:55 [Info] [Better Say] SERVER
+ <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+03:55 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+04:00 [Info] [Better Say] SERVER
+ <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+04:00 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+04:11 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+04:15 [Info] [Better Say] SERVER
+ <color=#39FF14>Use</color> <color=orange>/viptrial</color> <color=#39FF14>to get a 7 day VIP trial FREE.</color>
+04:15 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Use</color> <color=orange>/viptrial</color> <color=#39FF14>to get a 7 day VIP trial FREE.</color>
+04:25 [Info] [Better Say] SERVER
+ <color=orange>/info</color> <color=#40E0D0>for server info</color>
+04:25 [Info] [Timed Execute] ran CMD: say <color=orange>/info</color> <color=#40E0D0>for server info</color>
+04:30 [Info] [Better Say] SERVER
+ <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+04:30 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+04:42 [Info] [Better Say] SERVER
+ <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+04:42 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+04:45 [Info] [Better Say] SERVER
+ <color=orange>/pop</color> <color=#40E0D0>for population</color>
+04:45 [Info] [Timed Execute] ran CMD: say <color=orange>/pop</color> <color=#40E0D0>for population</color>
+05:00 [Info] [Better Say] SERVER
+ <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+05:00 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+5:08 AM [Info] [Discord Extension] [Info]: Discord has requested a reconnect. Reconnecting...
+5:08 AM [Info] [Discord Extension] [Info]: Discord socket opened!
+5:08 AM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+05:09 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+05:12 [Info] [Automated Events] Spawning Cargo Ship
+05:24 [Info] [Automated Events] Spawning Cargo Plane
+05:29 [Info] [Better Say] SERVER
+ <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+05:29 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+05:30 [Info] [Better Say] SERVER
+ <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+05:30 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+05:30 [Info] [Automated Events] Next CargoPlane event will be ran after 02:15:09
+05:42 [Info] [Better Say] SERVER
+ <color=orange>/info</color> <color=#40E0D0>for server info</color>
+05:42 [Info] [Timed Execute] ran CMD: say <color=orange>/info</color> <color=#40E0D0>for server info</color>
+06:00 [Info] [Better Say] SERVER
+ <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+06:00 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+06:12 [Info] [Automated Events] Next CargoShip event will be ran after 02:20:14
+06:16 [Info] [Better Say] SERVER
+ <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+06:16 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+06:22 [Info] [Better Say] SERVER
+ <color=orange>/pop</color> <color=#40E0D0>for population</color>
+06:22 [Info] [Timed Execute] ran CMD: say <color=orange>/pop</color> <color=#40E0D0>for population</color>
+06:30 [Info] [Better Say] SERVER
+ <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+06:30 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+06:35 [Info] [Automated Events] Spawning Helicopter
+06:35 [Error] [Automated Events] Helicopter prefab does not exist. Please notify the plugin developer
+06:37 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+6:44 AM [Warning] [Discord Extension] [Warning]: Discord WebSocket closed with abnormal close code. Code: 1006, reason: An exception has occurred while receiving.
+6:44 AM [Info] [Discord Extension] [Info]: Discord socket opened!
+6:44 AM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+06:59 [Info] [Better Say] SERVER
+ <color=orange>/info</color> <color=#40E0D0>for server info</color>
+06:59 [Info] [Timed Execute] ran CMD: say <color=orange>/info</color> <color=#40E0D0>for server info</color>
+07:00 [Info] [Better Say] SERVER
+ <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+07:00 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+07:03 [Info] [Better Say] SERVER
+ <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+07:03 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+07:15 [Info] [Better Say] SERVER
+ <color=#39FF14>Use</color> <color=orange>/viptrial</color> <color=#39FF14>to get a 7 day VIP trial FREE.</color>
+07:15 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Use</color> <color=orange>/viptrial</color> <color=#39FF14>to get a 7 day VIP trial FREE.</color>
+07:30 [Info] [Better Say] SERVER
+ <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+07:30 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+07:45 [Info] [Automated Events] Spawning Cargo Plane
+07:46 [Info] [Automated Events] Spawning Chinook
+07:50 [Info] [Automated Events] Next CargoPlane event will be ran after 02:29:12
+07:50 [Info] [Better Say] SERVER
+ <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+07:50 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+07:57 [Warning] [Automated Events] The number of Helicopter vanilla events has reached the limit of 1
+07:58 [Info] [Automated Events] Next Chinook event will be ran after 03:43:49
+07:59 [Info] [Better Say] SERVER
+ <color=orange>/pop</color> <color=#40E0D0>for population</color>
+07:59 [Info] [Timed Execute] ran CMD: say <color=orange>/pop</color> <color=#40E0D0>for population</color>
+08:00 [Info] [Better Say] SERVER
+ <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+08:00 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+08:03 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+08:17 [Info] [Better Say] SERVER
+ <color=orange>/info</color> <color=#40E0D0>for server info</color>
+08:17 [Info] [Timed Execute] ran CMD: say <color=orange>/info</color> <color=#40E0D0>for server info</color>
+08:25 [Info] Unloaded plugin Rustcord v3.3.2 by Kirollos & OuTSMoKE
+08:27 [Info] Unloaded plugin Admin AntiHack Fix v1.0.0 by Solarix
+08:27 [Warning] Calling 'Unload' on 'AdminHammer v1.13.0' took 306ms
+08:27 [Info] Unloaded plugin AdminHammer v1.13.0 by mvrb
+08:27 [Info] Unloaded plugin Admin No Loot v0.1.3 by Dana
+08:27 [Info] Unloaded plugin Admin Radar v5.3.2 by nivex
+08:27 [Info] Unloaded plugin Automated Events v1.0.11 by k1lly0u/mspeedie/Arainrr
+08:27 [Warning] Calling 'Unload' on 'BGrade v1.1.5' took 313ms
+08:27 [Info] Unloaded plugin BGrade v1.1.5 by Ryan / Rustoria.co
+08:27 [Info] Unloaded plugin Backpacks v3.13.3 by WhiteThunder
+08:27 [Info] Unloaded plugin Ban Delete By v1.0.4 by Ryan
+08:27 [Info] Unloaded plugin Better Chat v5.2.12 by LaserHydra
+08:27 [Info] Unloaded plugin BetterChatFlood v1.0.5 by Ryan
+08:27 [Info] Unloaded plugin Better Say v3.0.1 by LaserHydra
+08:27 [Info] Unloaded plugin Blueprint Manager v2.0.6 by Whispers88
+08:27 [Info] Unloaded plugin Bodies to Bags v2.0.0 by Ryan
+08:27 [Info] Unloaded plugin Building Skins v2.0.1 by Marat
+08:27 [Info] Unloaded plugin Bypass Queue v1.0.4 by Orange
+08:27 [Info] Unloaded plugin Coloured Chat v2.2.7 by collect_vood
+08:27 [Info] Unloaded plugin Copy Paste v4.1.37 by misticos
+08:27 [Info] Unloaded plugin Custom Icon v1.0.4 by collect_vood
+08:27 [Info] Unloaded plugin Discord Report v1.2.0 by misticos
+08:27 [Info] Unloaded plugin Discord Status v4.0.1 by Gonzi
+08:27 [Info] Unloaded plugin Firework Gun v1.1.0 by k1lly0u and Kusha
+08:27 [Info] Unloaded plugin Freeze v3.0.3 by Wulf
+08:27 [Info] Unloaded plugin Image Library v2.0.62 by Absolut & K1lly0u
+08:27 [Info] Unloaded plugin Infinite Ammo v1.3.0 by collect_vood & Mughisi
+08:27 [Info] Unloaded plugin Inventory Viewer v4.0.6 by Whispers88
+08:27 [Info] Unloaded plugin Kits v4.4.0 by k1lly0u
+08:27 [Info] Unloaded plugin Loading Messages v1.0.9 by CosaNostra/Def/klauz24
+08:27 [Info] Unloaded plugin Magic Images Panel v1.0.3 by MJSU
+08:27 [Info] Unloaded plugin Magic Message Panel v1.2.1 by MJSU
+08:27 [Info] Unloaded plugin Magic Panel v1.0.8 by MJSU
+08:27 [Info] Unloaded plugin No Give Notices v0.3.0 by Wulf
+08:27 [Info] Unloaded plugin Payback v2.0.9 by 1928Tommygun
+08:27 [Info] Unloaded plugin PermissionsManager v2.0.9 by Steenamaroo
+08:27 [Info] Unloaded plugin PlayerAdministration v1.6.8 by ThibmoRozier
+08:27 [Info] Unloaded plugin Server Info v0.5.8 by FastBurst
+08:27 [Info] Unloaded plugin ServerPop v1.0.0 by Mabel
+08:27 [Info] Unloaded plugin Skins v2.2.3 by misticos
+08:27 [Info] Unloaded plugin SkipNightVote v0.1.4 by k1lly0u
+08:27 [Info] Unloaded plugin Smart Chat Bot v2.0.13 by Iv Misticos
+08:27 [Info] Unloaded plugin TimeOfDay v2.3.4 by FuJiCuRa
+08:27 [Info] Unloaded plugin Timed Execute v0.7.4 by PaiN & misticos
+08:27 [Info] Unloaded plugin UFilter v5.1.2 by Wulf/lukespragg
+08:27 [Info] Unloaded plugin VIP Trial v1.3.5 by Maik8
+08:27 [Info] Unloaded plugin Vanish v1.8.0 by Whispers88
+08:27 [Info] Unloaded plugin Voice Mute v1.0.3 by Tori1157
+08:27 [Info] Unloaded plugin Welcomer v2.1.0 by Dana
+08:58 [Info] Loading Oxide Core v2.0.4077...
+08:58 [Info] Loading extensions...
+08:58 [Info] Loaded extension CSharp v2.0.4126 by Oxide Team and Contributors
+08:58 [Info] Loaded extension MySql v2.0.3774 by Oxide Team and Contributors
+08:58 [Info] Loaded extension SQLite v2.0.3804 by Oxide Team and Contributors
+08:58 [Info] Unity version: 2021.3.29f1
+08:58 [Info] Loaded extension Unity v2.0.3777 by Oxide Team and Contributors
+08:58 [Info] Loaded extension Rust v2.0.6091 by Oxide Team and Contributors
+08:58 [Info] Loaded extension Discord v2.1.9 by PsychoTea & DylanSMR & Tricky & Kirollos & MJSU
+08:58 [Info] [CSharp] Checking for updates for Oxide.Compiler | Local MD5: 838a94f8cbd89daa1153012c04b4b95a | Last modified: 2023-12-07 22:07:43
+08:58 [Info] [CSharp] Oxide.Compiler is up to date
+08:58 [Info] File permissions set for Oxide.Compiler
+08:58 [Info] Using Covalence provider for game 'Rust'
+08:58 [Info] Loading plugins...
+08:58 [Info] Loaded plugin Unity v2.0.3777 by Oxide Team and Contributors
+08:58 [Info] Loaded plugin Rust v2.0.6091 by Oxide Team and Contributors
+08:58 [Info] Added '// Reference: Facepunch.Sqlite' in plugin 'ImageLibrary'
+08:58 [Info] Added '// Reference: UnityEngine.UnityWebRequestModule' in plugin 'ImageLibrary'
+08:58 [Info] [CSharp] Started Oxide.Compiler v successfully
+08:58 [Info] AdminAntiHackFix, AdminHammer, AdminNoLoot, AdminRadar, AutomatedEvents, BGrade, Backpacks, BanDeleteBy, BetterChat, BetterChatFlood, BetterSay, BlueprintManager, BodiesToBags, BuildingSkins, BypassQueue, ColouredChat, CopyPaste, CustomIcon, DiscordReport, DiscordStatus, FireworkGun, Freeze, ImageLibrary, InfiniteAmmo, InventoryViewer, Kits, LoadingMessages, MagicImagesPanel, MagicMessagePanel, MagicPanel, NoGiveNotices, Payback, PermissionsManager, PlayerAdministration, ServerInfo, ServerPop, Skins, SkipNightVote, SmartChatBot, TimeOfDay, TimedExecute, UFilter, VIPTrial, Vanish, VoiceMute and Welcomer were compiled successfully in 0ms
+08:58 [Info] Loaded plugin Admin AntiHack Fix v1.0.0 by Solarix
+08:58 [Info] Loaded plugin AdminHammer v1.13.0 by mvrb
+08:58 [Warning] [Admin No Loot] Config Loaded
+08:58 [Info] Loaded plugin Admin No Loot v0.1.3 by Dana
+08:58 [Info] Loaded plugin Admin Radar v5.3.2 by nivex
+08:58 [Info] Loaded plugin Automated Events v1.0.11 by k1lly0u/mspeedie/Arainrr
+08:58 [Info] Loaded plugin BGrade v1.1.5 by Ryan / Rustoria.co
+08:58 [Info] Loaded plugin Backpacks v3.13.3 by WhiteThunder
+08:58 [Info] Loaded plugin Ban Delete By v1.0.4 by Ryan
+08:58 [Info] Loaded plugin Better Chat v5.2.12 by LaserHydra
+08:58 [Info] Loaded plugin BetterChatFlood v1.0.5 by Ryan
+08:58 [Info] Loaded plugin Better Say v3.0.1 by LaserHydra
+08:58 [Info] Loaded plugin Blueprint Manager v2.0.6 by Whispers88
+08:58 [Info] Loaded plugin Bodies to Bags v2.0.0 by Ryan
+08:58 [Info] Loaded plugin Building Skins v2.0.1 by Marat
+08:58 [Info] Loaded plugin Bypass Queue v1.0.4 by Orange
+08:58 [Info] Loaded plugin Coloured Chat v2.2.7 by collect_vood
+08:58 [Info] Loaded plugin Copy Paste v4.1.37 by misticos
+08:58 [Info] Loaded plugin Custom Icon v1.0.4 by collect_vood
+08:58 [Info] Loaded plugin Discord Report v1.2.0 by misticos
+08:58 [Info] Loaded plugin Discord Status v4.0.1 by Gonzi
+08:58 [Info] Loaded plugin Firework Gun v1.1.0 by k1lly0u and Kusha
+08:58 [Info] Loaded plugin Freeze v3.0.3 by Wulf
+08:58 [Info] Loaded plugin Image Library v2.0.62 by Absolut & K1lly0u
+08:58 [Info] Loaded plugin Infinite Ammo v1.3.0 by collect_vood & Mughisi
+08:58 [Info] Loaded plugin Inventory Viewer v4.0.6 by Whispers88
+08:58 [Info] Loaded plugin Kits v4.4.0 by k1lly0u
+08:58 [Info] Loaded plugin Loading Messages v1.0.9 by CosaNostra/Def/klauz24
+08:58 [Info] Loaded plugin Magic Images Panel v1.0.3 by MJSU
+08:58 [Info] Loaded plugin Magic Message Panel v1.2.1 by MJSU
+08:58 [Info] Loaded plugin Magic Panel v1.0.8 by MJSU
+08:58 [Info] Loaded plugin No Give Notices v0.3.0 by Wulf
+08:58 [Info] Loaded plugin Payback v2.0.9 by 1928Tommygun
+08:58 [Info] Loaded plugin PermissionsManager v2.0.9 by Steenamaroo
+08:58 [Info] Loaded plugin PlayerAdministration v1.6.8 by ThibmoRozier
+08:58 [Info] Loaded plugin Server Info v0.5.8 by FastBurst
+08:58 [Info] Loaded plugin ServerPop v1.0.0 by Mabel
+08:58 [Info] Loaded plugin Skins v2.2.3 by misticos
+08:58 [Info] Loaded plugin SkipNightVote v0.1.4 by k1lly0u
+08:58 [Info] Loaded plugin Smart Chat Bot v2.0.13 by Iv Misticos
+08:58 [Info] Loaded plugin TimeOfDay v2.3.4 by FuJiCuRa
+08:58 [Info] Loaded plugin Timed Execute v0.7.4 by PaiN & misticos
+08:58 [Info] Loaded plugin UFilter v5.1.2 by Wulf/lukespragg
+08:58 [Info] [VIP Trial] Nobody needs to be removed.
+08:58 [Info] Loaded plugin VIP Trial v1.3.5 by Maik8
+08:58 [Info] Loaded plugin Vanish v1.8.0 by Whispers88
+08:58 [Info] Loaded plugin Voice Mute v1.0.3 by Tori1157
+08:58 [Info] Loaded plugin Welcomer v2.1.0 by Dana
+08:59 [Info] Shutting down compiler because idle shutdown
+08:59 [Info] Compiler shutdown completed
+09:04 [Info] Groups:
+default, admin, mod, vip, vip_trial
+09:06 [Info] IP address from external API: 10.0.35.2
+09:06 [Info] [Blueprint Manager] Configuration changes saved to BlueprintManager.json
+09:06 [Warning] [Smart Chat Bot] Detected Better Chat. Make sure you enabled it in your configuration.
+09:06 [Info] [Timed Execute] The RealTime timer has started
+09:06 [Info] [Timed Execute] The Repeat timer has started
+09:06 [Info] [Payback] 
+Check out the sequel to this plugin Payback 2! there's a lot more Payback to be had at https://payback.fragmod.com !
+
+9:06 AM [Info] [Discord Extension] [Info]: Discord socket opened!
+9:06 AM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+09:06 [Info] Unloaded plugin Welcomer v2.1.0 by Dana
+09:06 [Info] Loaded plugin Welcomer v2.1.0 by Dana
+09:06 [Info] Added '// Reference: Facepunch.Sqlite' in plugin 'ImageLibrary'
+09:06 [Info] Added '// Reference: UnityEngine.UnityWebRequestModule' in plugin 'ImageLibrary'
+09:06 [Info] [CSharp] Started Oxide.Compiler v successfully
+09:06 [Info] [Admin Radar] Cached 3580/88376 entities in 3.175184 seconds!
+09:07 [Info] [Image Library] Starting order Kits
+09:07 [Info] AdminAntiHackFix, AdminHammer, AdminNoLoot, AdminRadar, AutomatedEvents, BGrade, Backpacks, BanDeleteBy, BetterChat, BetterChatFlood, BetterSay, BlueprintManager, BodiesToBags, BuildingSkins, BypassQueue, ColouredChat, CopyPaste, CustomIcon, DiscordReport, DiscordStatus, FireworkGun, Freeze, ImageLibrary, InfiniteAmmo, InventoryViewer, Kits, LoadingMessages, MagicImagesPanel, MagicMessagePanel, MagicPanel, NoGiveNotices, Payback, PermissionsManager, PlayerAdministration, ServerInfo, ServerPop, Skins, SkipNightVote, SmartChatBot, TimeOfDay, TimedExecute, UFilter, VIPTrial, Vanish and VoiceMute were compiled successfully in 3510ms
+09:07 [Info] Unloaded plugin Admin AntiHack Fix v1.0.0 by Solarix
+09:07 [Warning] Calling 'Unload' on 'AdminHammer v1.13.0' took 323ms
+09:07 [Info] Unloaded plugin AdminHammer v1.13.0 by mvrb
+09:07 [Info] Unloaded plugin Admin No Loot v0.1.3 by Dana
+09:07 [Info] Unloaded plugin Admin Radar v5.3.2 by nivex
+09:07 [Info] Unloaded plugin Automated Events v1.0.11 by k1lly0u/mspeedie/Arainrr
+09:07 [Warning] Calling 'Unload' on 'BGrade v1.1.5' took 306ms
+09:07 [Info] Unloaded plugin BGrade v1.1.5 by Ryan / Rustoria.co
+09:07 [Info] Unloaded plugin Backpacks v3.13.3 by WhiteThunder
+09:07 [Info] Unloaded plugin Ban Delete By v1.0.4 by Ryan
+09:07 [Info] Unloaded plugin Better Chat v5.2.12 by LaserHydra
+09:07 [Info] Unloaded plugin BetterChatFlood v1.0.5 by Ryan
+09:07 [Info] Unloaded plugin Better Say v3.0.1 by LaserHydra
+09:07 [Info] Unloaded plugin Blueprint Manager v2.0.6 by Whispers88
+09:07 [Info] Unloaded plugin Bodies to Bags v2.0.0 by Ryan
+09:07 [Info] Unloaded plugin Building Skins v2.0.1 by Marat
+09:07 [Info] Unloaded plugin Bypass Queue v1.0.4 by Orange
+09:07 [Info] Unloaded plugin Coloured Chat v2.2.7 by collect_vood
+09:07 [Info] Unloaded plugin Copy Paste v4.1.37 by misticos
+09:07 [Info] Unloaded plugin Custom Icon v1.0.4 by collect_vood
+09:07 [Info] Unloaded plugin Discord Report v1.2.0 by misticos
+09:07 [Info] Unloaded plugin Discord Status v4.0.1 by Gonzi
+09:07 [Info] Unloaded plugin Firework Gun v1.1.0 by k1lly0u and Kusha
+09:07 [Info] Unloaded plugin Freeze v3.0.3 by Wulf
+09:07 [Info] Unloaded plugin Image Library v2.0.62 by Absolut & K1lly0u
+09:07 [Info] Unloaded plugin Infinite Ammo v1.3.0 by collect_vood & Mughisi
+09:07 [Info] Unloaded plugin Inventory Viewer v4.0.6 by Whispers88
+09:07 [Info] Unloaded plugin Kits v4.4.0 by k1lly0u
+09:07 [Info] Unloaded plugin Loading Messages v1.0.9 by CosaNostra/Def/klauz24
+09:07 [Info] Unloaded plugin Magic Images Panel v1.0.3 by MJSU
+09:07 [Info] Unloaded plugin Magic Message Panel v1.2.1 by MJSU
+09:07 [Info] Unloaded plugin Magic Panel v1.0.8 by MJSU
+09:07 [Info] Unloaded plugin No Give Notices v0.3.0 by Wulf
+09:07 [Info] Unloaded plugin Payback v2.0.9 by 1928Tommygun
+09:07 [Info] Unloaded plugin PermissionsManager v2.0.9 by Steenamaroo
+09:07 [Info] Unloaded plugin PlayerAdministration v1.6.8 by ThibmoRozier
+09:07 [Info] Unloaded plugin Server Info v0.5.8 by FastBurst
+09:07 [Info] Unloaded plugin ServerPop v1.0.0 by Mabel
+09:07 [Info] Unloaded plugin Skins v2.2.3 by misticos
+09:07 [Info] Unloaded plugin SkipNightVote v0.1.4 by k1lly0u
+09:07 [Info] Unloaded plugin Smart Chat Bot v2.0.13 by Iv Misticos
+09:07 [Info] Unloaded plugin TimeOfDay v2.3.4 by FuJiCuRa
+09:07 [Info] Unloaded plugin Timed Execute v0.7.4 by PaiN & misticos
+09:07 [Info] Unloaded plugin UFilter v5.1.2 by Wulf/lukespragg
+09:07 [Info] Unloaded plugin VIP Trial v1.3.5 by Maik8
+09:07 [Info] Unloaded plugin Vanish v1.8.0 by Whispers88
+09:07 [Info] Unloaded plugin Voice Mute v1.0.3 by Tori1157
+09:07 [Info] Loaded plugin Admin AntiHack Fix v1.0.0 by Solarix
+09:07 [Info] Loaded plugin AdminHammer v1.13.0 by mvrb
+09:07 [Warning] [Admin No Loot] Config Loaded
+09:07 [Info] Loaded plugin Admin No Loot v0.1.3 by Dana
+09:07 [Info] Loaded plugin Admin Radar v5.3.2 by nivex
+09:07 [Info] Loaded plugin Automated Events v1.0.11 by k1lly0u/mspeedie/Arainrr
+09:07 [Info] Loaded plugin BGrade v1.1.5 by Ryan / Rustoria.co
+09:07 [Info] Loaded plugin Backpacks v3.13.3 by WhiteThunder
+09:07 [Info] Loaded plugin Ban Delete By v1.0.4 by Ryan
+09:07 [Info] Loaded plugin Better Chat v5.2.12 by LaserHydra
+09:07 [Info] Loaded plugin BetterChatFlood v1.0.5 by Ryan
+09:07 [Info] Loaded plugin Better Say v3.0.1 by LaserHydra
+09:07 [Info] [Blueprint Manager] Configuration changes saved to BlueprintManager.json
+09:07 [Info] Loaded plugin Blueprint Manager v2.0.6 by Whispers88
+09:07 [Info] Loaded plugin Bodies to Bags v2.0.0 by Ryan
+09:07 [Error] [Building Skins] [ImageLibrary] not found! Plugin is disabled!
+09:07 [Info] Loaded plugin Building Skins v2.0.1 by Marat
+09:07 [Info] Loaded plugin Bypass Queue v1.0.4 by Orange
+09:07 [Info] Loaded plugin Coloured Chat v2.2.7 by collect_vood
+09:07 [Info] Loaded plugin Copy Paste v4.1.37 by misticos
+09:07 [Info] Loaded plugin Custom Icon v1.0.4 by collect_vood
+09:07 [Info] Loaded plugin Discord Report v1.2.0 by misticos
+09:07 [Info] Loaded plugin Discord Status v4.0.1 by Gonzi
+09:07 [Info] Loaded plugin Firework Gun v1.1.0 by k1lly0u and Kusha
+09:07 [Info] Loaded plugin Freeze v3.0.3 by Wulf
+9:07 AM [Info] [Discord Extension] [Info]: Discord socket opened!
+09:07 [Info] Loaded plugin Image Library v2.0.62 by Absolut & K1lly0u
+09:07 [Info] Loaded plugin Infinite Ammo v1.3.0 by collect_vood & Mughisi
+09:07 [Info] Loaded plugin Inventory Viewer v4.0.6 by Whispers88
+9:07 AM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+09:07 [Info] Loaded plugin Kits v4.4.0 by k1lly0u
+09:07 [Info] Loaded plugin Loading Messages v1.0.9 by CosaNostra/Def/klauz24
+09:07 [Error] [Magic Images Panel] Missing plugin dependency MagicPanel: https://umod.org/plugins/magic-panel
+09:07 [Info] Loaded plugin Magic Images Panel v1.0.3 by MJSU
+09:07 [Error] [Magic Message Panel] Missing plugin dependency MagicPanel: https://umod.org/plugins/magic-panel
+09:07 [Info] Loaded plugin Magic Message Panel v1.2.1 by MJSU
+09:07 [Info] Loaded plugin Magic Panel v1.0.8 by MJSU
+09:07 [Info] Loaded plugin No Give Notices v0.3.0 by Wulf
+09:07 [Info] Loaded plugin Payback v2.0.9 by 1928Tommygun
+09:07 [Info] Loaded plugin PermissionsManager v2.0.9 by Steenamaroo
+09:07 [Info] Loaded plugin PlayerAdministration v1.6.8 by ThibmoRozier
+09:07 [Info] Loaded plugin Server Info v0.5.8 by FastBurst
+09:07 [Info] Loaded plugin ServerPop v1.0.0 by Mabel
+09:07 [Info] Loaded plugin Skins v2.2.3 by misticos
+09:07 [Info] Loaded plugin SkipNightVote v0.1.4 by k1lly0u
+09:07 [Warning] [Smart Chat Bot] Detected Better Chat. Make sure you enabled it in your configuration.
+09:07 [Info] Loaded plugin Smart Chat Bot v2.0.13 by Iv Misticos
+09:07 [Info] Loaded plugin TimeOfDay v2.3.4 by FuJiCuRa
+09:07 [Info] [Timed Execute] The RealTime timer has started
+09:07 [Info] [Timed Execute] The Repeat timer has started
+09:07 [Info] Loaded plugin Timed Execute v0.7.4 by PaiN & misticos
+09:07 [Info] Loaded plugin UFilter v5.1.2 by Wulf/lukespragg
+09:07 [Info] [VIP Trial] Nobody needs to be removed.
+09:07 [Info] Loaded plugin VIP Trial v1.3.5 by Maik8
+09:07 [Info] Loaded plugin Vanish v1.8.0 by Whispers88
+09:07 [Info] Loaded plugin Voice Mute v1.0.3 by Tori1157
+09:07 [Info] [Payback] 
+Check out the sequel to this plugin Payback 2! there's a lot more Payback to be had at https://payback.fragmod.com !
+
+09:07 [Info] [Image Library] Starting order Kits
+09:07 [Info] [Admin Radar] Cached 4690/90692 entities in 1.786711 seconds!
+09:08 [Info] Shutting down compiler because idle shutdown
+09:08 [Info] Compiler shutdown completed
+09:12 [Info] [CSharp] Started Oxide.Compiler v successfully
+09:12 [Info] Rustcord was compiled successfully in 2127ms
+09:12 [Info] [Discord Extension] [Info]: New intents have been requested for the bot. Reconnecting with updated intents.
+09:12 [Warning] Rustcord has replaced the 'report' command previously registered by DiscordReport
+09:12 [Info] Loaded plugin Rustcord v3.3.2 by Kirollos & OuTSMoKE
+9:12 AM [Info] [Discord Extension] [Info]: Discord socket opened!
+9:12 AM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+09:13 [Info] Shutting down compiler because idle shutdown
+09:13 [Info] Compiler shutdown completed
+09:13 [Info] Usage: oxide.show <groups|perms>
+09:13 [Info] Usage: oxide.show <group|user> <name>
+09:13 [Info] Player 'Alienatedmammal (76561198206232972)' permissions:
+adminradar.bypass, ufilter.admin, ufilter.bypass, colouredchat.message.show, colouredchat.name.show, smartchatbot.response, viptrial.allowed, payback.admin, blueprintmanager.admin, adminradar.allowed, adminradar.list, vanish.allow, vanish.unlock, vanish.damage, kits.admin, adminhammer.allow, betterchatflood.bypass, permissionsmanager.allowed, colouredchat.name.use, colouredchat.name.setothers, colouredchat.message.use, colouredchat.message.setothers, colouredchat.name.random, colouredchat.name.gradient, colouredchat.message.random, colouredchat.message.rainbow, colouredchat.message.gradient, welcomer.bypass, bettersay.use, skipnightvote.admin, discordreport.admin, betterchat.admin, playerlist.allow, playeradministration.protect.ban, playeradministration.protect.hurt, playeradministration.protect.kick, playeradministration.protect.kill, playeradministration.protect.reset, playeradministration.access.show, playeradministration.access.kick, playeradministration.access.ban, playeradministration.access.kill, playeradministration.access.perms, playeradministration.access.mute, playeradministration.access.allowfreeze, playeradministration.access.clearinventory, playeradministration.access.resetblueprint, playeradministration.access.resetmetabolism, playeradministration.access.recovermetabolism, playeradministration.access.hurt, playeradministration.access.heal, playeradministration.access.teleport, playeradministration.access.spectate, playeradministration.access.detailedinfo, freeze.use, freeze.protect, inventoryviewer.unlock, inventoryviewer.allowed, skins.use, skins.admin, bypassqueue.allow, copypaste.copy, copypaste.list, copypaste.paste, copypaste.pasteback, copypaste.undo, adminnoloot.bypass, buildingskins.use, buildingskins.all, buildingskins.build, buildingskins.admin, buildingskins.autoSkin, bgrade.all, voicemute.mute, voicemute.list, voicemute.unmute, viptrial.admin, backpacks.use, backpacks.admin, backpacks.keepondeath, backpacks.gui, kits.vip, kits.vip_trial, kits.vip1, baserepair.nocost, baserepair.noauth
+
+Player 'Alienatedmammal (76561198206232972)' groups:
+default, admin
+09:16 [Error] Failed to run a 1.00 timer in 'BuildingSkins v2.0.1' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.BuildingSkins.OnPlayerConnected (BasePlayer player) [0x00073] in <88ed4a797b894745bd6b6aef2726d9b3>:0 
+  at Oxide.Plugins.BuildingSkins+<>c__DisplayClass12_0.<OnPlayerConnected>b__0 () [0x00000] in <88ed4a797b894745bd6b6aef2726d9b3>:0 
+  at Oxide.Core.Libraries.Timer+TimerInstance.FireCallback () [0x00018] in <18d4f19bbc844191b11ed9e69284d09b>:0 
+09:19 [Error] Could not load plugin 'MagicImagePanel' (no plugin found with that file name)
+09:19 [Info] [CSharp] Started Oxide.Compiler v successfully
+09:19 [Info] MagicImagesPanel was compiled successfully in 1523ms
+09:19 [Info] Unloaded plugin Magic Images Panel v1.0.3 by MJSU
+09:19 [Info] Loaded plugin Magic Images Panel v1.0.3 by MJSU
+09:20 [Info] Shutting down compiler because idle shutdown
+09:20 [Info] Compiler shutdown completed
+09:30 [Info] [Better Say] SERVER
+ <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+09:30 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+9:49 AM [Info] [Discord Extension] [Info]: Discord has requested a reconnect. Reconnecting...
+9:49 AM [Info] [Discord Extension] [Info]: Discord socket opened!
+9:49 AM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+09:54 [Info] [Better Say] SERVER
+ <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+09:54 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+10:00 [Info] [Better Say] SERVER
+ <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+10:00 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+10:00 [Error] Failed to call hook 'OnPlayerRespawned' on plugin 'BuildingSkins v2.0.1' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.BuildingSkins.OnPlayerRespawned (BasePlayer player) [0x00012] in <88ed4a797b894745bd6b6aef2726d9b3>:0 
+  at Oxide.Plugins.BuildingSkins.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x0038b] in <88ed4a797b894745bd6b6aef2726d9b3>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <87ce9ac9776a48658bc55eae6debe38b>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <18d4f19bbc844191b11ed9e69284d09b>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <18d4f19bbc844191b11ed9e69284d09b>:0 
+10:00 [Info] [Welcomer] Toilet Pirate joined for the very first time from United States
+10:00 [Error] Failed to run a 1.00 timer in 'BuildingSkins v2.0.1' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.BuildingSkins.OnPlayerConnected (BasePlayer player) [0x00073] in <88ed4a797b894745bd6b6aef2726d9b3>:0 
+  at Oxide.Plugins.BuildingSkins+<>c__DisplayClass12_0.<OnPlayerConnected>b__0 () [0x00000] in <88ed4a797b894745bd6b6aef2726d9b3>:0 
+  at Oxide.Core.Libraries.Timer+TimerInstance.FireCallback () [0x00018] in <18d4f19bbc844191b11ed9e69284d09b>:0 
+10:00 [Error] Failed to call hook 'OnPlayerRespawned' on plugin 'BuildingSkins v2.0.1' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.BuildingSkins.OnPlayerRespawned (BasePlayer player) [0x00012] in <88ed4a797b894745bd6b6aef2726d9b3>:0 
+  at Oxide.Plugins.BuildingSkins.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x0038b] in <88ed4a797b894745bd6b6aef2726d9b3>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <87ce9ac9776a48658bc55eae6debe38b>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <18d4f19bbc844191b11ed9e69284d09b>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <18d4f19bbc844191b11ed9e69284d09b>:0 
+10:08 AM [Warning] [Discord Extension] [Warning]: Discord WebSocket closed with abnormal close code. Code: 1006, reason: An exception has occurred while receiving.
+10:08 AM [Info] [Discord Extension] [Info]: Discord socket opened!
+10:08 AM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+10:15 [Info] [Better Say] SERVER
+ <color=#39FF14>Use</color> <color=orange>/viptrial</color> <color=#39FF14>to get a 7 day VIP trial FREE.</color>
+10:15 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Use</color> <color=orange>/viptrial</color> <color=#39FF14>to get a 7 day VIP trial FREE.</color>
+10:19 [Error] Failed to call hook 'OnDiscordGuildMessageCreated' on plugin 'DiscordStatus v4.0.1' (IndexOutOfRangeException: Index was outside the bounds of the array.)
+  at Oxide.Plugins.DiscordStatus.OnDiscordGuildMessageCreated (Oxide.Ext.Discord.Entities.Messages.DiscordMessage message) [0x00029] in <88ed4a797b894745bd6b6aef2726d9b3>:0 
+  at Oxide.Plugins.DiscordStatus.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x0016c] in <88ed4a797b894745bd6b6aef2726d9b3>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <87ce9ac9776a48658bc55eae6debe38b>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <18d4f19bbc844191b11ed9e69284d09b>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <18d4f19bbc844191b11ed9e69284d09b>:0 
+10:19 [Error] Failed to call hook 'OnDiscordGuildMessageCreated' on plugin 'DiscordStatus v4.0.1' (IndexOutOfRangeException: Index was outside the bounds of the array.)
+  at Oxide.Plugins.DiscordStatus.OnDiscordGuildMessageCreated (Oxide.Ext.Discord.Entities.Messages.DiscordMessage message) [0x00029] in <88ed4a797b894745bd6b6aef2726d9b3>:0 
+  at Oxide.Plugins.DiscordStatus.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x0016c] in <88ed4a797b894745bd6b6aef2726d9b3>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <87ce9ac9776a48658bc55eae6debe38b>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <18d4f19bbc844191b11ed9e69284d09b>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <18d4f19bbc844191b11ed9e69284d09b>:0 
+10:20 [Error] Failed to call hook 'OnDiscordGuildMessageCreated' on plugin 'DiscordStatus v4.0.1' (IndexOutOfRangeException: Index was outside the bounds of the array.)
+  at Oxide.Plugins.DiscordStatus.OnDiscordGuildMessageCreated (Oxide.Ext.Discord.Entities.Messages.DiscordMessage message) [0x00029] in <88ed4a797b894745bd6b6aef2726d9b3>:0 
+  at Oxide.Plugins.DiscordStatus.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x0016c] in <88ed4a797b894745bd6b6aef2726d9b3>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <87ce9ac9776a48658bc55eae6debe38b>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <18d4f19bbc844191b11ed9e69284d09b>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <18d4f19bbc844191b11ed9e69284d09b>:0 
+10:20 [Error] Failed to call hook 'OnDiscordGuildMessageCreated' on plugin 'DiscordStatus v4.0.1' (IndexOutOfRangeException: Index was outside the bounds of the array.)
+  at Oxide.Plugins.DiscordStatus.OnDiscordGuildMessageCreated (Oxide.Ext.Discord.Entities.Messages.DiscordMessage message) [0x00029] in <88ed4a797b894745bd6b6aef2726d9b3>:0 
+  at Oxide.Plugins.DiscordStatus.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x0016c] in <88ed4a797b894745bd6b6aef2726d9b3>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <87ce9ac9776a48658bc55eae6debe38b>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <18d4f19bbc844191b11ed9e69284d09b>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <18d4f19bbc844191b11ed9e69284d09b>:0 
+10:20 [Error] Failed to call hook 'OnDiscordGuildMessageCreated' on plugin 'DiscordStatus v4.0.1' (IndexOutOfRangeException: Index was outside the bounds of the array.)
+  at Oxide.Plugins.DiscordStatus.OnDiscordGuildMessageCreated (Oxide.Ext.Discord.Entities.Messages.DiscordMessage message) [0x00029] in <88ed4a797b894745bd6b6aef2726d9b3>:0 
+  at Oxide.Plugins.DiscordStatus.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x0016c] in <88ed4a797b894745bd6b6aef2726d9b3>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <87ce9ac9776a48658bc55eae6debe38b>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <18d4f19bbc844191b11ed9e69284d09b>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <18d4f19bbc844191b11ed9e69284d09b>:0 
+10:20 [Error] Failed to call hook 'OnDiscordGuildMessageCreated' on plugin 'DiscordStatus v4.0.1' (IndexOutOfRangeException: Index was outside the bounds of the array.)
+  at Oxide.Plugins.DiscordStatus.OnDiscordGuildMessageCreated (Oxide.Ext.Discord.Entities.Messages.DiscordMessage message) [0x00029] in <88ed4a797b894745bd6b6aef2726d9b3>:0 
+  at Oxide.Plugins.DiscordStatus.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x0016c] in <88ed4a797b894745bd6b6aef2726d9b3>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <87ce9ac9776a48658bc55eae6debe38b>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <18d4f19bbc844191b11ed9e69284d09b>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <18d4f19bbc844191b11ed9e69284d09b>:0 
+10:20 [Error] Failed to call hook 'OnDiscordGuildMessageCreated' on plugin 'DiscordStatus v4.0.1' (IndexOutOfRangeException: Index was outside the bounds of the array.)
+  at Oxide.Plugins.DiscordStatus.OnDiscordGuildMessageCreated (Oxide.Ext.Discord.Entities.Messages.DiscordMessage message) [0x00029] in <88ed4a797b894745bd6b6aef2726d9b3>:0 
+  at Oxide.Plugins.DiscordStatus.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x0016c] in <88ed4a797b894745bd6b6aef2726d9b3>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <87ce9ac9776a48658bc55eae6debe38b>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <18d4f19bbc844191b11ed9e69284d09b>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <18d4f19bbc844191b11ed9e69284d09b>:0 
+10:21 [Error] Failed to call hook 'OnDiscordGuildMessageCreated' on plugin 'DiscordStatus v4.0.1' (IndexOutOfRangeException: Index was outside the bounds of the array.)
+  at Oxide.Plugins.DiscordStatus.OnDiscordGuildMessageCreated (Oxide.Ext.Discord.Entities.Messages.DiscordMessage message) [0x00029] in <88ed4a797b894745bd6b6aef2726d9b3>:0 
+  at Oxide.Plugins.DiscordStatus.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x0016c] in <88ed4a797b894745bd6b6aef2726d9b3>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <87ce9ac9776a48658bc55eae6debe38b>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <18d4f19bbc844191b11ed9e69284d09b>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <18d4f19bbc844191b11ed9e69284d09b>:0 
+10:21 [Error] Failed to call hook 'OnDiscordGuildMessageCreated' on plugin 'DiscordStatus v4.0.1' (IndexOutOfRangeException: Index was outside the bounds of the array.)
+  at Oxide.Plugins.DiscordStatus.OnDiscordGuildMessageCreated (Oxide.Ext.Discord.Entities.Messages.DiscordMessage message) [0x00029] in <88ed4a797b894745bd6b6aef2726d9b3>:0 
+  at Oxide.Plugins.DiscordStatus.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x0016c] in <88ed4a797b894745bd6b6aef2726d9b3>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <87ce9ac9776a48658bc55eae6debe38b>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <18d4f19bbc844191b11ed9e69284d09b>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <18d4f19bbc844191b11ed9e69284d09b>:0 
+10:22 [Error] Failed to call hook 'OnDiscordGuildMessageCreated' on plugin 'DiscordStatus v4.0.1' (IndexOutOfRangeException: Index was outside the bounds of the array.)
+  at Oxide.Plugins.DiscordStatus.OnDiscordGuildMessageCreated (Oxide.Ext.Discord.Entities.Messages.DiscordMessage message) [0x00029] in <88ed4a797b894745bd6b6aef2726d9b3>:0 
+  at Oxide.Plugins.DiscordStatus.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x0016c] in <88ed4a797b894745bd6b6aef2726d9b3>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <87ce9ac9776a48658bc55eae6debe38b>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <18d4f19bbc844191b11ed9e69284d09b>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <18d4f19bbc844191b11ed9e69284d09b>:0 
+10:23 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+10:24 [Info] [Better Say] SERVER
+ <color=orange>/info</color> <color=#40E0D0>for server info</color>
+10:24 [Info] [Timed Execute] ran CMD: say <color=orange>/info</color> <color=#40E0D0>for server info</color>
+10:25 [Error] Failed to call hook 'OnPlayerRespawned' on plugin 'BuildingSkins v2.0.1' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.BuildingSkins.OnPlayerRespawned (BasePlayer player) [0x00012] in <88ed4a797b894745bd6b6aef2726d9b3>:0 
+  at Oxide.Plugins.BuildingSkins.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x0038b] in <88ed4a797b894745bd6b6aef2726d9b3>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <87ce9ac9776a48658bc55eae6debe38b>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <18d4f19bbc844191b11ed9e69284d09b>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <18d4f19bbc844191b11ed9e69284d09b>:0 
+10:28 [Error] Failed to call hook 'OnPlayerRespawned' on plugin 'BuildingSkins v2.0.1' (NullReferenceException: Object reference not set to an instance of an object)
+  at Oxide.Plugins.BuildingSkins.OnPlayerRespawned (BasePlayer player) [0x00012] in <88ed4a797b894745bd6b6aef2726d9b3>:0 
+  at Oxide.Plugins.BuildingSkins.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x0038b] in <88ed4a797b894745bd6b6aef2726d9b3>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <87ce9ac9776a48658bc55eae6debe38b>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <18d4f19bbc844191b11ed9e69284d09b>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <18d4f19bbc844191b11ed9e69284d09b>:0 
+10:30 [Info] [Better Say] SERVER
+ <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+10:30 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+10:30 [Info] Unloaded plugin Voice Mute v1.0.3 by Tori1157
+10:30 [Info] Unloaded plugin Vanish v1.8.0 by Whispers88
+10:30 [Info] Unloaded plugin VIP Trial v1.3.5 by Maik8
+10:30 [Info] Unloaded plugin UFilter v5.1.2 by Wulf/lukespragg
+10:30 [Info] Unloaded plugin Timed Execute v0.7.4 by PaiN & misticos
+10:30 [Info] Unloaded plugin TimeOfDay v2.3.4 by FuJiCuRa
+10:30 [Info] Unloaded plugin Smart Chat Bot v2.0.13 by Iv Misticos
+10:30 [Info] Unloaded plugin SkipNightVote v0.1.4 by k1lly0u
+10:30 [Info] Unloaded plugin Skins v2.2.3 by misticos
+10:30 [Info] Unloaded plugin ServerPop v1.0.0 by Mabel
+10:30 [Info] Unloaded plugin Server Info v0.5.8 by FastBurst
+10:30 [Info] Unloaded plugin PlayerAdministration v1.6.8 by ThibmoRozier
+10:30 [Info] Unloaded plugin PermissionsManager v2.0.9 by Steenamaroo
+10:30 [Info] Unloaded plugin Payback v2.0.9 by 1928Tommygun
+10:30 [Info] Unloaded plugin No Give Notices v0.3.0 by Wulf
+10:30 [Info] Unloaded plugin Magic Panel v1.0.8 by MJSU
+10:30 [Info] Unloaded plugin Magic Message Panel v1.2.1 by MJSU
+10:30 [Info] Unloaded plugin Magic Images Panel v1.0.3 by MJSU
+10:30 [Info] Unloaded plugin Loading Messages v1.0.9 by CosaNostra/Def/klauz24
+10:30 [Info] Unloaded plugin Kits v4.4.0 by k1lly0u
+10:30 [Info] Unloaded plugin Inventory Viewer v4.0.6 by Whispers88
+10:30 [Info] Unloaded plugin Infinite Ammo v1.3.0 by collect_vood & Mughisi
+10:30 [Info] Unloaded plugin Image Library v2.0.62 by Absolut & K1lly0u
+10:30 [Info] Unloaded plugin Freeze v3.0.3 by Wulf
+10:30 [Info] Unloaded plugin Firework Gun v1.1.0 by k1lly0u and Kusha
+10:30 [Info] Unloaded plugin Discord Status v4.0.1 by Gonzi
+10:30 [Info] Unloaded plugin Discord Report v1.2.0 by misticos
+10:30 [Info] Unloaded plugin Custom Icon v1.0.4 by collect_vood
+10:30 [Info] Unloaded plugin Copy Paste v4.1.37 by misticos
+10:30 [Info] Unloaded plugin Coloured Chat v2.2.7 by collect_vood
+10:30 [Info] Unloaded plugin Bypass Queue v1.0.4 by Orange
+10:30 [Info] Unloaded plugin Building Skins v2.0.1 by Marat
+10:30 [Info] Unloaded plugin Bodies to Bags v2.0.0 by Ryan
+10:30 [Info] Unloaded plugin Blueprint Manager v2.0.6 by Whispers88
+10:30 [Info] Unloaded plugin Better Say v3.0.1 by LaserHydra
+10:30 [Info] Unloaded plugin BetterChatFlood v1.0.5 by Ryan
+10:30 [Info] Unloaded plugin Better Chat v5.2.12 by LaserHydra
+10:30 [Info] Unloaded plugin Ban Delete By v1.0.4 by Ryan
+10:30 [Info] Unloaded plugin Backpacks v3.13.3 by WhiteThunder
+10:30 [Warning] Calling 'Unload' on 'BGrade v1.1.5' took 314ms
+10:30 [Info] Unloaded plugin BGrade v1.1.5 by Ryan / Rustoria.co
+10:30 [Info] Unloaded plugin Automated Events v1.0.11 by k1lly0u/mspeedie/Arainrr
+10:30 [Info] Unloaded plugin Admin Radar v5.3.2 by nivex
+10:30 [Info] Unloaded plugin Admin No Loot v0.1.3 by Dana
+10:30 [Warning] Calling 'Unload' on 'AdminHammer v1.13.0' took 314ms
+10:30 [Info] Unloaded plugin AdminHammer v1.13.0 by mvrb
+10:30 [Info] Unloaded plugin Admin AntiHack Fix v1.0.0 by Solarix
+10:30 [Info] Unloaded plugin Welcomer v2.1.0 by Dana
+10:30 [Info] Unloaded plugin Rustcord v3.3.2 by Kirollos & OuTSMoKE
+10:31 [Info] Loading Oxide Core v2.0.4077...
+10:31 [Info] Loading extensions...
+10:31 [Info] Loaded extension CSharp v2.0.4126 by Oxide Team and Contributors
+10:31 [Info] Loaded extension MySql v2.0.3774 by Oxide Team and Contributors
+10:31 [Info] Loaded extension SQLite v2.0.3804 by Oxide Team and Contributors
+10:31 [Info] Unity version: 2021.3.29f1
+10:31 [Info] Loaded extension Unity v2.0.3777 by Oxide Team and Contributors
+10:31 [Info] Loaded extension Rust v2.0.6091 by Oxide Team and Contributors
+10:31 [Info] Loaded extension Discord v2.1.9 by PsychoTea & DylanSMR & Tricky & Kirollos & MJSU
+10:31 [Info] [CSharp] Checking for updates for Oxide.Compiler | Local MD5: 838a94f8cbd89daa1153012c04b4b95a | Last modified: 2023-12-07 22:07:43
+10:31 [Info] [CSharp] Oxide.Compiler is up to date
+10:31 [Info] File permissions set for Oxide.Compiler
+10:31 [Info] Using Covalence provider for game 'Rust'
+10:31 [Info] Loading plugins...
+10:31 [Info] Loaded plugin Unity v2.0.3777 by Oxide Team and Contributors
+10:31 [Info] Loaded plugin Rust v2.0.6091 by Oxide Team and Contributors
+10:31 [Info] Added '// Reference: Facepunch.Sqlite' in plugin 'ImageLibrary'
+10:31 [Info] Added '// Reference: UnityEngine.UnityWebRequestModule' in plugin 'ImageLibrary'
+10:31 [Info] [CSharp] Started Oxide.Compiler v successfully
+10:31 [Info] AdminAntiHackFix, AdminHammer, AdminNoLoot, AdminRadar, AutomatedEvents, BGrade, Backpacks, BanDeleteBy, BetterChat, BetterChatFlood, BetterSay, BlueprintManager, BodiesToBags, BuildingSkins, BypassQueue, ColouredChat, CopyPaste, CustomIcon, DiscordReport, DiscordStatus, FireworkGun, Freeze, ImageLibrary, InfiniteAmmo, InventoryViewer, Kits, LoadingMessages, MagicImagesPanel, MagicMessagePanel, MagicPanel, NoGiveNotices, Payback, PermissionsManager, PlayerAdministration, Rustcord, ServerInfo, ServerPop, Skins, SkipNightVote, SmartChatBot, TimeOfDay, TimedExecute, UFilter, VIPTrial, Vanish, VoiceMute and Welcomer were compiled successfully in 0ms
+10:31 [Info] Loaded plugin Admin AntiHack Fix v1.0.0 by Solarix
+10:31 [Info] Loaded plugin AdminHammer v1.13.0 by mvrb
+10:31 [Warning] [Admin No Loot] Config Loaded
+10:31 [Info] Loaded plugin Admin No Loot v0.1.3 by Dana
+10:31 [Info] Loaded plugin Admin Radar v5.3.2 by nivex
+10:31 [Info] Loaded plugin Automated Events v1.0.11 by k1lly0u/mspeedie/Arainrr
+10:31 [Info] Loaded plugin BGrade v1.1.5 by Ryan / Rustoria.co
+10:31 [Info] Loaded plugin Backpacks v3.13.3 by WhiteThunder
+10:31 [Info] Loaded plugin Ban Delete By v1.0.4 by Ryan
+10:31 [Info] Loaded plugin Better Chat v5.2.12 by LaserHydra
+10:31 [Info] Loaded plugin BetterChatFlood v1.0.5 by Ryan
+10:31 [Info] Loaded plugin Better Say v3.0.1 by LaserHydra
+10:31 [Info] Loaded plugin Blueprint Manager v2.0.6 by Whispers88
+10:31 [Info] Loaded plugin Bodies to Bags v2.0.0 by Ryan
+10:31 [Info] Loaded plugin Building Skins v2.0.1 by Marat
+10:31 [Info] Loaded plugin Bypass Queue v1.0.4 by Orange
+10:31 [Info] Loaded plugin Coloured Chat v2.2.7 by collect_vood
+10:31 [Info] Loaded plugin Copy Paste v4.1.37 by misticos
+10:31 [Info] Loaded plugin Custom Icon v1.0.4 by collect_vood
+10:31 [Info] Loaded plugin Discord Report v1.2.0 by misticos
+10:31 [Info] Loaded plugin Discord Status v4.0.1 by Gonzi
+10:31 [Info] Loaded plugin Firework Gun v1.1.0 by k1lly0u and Kusha
+10:31 [Info] Loaded plugin Freeze v3.0.3 by Wulf
+10:31 [Info] Loaded plugin Image Library v2.0.62 by Absolut & K1lly0u
+10:31 [Info] Loaded plugin Infinite Ammo v1.3.0 by collect_vood & Mughisi
+10:31 [Info] Loaded plugin Inventory Viewer v4.0.6 by Whispers88
+10:31 [Info] Loaded plugin Kits v4.4.0 by k1lly0u
+10:31 [Info] Loaded plugin Loading Messages v1.0.9 by CosaNostra/Def/klauz24
+10:31 [Info] Loaded plugin Magic Images Panel v1.0.3 by MJSU
+10:31 [Info] Loaded plugin Magic Message Panel v1.2.1 by MJSU
+10:31 [Info] Loaded plugin Magic Panel v1.0.8 by MJSU
+10:31 [Info] Loaded plugin No Give Notices v0.3.0 by Wulf
+10:31 [Info] Loaded plugin Payback v2.0.9 by 1928Tommygun
+10:31 [Info] Loaded plugin PermissionsManager v2.0.9 by Steenamaroo
+10:31 [Info] Loaded plugin PlayerAdministration v1.6.8 by ThibmoRozier
+10:31 [Warning] Rustcord has replaced the 'report' command previously registered by DiscordReport
+10:31 [Info] Loaded plugin Rustcord v3.3.2 by Kirollos & OuTSMoKE
+10:31 [Info] Loaded plugin Server Info v0.5.8 by FastBurst
+10:31 [Info] Loaded plugin ServerPop v1.0.0 by Mabel
+10:31 [Info] Loaded plugin Skins v2.2.3 by misticos
+10:31 [Info] Loaded plugin SkipNightVote v0.1.4 by k1lly0u
+10:31 [Info] Loaded plugin Smart Chat Bot v2.0.13 by Iv Misticos
+10:31 [Info] Loaded plugin TimeOfDay v2.3.4 by FuJiCuRa
+10:31 [Info] Loaded plugin Timed Execute v0.7.4 by PaiN & misticos
+10:31 [Info] Loaded plugin UFilter v5.1.2 by Wulf/lukespragg
+10:31 [Info] [VIP Trial] Nobody needs to be removed.
+10:31 [Info] Loaded plugin VIP Trial v1.3.5 by Maik8
+10:31 [Info] Loaded plugin Vanish v1.8.0 by Whispers88
+10:31 [Info] Loaded plugin Voice Mute v1.0.3 by Tori1157
+10:31 [Info] Loaded plugin Welcomer v2.1.0 by Dana
+10:31 AM [Info] [Discord Extension] [Info]: Discord socket opened!
+10:31 AM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+10:32 [Info] Shutting down compiler because idle shutdown
+10:32 [Info] Compiler shutdown completed
+10:39 [Info] IP address from external API: 10.0.35.2
+10:39 [Info] [Blueprint Manager] Configuration changes saved to BlueprintManager.json
+10:39 [Warning] [Smart Chat Bot] Detected Better Chat. Make sure you enabled it in your configuration.
+10:39 [Info] [Timed Execute] The RealTime timer has started
+10:39 [Info] [Timed Execute] The Repeat timer has started
+10:39 [Info] [Payback] 
+Check out the sequel to this plugin Payback 2! there's a lot more Payback to be had at https://payback.fragmod.com !
+
+10:39 [Info] [Admin Radar] Cached 3578/90997 entities in 1.876072 seconds!
+10:39 [Info] [Image Library] Starting order Kits
+10:50 [Warning] 'RustCore v2.0.6091' is using deprecated hook 'OnMapMarkerRemove', which will stop working on Sunday, 31 December 2023. Please ask the author to update to 'OnMapMarkerRemove(BasePlayer player, List<MapNote> mapMarker, int index)'
+11:00 [Info] [Better Say] SERVER
+ <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+11:00 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+11:02 [Info] [CSharp] Started Oxide.Compiler v successfully
+11:02 [Info] MagicImagesPanel was compiled successfully in 1547ms
+11:02 [Info] Unloaded plugin Magic Images Panel v1.0.3 by MJSU
+11:02 [Info] Loaded plugin Magic Images Panel v1.0.3 by MJSU
+11:03 [Info] Shutting down compiler because idle shutdown
+11:03 [Info] Compiler shutdown completed
+11:12 [Info] Loading Oxide Core v2.0.4077...
+11:12 [Info] Loading extensions...
+11:12 [Info] Loaded extension CSharp v2.0.4126 by Oxide Team and Contributors
+11:12 [Info] Loaded extension MySql v2.0.3774 by Oxide Team and Contributors
+11:12 [Info] Loaded extension SQLite v2.0.3804 by Oxide Team and Contributors
+11:12 [Info] Unity version: 2021.3.29f1
+11:12 [Info] Loaded extension Unity v2.0.3777 by Oxide Team and Contributors
+11:12 [Info] Loaded extension Rust v2.0.6091 by Oxide Team and Contributors
+11:12 [Info] Loaded extension Discord v2.1.9 by PsychoTea & DylanSMR & Tricky & Kirollos & MJSU
+11:12 [Info] [CSharp] Checking for updates for Oxide.Compiler | Local MD5: 838a94f8cbd89daa1153012c04b4b95a | Last modified: 2023-12-07 22:07:43
+11:12 [Info] [CSharp] Oxide.Compiler is up to date
+11:12 [Info] File permissions set for Oxide.Compiler
+11:12 [Info] Using Covalence provider for game 'Rust'
+11:12 [Info] Loading plugins...
+11:12 [Info] Loaded plugin Unity v2.0.3777 by Oxide Team and Contributors
+11:12 [Info] Loaded plugin Rust v2.0.6091 by Oxide Team and Contributors
+11:12 [Info] Added '// Reference: Facepunch.Sqlite' in plugin 'ImageLibrary'
+11:12 [Info] Added '// Reference: UnityEngine.UnityWebRequestModule' in plugin 'ImageLibrary'
+11:12 [Info] [CSharp] Started Oxide.Compiler v successfully
+11:12 [Info] AdminAntiHackFix, AdminHammer, AdminNoLoot, AdminRadar, AutomatedEvents, BGrade, Backpacks, BanDeleteBy, BetterChat, BetterChatFlood, BetterSay, BlueprintManager, BodiesToBags, BuildingSkins, BypassQueue, ColouredChat, CopyPaste, CustomIcon, DiscordReport, DiscordStatus, FireworkGun, Freeze, ImageLibrary, InfiniteAmmo, InventoryViewer, Kits, LoadingMessages, MagicImagesPanel, MagicMessagePanel, MagicPanel, NoGiveNotices, Payback, PermissionsManager, PlayerAdministration, Rustcord, ServerInfo, ServerPop, Skins, SkipNightVote, SmartChatBot, TimeOfDay, TimedExecute, UFilter, VIPTrial, Vanish, VoiceMute and Welcomer were compiled successfully in 0ms
+11:12 [Info] Loaded plugin Admin AntiHack Fix v1.0.0 by Solarix
+11:12 [Info] Loaded plugin AdminHammer v1.13.0 by mvrb
+11:12 [Warning] [Admin No Loot] Config Loaded
+11:12 [Info] Loaded plugin Admin No Loot v0.1.3 by Dana
+11:12 [Info] Loaded plugin Admin Radar v5.3.2 by nivex
+11:12 [Info] Loaded plugin Automated Events v1.0.11 by k1lly0u/mspeedie/Arainrr
+11:12 [Info] Loaded plugin BGrade v1.1.5 by Ryan / Rustoria.co
+11:12 [Info] Loaded plugin Backpacks v3.13.3 by WhiteThunder
+11:12 [Info] Loaded plugin Ban Delete By v1.0.4 by Ryan
+11:12 [Info] Loaded plugin Better Chat v5.2.12 by LaserHydra
+11:12 [Info] Loaded plugin BetterChatFlood v1.0.5 by Ryan
+11:12 [Info] Loaded plugin Better Say v3.0.1 by LaserHydra
+11:12 [Info] Loaded plugin Blueprint Manager v2.0.6 by Whispers88
+11:12 [Info] Loaded plugin Bodies to Bags v2.0.0 by Ryan
+11:12 [Info] Loaded plugin Building Skins v2.0.1 by Marat
+11:12 [Info] Loaded plugin Bypass Queue v1.0.4 by Orange
+11:12 [Info] Loaded plugin Coloured Chat v2.2.7 by collect_vood
+11:12 [Info] Loaded plugin Copy Paste v4.1.37 by misticos
+11:12 [Info] Loaded plugin Custom Icon v1.0.4 by collect_vood
+11:12 [Info] Loaded plugin Discord Report v1.2.0 by misticos
+11:12 [Info] Loaded plugin Discord Status v4.0.1 by Gonzi
+11:12 [Info] Loaded plugin Firework Gun v1.1.0 by k1lly0u and Kusha
+11:12 [Info] Loaded plugin Freeze v3.0.3 by Wulf
+11:12 [Info] Loaded plugin Image Library v2.0.62 by Absolut & K1lly0u
+11:12 [Info] Loaded plugin Infinite Ammo v1.3.0 by collect_vood & Mughisi
+11:12 [Info] Loaded plugin Inventory Viewer v4.0.6 by Whispers88
+11:12 [Info] Loaded plugin Kits v4.4.0 by k1lly0u
+11:12 [Info] Loaded plugin Loading Messages v1.0.9 by CosaNostra/Def/klauz24
+11:12 [Info] Loaded plugin Magic Images Panel v1.0.3 by MJSU
+11:12 [Info] Loaded plugin Magic Message Panel v1.2.1 by MJSU
+11:12 [Info] Loaded plugin Magic Panel v1.0.8 by MJSU
+11:12 [Info] Loaded plugin No Give Notices v0.3.0 by Wulf
+11:12 [Info] Loaded plugin Payback v2.0.9 by 1928Tommygun
+11:12 [Info] Loaded plugin PermissionsManager v2.0.9 by Steenamaroo
+11:12 [Info] Loaded plugin PlayerAdministration v1.6.8 by ThibmoRozier
+11:12 [Warning] Rustcord has replaced the 'report' command previously registered by DiscordReport
+11:12 [Info] Loaded plugin Rustcord v3.3.2 by Kirollos & OuTSMoKE
+11:12 [Info] Loaded plugin Server Info v0.5.8 by FastBurst
+11:12 [Info] Loaded plugin ServerPop v1.0.0 by Mabel
+11:12 [Info] Loaded plugin Skins v2.2.3 by misticos
+11:12 [Info] Loaded plugin SkipNightVote v0.1.4 by k1lly0u
+11:12 [Info] Loaded plugin Smart Chat Bot v2.0.13 by Iv Misticos
+11:12 [Info] Loaded plugin TimeOfDay v2.3.4 by FuJiCuRa
+11:12 [Info] Loaded plugin Timed Execute v0.7.4 by PaiN & misticos
+11:12 [Info] Loaded plugin UFilter v5.1.2 by Wulf/lukespragg
+11:12 [Info] [VIP Trial] Nobody needs to be removed.
+11:12 [Info] Loaded plugin VIP Trial v1.3.5 by Maik8
+11:12 [Info] Loaded plugin Vanish v1.8.0 by Whispers88
+11:12 [Info] Loaded plugin Voice Mute v1.0.3 by Tori1157
+11:12 [Info] Loaded plugin Welcomer v2.1.0 by Dana
+11:12 AM [Info] [Discord Extension] [Info]: Discord socket opened!
+11:12 AM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+11:13 [Info] Shutting down compiler because idle shutdown
+11:13 [Info] Compiler shutdown completed
+11:19 [Info] IP address from external API: 10.0.35.2
+11:19 [Info] [Blueprint Manager] Configuration changes saved to BlueprintManager.json
+11:19 [Warning] [Smart Chat Bot] Detected Better Chat. Make sure you enabled it in your configuration.
+11:19 [Info] [Timed Execute] The RealTime timer has started
+11:19 [Info] [Timed Execute] The Repeat timer has started
+11:19 [Info] [Payback] 
+Check out the sequel to this plugin Payback 2! there's a lot more Payback to be had at https://payback.fragmod.com !
+
+11:19 [Info] [Admin Radar] Cached 3572/92821 entities in 3.028035 seconds!
+11:19 [Info] [Image Library] Starting order Kits
+11:30 [Info] [Better Say] SERVER
+ <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+11:30 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+11:49 AM [Warning] [Discord Extension] [Warning]: Discord WebSocket closed with abnormal close code. Code: 1006, reason: An exception has occurred while receiving.
+11:49 AM [Info] [Discord Extension] [Info]: Discord socket opened!
+11:49 AM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+12:00 [Info] [Better Say] SERVER
+ <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+12:00 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+12:06 [Info] [Better Say] SERVER
+ <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+12:06 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+12:15 [Info] [Better Say] SERVER
+ <color=#39FF14>Use</color> <color=orange>/viptrial</color> <color=#39FF14>to get a 7 day VIP trial FREE.</color>
+12:15 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Use</color> <color=orange>/viptrial</color> <color=#39FF14>to get a 7 day VIP trial FREE.</color>
+12:15 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+12:30 [Info] [Better Say] SERVER
+ <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+12:30 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+12:36 [Info] [Better Say] SERVER
+ <color=orange>/info</color> <color=#40E0D0>for server info</color>
+12:36 [Info] [Timed Execute] ran CMD: say <color=orange>/info</color> <color=#40E0D0>for server info</color>
+12:53 [Info] [Better Say] SERVER
+ <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+12:53 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+12:56 [Info] [Better Say] SERVER
+ <color=orange>/pop</color> <color=#40E0D0>for population</color>
+12:56 [Info] [Timed Execute] ran CMD: say <color=orange>/pop</color> <color=#40E0D0>for population</color>
+13:00 [Info] [Better Say] SERVER
+ <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+13:00 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+13:10 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+13:25 [Info] [Automated Events] Spawning Cargo Ship
+13:30 [Info] [Better Say] SERVER
+ <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+13:30 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+13:30 [Info] [Automated Events] Spawning Cargo Plane
+13:36 [Info] [Automated Events] Next CargoPlane event will be ran after 02:28:44
+13:40 [Info] [Better Say] SERVER
+ <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+13:40 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+13:53 [Info] [Better Say] SERVER
+ <color=orange>/info</color> <color=#40E0D0>for server info</color>
+13:53 [Info] [Timed Execute] ran CMD: say <color=orange>/info</color> <color=#40E0D0>for server info</color>
+14:00 [Info] [Better Say] SERVER
+ <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+14:00 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+14:02 [Warning] 'RustCore v2.0.6091' is using deprecated hook 'OnMapMarkerRemove', which will stop working on Sunday, 31 December 2023. Please ask the author to update to 'OnMapMarkerRemove(BasePlayer player, List<MapNote> mapMarker, int index)'
+14:03 [Info] Player 'Alienatedmammal(76561198206232972)' removed from group 'admin'
+14:05 [Info] [CSharp] Started Oxide.Compiler v successfully
+14:05 [Info] MagicImagesPanel was compiled successfully in 1519ms
+14:05 [Info] Unloaded plugin Magic Images Panel v1.0.3 by MJSU
+14:05 [Info] Loaded plugin Magic Images Panel v1.0.3 by MJSU
+14:06 [Info] Player 'Alienatedmammal(76561198206232972)' added to group: vip_trial
+14:06 [Info] [Better Chat] [Global] [vip]  Alienatedmammal: test
+14:06 [Info] Shutting down compiler because idle shutdown
+14:06 [Info] Compiler shutdown completed
+2:14 PM [Info] [Discord Extension] [Info]: Discord has requested a reconnect. Reconnecting...
+2:14 PM [Info] [Discord Extension] [Info]: Discord socket opened!
+2:14 PM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+14:15 [Info] [Better Say] SERVER
+ <color=#39FF14>Use</color> <color=orange>/viptrial</color> <color=#39FF14>to get a 7 day VIP trial FREE.</color>
+14:15 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Use</color> <color=orange>/viptrial</color> <color=#39FF14>to get a 7 day VIP trial FREE.</color>
+14:15 [Info] Group 'admin' players:
+76561197992384542 (Godzilla), 76561198018231506 (Scuba Steve)
+
+Group 'admin' permissions:
+payback.admin, blueprintmanager.admin, adminradar.allowed, adminradar.list, vanish.allow, vanish.unlock, vanish.damage, kits.admin, adminhammer.allow, betterchatflood.bypass, permissionsmanager.allowed, colouredchat.message.show, colouredchat.name.show, colouredchat.name.use, colouredchat.name.setothers, colouredchat.message.use, colouredchat.message.setothers, colouredchat.name.random, colouredchat.name.gradient, colouredchat.message.random, colouredchat.message.rainbow, colouredchat.message.gradient, welcomer.bypass, bettersay.use, skipnightvote.admin, discordreport.admin, betterchat.admin, playerlist.allow, ufilter.bypass, playeradministration.protect.ban, playeradministration.protect.hurt, playeradministration.protect.kick, playeradministration.protect.kill, playeradministration.protect.reset, playeradministration.access.show, playeradministration.access.kick, playeradministration.access.ban, playeradministration.access.kill, playeradministration.access.perms, playeradministration.access.mute, playeradministration.access.allowfreeze, playeradministration.access.clearinventory, playeradministration.access.resetblueprint, playeradministration.access.resetmetabolism, playeradministration.access.recovermetabolism, playeradministration.access.hurt, playeradministration.access.heal, playeradministration.access.teleport, playeradministration.access.spectate, playeradministration.access.detailedinfo, freeze.use, freeze.protect, inventoryviewer.unlock, inventoryviewer.allowed, skins.use, skins.admin, bypassqueue.allow, copypaste.copy, copypaste.list, copypaste.paste, copypaste.pasteback, copypaste.undo, adminnoloot.bypass, buildingskins.use, buildingskins.all, buildingskins.build, buildingskins.admin, buildingskins.autoSkin, smartchatbot.response, bgrade.all, voicemute.mute, voicemute.list, voicemute.unmute, viptrial.admin, backpacks.use, backpacks.admin, backpacks.keepondeath, backpacks.gui, kits.vip, kits.vip_trial, kits.vip1, baserepair.nocost, baserepair.noauth
+14:15 [Info] Player 'Alienatedmammal (76561198206232972)' permissions:
+adminradar.bypass, ufilter.admin, ufilter.bypass, colouredchat.message.show, colouredchat.name.show, smartchatbot.response, viptrial.allowed, Oxide.plugins, colouredchat.name.use, buildingskins.use, buildingskins.build, bgrade.all, bypassqueue.allow, skins.use
+
+Player 'Alienatedmammal (76561198206232972)' groups:
+default, vip_trial
+14:15 [Info] Group 'vip_trial' granted permission 'backpacks.gui'
+14:15 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+14:15 [Info] Group 'vip_trial' granted permission 'backpacks.use'
+14:16 [Info] Player 'Alienatedmammal (76561198206232972)' permissions:
+adminradar.bypass, ufilter.admin, ufilter.bypass, colouredchat.message.show, colouredchat.name.show, smartchatbot.response, viptrial.allowed, Oxide.plugins, colouredchat.name.use, buildingskins.use, buildingskins.build, bgrade.all, bypassqueue.allow, skins.use, backpacks.gui, backpacks.use
+
+Player 'Alienatedmammal (76561198206232972)' groups:
+default, vip_trial
+14:26 [Info] [Automated Events] Next CargoShip event will be ran after 02:23:32
+14:27 [Info] [Better Say] SERVER
+ <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+14:27 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+14:30 [Info] [Better Say] SERVER
+ <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+14:30 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+14:32 [Info] [Automated Events] Spawning Helicopter
+14:32 [Error] [Automated Events] Helicopter prefab does not exist. Please notify the plugin developer
+14:33 [Info] [Better Say] SERVER
+ <color=orange>/pop</color> <color=#40E0D0>for population</color>
+14:33 [Info] [Timed Execute] ran CMD: say <color=orange>/pop</color> <color=#40E0D0>for population</color>
+14:38 [Info] Player 'Alienatedmammal(76561198206232972)' added to group: admin
+14:51 [Info] [Automated Events] Spawning Chinook
+2:59 PM [Info] [Discord Extension] [Info]: Discord has requested a reconnect. Reconnecting...
+2:59 PM [Info] [Discord Extension] [Info]: Discord socket opened!
+2:59 PM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+15:00 [Info] [Better Say] SERVER
+ <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+15:00 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+15:11 [Info] [Better Say] SERVER
+ <color=orange>/info</color> <color=#40E0D0>for server info</color>
+15:11 [Info] [Timed Execute] ran CMD: say <color=orange>/info</color> <color=#40E0D0>for server info</color>
+15:14 [Info] [Automated Events] Next Chinook event will be ran after 03:31:05
+15:14 [Info] [Better Say] SERVER
+ <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+15:14 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+15:17 [Info] [Welcomer] the_funky_monk joined for the very first time from United Kingdom
+15:30 [Info] [Better Say] SERVER
+ <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+15:30 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+15:31 [Info] Player 'Alienatedmammal (76561198206232972)' permissions:
+adminradar.bypass, ufilter.admin, ufilter.bypass, colouredchat.message.show, colouredchat.name.show, smartchatbot.response, viptrial.allowed, Oxide.plugins, colouredchat.name.use, buildingskins.use, buildingskins.build, bgrade.all, bypassqueue.allow, skins.use, backpacks.gui, backpacks.use, payback.admin, blueprintmanager.admin, adminradar.allowed, adminradar.list, vanish.allow, vanish.unlock, vanish.damage, kits.admin, adminhammer.allow, betterchatflood.bypass, permissionsmanager.allowed, colouredchat.name.setothers, colouredchat.message.use, colouredchat.message.setothers, colouredchat.name.random, colouredchat.name.gradient, colouredchat.message.random, colouredchat.message.rainbow, colouredchat.message.gradient, welcomer.bypass, bettersay.use, skipnightvote.admin, discordreport.admin, betterchat.admin, playerlist.allow, playeradministration.protect.ban, playeradministration.protect.hurt, playeradministration.protect.kick, playeradministration.protect.kill, playeradministration.protect.reset, playeradministration.access.show, playeradministration.access.kick, playeradministration.access.ban, playeradministration.access.kill, playeradministration.access.perms, playeradministration.access.mute, playeradministration.access.allowfreeze, playeradministration.access.clearinventory, playeradministration.access.resetblueprint, playeradministration.access.resetmetabolism, playeradministration.access.recovermetabolism, playeradministration.access.hurt, playeradministration.access.heal, playeradministration.access.teleport, playeradministration.access.spectate, playeradministration.access.detailedinfo, freeze.use, freeze.protect, inventoryviewer.unlock, inventoryviewer.allowed, skins.admin, copypaste.copy, copypaste.list, copypaste.paste, copypaste.pasteback, copypaste.undo, adminnoloot.bypass, buildingskins.all, buildingskins.admin, buildingskins.autoSkin, voicemute.mute, voicemute.list, voicemute.unmute, viptrial.admin, backpacks.admin, backpacks.keepondeath, kits.vip, kits.vip_trial, kits.vip1, baserepair.nocost, baserepair.noauth
+
+Player 'Alienatedmammal (76561198206232972)' groups:
+default, vip_trial, admin
+15:31 [Info] Player 'Alienatedmammal(76561198206232972)' removed from group 'vip_trial'
+15:40 [Warning] 'RustCore v2.0.6091' is using deprecated hook 'OnMapMarkerRemove', which will stop working on Sunday, 31 December 2023. Please ask the author to update to 'OnMapMarkerRemove(BasePlayer player, List<MapNote> mapMarker, int index)'
+15:43 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+15:55 [Info] [Better Say] SERVER
+ Just added Legacy Wood Shelter to \"The Beginner\" Kit
+16:00 [Info] [Better Say] SERVER
+ <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+16:00 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+16:02 [Info] [Better Say] SERVER
+ <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+16:02 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+16:04 [Info] [Automated Events] Spawning Cargo Plane
+16:10 [Info] [Better Say] SERVER
+ <color=orange>/pop</color> <color=#40E0D0>for population</color>
+16:10 [Info] [Timed Execute] ran CMD: say <color=orange>/pop</color> <color=#40E0D0>for population</color>
+16:10 [Info] [Automated Events] Next CargoPlane event will be ran after 02:17:04
+16:15 [Info] [Better Say] SERVER
+ <color=#39FF14>Use</color> <color=orange>/viptrial</color> <color=#39FF14>to get a 7 day VIP trial FREE.</color>
+16:15 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Use</color> <color=orange>/viptrial</color> <color=#39FF14>to get a 7 day VIP trial FREE.</color>
+16:19 [Info] [Better Chat] [Global] Alienatedmammal: :rustrocket:
+16:28 [Info] [Better Say] SERVER
+ <color=orange>/info</color> <color=#40E0D0>for server info</color>
+16:28 [Info] [Timed Execute] ran CMD: say <color=orange>/info</color> <color=#40E0D0>for server info</color>
+16:30 [Info] [Better Say] SERVER
+ <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+16:30 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+16:42 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+16:44 [Warning] 'RustCore v2.0.6091' is using deprecated hook 'OnMapMarkerRemove', which will stop working on Sunday, 31 December 2023. Please ask the author to update to 'OnMapMarkerRemove(BasePlayer player, List<MapNote> mapMarker, int index)'
+16:49 [Info] [Better Say] SERVER
+ <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+16:49 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+16:49 [Info] [Automated Events] Spawning Cargo Ship
+17:00 [Info] [Better Say] SERVER
+ <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+17:00 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+17:15 [Info] [Better Say] SERVER
+ <color=#39FF14>Use</color> <color=orange>/viptrial</color> <color=#39FF14>to get a 7 day VIP trial FREE.</color>
+17:15 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Use</color> <color=orange>/viptrial</color> <color=#39FF14>to get a 7 day VIP trial FREE.</color>
+17:30 [Info] [Better Say] SERVER
+ <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+17:30 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+17:36 [Info] [Better Say] SERVER
+ <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+17:36 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+5:37 PM [Info] [Discord Extension] [Info]: Discord has requested a reconnect. Reconnecting...
+5:37 PM [Info] [Discord Extension] [Info]: Discord socket opened!
+5:37 PM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+17:45 [Info] [Better Say] SERVER
+ <color=orange>/info</color> <color=#40E0D0>for server info</color>
+17:45 [Info] [Timed Execute] ran CMD: say <color=orange>/info</color> <color=#40E0D0>for server info</color>
+17:47 [Info] [Better Say] SERVER
+ <color=orange>/pop</color> <color=#40E0D0>for population</color>
+17:47 [Info] [Timed Execute] ran CMD: say <color=orange>/pop</color> <color=#40E0D0>for population</color>
+17:49 [Info] [Automated Events] Next CargoShip event will be ran after 02:01:36
+17:52 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+18:00 [Info] [Better Say] SERVER
+ <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+18:00 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+6:12 PM [Info] [Discord Extension] [Info]: Discord has requested a reconnect. Reconnecting...
+6:12 PM [Info] [Discord Extension] [Info]: Discord socket opened!
+6:12 PM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+18:21 [Info] Listing 47 plugins:
+  01 "Admin AntiHack Fix" (1.0.0) by Solarix (0.00s) - AdminAntiHackFix.cs
+  02 "AdminHammer" (1.13.0) by mvrb (0.00s) - AdminHammer.cs
+  03 "Admin No Loot" (0.1.3) by Dana (0.02s) - AdminNoLoot.cs
+  04 "Admin Radar" (5.3.2) by nivex (0.51s) - AdminRadar.cs
+  05 "Automated Events" (1.0.11) by k1lly0u/mspeedie/Arainrr (0.41s) - AutomatedEvents.cs
+  06 "BGrade" (1.1.5) by Ryan / Rustoria.co (0.13s) - BGrade.cs
+  07 "Backpacks" (3.13.3) by WhiteThunder (0.19s) - Backpacks.cs
+  08 "Ban Delete By" (1.0.4) by Ryan (0.00s) - BanDeleteBy.cs
+  09 "Better Chat" (5.2.12) by LaserHydra (0.02s) - BetterChat.cs
+  10 "BetterChatFlood" (1.0.5) by Ryan (0.00s) - BetterChatFlood.cs
+  11 "Better Say" (3.0.1) by LaserHydra (0.04s) - BetterSay.cs
+  12 "Blueprint Manager" (2.0.6) by Whispers88 (0.02s) - BlueprintManager.cs
+  13 "Bodies to Bags" (2.0.0) by Ryan (0.19s) - BodiesToBags.cs
+  14 "Building Skins" (2.0.1) by Marat (0.04s) - BuildingSkins.cs
+  15 "Bypass Queue" (1.0.4) by Orange (0.00s) - BypassQueue.cs
+  16 "Coloured Chat" (2.2.7) by collect_vood (0.01s) - ColouredChat.cs
+  17 "Copy Paste" (4.1.37) by misticos (0.01s) - CopyPaste.cs
+  18 "Custom Icon" (1.0.4) by collect_vood (0.13s) - CustomIcon.cs
+  19 "Discord Report" (1.2.0) by misticos (0.01s) - DiscordReport.cs
+  20 "Discord Status" (4.0.1) by Gonzi (0.78s) - DiscordStatus.cs
+  21 "Firework Gun" (1.1.0) by k1lly0u and Kusha (3.14s) - FireworkGun.cs
+  22 "Freeze" (3.0.3) by Wulf (4.59s) - Freeze.cs
+  23 "Image Library" (2.0.62) by Absolut & K1lly0u (0.02s) - ImageLibrary.cs
+  24 "Infinite Ammo" (1.3.0) by collect_vood & Mughisi (0.01s) - InfiniteAmmo.cs
+  25 "Inventory Viewer" (4.0.6) by Whispers88 (0.01s) - InventoryViewer.cs
+  26 "Kits" (4.4.0) by k1lly0u (0.12s) - Kits.cs
+  27 "Loading Messages" (1.0.9) by CosaNostra/Def/klauz24 (0.02s) - LoadingMessages.cs
+  28 "Magic Images Panel" (1.0.3) by MJSU (0.00s) - MagicImagesPanel.cs
+  29 "Magic Message Panel" (1.2.1) by MJSU (0.01s) - MagicMessagePanel.cs
+  30 "Magic Panel" (1.0.8) by MJSU (0.02s) - MagicPanel.cs
+  31 "No Give Notices" (0.3.0) by Wulf (0.01s) - NoGiveNotices.cs
+  32 "Payback" (2.0.9) by 1928Tommygun (0.36s) - Payback.cs
+  33 "PermissionsManager" (2.0.9) by Steenamaroo (0.02s) - PermissionsManager.cs
+  34 "PlayerAdministration" (1.6.8) by ThibmoRozier (0.14s) - PlayerAdministration.cs
+  35 "Rustcord" (3.3.2) by Kirollos & OuTSMoKE (1.04s) - Rustcord.cs
+  36 "Server Info" (0.5.8) by FastBurst (0.05s) - ServerInfo.cs
+  37 "ServerPop" (1.0.0) by Mabel (0.00s) - ServerPop.cs
+  38 "Skins" (2.2.3) by misticos (0.56s) - Skins.cs
+  39 "SkipNightVote" (0.1.4) by k1lly0u (0.04s) - SkipNightVote.cs
+  40 "Smart Chat Bot" (2.0.13) by Iv Misticos (0.01s) - SmartChatBot.cs
+  41 "TimeOfDay" (2.3.4) by FuJiCuRa (0.00s) - TimeOfDay.cs
+  42 "Timed Execute" (0.7.4) by PaiN & misticos (1.79s) - TimedExecute.cs
+  43 "UFilter" (5.1.2) by Wulf/lukespragg (0.01s) - UFilter.cs
+  44 "VIP Trial" (1.3.5) by Maik8 (0.00s) - VIPTrial.cs
+  45 "Vanish" (1.8.0) by Whispers88 (0.04s) - Vanish.cs
+  46 "Voice Mute" (1.0.3) by Tori1157 (0.01s) - VoiceMute.cs
+  47 "Welcomer" (2.1.0) by Dana (0.01s) - Welcomer.cs
+18:23 [Info] [Better Say] SERVER
+ <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+18:23 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+18:27 [Info] [Automated Events] Spawning FancyDrop
+18:30 [Info] [Better Say] SERVER
+ <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+18:30 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+18:45 [Info] [Automated Events] Spawning Chinook
+19:00 [Info] [Better Say] SERVER
+ <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+19:00 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+19:02 [Info] [Better Say] SERVER
+ <color=orange>/info</color> <color=#40E0D0>for server info</color>
+19:02 [Info] [Timed Execute] ran CMD: say <color=orange>/info</color> <color=#40E0D0>for server info</color>
+19:10 [Info] [Better Say] SERVER
+ <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+19:10 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+19:13 [Warning] [Automated Events] The number of Chinook vanilla events has reached the limit of 1
+19:15 [Info] [Better Say] SERVER
+ <color=#39FF14>Use</color> <color=orange>/viptrial</color> <color=#39FF14>to get a 7 day VIP trial FREE.</color>
+19:15 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Use</color> <color=orange>/viptrial</color> <color=#39FF14>to get a 7 day VIP trial FREE.</color>
+19:16 [Info] [Automated Events] Next Chinook event will be ran after 04:34:40
+19:21 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+19:24 [Info] [Better Say] SERVER
+ <color=orange>/pop</color> <color=#40E0D0>for population</color>
+19:24 [Info] [Timed Execute] ran CMD: say <color=orange>/pop</color> <color=#40E0D0>for population</color>
+19:30 [Info] [Better Say] SERVER
+ <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+19:30 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+7:36 PM [Info] [Discord Extension] [Info]: Discord has requested a reconnect. Reconnecting...
+7:36 PM [Info] [Discord Extension] [Info]: Discord socket opened!
+7:36 PM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+19:51 [Warning] [Automated Events] The number of CargoShip auto events has reached the limit of 1
+19:57 [Info] [Better Say] SERVER
+ <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+19:57 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+20:00 [Info] [Better Say] SERVER
+ <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+20:00 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+20:15 [Info] [Better Say] SERVER
+ <color=#39FF14>Use</color> <color=orange>/viptrial</color> <color=#39FF14>to get a 7 day VIP trial FREE.</color>
+20:15 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Use</color> <color=orange>/viptrial</color> <color=#39FF14>to get a 7 day VIP trial FREE.</color>
+20:19 [Info] [Better Say] SERVER
+ <color=orange>/info</color> <color=#40E0D0>for server info</color>
+20:19 [Info] [Timed Execute] ran CMD: say <color=orange>/info</color> <color=#40E0D0>for server info</color>
+20:28 [Info] [Automated Events] Spawning FancyDrop
+20:29 [Warning] 'RustCore v2.0.6091' is using deprecated hook 'OnMapMarkerRemove', which will stop working on Sunday, 31 December 2023. Please ask the author to update to 'OnMapMarkerRemove(BasePlayer player, List<MapNote> mapMarker, int index)'
+20:30 [Info] [Better Say] SERVER
+ <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+20:30 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+20:44 [Info] [Better Say] SERVER
+ <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+20:44 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+20:48 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+21:00 [Info] [Better Say] SERVER
+ <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+21:00 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+21:01 [Info] [Better Say] SERVER
+ <color=orange>/pop</color> <color=#40E0D0>for population</color>
+21:01 [Info] [Timed Execute] ran CMD: say <color=orange>/pop</color> <color=#40E0D0>for population</color>
+21:15 [Info] [Better Say] SERVER
+ <color=#39FF14>Use</color> <color=orange>/viptrial</color> <color=#39FF14>to get a 7 day VIP trial FREE.</color>
+21:15 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Use</color> <color=orange>/viptrial</color> <color=#39FF14>to get a 7 day VIP trial FREE.</color>
+21:29 [Warning] 'RustCore v2.0.6091' is using deprecated hook 'OnMapMarkerRemove', which will stop working on Sunday, 31 December 2023. Please ask the author to update to 'OnMapMarkerRemove(BasePlayer player, List<MapNote> mapMarker, int index)'
+21:30 [Info] [Better Say] SERVER
+ <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+21:30 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+21:31 [Info] [Better Say] SERVER
+ <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+21:31 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+21:36 [Info] [Better Say] SERVER
+ <color=orange>/info</color> <color=#40E0D0>for server info</color>
+21:36 [Info] [Timed Execute] ran CMD: say <color=orange>/info</color> <color=#40E0D0>for server info</color>
+21:51 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+22:00 [Info] [Better Say] SERVER
+ <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+22:00 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+22:11 [Info] [Automated Events] Spawning Cargo Ship
+22:15 [Info] [Better Say] SERVER
+ <color=#39FF14>Use</color> <color=orange>/viptrial</color> <color=#39FF14>to get a 7 day VIP trial FREE.</color>
+22:15 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Use</color> <color=orange>/viptrial</color> <color=#39FF14>to get a 7 day VIP trial FREE.</color>
+22:18 [Info] [Better Say] SERVER
+ <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+22:18 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+22:30 [Info] [Better Say] SERVER
+ <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+22:30 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+10:30 PM [Warning] [Discord Extension] [Warning]: Discord WebSocket closed with abnormal close code. Code: 1006, reason: An exception has occurred while receiving.
+10:30 PM [Info] [Discord Extension] [Info]: Discord socket opened!
+10:30 PM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+22:38 [Info] [Better Say] SERVER
+ <color=orange>/pop</color> <color=#40E0D0>for population</color>
+22:38 [Info] [Timed Execute] ran CMD: say <color=orange>/pop</color> <color=#40E0D0>for population</color>
+22:47 [Info] [Automated Events] Spawning Cargo Plane
+22:52 [Info] [Automated Events] Next CargoPlane event will be ran after 02:09:15
+22:53 [Info] [Better Say] SERVER
+ <color=orange>/info</color> <color=#40E0D0>for server info</color>
+22:53 [Info] [Timed Execute] ran CMD: say <color=orange>/info</color> <color=#40E0D0>for server info</color>
+23:00 [Info] [Better Say] SERVER
+ <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+23:00 [Info] [Timed Execute] ran CMD: say <color=#39FF14>Team Limit of 4</color> <color=#40E0D0>No alliances. Do not raid, roam, or farm with more than 4. No more than 4 authed or bagged in your base. No hopping. Team changes are permanent for wipe. Clear auths/reset codes/break bags BEFORE team changes or base giveaways. You may be non KoS and trade. Zero tolerance for racism. See discord or</color> <color=orange>/info</color> <color=#40E0D0> for full rules. ESC> View webpage</color>
+23:05 [Info] [Better Say] SERVER
+ <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+23:05 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+23:11 [Info] [Automated Events] Next CargoShip event will be ran after 02:19:47
+23:11 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+11:22 PM [Info] [Discord Extension] [Info]: Discord has requested a reconnect. Reconnecting...
+11:22 PM [Info] [Discord Extension] [Info]: Discord socket opened!
+11:22 PM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+23:30 [Info] [Better Say] SERVER
+ <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+23:30 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Use</color> <color=orange>F7</color> <color=#40E0D0>and</color> <color=orange>/report</color>  <color=#40E0D0>to report a player and open a ticket in our discord. Keep all accusations out of chat. ESC> To View Webpage</color>
+11:44 PM [Info] [Discord Extension] [Info]: Discord has requested a reconnect. Reconnecting...
+11:44 PM [Info] [Discord Extension] [Info]: Discord socket opened!
+11:44 PM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+23:51 [Info] [Automated Events] Spawning Chinook
+23:52 [Info] [Better Say] SERVER
+ <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>
+23:52 [Info] [Timed Execute] ran CMD: say <color=#40E0D0>Join our Discord discord.gg/hQXFYgtrzZ</color>

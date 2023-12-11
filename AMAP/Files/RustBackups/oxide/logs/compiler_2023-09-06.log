@@ -1,0 +1,139 @@
+(03:10:18.2807)[Debug] Application[1]: Configured file logging for 'Debug' and higher to /home/alienatedmammal/serverfiles/oxide/logs/compiler_2023-09-06.log
+(03:10:18.3170)[Info] Application[1]: Watching parent process ([350669] RustDedicated) for shutdown
+(03:10:18.3209)[Debug] Application[1]: Hooked into standard input/output for interprocess communication
+(03:10:18.3209)[Info] Application[1]: Compiler startup complete
+(03:10:20.5687)[Debug] CSharpLanguage[1]: C# for .NETCoreApp,Version=v7.0 Initialized!
+(03:10:20.5687)[Debug] Application[4]: Starting compile job 0
+(03:10:20.5687)[Info] CSharpLanguage[4]: ====== Compilation Job 0 ======
+(03:10:20.5924)[Debug] CSharpLanguage[4]: Encoding: utf-8, Target: Preview, Output: DynamicallyLinkedLibrary, Optimize: True
+== Source Files (44) ==
+[13955] /home/alienatedmammal/serverfiles/oxide/plugins/Welcomer.cs, [32029] /home/alienatedmammal/serverfiles/oxide/plugins/Vanish.cs, [17059] /home/alienatedmammal/serverfiles/oxide/plugins/UFilter.cs, [7878] /home/alienatedmammal/serverfiles/oxide/plugins/TimedExecute.cs, [11301] /home/alienatedmammal/serverfiles/oxide/plugins/TimeOfDay.cs, [26380] /home/alienatedmammal/serverfiles/oxide/plugins/SmartChatBot.cs, [11302] /home/alienatedmammal/serverfiles/oxide/plugins/SkipNightVote.cs, [44134] /home/alienatedmammal/serverfiles/oxide/plugins/Skins.cs, [798] /home/alienatedmammal/serverfiles/oxide/plugins/ServerPop.cs, [42965] /home/alienatedmammal/serverfiles/oxide/plugins/ServerInfo.cs, [257292] /home/alienatedmammal/serverfiles/oxide/plugins/Rustcord.cs, [191574] /home/alienatedmammal/serverfiles/oxide/plugins/PlayerAdministration.cs, [75326] /home/alienatedmammal/serverfiles/oxide/plugins/PermissionsManager.cs, [175960] /home/alienatedmammal/serverfiles/oxide/plugins/Payback.cs, [466] /home/alienatedmammal/serverfiles/oxide/plugins/NoGiveNotices.cs, [45930] /home/alienatedmammal/serverfiles/oxide/plugins/MagicPanel.cs, [14678] /home/alienatedmammal/serverfiles/oxide/plugins/MagicMessagePanel.cs, [7786] /home/alienatedmammal/serverfiles/oxide/plugins/MagicImagesPanel.cs, [9810] /home/alienatedmammal/serverfiles/oxide/plugins/LoadingMessages.cs, [146730] /home/alienatedmammal/serverfiles/oxide/plugins/Kits.cs, [19145] /home/alienatedmammal/serverfiles/oxide/plugins/InventoryViewer.cs, [6223] /home/alienatedmammal/serverfiles/oxide/plugins/InfiniteAmmo.cs, [53120] /home/alienatedmammal/serverfiles/oxide/plugins/ImageLibrary.cs, [15463] /home/alienatedmammal/serverfiles/oxide/plugins/Freeze.cs, [2644] /home/alienatedmammal/serverfiles/oxide/plugins/FireworkGun.cs, [14405] /home/alienatedmammal/serverfiles/oxide/plugins/DiscordStatus.cs, [23327] /home/alienatedmammal/serverfiles/oxide/plugins/DiscordReport.cs, [2133] /home/alienatedmammal/serverfiles/oxide/plugins/CustomIcon.cs, [128825] /home/alienatedmammal/serverfiles/oxide/plugins/CopyPaste.cs, [57063] /home/alienatedmammal/serverfiles/oxide/plugins/ColouredChat.cs, [725] /home/alienatedmammal/serverfiles/oxide/plugins/BypassQueue.cs, [40680] /home/alienatedmammal/serverfiles/oxide/plugins/BuildingSkins.cs, [1989] /home/alienatedmammal/serverfiles/oxide/plugins/BodiesToBags.cs, [21296] /home/alienatedmammal/serverfiles/oxide/plugins/BlueprintManager.cs, [3068] /home/alienatedmammal/serverfiles/oxide/plugins/BetterSay.cs, [4599] /home/alienatedmammal/serverfiles/oxide/plugins/BetterChatFlood.cs, [40440] /home/alienatedmammal/serverfiles/oxide/plugins/BetterChat.cs, [1928] /home/alienatedmammal/serverfiles/oxide/plugins/BanDeleteBy.cs, [26793] /home/alienatedmammal/serverfiles/oxide/plugins/BGrade.cs, [65409] /home/alienatedmammal/serverfiles/oxide/plugins/AutomatedEvents.cs, [197337] /home/alienatedmammal/serverfiles/oxide/plugins/AdminRadar.cs, [4663] /home/alienatedmammal/serverfiles/oxide/plugins/AdminNoLoot.cs, [18950] /home/alienatedmammal/serverfiles/oxide/plugins/AdminHammer.cs, [529] /home/alienatedmammal/serverfiles/oxide/plugins/AdminAntiHackFix.cs
+== Reference Files (56) ==
+[4623360] mscorlib.dll, [189440] Oxide.Core.dll, [100864] Oxide.CSharp.dll, [2651648] System.dll, [1115136] System.Core.dll, [2081280] System.Data.dll, [3160064] System.Xml.dll, [1419264] Oxide.References.dll, [20480] Oxide.MySql.dll, [443392] MySql.Data.dll, [20992] Oxide.SQLite.dll, [286720] System.Data.SQLite.dll, [10240] Oxide.Unity.dll, [101376] UnityEngine.dll, [93696] Oxide.Rust.dll, [55808] Facepunch.System.dll, [4485632] Assembly-CSharp.dll, [20992] Facepunch.Console.dll, [1264128] UnityEngine.CoreModule.dll, [42496] Facepunch.Network.dll, [15360] Rust.Platform.Common.dll, [1018368] Rust.Data.dll, [28672] UnityEngine.TextRenderingModule.dll, [224256] UnityEngine.UI.dll, [70144] Rust.Global.dll, [556032] Facepunch.Steamworks.Posix.dll, [111616] Facepunch.UnityEngine.dll, [1328128] Assembly-CSharp-firstpass.dll, [67584] Facepunch.Unity.dll, [16896] Rust.FileSystem.dll, [9216] Rust.Clans.dll, [50176] Rust.Clans.Local.dll, [4096] Rust.Localization.dll, [5632] Rust.Platform.dll, [21504] Rust.Platform.Steam.dll, [433152] Rust.Workshop.dll, [10240] Rust.World.dll, [481280] System.Drawing.dll, [46080] UnityEngine.AIModule.dll, [23040] UnityEngine.AssetBundleModule.dll, [14336] UnityEngine.GridModule.dll, [13824] UnityEngine.ImageConversionModule.dll, [104448] UnityEngine.PhysicsModule.dll, [88064] UnityEngine.TerrainModule.dll, [10240] UnityEngine.TerrainPhysicsModule.dll, [25600] UnityEngine.UIModule.dll, [1205248] UnityEngine.UIElementsModule.dll, [12288] UnityEngine.UnityWebRequestAudioModule.dll, [46592] UnityEngine.UnityWebRequestModule.dll, [11776] UnityEngine.UnityWebRequestTextureModule.dll, [20992] UnityEngine.UnityWebRequestWWWModule.dll, [13312] UnityEngine.VehiclesModule.dll, [90624] netstandard.dll, [381440] Oxide.Ext.Discord.dll, [16384] Facepunch.Sqlite.dll, [22016] UnityEngine.SharedInternalsModule.dll
+
+(03:10:20.5924)[Debug] CSharpLanguage[4]: Adding project reference: mscorlib.dll
+(03:10:20.6010)[Debug] CSharpLanguage[4]: Adding project reference: Oxide.Core.dll
+(03:10:20.6010)[Debug] CSharpLanguage[4]: Adding project reference: Oxide.CSharp.dll
+(03:10:20.6010)[Debug] CSharpLanguage[4]: Adding project reference: System.dll
+(03:10:20.6031)[Debug] CSharpLanguage[4]: Adding project reference: System.Core.dll
+(03:10:20.6031)[Debug] CSharpLanguage[4]: Adding project reference: System.Data.dll
+(03:10:20.6031)[Debug] CSharpLanguage[4]: Adding project reference: System.Xml.dll
+(03:10:20.6071)[Debug] CSharpLanguage[4]: Adding project reference: Oxide.References.dll
+(03:10:20.6071)[Debug] CSharpLanguage[4]: Adding project reference: Oxide.MySql.dll
+(03:10:20.6071)[Debug] CSharpLanguage[4]: Adding project reference: MySql.Data.dll
+(03:10:20.6071)[Debug] CSharpLanguage[4]: Adding project reference: Oxide.SQLite.dll
+(03:10:20.6071)[Debug] CSharpLanguage[4]: Adding project reference: System.Data.SQLite.dll
+(03:10:20.6071)[Debug] CSharpLanguage[4]: Adding project reference: Oxide.Unity.dll
+(03:10:20.6071)[Debug] CSharpLanguage[4]: Adding project reference: UnityEngine.dll
+(03:10:20.6071)[Debug] CSharpLanguage[4]: Adding project reference: Oxide.Rust.dll
+(03:10:20.6071)[Debug] CSharpLanguage[4]: Adding project reference: Facepunch.System.dll
+(03:10:20.6071)[Debug] CSharpLanguage[4]: Adding project reference: Assembly-CSharp.dll
+(03:10:20.6117)[Debug] CSharpLanguage[4]: Adding project reference: Facepunch.Console.dll
+(03:10:20.6117)[Debug] CSharpLanguage[4]: Adding project reference: UnityEngine.CoreModule.dll
+(03:10:20.6117)[Debug] CSharpLanguage[4]: Adding project reference: Facepunch.Network.dll
+(03:10:20.6117)[Debug] CSharpLanguage[4]: Adding project reference: Rust.Platform.Common.dll
+(03:10:20.6117)[Debug] CSharpLanguage[4]: Adding project reference: Rust.Data.dll
+(03:10:20.6117)[Debug] CSharpLanguage[4]: Adding project reference: UnityEngine.TextRenderingModule.dll
+(03:10:20.6117)[Debug] CSharpLanguage[4]: Adding project reference: UnityEngine.UI.dll
+(03:10:20.6117)[Debug] CSharpLanguage[4]: Adding project reference: Rust.Global.dll
+(03:10:20.6117)[Debug] CSharpLanguage[4]: Adding project reference: Facepunch.Steamworks.Posix.dll
+(03:10:20.6117)[Debug] CSharpLanguage[4]: Adding project reference: Facepunch.UnityEngine.dll
+(03:10:20.6117)[Debug] CSharpLanguage[4]: Adding project reference: Assembly-CSharp-firstpass.dll
+(03:10:20.6150)[Debug] CSharpLanguage[4]: Adding project reference: Facepunch.Unity.dll
+(03:10:20.6150)[Debug] CSharpLanguage[4]: Adding project reference: Rust.FileSystem.dll
+(03:10:20.6150)[Debug] CSharpLanguage[4]: Adding project reference: Rust.Clans.dll
+(03:10:20.6150)[Debug] CSharpLanguage[4]: Adding project reference: Rust.Clans.Local.dll
+(03:10:20.6150)[Debug] CSharpLanguage[4]: Adding project reference: Rust.Localization.dll
+(03:10:20.6150)[Debug] CSharpLanguage[4]: Adding project reference: Rust.Platform.dll
+(03:10:20.6150)[Debug] CSharpLanguage[4]: Adding project reference: Rust.Platform.Steam.dll
+(03:10:20.6150)[Debug] CSharpLanguage[4]: Adding project reference: Rust.Workshop.dll
+(03:10:20.6150)[Debug] CSharpLanguage[4]: Adding project reference: Rust.World.dll
+(03:10:20.6150)[Debug] CSharpLanguage[4]: Adding project reference: System.Drawing.dll
+(03:10:20.6150)[Debug] CSharpLanguage[4]: Adding project reference: UnityEngine.AIModule.dll
+(03:10:20.6150)[Debug] CSharpLanguage[4]: Adding project reference: UnityEngine.AssetBundleModule.dll
+(03:10:20.6150)[Debug] CSharpLanguage[4]: Adding project reference: UnityEngine.GridModule.dll
+(03:10:20.6150)[Debug] CSharpLanguage[4]: Adding project reference: UnityEngine.ImageConversionModule.dll
+(03:10:20.6150)[Debug] CSharpLanguage[4]: Adding project reference: UnityEngine.PhysicsModule.dll
+(03:10:20.6150)[Debug] CSharpLanguage[4]: Adding project reference: UnityEngine.TerrainModule.dll
+(03:10:20.6150)[Debug] CSharpLanguage[4]: Adding project reference: UnityEngine.TerrainPhysicsModule.dll
+(03:10:20.6150)[Debug] CSharpLanguage[4]: Adding project reference: UnityEngine.UIModule.dll
+(03:10:20.6150)[Debug] CSharpLanguage[4]: Adding project reference: UnityEngine.UIElementsModule.dll
+(03:10:20.6150)[Debug] CSharpLanguage[4]: Adding project reference: UnityEngine.UnityWebRequestAudioModule.dll
+(03:10:20.6150)[Debug] CSharpLanguage[4]: Adding project reference: UnityEngine.UnityWebRequestModule.dll
+(03:10:20.6150)[Debug] CSharpLanguage[4]: Adding project reference: UnityEngine.UnityWebRequestTextureModule.dll
+(03:10:20.6150)[Debug] CSharpLanguage[4]: Adding project reference: UnityEngine.UnityWebRequestWWWModule.dll
+(03:10:20.6150)[Debug] CSharpLanguage[4]: Adding project reference: UnityEngine.VehiclesModule.dll
+(03:10:20.6150)[Debug] CSharpLanguage[4]: Adding project reference: netstandard.dll
+(03:10:20.6150)[Debug] CSharpLanguage[4]: Adding project reference: Oxide.Ext.Discord.dll
+(03:10:20.6150)[Debug] CSharpLanguage[4]: Adding project reference: Facepunch.Sqlite.dll
+(03:10:20.6150)[Debug] CSharpLanguage[4]: Adding project reference: UnityEngine.SharedInternalsModule.dll
+(03:10:20.6216)[Debug] CSharpLanguage[4]: Parsing source files using C# Preview with encoding utf-8
+(03:10:20.7850)[Debug] CSharpLanguage[4]: Added C# file Welcomer.cs to the project
+(03:10:20.8064)[Debug] CSharpLanguage[4]: Added C# file Vanish.cs to the project
+(03:10:20.8361)[Debug] CSharpLanguage[4]: Added C# file UFilter.cs to the project
+(03:10:20.8407)[Debug] CSharpLanguage[4]: Added C# file TimedExecute.cs to the project
+(03:10:20.8447)[Debug] CSharpLanguage[4]: Added C# file TimeOfDay.cs to the project
+(03:10:20.8625)[Debug] CSharpLanguage[4]: Added C# file SmartChatBot.cs to the project
+(03:10:20.8656)[Debug] CSharpLanguage[4]: Added C# file SkipNightVote.cs to the project
+(03:10:20.8775)[Debug] CSharpLanguage[4]: Added C# file Skins.cs to the project
+(03:10:20.8775)[Debug] CSharpLanguage[4]: Added C# file ServerPop.cs to the project
+(03:10:20.8841)[Debug] CSharpLanguage[4]: Added C# file ServerInfo.cs to the project
+(03:10:20.9227)[Debug] CSharpLanguage[4]: Added C# file Rustcord.cs to the project
+(03:10:20.9858)[Debug] CSharpLanguage[4]: Added C# file PlayerAdministration.cs to the project
+(03:10:21.0215)[Debug] CSharpLanguage[4]: Added C# file PermissionsManager.cs to the project
+(03:10:21.0488)[Debug] CSharpLanguage[4]: Added C# file Payback.cs to the project
+(03:10:21.0488)[Debug] CSharpLanguage[4]: Added C# file NoGiveNotices.cs to the project
+(03:10:21.0576)[Debug] CSharpLanguage[4]: Added C# file MagicPanel.cs to the project
+(03:10:21.0600)[Debug] CSharpLanguage[4]: Added C# file MagicMessagePanel.cs to the project
+(03:10:21.0600)[Debug] CSharpLanguage[4]: Added C# file MagicImagesPanel.cs to the project
+(03:10:21.0642)[Debug] CSharpLanguage[4]: Added C# file LoadingMessages.cs to the project
+(03:10:21.0941)[Debug] CSharpLanguage[4]: Added C# file Kits.cs to the project
+(03:10:21.0978)[Debug] CSharpLanguage[4]: Added C# file InventoryViewer.cs to the project
+(03:10:21.0990)[Debug] CSharpLanguage[4]: Added C# file InfiniteAmmo.cs to the project
+(03:10:21.1092)[Debug] CSharpLanguage[4]: Added C# file ImageLibrary.cs to the project
+(03:10:21.1120)[Debug] CSharpLanguage[4]: Added C# file Freeze.cs to the project
+(03:10:21.1120)[Debug] CSharpLanguage[4]: Added C# file FireworkGun.cs to the project
+(03:10:21.1158)[Debug] CSharpLanguage[4]: Added C# file DiscordStatus.cs to the project
+(03:10:21.1328)[Debug] CSharpLanguage[4]: Added C# file DiscordReport.cs to the project
+(03:10:21.1328)[Debug] CSharpLanguage[4]: Added C# file CustomIcon.cs to the project
+(03:10:21.1651)[Debug] CSharpLanguage[4]: Added C# file CopyPaste.cs to the project
+(03:10:21.1754)[Debug] CSharpLanguage[4]: Added C# file ColouredChat.cs to the project
+(03:10:21.1754)[Debug] CSharpLanguage[4]: Added C# file BypassQueue.cs to the project
+(03:10:21.1830)[Debug] CSharpLanguage[4]: Added C# file BuildingSkins.cs to the project
+(03:10:21.1830)[Debug] CSharpLanguage[4]: Added C# file BodiesToBags.cs to the project
+(03:10:21.1872)[Debug] CSharpLanguage[4]: Added C# file BlueprintManager.cs to the project
+(03:10:21.1872)[Debug] CSharpLanguage[4]: Added C# file BetterSay.cs to the project
+(03:10:21.1872)[Debug] CSharpLanguage[4]: Added C# file BetterChatFlood.cs to the project
+(03:10:21.2018)[Debug] CSharpLanguage[4]: Added C# file BetterChat.cs to the project
+(03:10:21.2018)[Debug] CSharpLanguage[4]: Added C# file BanDeleteBy.cs to the project
+(03:10:21.2087)[Debug] CSharpLanguage[4]: Added C# file BGrade.cs to the project
+(03:10:21.2190)[Debug] CSharpLanguage[4]: Added C# file AutomatedEvents.cs to the project
+(03:10:21.2566)[Debug] CSharpLanguage[4]: Added C# file AdminRadar.cs to the project
+(03:10:21.2566)[Debug] CSharpLanguage[4]: Added C# file AdminNoLoot.cs to the project
+(03:10:21.2788)[Debug] CSharpLanguage[4]: Added C# file AdminHammer.cs to the project
+(03:10:21.2788)[Debug] CSharpLanguage[4]: Added C# file AdminAntiHackFix.cs to the project
+(03:10:21.5359)[Debug] OxideResolver[4]: Found from libraries directory: [Size: 90624] netstandard.dll
+(03:10:21.5359)[Debug] OxideResolver[4]: Found from libraries directory: [Size: 20992] UnityEngine.UnityWebRequestWWWModule.dll
+(03:10:21.5389)[Debug] OxideResolver[4]: Found from libraries directory: [Size: 12288] UnityEngine.UnityWebRequestAudioModule.dll
+(03:10:21.5389)[Debug] OxideResolver[4]: Found from libraries directory: [Size: 1205248] UnityEngine.UIElementsModule.dll
+(03:10:21.5389)[Debug] OxideResolver[4]: Found from libraries directory: [Size: 10240] Rust.World.dll
+(03:10:21.5389)[Debug] OxideResolver[4]: Found from libraries directory: [Size: 433152] Rust.Workshop.dll
+(03:10:21.5389)[Debug] OxideResolver[4]: Found from libraries directory: [Size: 67584] Facepunch.Unity.dll
+(03:10:21.5389)[Debug] OxideResolver[4]: Found from libraries directory: [Size: 1328128] Assembly-CSharp-firstpass.dll
+(03:10:21.5389)[Debug] OxideResolver[4]: Found from libraries directory: [Size: 111616] Facepunch.UnityEngine.dll
+(03:10:21.5389)[Debug] OxideResolver[4]: Found from libraries directory: [Size: 70144] Rust.Global.dll
+(03:10:21.5389)[Debug] OxideResolver[4]: Found from libraries directory: [Size: 224256] UnityEngine.UI.dll
+(03:10:21.5389)[Debug] OxideResolver[4]: Found from libraries directory: [Size: 1018368] Rust.Data.dll
+(03:10:21.5389)[Debug] OxideResolver[4]: Found from libraries directory: [Size: 42496] Facepunch.Network.dll
+(03:10:21.5389)[Debug] OxideResolver[4]: Found from libraries directory: [Size: 20992] Facepunch.Console.dll
+(03:10:21.5428)[Debug] OxideResolver[4]: Found from libraries directory: [Size: 4485632] Assembly-CSharp.dll
+(03:10:21.5428)[Debug] OxideResolver[4]: Found from libraries directory: [Size: 101376] UnityEngine.dll
+(03:10:21.5428)[Debug] OxideResolver[4]: Found from libraries directory: [Size: 286720] System.Data.SQLite.dll
+(03:10:21.5428)[Debug] OxideResolver[4]: Found from libraries directory: [Size: 443392] MySql.Data.dll
+(03:10:21.5428)[Debug] OxideResolver[4]: Found from libraries directory: [Size: 1419264] Oxide.References.dll
+(03:10:21.5470)[Debug] OxideResolver[4]: Found from libraries directory: [Size: 3160064] System.Xml.dll
+(03:10:21.5470)[Debug] OxideResolver[4]: Found from libraries directory: [Size: 2081280] System.Data.dll
+(03:10:21.5470)[Debug] OxideResolver[4]: Found from libraries directory: [Size: 2651648] System.dll
+(03:10:21.7896)[Info] CSharpLanguage[4]: Adding compiler generated classes: System.Diagnostics.CodeAnalysis.MemberNotNullAttribute.g.cs, System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute.g.cs, System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute.g.cs, System.Diagnostics.CodeAnalysis.StringSyntaxAttribute.g.cs, System.Diagnostics.CodeAnalysis.UnscopedRefAttribute.g.cs, System.Runtime.CompilerServices.CallerArgumentExpressionAttribute.g.cs, System.Runtime.CompilerServices.CompilerFeatureRequiredAttribute.g.cs, System.Runtime.CompilerServices.InterpolatedStringHandlerArgumentAttribute.g.cs, System.Runtime.CompilerServices.InterpolatedStringHandlerAttribute.g.cs, System.Runtime.CompilerServices.IsExternalInit.g.cs, System.Runtime.CompilerServices.ModuleInitializerAttribute.g.cs, System.Runtime.CompilerServices.RequiredMemberAttribute.g.cs, System.Runtime.CompilerServices.SkipLocalsInitAttribute.g.cs, System.Runtime.Versioning.RequiresPreviewFeaturesAttribute.g.cs
+(03:10:25.3936)[Info] CSharpLanguage[4]: ==== Compilation Finished 0 | Success ====
+(03:12:28.8485)[Info] Application[2]: Termination request has been received from compiler stream

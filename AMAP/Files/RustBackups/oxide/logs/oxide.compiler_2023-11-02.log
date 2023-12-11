@@ -1,0 +1,50 @@
+2023-11-02 03:10:16.184 -05:00 [INF] Starting compiler v1.0.22.0. . .
+2023-11-02 03:10:16.207 -05:00 [INF] Minimal logging level is set to Debug
+2023-11-02 03:10:16.217 -05:00 [INF] Watching parent process ([811581] RustDedicated) for shutdown
+2023-11-02 03:10:16.217 -05:00 [DBG] Started message server. . .
+2023-11-02 03:10:16.218 -05:00 [INF] Message server has started
+2023-11-02 03:10:18.220 -05:00 [INF] Sent ready message to parent process
+2023-11-02 03:10:18.220 -05:00 [DBG] Compiler has started successfully and is awaiting jobs. . .
+2023-11-02 03:10:18.387 -05:00 [DBG] Received compile job 0 | Plugins: 44, References: 57
+2023-11-02 03:10:19.222 -05:00 [INF] Starting compilation of job 0 | Total Plugins: 44
+2023-11-02 03:10:19.223 -05:00 [DBG] Settings[Encoding: utf-8, CSVersion: Preview, Target: DynamicallyLinkedLibrary, Platform: AnyCpu, StdLib: False, Debug: False]
+2023-11-02 03:10:19.247 -05:00 [DBG] Added 57 project references
+2023-11-02 03:10:19.449 -05:00 [DBG] Plugin PlayerAdministration.cs is using unicode escape sequence
+2023-11-02 03:10:19.555 -05:00 [DBG] Added 44 plugins to the project
+2023-11-02 03:10:21.771 -05:00 [INF] Successfully compiled 44/44 plugins for job 0 in 2548ms
+2023-11-02 03:10:21.771 -05:00 [DBG] Pushing job 0 back to parent
+2023-11-02 03:10:21.780 -05:00 [INF] Termination request has been received from compiler stream
+2023-11-02 03:10:22.774 -05:00 [INF] Termination request has been received from SIGTERM
+2023-11-02 14:20:28.354 -05:00 [INF] Starting compiler v1.0.22.0. . .
+2023-11-02 14:20:28.376 -05:00 [INF] Minimal logging level is set to Debug
+2023-11-02 14:20:28.385 -05:00 [INF] Watching parent process ([2624] RustDedicated) for shutdown
+2023-11-02 14:20:28.385 -05:00 [DBG] Started message server. . .
+2023-11-02 14:20:28.386 -05:00 [INF] Message server has started
+2023-11-02 14:20:30.385 -05:00 [INF] Sent ready message to parent process
+2023-11-02 14:20:30.386 -05:00 [DBG] Compiler has started successfully and is awaiting jobs. . .
+2023-11-02 14:20:30.557 -05:00 [DBG] Received compile job 0 | Plugins: 44, References: 57
+2023-11-02 14:20:31.392 -05:00 [INF] Starting compilation of job 0 | Total Plugins: 44
+2023-11-02 14:20:31.393 -05:00 [DBG] Settings[Encoding: utf-8, CSVersion: Preview, Target: DynamicallyLinkedLibrary, Platform: AnyCpu, StdLib: False, Debug: False]
+2023-11-02 14:20:31.437 -05:00 [DBG] Added 57 project references
+2023-11-02 14:20:31.657 -05:00 [DBG] Plugin PlayerAdministration.cs is using unicode escape sequence
+2023-11-02 14:20:31.761 -05:00 [DBG] Added 44 plugins to the project
+2023-11-02 14:20:33.847 -05:00 [INF] Successfully compiled 44/44 plugins for job 0 in 2455ms
+2023-11-02 14:20:33.847 -05:00 [DBG] Pushing job 0 back to parent
+2023-11-02 14:20:33.860 -05:00 [INF] Termination request has been received from compiler stream
+2023-11-02 14:20:34.849 -05:00 [INF] Termination request has been received from SIGTERM
+2023-11-02 17:08:03.831 -05:00 [INF] Starting compiler v1.0.22.0. . .
+2023-11-02 17:08:03.853 -05:00 [INF] Minimal logging level is set to Debug
+2023-11-02 17:08:03.862 -05:00 [INF] Watching parent process ([2624] RustDedicated) for shutdown
+2023-11-02 17:08:03.863 -05:00 [DBG] Started message server. . .
+2023-11-02 17:08:03.866 -05:00 [INF] Message server has started
+2023-11-02 17:08:05.864 -05:00 [INF] Sent ready message to parent process
+2023-11-02 17:08:05.865 -05:00 [DBG] Compiler has started successfully and is awaiting jobs. . .
+2023-11-02 17:08:05.983 -05:00 [DBG] Received compile job 1 | Plugins: 1, References: 54
+2023-11-02 17:08:06.866 -05:00 [INF] Starting compilation of job 1 | Total Plugins: 1
+2023-11-02 17:08:06.867 -05:00 [DBG] Settings[Encoding: utf-8, CSVersion: Preview, Target: DynamicallyLinkedLibrary, Platform: AnyCpu, StdLib: False, Debug: False]
+2023-11-02 17:08:06.889 -05:00 [DBG] Added 54 project references
+2023-11-02 17:08:06.962 -05:00 [DBG] Added 1 plugins to the project
+2023-11-02 17:08:07.796 -05:00 [INF] Successfully compiled 1/1 plugins for job 1 in 929ms
+2023-11-02 17:08:07.796 -05:00 [DBG] Pushing job 1 back to parent
+2023-11-02 17:08:07.798 -05:00 [INF] Termination request has been received from compiler stream
+2023-11-02 17:08:08.799 -05:00 [INF] Termination request has been received from SIGTERM

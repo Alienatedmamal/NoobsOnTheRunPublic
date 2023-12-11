@@ -1,0 +1,23 @@
+﻿[07:58:32] ERROR > Alienatedmammal: Tried to execute a command requiring the '' permission
+[09:15:57] INFO > Alienatedmammal: Opened the menu
+[10:33:34] INFO > Alienatedmammal: Opened the menu
+[10:40:09] INFO > Alienatedmammal: Opened the menu
+[10:40:13] INFO > Alienatedmammal: Teleported to user ID 76561197992384542
+[08:40:16] INFO > Alienatedmammal: Opened the menu
+[09:37:51] INFO > Alienatedmammal: Opened the menu
+[09:38:25] INFO > Alienatedmammal: Opened the menu
+[09:38:30] INFO > Alienatedmammal: Teleported to user ID 76561197992384542
+[09:41:04] INFO > Alienatedmammal: Opened the menu
+[09:52:23] INFO > Alienatedmammal: Opened the menu
+[09:52:27] INFO > Alienatedmammal: Teleported to user ID 76561197992384542
+[09:58:33] INFO > Alienatedmammal: Opened the menu
+[10:04:04] INFO > Alienatedmammal: Opened the menu
+[10:04:05] INFO > Alienatedmammal: Opened the menu
+[10:12:19] INFO > Alienatedmammal: Opened the menu
+[10:17:08] INFO > Alienatedmammal: Opened the menu
+[10:17:12] INFO > Alienatedmammal: Viewed inventory of 76561197992384542
+[10:18:08] INFO > Alienatedmammal: Opened the menu
+[10:18:12] INFO > Alienatedmammal: Viewed inventory of 76561197992384542
+[10:19:42] INFO > Alienatedmammal: Opened the menu
+[10:19:49] INFO > Alienatedmammal: Viewed inventory of 76561197992384542
+[10:30:27] INFO > Alienatedmammal: Opened the menu

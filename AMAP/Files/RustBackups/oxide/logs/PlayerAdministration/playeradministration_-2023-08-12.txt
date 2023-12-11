@@ -1,0 +1,19 @@
+﻿[10:41:27] INFO > Alienatedmammal: Opened the menu
+[10:41:31] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198206232972
+[10:41:32] INFO > Alienatedmammal: Healed user ID 76561198206232972 for 100 points
+[12:39:18] ERROR > Alienatedmammal: Tried to execute a command requiring the '' permission
+[01:23:59] INFO > Alienatedmammal: Opened the menu
+[01:24:03] INFO > Alienatedmammal: Opened the permissions manager for user ID 76561198206232972
+[01:24:22] INFO > Alienatedmammal: Viewed inventory of 76561198206232972
+[01:32:33] INFO > Alienatedmammal: Opened the menu
+[01:32:36] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198206232972
+[01:32:37] INFO > Alienatedmammal: Healed user ID 76561198206232972 for 100 points
+[06:14:07] INFO > Alienatedmammal: Opened the menu
+[06:34:12] INFO > Alienatedmammal: Opened the menu
+[07:45:43] INFO > Alienatedmammal: Opened the menu
+[07:45:49] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198206232972
+[07:45:52] INFO > Alienatedmammal: Healed user ID 76561198206232972 for 100 points
+[07:45:53] INFO > Alienatedmammal: Healed user ID 76561198206232972 for 0 points
+[07:47:55] INFO > Alienatedmammal: Opened the menu
+[07:47:58] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198206232972
+[07:47:59] INFO > Alienatedmammal: Healed user ID 76561198206232972 for 100 points

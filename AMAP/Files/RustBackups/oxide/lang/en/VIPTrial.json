@@ -1,0 +1,20 @@
+{
+  "VIPStillRunning": "Your VIP trial is still running. Days left: {0}.",
+  "VIPAlreadyUsed": "You have already used your VIP trial.",
+  "NoPermission": "You are not allowed to use this command!",
+  "VIPExpired": "Your VIP trial is expired.",
+  "VIPEndsIn": "Your VIP trial ends in {0} days.",
+  "VIPStarted": "Your VIP trial started, lasting till: {0}",
+  "ListActiveVIPStart": "Currently active VIP trials:",
+  "ListActiveVIPUser2": "{0} | {1} | {2}",
+  "RemoveVIP": "Removed {0} from the VIP trial system.",
+  "RemoveVIPFail": "Player {0} could not be found in the VIP list.",
+  "RemoveVIPTarget": "You have been removed from the VIP trial database.",
+  "EndVIP": "The VIP trial of {0} is now over.",
+  "EndVIPFail": "Failed to end the VIP trial of {0}",
+  "ENDVIPTarget": "You have been removed from the VIP trial.",
+  "ENDVIPTargetNotInGroupAnymore": "The player {0} is not in the VIP trial group.",
+  "CleanGroupGiveBackRemovedUser": "{0} | {1}",
+  "CleanGroupFirstFeed": "Removed users:",
+  "CleanGroupNobodyRemoved": "Nobody needs to be removed."
+}

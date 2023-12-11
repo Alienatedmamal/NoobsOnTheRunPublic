@@ -1,0 +1,7 @@
+{
+  "Use Permission System": true,
+  "Discord Webhook url for ban messages": "",
+  "Discord Webhook url for kick messages": "",
+  "Broadcast Kicks": true,
+  "Broadcast Bans": true
+}

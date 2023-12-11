@@ -1,0 +1,297 @@
+{
+  "settings": {
+    "Tabs": [
+      {
+        "ButtonText": "Noobs On The Run",
+        "HeaderText": "Welcome To Noobs On The Run Server",
+        "Pages": [
+          {
+            "TextLines": [
+              "<color=red>NEXT WIPE 12/21/23</color>",
+              "",
+              "<color=#39FF14>Bi-weekly map wipe, Monthly BP's</color>",
+              "<color=#39FF14>Single |  Duo | Trio | Qaud</color>",
+              "<color=#39FF14>NO EXCEPTIONS</color>",
+              "<color=#39FF14>Team limit of 4 per base, raiding, roaming.</color>",
+              "<color=#39FF14>Friendly trades or non KOS is fine.</color>",
+              "<color=#39FF14>Full rules can be found on rule tab or on our Discord. Link below</color>",
+              "",
+              "<color=#39FF14>Type</color> <color=orange> /info </color> <color=#39FF14>in chat to open this window</color>",
+              "<color=orange>F7</color> <color=#39FF14>and</color> <color=orange>/report</color> <color=#39FF14>to report a player and open a ticket in our discord.</color>",
+              "<color=#39FF14>Keep all accusations out of chat.</color>",
+              "",
+              "<color=#39FF14>ESC> To View Webpage</color>",
+              "",
+              "",
+              "",
+              "",
+              "<color=#39FF14>Discord</color> <color=#39FF14>https://discord.gg/hQXFYgtrzZ</color>",
+              "",
+              "",
+              "<color=#39FF14>Admins are available</color>"
+            ],
+            "ImageSettings": []
+          }
+        ],
+        "TabButtonAnchor": 4,
+        "TabButtonFontSize": 16,
+        "HeaderAnchor": 0,
+        "HeaderFontSize": 32,
+        "TextFontSize": 16,
+        "TextAnchor": 3,
+        "OxideGroup": ""
+      },
+      {
+        "ButtonText": "Chat Commands",
+        "HeaderText": "Chat Commands",
+        "Pages": [
+          {
+            "TextLines": [
+              "",
+              "<color=orange>/kit</color> <color=#39FF14>Kits</color>",
+              "<color=orange>/info</color> <color=#39FF14>Server Info</color>",
+              "<color=orange>/tod</color> <color=#39FF14>Time Of Day</color>",
+              "<color=orange>/pop</color> <color=#39FF14>Server Population</color>",
+              "<color=orange>/viptrial</color> <color=#39FF14>7 Day VIP Trial</color>",
+              "<color=orange>/voteday</color> <color=#39FF14>Vote to skip night when voting is open</color>"
+            ],
+            "ImageSettings": []
+          }
+        ],
+        "TabButtonAnchor": 4,
+        "TabButtonFontSize": 16,
+        "HeaderAnchor": 0,
+        "HeaderFontSize": 32,
+        "TextFontSize": 16,
+        "TextAnchor": 3,
+        "OxideGroup": ""
+      },
+      {
+        "ButtonText": "VIP",
+        "HeaderText": "VIP",
+        "Pages": [
+          {
+            "TextLines": [
+              "<color=#39FF14>Thank you for your support!</color>",
+              "<color=#39FF14>If you can see this you have access to VIP features. Here is how to access these VIP features.</color>",
+              "",
+              "<color=orange>/bskin</color> <color=#39FF14>Chnage the skin of building skins</color>",
+              "<color=orange>/skin</color> <color=#39FF14>Change the skin of items drop item in the loot box on the right</color>",
+              "<color=orange>/color</color> <color=#39FF14>Will change the color of your name. Use</color> <color=orange>/colors</color><color=#39FF14> for help/more options</color>",
+              "<color=orange>/bgrade</color> <color=#39FF14>Auto update building blocks when placed(0-Disable,1-Wood,2-Stones,3-Metal,4-Armoured)</color>",
+              "<color=orange>/backpack</color> <color=#39FF14>To access backpack or use GUI</color>",
+              ""
+            ],
+            "ImageSettings": []
+          }
+        ],
+        "TabButtonAnchor": 4,
+        "TabButtonFontSize": 16,
+        "HeaderAnchor": 0,
+        "HeaderFontSize": 32,
+        "TextFontSize": 16,
+        "TextAnchor": 3,
+        "OxideGroup": "admin,VIP,vip_trial"
+      },
+      {
+        "ButtonText": "ADMIN",
+        "HeaderText": "ADMIN",
+        "Pages": [
+          {
+            "TextLines": [
+              "<color=#39FF14>This is for ADMINS</color>",
+              "<color=#39FF14>Here is some usefull commands</color>",
+              "",
+              "<color=orange>/padmin</color> <color=#39FF14>Will bring up the Player Administration GUI</color>",
+              "<color=orange>noclip</color> <color=#39FF14>Console command to no clip AKA fly like a bird</color>",
+              "<color=orange>/perms</color> <color=#39FF14>To see/change players permissons</color>",
+              "<color=orange>admintime x</color> <color=#39FF14>This is to change your game time not players x is the time you want</color>",
+              "<color=orange>/voice</color> <color=#39FF14> Display command help to mute players in-game voice.</color>",
+              "",
+              "<color=#39FF14>For more commands see GitHub</color>"
+            ],
+            "ImageSettings": []
+          }
+        ],
+        "TabButtonAnchor": 4,
+        "TabButtonFontSize": 16,
+        "HeaderAnchor": 0,
+        "HeaderFontSize": 32,
+        "TextFontSize": 16,
+        "TextAnchor": 3,
+        "OxideGroup": "admin"
+      },
+      {
+        "ButtonText": "MODS",
+        "HeaderText": "MODS",
+        "Pages": [
+          {
+            "TextLines": [
+              "<color=#39FF14>This is for MODS</color>",
+              "<color=orange>/bgrade</color> <color=#39FF14>Auto update building blocks when placed(0-Disable,1-Wood,2-Stones,3-Metal,4-Armoured)</color>",
+              "<color=orange>/bskin</color> <color=#39FF14>Chnage the skin of building skins</color>",
+              "<color=orange>/skin</color> <color=#39FF14>Change the skin of items drop item in the loot box on the right</color>",
+              "<color=orange>/colour</color> <color=#39FF14>Will change the color of your name. Use</color> <color=orange>/colours</color><color=#39FF14> for help/more options</color>",
+              "<color=orange>mute playerID reason </color> <color=#39FF14>In console will mute a player in chat</color>",
+              "<color=orange>unmute playerID</color> <color=#39FF14>This is will unmute a player in chat</color>",
+              "<color=orange>/voice</color> <color=#39FF14> Display command help to mute players in-game voice.</color>",
+              "",
+              "<color=#39FF14>Thank you for your time and effort.</color>",
+              "<color=#39FF14>Any other questions or concerns please reach out to an admin or owner's</color>"
+            ],
+            "ImageSettings": []
+          }
+        ],
+        "TabButtonAnchor": 4,
+        "TabButtonFontSize": 16,
+        "HeaderAnchor": 0,
+        "HeaderFontSize": 32,
+        "TextFontSize": 16,
+        "TextAnchor": 3,
+        "OxideGroup": "admin,mod"
+      },
+      {
+        "ButtonText": "Rules",
+        "HeaderText": "Rules",
+        "Pages": [
+          {
+            "TextLines": [
+              "<color=#39FF14><b>SERVER RULES:</b></color>",
+              "<color=#39FF14>Server rules are subject to change. It is your responsibility to familiarize yourself with our rules.</color>",
+              "<color=#39FF14>You can find our  list of rules below, by visiting our discord, or looking at the condensed version by typing</color>",
+              "<color=orange>/info</color> <color=#39FF14>in gamechat.</color>",
+              "",
+              "<color=#39FF14>If you have any questions about our server or discord rules, or to report a rule breaker or cheater,</color>",
+              "<color=#39FF14>please contact us via discord.</color>",
+              "",
+              "<color=#39FF14><b>1)</b> No racism, sexism, homophobia, ear rape, IRL threats, excessive toxicity, pornographic/obscene</color>",
+              "<color=#39FF14>material, threats, or griefing and bullying.</color>",
+              "- <color=#39FF14>We have a no tolerance policy for threats, racism, sexism, homophobia and pedophilia.</color>",
+              "- <color=#39FF14>Obscene or pornographic material is prohibited on our discord or gaming servers.</color>",
+              "- <color=#39FF14>Please respect other players and our staff. Normal rust banter is allowed.</color>",
+              ""
+            ],
+            "ImageSettings": [
+              {
+                "Position": {
+                  "MinX": 0.0,
+                  "MaxX": 0.5,
+                  "MinY": 0.0,
+                  "MaxY": 0.5
+                },
+                "Url": "",
+                "TransparencyInPercent": 0
+              },
+              {
+                "Position": {
+                  "MinX": 0.5,
+                  "MaxX": 1.0,
+                  "MinY": 0.0,
+                  "MaxY": 0.5
+                },
+                "Url": "",
+                "TransparencyInPercent": 0
+              },
+              {
+                "Position": {
+                  "MinX": 0.0,
+                  "MaxX": 0.5,
+                  "MinY": 0.5,
+                  "MaxY": 1.0
+                },
+                "Url": "",
+                "TransparencyInPercent": 0
+              },
+              {
+                "Position": {
+                  "MinX": 0.5,
+                  "MaxX": 1.0,
+                  "MinY": 0.5,
+                  "MaxY": 1.0
+                },
+                "Url": "",
+                "TransparencyInPercent": 0
+              }
+            ]
+          },
+          {
+            "TextLines": [
+              "<color=#38FF14><b>2)</b> Follow team limits</color>",
+              "- <color=#39FF14>Do not team (raid, pvp, roam, build or farm) with more than 4 players.</color>",
+              "- <color=#39FF14>No auths, sleepovers, or bags for players outside of your team members.</color>",
+              "- <color=#39FF14>No allies. You can trade and/or be friendly or non Kill on Sight (KoS). Absolutely no raiding, roaming,</color>",
+              "<color=#39FF14>or farming with anyone beyond your team.</color>",
+              "- <color=#39FF14>Team hopping to evade the team limits is not allowed. Only permanent, reasonable changes</color>",
+              "<color=#39FF14>allowed during a wipe.</color>",
+              "- <color=#39FF14>Absolutely no pooling of resources between teams. Only your team can farm resources for your base.</color>",
+              "<color=#39FF14> (You can purchase or trade)</color>",
+              "",
+              "<color=#39FF14><b>3</b>) Cheaters, scripters, exploiters will be banned on sight. No streamsniping.</color>",
+              "- <color=#39FF14>Rust game bans will result in a permanent ban on our server.</color>",
+              "- <color=#39FF14>Recent (365 days) VAC bans will result in an auto-ban on our server.</color>",
+              "- <color=#39FF14>Cheater bases and loot will be despawned.</color>",
+              "- <color=#39FF14>Teammates and associated players of cheaters will be banned by association.</color>",
+              "- <color=#39FF14>Players who associate in cheating communities will be banned.</color>",
+              "",
+              "<color=#39FF14>Griefing - Griefing is handled on a case-by-case basis. We do not consider most normal</color>",
+              "<color=#39FF14>rust gameplay griefing. If you have a concern whether some behavior is griefing.</color>",
+              "<color=#39FF14>Please reach out to us to open a support ticket on discord.</color>",
+              "<color=#39FF14>Sealing is appropriate during the raid, to move in and claim as your main base,</color>",
+              "<color=#39FF14>and while transporting loot.</color>"
+            ],
+            "ImageSettings": []
+          }
+        ],
+        "TabButtonAnchor": 4,
+        "TabButtonFontSize": 16,
+        "HeaderAnchor": 0,
+        "HeaderFontSize": 32,
+        "TextFontSize": 16,
+        "TextAnchor": 3,
+        "OxideGroup": ""
+      }
+    ],
+    "ShowInfoOnPlayerInit": true,
+    "ShowInfoOnlyOncePerRuntime": true,
+    "TabToOpenByDefault": 0,
+    "Position": {
+      "MinX": 0.15,
+      "MaxX": 0.9,
+      "MinY": 0.2,
+      "MaxY": 0.9
+    },
+    "BackgroundImage": {
+      "Enabled": true,
+      "Position": {
+        "MinX": 0.0,
+        "MaxX": 1.0,
+        "MinY": 0.0,
+        "MaxY": 1.0
+      },
+      "Url": "https://nor.workisboring.com/image/bg.jpg",
+      "TransparencyInPercent": 20
+    },
+    "ActiveButtonColor": "#0255255255",
+    "InactiveButtonColor": "#128128128255",
+    "CloseButtonColor": "#128128128255",
+    "CloseButtonText": "Close",
+    "NextPageButtonColor": "#128128128255",
+    "NextPageText": "Next Page",
+    "PrevPageButtonColor": "#128128128255",
+    "PrevPageText": "Prev Page",
+    "BackgroundColor": "#000000",
+    "HelpButton": {
+      "IsEnabled": false,
+      "Text": "Help",
+      "Position": {
+        "MinX": 0.0,
+        "MaxX": 0.05,
+        "MinY": 0.1,
+        "MaxY": 0.14
+      },
+      "Color": "#128128128255",
+      "FontSize": 18
+    },
+    "UpgradedConfig": false
+  }
+}

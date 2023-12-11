@@ -1,0 +1,76 @@
+{
+  "Player Inactivity Data Removal (days)": 7,
+  "Block messages of muted players (requires BetterChatMute)": true,
+  "Rainbow Colours": [
+    "#ff0000",
+    "#ffa500",
+    "#ffff94",
+    "#008000",
+    "#0000ff",
+    "#4b0082",
+    "#ee82ee"
+  ],
+  "Blocked Characters": [
+    "{",
+    "}",
+    "size"
+  ],
+  "Name colour command": "color",
+  "Name colours command (Help)": "colors",
+  "Name show colour permission": "colouredchat.name.show",
+  "Name use permission": "colouredchat.name.use",
+  "Name use gradient permission": "colouredchat.name.gradient",
+  "Name default rainbow name permission": "colouredchat.name.rainbow",
+  "Name bypass restrictions permission": "colouredchat.name.bypass",
+  "Name set others colour permission": "colouredchat.name.setothers",
+  "Name get random colour permission": "colouredchat.name.random",
+  "Name use blacklist": true,
+  "Name blocked colour hex": [
+    "#000000"
+  ],
+  "Name blocked colours range hex": [
+    {
+      "From": "#000000",
+      "To": "#000000"
+    }
+  ],
+  "Name use whitelist": false,
+  "Name whitelisted colours hex": [
+    "#000000"
+  ],
+  "Name whitelisted colour range hex": [
+    {
+      "From": "#000000",
+      "To": "#FFFFFF"
+    }
+  ],
+  "Message colour command": "mcolour",
+  "Message colours command (Help)": "mcolours",
+  "Message show colour permission": "colouredchat.message.show",
+  "Message use permission": "colouredchat.message.use",
+  "Message use gradient permission": "colouredchat.message.gradient",
+  "Message default rainbow name permission": "colouredchat.message.rainbow",
+  "Message bypass restrictions permission": "colouredchat.message.bypass",
+  "Message set others colour permission": "colouredchat.message.setothers",
+  "Message get random colour permission": "colouredchat.message.random",
+  "Message use blacklist": true,
+  "Message blocked colours hex": [
+    "#000000"
+  ],
+  "Message blocked colour range hex": [
+    {
+      "From": "#000000",
+      "To": "#000000"
+    }
+  ],
+  "Message use whitelist": false,
+  "Message whitelisted colours hex": [
+    "#000000"
+  ],
+  "Message whitelisted colour range hex": [
+    {
+      "From": "#000000",
+      "To": "#FFFFFF"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "Check temporary game bans and notify via Discord Webhook": true,
+  "Only report temp bans younger than days": 60,
+  "Automatically ban players with a temp ban": false,
+  "Ban appeal message": "",
+  "Notify Game Ban + Team": true,
+  "Only notify ban if has team": false,
+  "Include bm links in ban notification": false,
+  "These discord webhooks will get notified": [],
+  "notify player being attacked by cheater": true,
+  "report payback command usage to discord": false,
+  "commands persist : save commands and re-apply them players between server restarts and plugin reloads": false,
+  "Show Payback UI to admins while commands are active": false
+}

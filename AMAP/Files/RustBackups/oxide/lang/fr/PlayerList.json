@@ -1,0 +1,9 @@
+{
+  "AdminCount": "{0} administrateurs en ligne",
+  "AdminList": "Administrateurs en ligne ({0}) : {1}",
+  "NobodyOnline": "Aucuns joueurs ne sont actuellement en ligne",
+  "NotAllowed": "Vous n’êtes pas autorisé à utiliser la commande « {0} »",
+  "OnlyYou": "Vous êtes la seule personne en ligne !",
+  "PlayerCount": "{0} joueur(s) en ligne",
+  "PlayerList": "Joueurs en ligne ({0}) : {1}"
+}

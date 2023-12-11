@@ -1,0 +1,117 @@
+{
+  "Backpack size": {
+    "Default size": 12,
+    "Max size per page": 48,
+    "Enable legacy backpacks.use.1-8 row permissions": false,
+    "Permission sizes": [
+      6,
+      12,
+      18,
+      24,
+      30,
+      36,
+      42,
+      48,
+      96,
+      144
+    ],
+    "Dynamic Size (EXPERIMENTAL)": {
+      "Enabled": false,
+      "Size profiles": [
+        {
+          "Permission suffix": "6-48",
+          "Initial size": 6,
+          "Max size": 48
+        },
+        {
+          "Permission suffix": "6-96",
+          "Initial size": 6,
+          "Max size": 96
+        },
+        {
+          "Permission suffix": "6-144",
+          "Initial size": 6,
+          "Max size": 144
+        }
+      ]
+    }
+  },
+  "Drop on Death (true/false)": true,
+  "Erase on Death (true/false)": false,
+  "Minimum Despawn Time (Seconds)": 300.0,
+  "GUI Button": {
+    "Enabled": true,
+    "Enabled by default (for players with permission)": true,
+    "Skin Id": 3050418770,
+    "Image": "",
+    "Background Color": "0.969 0.922 0.882 0.035",
+    "GUI Button Position": {
+      "Anchors Min": "0.5 0.0",
+      "Anchors Max": "0.5 0.0",
+      "Offsets Min": "185 18",
+      "Offsets Max": "245 78"
+    }
+  },
+  "Container UI": {
+    "Show page buttons on container bar": false,
+    "Max page buttons to show": 8
+  },
+  "Softcore": {
+    "Reclaim Fraction": 0.5
+  },
+  "Item restrictions": {
+    "Enabled": false,
+    "Enable legacy noblacklist permission": false,
+    "Feedback effect": "assets/prefabs/locks/keypad/effects/lock.code.denied.prefab",
+    "Default ruleset": {
+      "Allowed item categories": [
+        "All"
+      ],
+      "Disallowed item categories": [],
+      "Allowed item short names": [],
+      "Disallowed item short names": [],
+      "Allowed skin IDs": [],
+      "Disallowed skin IDs": []
+    },
+    "Rulesets by permission": [
+      {
+        "Name": "allowall",
+        "Allowed item categories": [
+          "All"
+        ],
+        "Disallowed item categories": [],
+        "Allowed item short names": [],
+        "Disallowed item short names": [],
+        "Allowed skin IDs": [],
+        "Disallowed skin IDs": []
+      }
+    ]
+  },
+  "Clear on wipe": {
+    "Enabled": true,
+    "Enable legacy keeponwipe permission": false,
+    "Default ruleset": {
+      "Max slots to keep": 0,
+      "Allowed item categories": [],
+      "Disallowed item categories": [],
+      "Allowed item short names": [],
+      "Disallowed item short names": [],
+      "Allowed skin IDs": [],
+      "Disallowed skin IDs": []
+    },
+    "Rulesets by permission": [
+      {
+        "Name": "all",
+        "Max slots to keep": -1,
+        "Allowed item categories": [
+          "All"
+        ],
+        "Disallowed item categories": [],
+        "Allowed item short names": [],
+        "Disallowed item short names": [],
+        "Allowed skin IDs": [],
+        "Disallowed skin IDs": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+﻿[11:00:12] INFO > Alienatedmammal: Opened the menu
+[11:00:17] INFO > Alienatedmammal: Teleported to user ID 76561197992384542
+[11:00:44] INFO > Alienatedmammal: Opened the menu
+[11:00:50] INFO > Alienatedmammal: Viewed inventory of 76561197992384542
+[03:37:18] INFO > Alienatedmammal: Opened the menu
+[03:37:55] INFO > Alienatedmammal: Opened the menu
+[03:38:00] INFO > Alienatedmammal: Teleported to user ID 76561197992384542
+[03:40:10] INFO > Alienatedmammal: Opened the menu
+[03:40:15] INFO > Alienatedmammal: Teleported to user ID 76561197973288538
+[03:41:14] INFO > Alienatedmammal: Opened the menu
+[03:41:23] INFO > Alienatedmammal: Teleported to user ID 76561197992384542
+[03:44:22] INFO > Alienatedmammal: Opened the menu
+[03:44:27] INFO > Alienatedmammal: Viewed inventory of 76561197992384542
+[03:56:22] INFO > Alienatedmammal: Opened the menu
+[03:57:02] INFO > Alienatedmammal: Opened the menu
+[03:57:07] INFO > Alienatedmammal: Viewed backpack of 76561197992384542
+[03:57:14] INFO > Alienatedmammal: Opened the menu
+[03:57:18] INFO > Alienatedmammal: Viewed inventory of 76561197992384542
+[03:58:17] INFO > Alienatedmammal: Opened the menu
+[03:58:20] INFO > Alienatedmammal: Teleported to user ID 76561197992384542
+[04:02:07] INFO > Alienatedmammal: Opened the menu

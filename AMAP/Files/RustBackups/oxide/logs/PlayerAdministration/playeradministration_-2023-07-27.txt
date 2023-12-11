@@ -1,0 +1,199 @@
+﻿[11:09:33] INFO > Alienatedmammal: Opened the menu
+[11:09:40] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198206232972
+[11:09:44] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198018231506
+[11:09:46] INFO > Alienatedmammal: Healed user ID 76561198018231506 for 100 points
+[11:09:51] INFO > Alienatedmammal: Opened the permissions manager for user ID 76561198018231506
+[11:27:06] INFO > Alienatedmammal: Opened the menu
+[11:27:10] INFO > Alienatedmammal: Healed user ID 76561198206232972 for 100 points
+[11:27:11] INFO > Alienatedmammal: Healed user ID 76561198206232972 for 0 points
+[11:27:14] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198206232972
+[11:27:33] INFO > Alienatedmammal: Viewed inventory of 76561198018231506
+[12:37:04] INFO > Alienatedmammal: Opened the menu
+[12:37:08] INFO > Alienatedmammal: Healed user ID 76561198206232972 for 100 points
+[12:37:08] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198206232972
+[12:38:50] INFO > Alienatedmammal: Opened the menu
+[12:38:53] INFO > Alienatedmammal: Healed user ID 76561198206232972 for 100 points
+[12:38:55] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198206232972
+[12:49:43] INFO > Alienatedmammal: Opened the menu
+[12:50:01] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198018231506
+[12:50:03] INFO > Alienatedmammal: Healed user ID 76561198018231506 for 100 points
+[12:50:07] INFO > Alienatedmammal: Viewed inventory of 76561198018231506
+[02:52:51] INFO > Alienatedmammal: Opened the menu
+[02:52:55] INFO > Alienatedmammal: Healed user ID 76561198206232972 for 0 points
+[02:52:56] INFO > Alienatedmammal: Healed user ID 76561198206232972 for 100 points
+[02:52:57] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198206232972
+[03:40:55] INFO > Alienatedmammal: Opened the menu
+[03:41:25] INFO > Alienatedmammal: Healed user ID 76561198018231506 for 100 points
+[03:41:26] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198018231506
+[03:41:29] INFO > Alienatedmammal: Healed user ID 76561198206232972 for 100 points
+[03:41:30] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198206232972
+[03:41:33] INFO > Alienatedmammal: Opened the permissions manager for user ID 76561198206232972
+[04:16:46] INFO > Alienatedmammal: Opened the menu
+[04:34:12] INFO > Alienatedmammal: Opened the menu
+[04:34:20] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198206232972
+[04:34:21] INFO > Alienatedmammal: Healed user ID 76561198206232972 for 100 points
+[06:14:28] INFO > Alienatedmammal: Opened the menu
+[06:14:32] INFO > Alienatedmammal: Teleported to user ID 76561197992384542
+[06:32:14] INFO > Alienatedmammal: Opened the menu
+[06:32:19] INFO > Alienatedmammal: Teleported to user ID 76561197992384542
+[06:32:25] INFO > Alienatedmammal: Opened the menu
+[06:32:28] INFO > Alienatedmammal: Teleported to user ID 76561197992384542
+[06:33:57] INFO > Alienatedmammal: Opened the menu
+[06:34:12] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198206232972
+[06:57:24] INFO > Alienatedmammal: Opened the menu
+[06:57:29] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[06:57:30] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561197992384542
+[07:04:11] INFO > Alienatedmammal: Opened the menu
+[07:04:16] INFO > Alienatedmammal: Teleported to user ID 76561198018231506
+[07:05:32] INFO > Alienatedmammal: Opened the menu
+[07:18:59] INFO > Scuba Steve: Opened the menu
+[07:19:19] INFO > Scuba Steve: Opened the menu
+[07:19:23] INFO > Scuba Steve: Teleported to user ID 76561198206232972
+[07:19:26] INFO > Alienatedmammal: Teleported to admin Scuba Steve
+[07:19:27] INFO > Alienatedmammal: Teleported to admin Scuba Steve
+[07:19:27] INFO > Alienatedmammal: Teleported to admin Scuba Steve
+[07:19:27] INFO > Alienatedmammal: Teleported to admin Scuba Steve
+[07:19:28] INFO > Alienatedmammal: Teleported to admin Scuba Steve
+[07:19:35] INFO > Scuba Steve: Opened the menu
+[07:19:38] INFO > Scuba Steve: Froze user ID 76561198206232972
+[07:19:40] INFO > Scuba Steve: Froze user ID 76561198206232972
+[07:19:40] INFO > Scuba Steve: Froze user ID 76561198206232972
+[07:19:41] INFO > Scuba Steve: Froze user ID 76561198206232972
+[07:19:50] INFO > Scuba Steve: Healed user ID 76561198206232972 for 100 points
+[07:19:59] INFO > Scuba Steve: Muted user ID 76561198206232972
+[07:20:00] INFO > Scuba Steve: Unmuted user ID 76561198206232972
+[07:20:02] INFO > Scuba Steve: Froze user ID 76561198206232972
+[07:20:03] INFO > Scuba Steve: Froze user ID 76561198206232972
+[07:20:05] INFO > Scuba Steve: Muted user ID 76561198206232972
+[07:20:06] INFO > Scuba Steve: Unmuted user ID 76561198206232972
+[07:20:11] INFO > Scuba Steve: Muted user ID 76561198206232972
+[07:20:22] INFO > Scuba Steve: Unmuted user ID 76561198206232972
+[07:20:31] INFO > Scuba Steve: Muted user ID 76561198206232972
+[07:20:35] INFO > Scuba Steve: Recovered the metabolism of user ID 76561198206232972
+[07:20:42] INFO > Scuba Steve: Unmuted user ID 76561198206232972
+[07:20:42] INFO > Alienatedmammal: Opened the menu
+[07:20:42] INFO > Alienatedmammal: Opened the menu
+[07:20:57] INFO > Scuba Steve: Opened the permissions manager for user ID 76561198206232972
+[07:21:05] INFO > Scuba Steve: Opened the menu
+[07:21:28] INFO > Alienatedmammal: Opened the menu
+[07:21:59] INFO > Alienatedmammal: Teleported to admin Scuba Steve
+[07:22:15] INFO > Alienatedmammal: Froze user ID 76561198018231506
+[07:22:22] INFO > Alienatedmammal: Opened the menu
+[07:22:26] INFO > Alienatedmammal: Unfroze user ID 76561198018231506
+[07:22:28] INFO > Alienatedmammal: Hurt user ID 76561198018231506 for 75 points
+[07:22:31] INFO > Alienatedmammal: Healed user ID 76561198018231506 for 100 points
+[07:22:32] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198018231506
+[07:22:33] INFO > Alienatedmammal: Healed user ID 76561198018231506 for 0 points
+[07:22:46] INFO > Alienatedmammal: Opened the menu
+[07:23:26] INFO > Alienatedmammal: Opened the menu
+[07:23:37] INFO > Alienatedmammal: Opened the menu
+[07:24:00] INFO > Alienatedmammal: Kicked user ID 76561198018231506
+[07:24:29] INFO > Alienatedmammal: Opened the menu
+[07:24:33] INFO > Alienatedmammal: Healed user ID 76561198018231506 for 100 points
+[07:24:34] INFO > Alienatedmammal: Healed user ID 76561198018231506 for 0 points
+[07:24:34] INFO > Alienatedmammal: Healed user ID 76561198018231506 for 100 points
+[07:24:35] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198018231506
+[07:24:52] INFO > Alienatedmammal: Viewed inventory of 76561198018231506
+[07:31:45] INFO > Alienatedmammal: Opened the menu
+[07:31:51] INFO > Alienatedmammal: Teleported to user ID 76561198018231506
+[07:49:14] INFO > Alienatedmammal: Opened the menu
+[07:49:25] INFO > Alienatedmammal: Viewed inventory of 76561198018231506
+[07:49:43] INFO > Alienatedmammal: Opened the menu
+[07:49:47] INFO > Alienatedmammal: Viewed inventory of 76561198018231506
+[07:50:00] INFO > Alienatedmammal: Opened the menu
+[07:50:04] INFO > Alienatedmammal: Healed user ID 76561198018231506 for 100 points
+[07:50:05] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198018231506
+[07:50:39] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[07:50:40] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561197992384542
+[08:51:29] INFO > Alienatedmammal: Opened the menu
+[08:51:34] INFO > Alienatedmammal: Teleported to user ID 76561198018231506
+[09:04:16] INFO > Alienatedmammal: Opened the menu
+[09:04:19] INFO > Alienatedmammal: Froze user ID 76561198018231506
+[09:04:20] INFO > Alienatedmammal: Viewed inventory of 76561198018231506
+[09:04:34] INFO > Alienatedmammal: Opened the menu
+[09:04:37] INFO > Alienatedmammal: Unfroze user ID 76561198018231506
+[09:04:40] INFO > Alienatedmammal: Healed user ID 76561198018231506 for 100 points
+[09:04:41] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198018231506
+[09:13:18] INFO > Alienatedmammal: Opened the menu
+[09:13:23] INFO > Alienatedmammal: Healed user ID 76561198018231506 for 100 points
+[09:13:25] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198018231506
+[09:13:26] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198018231506
+[09:13:31] INFO > Alienatedmammal: Killed user ID 76561198018231506
+[09:14:44] INFO > Alienatedmammal: Opened the menu
+[09:15:00] INFO > Alienatedmammal: Started spectating user ID 76561198018231506
+[09:15:36] INFO > Alienatedmammal: Opened the menu
+[09:15:40] INFO > Alienatedmammal: Teleported to user ID 76561198018231506
+[09:16:53] INFO > Alienatedmammal: Opened the menu
+[09:16:56] INFO > Scuba Steve: Teleported to admin Alienatedmammal
+[09:19:43] INFO > Alienatedmammal: Opened the menu
+[09:19:48] INFO > Scuba Steve: Teleported to admin Alienatedmammal
+[09:19:58] INFO > Alienatedmammal: Opened the menu
+[09:20:01] INFO > Scuba Steve: Teleported to admin Alienatedmammal
+[09:20:10] INFO > Alienatedmammal: Opened the menu
+[09:20:13] INFO > Scuba Steve: Teleported to admin Alienatedmammal
+[09:20:54] INFO > Alienatedmammal: Opened the menu
+[09:20:58] INFO > Alienatedmammal: Healed user ID 76561198206232972 for 100 points
+[09:20:59] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198206232972
+[09:21:02] INFO > Alienatedmammal: Healed user ID 76561198018231506 for 100 points
+[09:21:03] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198018231506
+[09:34:56] INFO > Alienatedmammal: Opened the menu
+[09:35:00] INFO > Scuba Steve: Teleported to admin Alienatedmammal
+[09:50:50] INFO > Alienatedmammal: Opened the menu
+[09:50:54] INFO > Alienatedmammal: Healed user ID 76561198018231506 for 100 points
+[09:50:55] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198018231506
+[10:17:33] INFO > Alienatedmammal: Opened the menu
+[10:17:37] INFO > Scuba Steve: Teleported to admin Alienatedmammal
+[10:21:26] INFO > Alienatedmammal: Opened the menu
+[10:21:29] INFO > Alienatedmammal: Teleported to user ID 76561198018231506
+[10:21:40] INFO > Alienatedmammal: Opened the menu
+[10:21:43] INFO > Alienatedmammal: Teleported to user ID 76561198018231506
+[10:44:13] INFO > Alienatedmammal: Opened the menu
+[10:44:16] INFO > Alienatedmammal: Teleported to user ID 76561198018231506
+[10:45:59] INFO > Alienatedmammal: Opened the menu
+[10:46:05] INFO > Alienatedmammal: Hurt user ID 76561198018231506 for 75 points
+[10:46:13] INFO > Alienatedmammal: Reset the metabolism of user ID 76561198018231506
+[10:46:15] INFO > Alienatedmammal: Reset the metabolism of user ID 76561198018231506
+[10:46:16] INFO > Alienatedmammal: Reset the metabolism of user ID 76561198018231506
+[10:46:17] INFO > Alienatedmammal: Reset the metabolism of user ID 76561198018231506
+[10:46:18] INFO > Alienatedmammal: Reset the metabolism of user ID 76561198018231506
+[10:46:19] INFO > Alienatedmammal: Reset the metabolism of user ID 76561198018231506
+[10:46:23] INFO > Alienatedmammal: Hurt user ID 76561198018231506 for 25 points
+[10:46:31] INFO > Alienatedmammal: Healed user ID 76561198018231506 for 100 points
+[10:46:32] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198018231506
+[11:05:30] INFO > Alienatedmammal: Opened the menu
+[11:05:34] INFO > Alienatedmammal: Healed user ID 76561198206232972 for 100 points
+[11:05:34] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198206232972
+[11:06:51] INFO > Alienatedmammal: Opened the menu
+[11:06:55] INFO > Alienatedmammal: Viewed inventory of 76561198018231506
+[11:21:16] INFO > Scuba Steve: Opened the menu
+[11:21:20] INFO > Scuba Steve: Teleported to user ID 76561197992384542
+[11:22:11] INFO > Scuba Steve: Opened the menu
+[11:22:15] INFO > Scuba Steve: Teleported to user ID 76561198206232972
+[11:36:00] INFO > Alienatedmammal: Opened the menu
+[11:36:05] INFO > Alienatedmammal: Teleported to user ID 76561197992384542
+[11:40:32] INFO > Alienatedmammal: Opened the menu
+[11:40:36] INFO > Alienatedmammal: Froze user ID 76561197992384542
+[11:41:55] INFO > Alienatedmammal: Opened the menu
+[11:41:58] INFO > Alienatedmammal: Healed user ID 76561198206232972 for 100 points
+[11:41:59] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198206232972
+[11:42:03] INFO > Alienatedmammal: Healed user ID 76561197992384542 for 100 points
+[11:42:04] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561197992384542
+[11:45:03] INFO > Scuba Steve: Opened the menu
+[11:45:06] INFO > Scuba Steve: Teleported to user ID 76561198206232972
+[11:45:54] INFO > Alienatedmammal: Opened the menu
+[11:45:58] INFO > Scuba Steve: Opened the menu
+[11:45:58] INFO > Scuba Steve: Teleported to admin Alienatedmammal
+[11:46:31] INFO > Alienatedmammal: Opened the menu
+[11:46:36] INFO > Scuba Steve: Teleported to admin Alienatedmammal
+[11:48:07] INFO > Alienatedmammal: Opened the menu
+[11:48:10] INFO > Alienatedmammal: Healed user ID 76561198018231506 for 100 points
+[11:48:11] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198018231506
+[11:48:21] INFO > Alienatedmammal: Opened the menu
+[11:48:25] INFO > Alienatedmammal: Healed user ID 76561198018231506 for 100 points
+[11:48:26] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198018231506
+[11:49:20] INFO > Alienatedmammal: Opened the menu
+[11:49:24] INFO > Alienatedmammal: Healed user ID 76561198018231506 for 100 points
+[11:50:26] INFO > Alienatedmammal: Opened the menu
+[11:50:31] INFO > Alienatedmammal: Started spectating user ID 76561197992384542
+[11:56:10] INFO > Alienatedmammal: Opened the menu
+[11:56:18] INFO > Alienatedmammal: Teleported to user ID 76561197992384542

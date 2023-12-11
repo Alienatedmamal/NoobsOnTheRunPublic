@@ -1,0 +1,10 @@
+﻿[04:28:46] INFO > Alienatedmammal: Opened the menu
+[04:28:49] INFO > Alienatedmammal: Healed user ID 76561198206232972 for 100 points
+[04:28:51] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198206232972
+[04:50:00] INFO > Alienatedmammal: Opened the menu
+[04:50:04] INFO > Alienatedmammal: Healed user ID 76561198206232972 for 100 points
+[04:50:07] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198206232972
+[04:53:02] INFO > Alienatedmammal: Opened the menu
+[04:53:09] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198206232972
+[04:53:09] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198206232972
+[04:53:12] INFO > Alienatedmammal: Healed user ID 76561198206232972 for 100 points

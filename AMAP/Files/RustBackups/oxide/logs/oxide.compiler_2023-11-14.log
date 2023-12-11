@@ -1,0 +1,17 @@
+2023-11-14 03:10:20.374 -06:00 [INF] Starting compiler v1.0.22.0. . .
+2023-11-14 03:10:20.395 -06:00 [INF] Minimal logging level is set to Debug
+2023-11-14 03:10:20.403 -06:00 [INF] Watching parent process ([76790] RustDedicated) for shutdown
+2023-11-14 03:10:20.403 -06:00 [DBG] Started message server. . .
+2023-11-14 03:10:20.404 -06:00 [INF] Message server has started
+2023-11-14 03:10:22.402 -06:00 [INF] Sent ready message to parent process
+2023-11-14 03:10:22.403 -06:00 [DBG] Compiler has started successfully and is awaiting jobs. . .
+2023-11-14 03:10:22.569 -06:00 [DBG] Received compile job 0 | Plugins: 45, References: 57
+2023-11-14 03:10:23.406 -06:00 [INF] Starting compilation of job 0 | Total Plugins: 45
+2023-11-14 03:10:23.406 -06:00 [DBG] Settings[Encoding: utf-8, CSVersion: Preview, Target: DynamicallyLinkedLibrary, Platform: AnyCpu, StdLib: False, Debug: False]
+2023-11-14 03:10:23.431 -06:00 [DBG] Added 57 project references
+2023-11-14 03:10:23.644 -06:00 [DBG] Plugin PlayerAdministration.cs is using unicode escape sequence
+2023-11-14 03:10:23.756 -06:00 [DBG] Added 45 plugins to the project
+2023-11-14 03:10:25.825 -06:00 [INF] Successfully compiled 45/45 plugins for job 0 in 2419ms
+2023-11-14 03:10:25.825 -06:00 [DBG] Pushing job 0 back to parent
+2023-11-14 03:10:25.834 -06:00 [INF] Termination request has been received from compiler stream
+2023-11-14 03:10:26.823 -06:00 [INF] Termination request has been received from SIGTERM

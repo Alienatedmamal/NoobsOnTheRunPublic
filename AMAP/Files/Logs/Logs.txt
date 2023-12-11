@@ -1,0 +1,14 @@
+
+Mon Dec 11 12:22:23 PM CST 2023 Logs have been cleared
+Mon Dec 11 12:29:40 PM CST 2023 ServerBackup: ServerBackups starting
+Mon Dec 11 12:29:40 PM CST 2023 ServerBackup: Oxide Files Have Been Backed Up
+Mon Dec 11 12:29:40 PM CST 2023 ServerBackup: NoobsOnTheRun Files Have Been Backed Up
+Mon Dec 11 12:29:40 PM CST 2023 ServerBackup: lgsm Files Have Been Backed Up
+Mon Dec 11 12:29:40 PM CST 2023 ServerBackup: rustserver Files Have Been Backed Up
+Mon Dec 11 12:29:40 PM CST 2023 ServerBackup: ServerBackup Has Finished
+Mon Dec 11 12:31:14 PM CST 2023 ServerBackup: ServerBackups starting
+Mon Dec 11 12:31:14 PM CST 2023 ServerBackup: Oxide Files Have Been Backed Up
+Mon Dec 11 12:31:14 PM CST 2023 ServerBackup: NoobsOnTheRun Files Have Been Backed Up
+Mon Dec 11 12:31:14 PM CST 2023 ServerBackup: lgsm Files Have Been Backed Up
+Mon Dec 11 12:31:14 PM CST 2023 ServerBackup: rustserver Files Have Been Backed Up
+Mon Dec 11 12:31:14 PM CST 2023 ServerBackup: ServerBackup Has Finished

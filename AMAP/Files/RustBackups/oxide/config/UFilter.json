@@ -1,0 +1,16 @@
+{
+  "Check for advertising (true/false)": true,
+  "Check for profanity (true/false)": true,
+  "Check player chat (true/false)": true,
+  "Check player names (true/false)": true,
+  "Log advertising (true/false)": false,
+  "Log profanity (true/false)": false,
+  "Log to console (true/false)": true,
+  "Log to file (true/false)": false,
+  "Warn player in chat (true/false)": true,
+  "Action for advertising": "block",
+  "Action for profanity": "censor",
+  "Word or symbol to use for censoring": "*",
+  "Allowed advertisements": [],
+  "Allowed profanity": []
+}

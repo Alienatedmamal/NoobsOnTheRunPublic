@@ -1,0 +1,159 @@
+{
+  "Global": {
+    "PermaUIButton": false,
+    "SideNav": false,
+    "OnlyShowOnce": false,
+    "NeverAutoShow": false,
+    "NumberOfPages": 4,
+    "GuiTransparency": 0.95,
+    "ButtonColour": "0,100,0,1",
+    "ButtonColourSelected": "0,200,0,1",
+    "CommandAlias": "is"
+  },
+  "Pages": {
+    "Page1": {
+      "ImageElements": {
+        "BackGround": {
+          "URL": "",
+          "GoBehindNav": false,
+          "ShowOnSubPages": "0",
+          "PosBottomToTop": "0.0,1.0",
+          "PosLeftToRight": "0.0,1.0"
+        }
+      },
+      "TextElements": {
+        "Title": {
+          "Content": "Default Text",
+          "FontSize": 16,
+          "AlignTopMiddleBottom": "top",
+          "AlignLeftMiddleRight": "middle",
+          "FontColour": "255,255,255,1",
+          "GoBehindNav": false,
+          "ShowOnSubPages": "0",
+          "PosBottomToTop": "0.0,1.0",
+          "PosLeftToRight": "0.0,1.0"
+        },
+        "Content": {
+          "Content": "Default Text",
+          "FontSize": 16,
+          "AlignTopMiddleBottom": "top",
+          "AlignLeftMiddleRight": "middle",
+          "FontColour": "255,255,255,1",
+          "GoBehindNav": false,
+          "ShowOnSubPages": "0",
+          "PosBottomToTop": "0.0,0.5",
+          "PosLeftToRight": "0.0,1.0"
+        }
+      },
+      "VisibleTo": "default,somegroup"
+    },
+    "Page2": {
+      "ImageElements": {
+        "BackGround": {
+          "URL": "",
+          "GoBehindNav": false,
+          "ShowOnSubPages": "0",
+          "PosBottomToTop": "0.0,1.0",
+          "PosLeftToRight": "0.0,1.0"
+        }
+      },
+      "TextElements": {
+        "Title": {
+          "Content": "Default Text",
+          "FontSize": 16,
+          "AlignTopMiddleBottom": "top",
+          "AlignLeftMiddleRight": "middle",
+          "FontColour": "255,255,255,1",
+          "GoBehindNav": false,
+          "ShowOnSubPages": "0",
+          "PosBottomToTop": "0.0,1.0",
+          "PosLeftToRight": "0.0,1.0"
+        },
+        "Content": {
+          "Content": "Default Text",
+          "FontSize": 16,
+          "AlignTopMiddleBottom": "top",
+          "AlignLeftMiddleRight": "middle",
+          "FontColour": "255,255,255,1",
+          "GoBehindNav": false,
+          "ShowOnSubPages": "0",
+          "PosBottomToTop": "0.0,0.5",
+          "PosLeftToRight": "0.0,1.0"
+        }
+      },
+      "VisibleTo": "default,somegroup"
+    },
+    "Page3": {
+      "ImageElements": {
+        "BackGround": {
+          "URL": "",
+          "GoBehindNav": false,
+          "ShowOnSubPages": "0",
+          "PosBottomToTop": "0.0,1.0",
+          "PosLeftToRight": "0.0,1.0"
+        }
+      },
+      "TextElements": {
+        "Title": {
+          "Content": "Default Text",
+          "FontSize": 16,
+          "AlignTopMiddleBottom": "top",
+          "AlignLeftMiddleRight": "middle",
+          "FontColour": "255,255,255,1",
+          "GoBehindNav": false,
+          "ShowOnSubPages": "0",
+          "PosBottomToTop": "0.0,1.0",
+          "PosLeftToRight": "0.0,1.0"
+        },
+        "Content": {
+          "Content": "Default Text",
+          "FontSize": 16,
+          "AlignTopMiddleBottom": "top",
+          "AlignLeftMiddleRight": "middle",
+          "FontColour": "255,255,255,1",
+          "GoBehindNav": false,
+          "ShowOnSubPages": "0",
+          "PosBottomToTop": "0.0,0.5",
+          "PosLeftToRight": "0.0,1.0"
+        }
+      },
+      "VisibleTo": "default,somegroup"
+    },
+    "Page4": {
+      "ImageElements": {
+        "BackGround": {
+          "URL": "",
+          "GoBehindNav": false,
+          "ShowOnSubPages": "0",
+          "PosBottomToTop": "0.0,1.0",
+          "PosLeftToRight": "0.0,1.0"
+        }
+      },
+      "TextElements": {
+        "Title": {
+          "Content": "Default Text",
+          "FontSize": 16,
+          "AlignTopMiddleBottom": "top",
+          "AlignLeftMiddleRight": "middle",
+          "FontColour": "255,255,255,1",
+          "GoBehindNav": false,
+          "ShowOnSubPages": "0",
+          "PosBottomToTop": "0.0,1.0",
+          "PosLeftToRight": "0.0,1.0"
+        },
+        "Content": {
+          "Content": "Default Text",
+          "FontSize": 16,
+          "AlignTopMiddleBottom": "top",
+          "AlignLeftMiddleRight": "middle",
+          "FontColour": "255,255,255,1",
+          "GoBehindNav": false,
+          "ShowOnSubPages": "0",
+          "PosBottomToTop": "0.0,0.5",
+          "PosLeftToRight": "0.0,1.0"
+        }
+      },
+      "VisibleTo": "default,somegroup"
+    }
+  }
+}

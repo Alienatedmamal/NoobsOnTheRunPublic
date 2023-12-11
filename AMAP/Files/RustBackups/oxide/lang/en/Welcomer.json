@@ -1,0 +1,9 @@
+{
+  "Welcome.Chat": "There are currently {0} active players, {1} joining, {2} sleepers, and {3} in the queue",
+  "Welcome.Console": "There are currently {0} active players, {1} joining, {2} sleepers, and {3} in the queue",
+  "Join": "{0} joined from {1}",
+  "Join.Newcomer ": "{0} joined for the very first time from {1}",
+  "Leave": "{0} left the server for the reason {1}",
+  "Leave.RageQuit": "{0} rage quitted",
+  "Test": "Test message"
+}

@@ -1,0 +1,12 @@
+{
+  "Chat Avatar": 0,
+  "Show Player Avatar": false,
+  "Enable Chat Welcome Message": true,
+  "Enable Console Welcome Message": true,
+  "Enable Join Message": true,
+  "Enable Newcomer Join Message": true,
+  "Enable Leave Message": true,
+  "Enable Rage Quit Message": true,
+  "Clear Data On Wipe": true,
+  "Log To Console": true
+}

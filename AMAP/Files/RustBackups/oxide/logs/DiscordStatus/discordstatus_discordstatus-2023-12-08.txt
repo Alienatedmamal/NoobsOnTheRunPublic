@@ -1,0 +1,96 @@
+﻿System.NullReferenceException: Object reference not set to an instance of an object
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x00000] in <e970144b41424ab19f56b1d346df35da>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x0004a] in <e970144b41424ab19f56b1d346df35da>:0 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x00000] in <e970144b41424ab19f56b1d346df35da>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x0004a] in <e970144b41424ab19f56b1d346df35da>:0 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x00000] in <e970144b41424ab19f56b1d346df35da>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x0004a] in <e970144b41424ab19f56b1d346df35da>:0 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x00000] in <e970144b41424ab19f56b1d346df35da>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x0004a] in <e970144b41424ab19f56b1d346df35da>:0 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x00000] in <e970144b41424ab19f56b1d346df35da>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x0004a] in <e970144b41424ab19f56b1d346df35da>:0 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x00000] in <e970144b41424ab19f56b1d346df35da>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x0004a] in <e970144b41424ab19f56b1d346df35da>:0 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x00000] in <e970144b41424ab19f56b1d346df35da>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x0004a] in <e970144b41424ab19f56b1d346df35da>:0 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x00000] in <e970144b41424ab19f56b1d346df35da>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x0004a] in <e970144b41424ab19f56b1d346df35da>:0 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x00000] in <e970144b41424ab19f56b1d346df35da>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x0004a] in <e970144b41424ab19f56b1d346df35da>:0 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x00000] in <e970144b41424ab19f56b1d346df35da>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x0004a] in <e970144b41424ab19f56b1d346df35da>:0 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x00000] in <e970144b41424ab19f56b1d346df35da>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x0004a] in <e970144b41424ab19f56b1d346df35da>:0 
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x00000] in <e970144b41424ab19f56b1d346df35da>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x0004a] in <e970144b41424ab19f56b1d346df35da>:0 
+System.OverflowException: Value was either too large or too small for an Int32.
+  at System.Convert.ToInt32 (System.Double value) [0x0007a] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at System.Convert.ToInt32 (System.Single value) [0x00000] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x0017a] in <8c17e168e3914dc28ae57960ea42b2de>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x0004a] in <8c17e168e3914dc28ae57960ea42b2de>:0 
+System.OverflowException: Value was either too large or too small for an Int32.
+  at System.Convert.ToInt32 (System.Double value) [0x0007a] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at System.Convert.ToInt32 (System.Single value) [0x00000] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x0017a] in <8c17e168e3914dc28ae57960ea42b2de>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x0004a] in <8c17e168e3914dc28ae57960ea42b2de>:0 
+System.OverflowException: Value was either too large or too small for an Int32.
+  at System.Convert.ToInt32 (System.Double value) [0x0007a] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at System.Convert.ToInt32 (System.Single value) [0x00000] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x0017a] in <8c17e168e3914dc28ae57960ea42b2de>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x0004a] in <8c17e168e3914dc28ae57960ea42b2de>:0 
+System.OverflowException: Value was either too large or too small for an Int32.
+  at System.Convert.ToInt32 (System.Double value) [0x0007a] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at System.Convert.ToInt32 (System.Single value) [0x00000] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x0017a] in <8c17e168e3914dc28ae57960ea42b2de>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x0004a] in <8c17e168e3914dc28ae57960ea42b2de>:0 
+System.OverflowException: Value was either too large or too small for an Int32.
+  at System.Convert.ToInt32 (System.Double value) [0x0007a] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at System.Convert.ToInt32 (System.Single value) [0x00000] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x0017a] in <8c17e168e3914dc28ae57960ea42b2de>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x0004a] in <8c17e168e3914dc28ae57960ea42b2de>:0 
+System.OverflowException: Value was either too large or too small for an Int32.
+  at System.Convert.ToInt32 (System.Double value) [0x0007a] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at System.Convert.ToInt32 (System.Single value) [0x00000] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x0017a] in <8c17e168e3914dc28ae57960ea42b2de>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x0004a] in <8c17e168e3914dc28ae57960ea42b2de>:0 
+System.OverflowException: Value was either too large or too small for an Int32.
+  at System.Convert.ToInt32 (System.Double value) [0x0007a] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at System.Convert.ToInt32 (System.Single value) [0x00000] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x0017a] in <8c17e168e3914dc28ae57960ea42b2de>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x0004a] in <8c17e168e3914dc28ae57960ea42b2de>:0 
+System.OverflowException: Value was either too large or too small for an Int32.
+  at System.Convert.ToInt32 (System.Double value) [0x0007a] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at System.Convert.ToInt32 (System.Single value) [0x00000] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x0017a] in <8c17e168e3914dc28ae57960ea42b2de>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x0004a] in <8c17e168e3914dc28ae57960ea42b2de>:0 
+System.OverflowException: Value was either too large or too small for an Int32.
+  at System.Convert.ToInt32 (System.Double value) [0x0007a] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at System.Convert.ToInt32 (System.Single value) [0x00000] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x0017a] in <8c17e168e3914dc28ae57960ea42b2de>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x0004a] in <8c17e168e3914dc28ae57960ea42b2de>:0 
+System.OverflowException: Value was either too large or too small for an Int32.
+  at System.Convert.ToInt32 (System.Double value) [0x0007a] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at System.Convert.ToInt32 (System.Single value) [0x00000] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x0017a] in <8c17e168e3914dc28ae57960ea42b2de>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x0004a] in <8c17e168e3914dc28ae57960ea42b2de>:0 
+System.OverflowException: Value was either too large or too small for an Int32.
+  at System.Convert.ToInt32 (System.Double value) [0x0007a] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at System.Convert.ToInt32 (System.Single value) [0x00000] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x0017a] in <8c17e168e3914dc28ae57960ea42b2de>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x0004a] in <8c17e168e3914dc28ae57960ea42b2de>:0 
+System.OverflowException: Value was either too large or too small for an Int32.
+  at System.Convert.ToInt32 (System.Double value) [0x0007a] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at System.Convert.ToInt32 (System.Single value) [0x00000] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x0017a] in <8c17e168e3914dc28ae57960ea42b2de>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x0004a] in <8c17e168e3914dc28ae57960ea42b2de>:0 

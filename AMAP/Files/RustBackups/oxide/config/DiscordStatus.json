@@ -1,0 +1,13 @@
+{
+  "Discord Bot Token": "MTEzOTU5NTYzMzkxMzc3NDEzMQ.GM1ttx.fJceaVIlF_BAR-TPBIlX32h97Jfcmi20MJ997c",
+  "Prefix": "!",
+  "Discord Group Id needed for Commands (null to disable)": null,
+  "Update Interval (Seconds)": 5,
+  "Randomize Status": false,
+  "Status Type (Game/Stream/Listen/Watch)": "Game",
+  "Status": [
+    "{players.online} / {server.maxplayers} Online!"
+  ],
+  "Discord Server ID (Optional if bot only in 1 guild)": "",
+  "Discord Extension Log Level (Verbose, Debug, Info, Warning, Error, Exception, Off)": "Info"
+}

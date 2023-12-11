@@ -1,0 +1,147 @@
+[SERVER v1.0.20] Started as service
+[SERVER v1.0.20] Running as service
+[SERVER v1.0.20] Got Message: Ready
+[SERVER v1.0.20] Got Message: Compile
+[SERVER v1.0.20] Console: AdminHammer.cs(51,22): warning CS0114: `Oxide.Plugins.AdminHammer.LoadDefaultMessages()' hides inherited member `Oxide.Core.Plugins.Plugin.LoadDefaultMessages()'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword
+/home/alienatedmammal/serverfiles/Oxide.Core.dll (Location of the symbol related to previous warning)
+AdminRadar.cs(3804,19): warning CS0219: The variable `userid' is assigned but its value is never used
+CopyPaste.cs(1868,49): warning CS0618: `UnityEngine.Quaternion.EulerRotation(UnityEngine.Vector3)' is obsolete: `Use Quaternion.Euler instead. This function was deprecated because it uses radians instead of degrees.'
+CopyPaste.cs(1883,32): warning CS0618: `UnityEngine.Quaternion.EulerRotation(UnityEngine.Vector3)' is obsolete: `Use Quaternion.Euler instead. This function was deprecated because it uses radians instead of degrees.'
+DiscordStatus.cs(180,34): warning CS0618: `Oxide.Ext.Discord.Constants.DiscordHooks' is obsolete: `Please switch DiscordHooks -> DiscordExtHooks due to conflicts with a plugin name. This will be removed in a future update.'
+DiscordStatus.cs(218,32): warning CS0219: The variable `maxplayers' is assigned but its value is never used
+DiscordStatus.cs(219,32): warning CS0219: The variable `onlineplayers' is assigned but its value is never used
+DiscordStatus.cs(265,34): warning CS0618: `Oxide.Ext.Discord.Constants.DiscordHooks' is obsolete: `Please switch DiscordHooks -> DiscordExtHooks due to conflicts with a plugin name. This will be removed in a future update.'
+ImageLibrary.cs(620,17): warning CS0219: The variable `totalPages' is assigned but its value is never used
+ImageLibrary.cs(712,59): warning CS0219: The variable `loadOrder' is assigned but its value is never used
+ImageLibrary.cs(815,75): warning CS0219: The variable `loadOrder' is assigned but its value is never used
+Payback.cs(1767,21): warning CS0219: The variable `entity' is assigned but its value is never used
+Payback.cs(3142,33): warning CS0472: The result of comparing value type `System.DateTime' with null is always `true'
+Payback.cs(3364,26): warning CS0219: The variable `isSuicide' is assigned but its value is never used
+Payback.cs(3691,18): warning CS0219: The variable `serverHasInitialized' is assigned but its value is never used
+Payback.cs(3972,30): warning CS0168: The variable `e' is declared but never used
+PermissionsManager.cs(423,24): warning CS0219: The variable `granted' is assigned but its value is never used
+PermissionsManager.cs(477,20): warning CS0219: The variable `guiString' is assigned but its value is never used
+PermissionsManager.cs(507,20): warning CS0219: The variable `guiString' is assigned but its value is never used
+PermissionsManager.cs(872,17): warning CS0219: The variable `id' is assigned but its value is never used
+PermissionsManager.cs(1151,26): warning CS0219: The variable `perms' is assigned but its value is never used
+PermissionsManager.cs(1295,21): warning CS0219: The variable `allperms' is assigned but its value is never used
+PermissionsManager.cs(1301,21): warning CS0219: The variable `permissions' is assigned but its value is never used
+PlayerAdministration.cs(663,17): warning CS0162: Unreachable code detected
+Rustcord.cs(3327,17): warning CS0219: The variable `dict' is assigned but its value is never used
+Rustcord.cs(3890,17): warning CS0472: The result of comparing value type `UnityEngine.Vector3' with null is always `false'
+Rustcord.cs(3890,39): warning CS0162: Unreachable code detected
+Rustcord.cs(3935,17): warning CS0472: The result of comparing value type `UnityEngine.Vector3' with null is always `false'
+Rustcord.cs(3935,39): warning CS0162: Unreachable code detected
+AdminHammer.cs(21,22): warning CS0414: The private field `Oxide.Plugins.AdminHammer.showCode' is assigned but its value is never used
+AdminRadar.cs(49,22): warning CS0414: The private field `Oxide.Plugins.AdminRadar._isPopulatingCache' is assigned but its value is never used
+AdminRadar.cs(28,52): warning CS0649: Field `Oxide.Plugins.AdminRadar.DiscordMessages' is never assigned to, and will always have its default value `null'
+BetterChatFlood.cs(21,22): warning CS0414: The private field `Oxide.Plugins.BetterChatFlood.canBetterChat' is assigned but its value is never used
+BlueprintManager.cs(99,26): warning CS0414: The private field `Oxide.Plugins.BlueprintManager._lastWipe' is assigned but its value is never used
+DiscordReport.cs(29,38): warning CS0414: The private field `Oxide.Plugins.DiscordReport._ins' is assigned but its value is never used
+DiscordStatus.cs(39,24): warning CS0414: The private field `Oxide.Plugins.DiscordStatus.seperatorText' is assigned but its value is never used
+DiscordStatus.cs(40,22): warning CS0169: The private field `Oxide.Plugins.DiscordStatus.enableChatSeparators' is never used
+ImageLibrary.cs(44,26): warning CS0414: The private field `Oxide.Plugins.ImageLibrary.itemShortNames' is assigned but its value is never used
+ImageLibrary.cs(887,29): warning CS0649: Field `Oxide.Plugins.ImageLibrary.QueryResponse.response' is never assigned to, and will always have its default value `null'
+ImageLibrary.cs(892,24): warning CS0649: Field `Oxide.Plugins.ImageLibrary.Response.total' is never assigned to, and will always have its default value `0'
+ImageLibrary.cs(893,43): warning CS0649: Field `Oxide.Plugins.ImageLibrary.Response.publishedfiledetails' is never assigned to, and will always have its default value `null'
+ImageLibrary.cs(898,24): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.result' is never assigned to, and will always have its default value `0'
+ImageLibrary.cs(899,27): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.publishedfileid' is never assigned to, and will always have its default value `null'
+ImageLibrary.cs(900,27): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.creator' is never assigned to, and will always have its default value `null'
+ImageLibrary.cs(901,24): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.creator_appid' is never assigned to, and will always have its default value `0'
+ImageLibrary.cs(902,24): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.consumer_appid' is never assigned to, and will always have its default value `0'
+ImageLibrary.cs(903,24): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.consumer_shortcutid' is never assigned to, and will always have its default value `0'
+ImageLibrary.cs(904,27): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.filename' is never assigned to, and will always have its default value `null'
+ImageLibrary.cs(905,27): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.file_size' is never assigned to, and will always have its default value `null'
+ImageLibrary.cs(906,27): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.preview_file_size' is never assigned to, and will always have its default value `null'
+ImageLibrary.cs(907,27): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.file_url' is never assigned to, and will always have its default value `null'
+ImageLibrary.cs(909,27): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.url' is never assigned to, and will always have its default value `null'
+ImageLibrary.cs(910,27): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.hcontent_file' is never assigned to, and will always have its default value `null'
+ImageLibrary.cs(911,27): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.hcontent_preview' is never assigned to, and will always have its default value `null'
+ImageLibrary.cs(912,27): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.title' is never assigned to, and will always have its default value `null'
+ImageLibrary.cs(913,27): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.file_description' is never assigned to, and will always have its default value `null'
+ImageLibrary.cs(914,24): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.time_created' is never assigned to, and will always have its default value `0'
+ImageLibrary.cs(915,24): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.time_updated' is never assigned to, and will always have its default value `0'
+ImageLibrary.cs(916,24): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.visibility' is never assigned to, and will always have its default value `0'
+ImageLibrary.cs(917,24): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.flags' is never assigned to, and will always have its default value `0'
+ImageLibrary.cs(918,25): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.workshop_file' is never assigned to, and will always have its default value `false'
+ImageLibrary.cs(919,25): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.workshop_accepted' is never assigned to, and will always have its default value `false'
+ImageLibrary.cs(920,25): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.show_subscribe_all' is never assigned to, and will always have its default value `false'
+ImageLibrary.cs(921,24): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.num_comments_public' is never assigned to, and will always have its default value `0'
+ImageLibrary.cs(922,25): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.banned' is never assigned to, and will always have its default value `false'
+ImageLibrary.cs(923,27): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.ban_reason' is never assigned to, and will always have its default value `null'
+ImageLibrary.cs(924,27): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.banner' is never assigned to, and will always have its default value `null'
+ImageLibrary.cs(925,25): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.can_be_deleted' is never assigned to, and will always have its default value `false'
+ImageLibrary.cs(926,27): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.app_name' is never assigned to, and will always have its default value `null'
+ImageLibrary.cs(927,24): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.file_type' is never assigned to, and will always have its default value `0'
+ImageLibrary.cs(928,25): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.can_subscribe' is never assigned to, and will always have its default value `false'
+ImageLibrary.cs(929,24): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.subscriptions' is never assigned to, and will always have its default value `0'
+ImageLibrary.cs(930,24): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.favorited' is never assigned to, and will always have its default value `0'
+ImageLibrary.cs(931,24): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.followers' is never assigned to, and will always have its default value `0'
+ImageLibrary.cs(932,24): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.lifetime_subscriptions' is never assigned to, and will always have its default value `0'
+ImageLibrary.cs(933,24): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.lifetime_favorited' is never assigned to, and will always have its default value `0'
+ImageLibrary.cs(934,24): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.lifetime_followers' is never assigned to, and will always have its default value `0'
+ImageLibrary.cs(935,27): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.lifetime_playtime' is never assigned to, and will always have its default value `null'
+ImageLibrary.cs(936,27): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.lifetime_playtime_sessions' is never assigned to, and will always have its default value `null'
+ImageLibrary.cs(937,24): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.views' is never assigned to, and will always have its default value `0'
+ImageLibrary.cs(938,24): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.num_children' is never assigned to, and will always have its default value `0'
+ImageLibrary.cs(939,24): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.num_reports' is never assigned to, and will always have its default value `0'
+ImageLibrary.cs(940,30): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.previews' is never assigned to, and will always have its default value `null'
+ImageLibrary.cs(941,26): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.tags' is never assigned to, and will always have its default value `null'
+ImageLibrary.cs(942,24): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.language' is never assigned to, and will always have its default value `0'
+ImageLibrary.cs(943,25): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.maybe_inappropriate_sex' is never assigned to, and will always have its default value `false'
+ImageLibrary.cs(944,25): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.maybe_inappropriate_violence' is never assigned to, and will always have its default value `false'
+ImageLibrary.cs(949,29): warning CS0649: Field `Oxide.Plugins.ImageLibrary.PublishedFileDetails.Tag.adminonly' is never assigned to, and will always have its default value `false'
+ImageLibrary.cs(956,27): warning CS0649: Field `Oxide.Plugins.ImageLibrary.Preview.previewid' is never assigned to, and will always have its default value `null'
+ImageLibrary.cs(957,24): warning CS0649: Field `Oxide.Plugins.ImageLibrary.Preview.sortorder' is never assigned to, and will always have its default value `0'
+ImageLibrary.cs(958,27): warning CS0649: Field `Oxide.Plugins.ImageLibrary.Preview.url' is never assigned to, and will always have its default value `null'
+ImageLibrary.cs(959,24): warning CS0649: Field `Oxide.Plugins.ImageLibrary.Preview.size' is never assigned to, and will always have its default value `0'
+ImageLibrary.cs(960,27): warning CS0649: Field `Oxide.Plugins.ImageLibrary.Preview.filename' is never assigned to, and will always have its default value `null'
+ImageLibrary.cs(961,24): warning CS0649: Field `Oxide.Plugins.ImageLibrary.Preview.preview_type' is never assigned to, and will always have its default value `0'
+ImageLibrary.cs(962,27): warning CS0649: Field `Oxide.Plugins.ImageLibrary.Preview.youtubevideoid' is never assigned to, and will always have its default value `null'
+ImageLibrary.cs(963,27): warning CS0649: Field `Oxide.Plugins.ImageLibrary.Preview.external_reference' is never assigned to, and will always have its default value `null'
+ImageLibrary.cs(1082,26): warning CS0414: The private field `Oxide.Plugins.ImageLibrary.ImageAssets.isLoading' is assigned but its value is never used
+Kits.cs(2072,24): warning CS0649: Field `Oxide.Plugins.Kits.OldKitData.max' is never assigned to, and will always have its default value `0'
+Kits.cs(2073,27): warning CS0649: Field `Oxide.Plugins.Kits.OldKitData.cooldown' is never assigned to, and will always have its default value `0'
+Kits.cs(2078,24): warning CS0649: Field `Oxide.Plugins.Kits.OldKitItem.itemid' is never assigned to, and will always have its default value `0'
+Kits.cs(2079,27): warning CS0649: Field `Oxide.Plugins.Kits.OldKitItem.container' is never assigned to, and will always have its default value `null'
+Kits.cs(2080,24): warning CS0649: Field `Oxide.Plugins.Kits.OldKitItem.amount' is never assigned to, and will always have its default value `0'
+Kits.cs(2081,26): warning CS0649: Field `Oxide.Plugins.Kits.OldKitItem.skinid' is never assigned to, and will always have its default value `0'
+Kits.cs(2082,25): warning CS0649: Field `Oxide.Plugins.Kits.OldKitItem.weapon' is never assigned to, and will always have its default value `false'
+Kits.cs(2083,24): warning CS0649: Field `Oxide.Plugins.Kits.OldKitItem.blueprintTarget' is never assigned to, and will always have its default value `0'
+Kits.cs(2089,27): warning CS0649: Field `Oxide.Plugins.Kits.OldKit.name' is never assigned to, and will always have its default value `null'
+Kits.cs(2090,27): warning CS0649: Field `Oxide.Plugins.Kits.OldKit.description' is never assigned to, and will always have its default value `null'
+Kits.cs(2091,24): warning CS0649: Field `Oxide.Plugins.Kits.OldKit.max' is never assigned to, and will always have its default value `0'
+Kits.cs(2092,27): warning CS0649: Field `Oxide.Plugins.Kits.OldKit.cooldown' is never assigned to, and will always have its default value `0'
+Kits.cs(2093,24): warning CS0649: Field `Oxide.Plugins.Kits.OldKit.authlevel' is never assigned to, and will always have its default value `0'
+Kits.cs(2094,25): warning CS0649: Field `Oxide.Plugins.Kits.OldKit.hide' is never assigned to, and will always have its default value `false'
+Kits.cs(2095,25): warning CS0649: Field `Oxide.Plugins.Kits.OldKit.npconly' is never assigned to, and will always have its default value `false'
+Kits.cs(2096,27): warning CS0649: Field `Oxide.Plugins.Kits.OldKit.permission' is never assigned to, and will always have its default value `null'
+Kits.cs(2097,27): warning CS0649: Field `Oxide.Plugins.Kits.OldKit.image' is never assigned to, and will always have its default value `null'
+Kits.cs(2098,27): warning CS0649: Field `Oxide.Plugins.Kits.OldKit.building' is never assigned to, and will always have its default value `null'
+Payback.cs(667,16): warning CS0414: The private field `Oxide.Plugins.Payback.sfx_bloodHit' is assigned but its value is never used
+Payback.cs(2200,16): warning CS0414: The private field `Oxide.Plugins.Payback.sound_bsod' is assigned but its value is never used
+Payback.cs(4124,14): warning CS0414: The private field `Oxide.Plugins.Payback.test' is assigned but its value is never used
+PermissionsManager.cs(1019,25): warning CS0649: Field `Oxide.Plugins.PermissionsManager.MySQL.useMySQL' is never assigned to, and will always have its default value `false'
+Rustcord.cs(37,34): warning CS0169: The private field `Oxide.Plugins.Rustcord.PrivateMessages' is never used
+Rustcord.cs(107,24): warning CS0169: The private field `Oxide.Plugins.Rustcord.rbdiff' is never used
+Rustcord.cs(37,67): warning CS0169: The private field `Oxide.Plugins.Rustcord.Clans' is never used
+Rustcord.cs(37,74): warning CS0169: The private field `Oxide.Plugins.Rustcord.AdminChat' is never used
+Rustcord.cs(37,85): warning CS0169: The private field `Oxide.Plugins.Rustcord.DiscordAuth' is never used
+Rustcord.cs(37,98): warning CS0169: The private field `Oxide.Plugins.Rustcord.AdminHammer' is never used
+Rustcord.cs(37,111): warning CS0169: The private field `Oxide.Plugins.Rustcord.AdminRadar' is never used
+Rustcord.cs(37,123): warning CS0169: The private field `Oxide.Plugins.Rustcord.Kits' is never used
+Rustcord.cs(37,129): warning CS0169: The private field `Oxide.Plugins.Rustcord.Vanish' is never used
+Rustcord.cs(37,137): warning CS0169: The private field `Oxide.Plugins.Rustcord.RaidableBases' is never used
+Rustcord.cs(37,152): warning CS0169: The private field `Oxide.Plugins.Rustcord.DangerousTreasures' is never used
+Rustcord.cs(37,172): warning CS0169: The private field `Oxide.Plugins.Rustcord.NoGiveNotices' is never used
+Rustcord.cs(37,187): warning CS0169: The private field `Oxide.Plugins.Rustcord.Give' is never used
+Rustcord.cs(37,193): warning CS0169: The private field `Oxide.Plugins.Rustcord.AirEvent' is never used
+Rustcord.cs(37,203): warning CS0169: The private field `Oxide.Plugins.Rustcord.HarborEvent' is never used
+Rustcord.cs(37,216): warning CS0169: The private field `Oxide.Plugins.Rustcord.JunkyardEvent' is never used
+Rustcord.cs(37,231): warning CS0169: The private field `Oxide.Plugins.Rustcord.PowerPlantEvent' is never used
+TimedExecute.cs(23,15): warning CS0169: The private field `Oxide.Plugins.TimedExecute.ptimer' is never used
+
+[SERVER v1.0.20] Got Message: Exit
+[SERVER v1.0.20] Exit received.
+[SERVER v1.0.20] Connection closed.
+[SERVER v1.0.20] Shutdown

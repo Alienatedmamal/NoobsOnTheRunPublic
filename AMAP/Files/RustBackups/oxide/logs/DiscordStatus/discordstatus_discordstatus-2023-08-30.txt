@@ -1,0 +1,60 @@
+﻿System.OverflowException: Value was either too large or too small for an Int32.
+  at System.Convert.ToInt32 (System.Double value) [0x00084] in <fb001e01371b4adca20013e0ac763896>:0 
+  at System.Convert.ToInt32 (System.Single value) [0x00000] in <fb001e01371b4adca20013e0ac763896>:0 
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x001c7] in <1973a04f326c46dd952e8ecfb6a109d2>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x00053] in <1973a04f326c46dd952e8ecfb6a109d2>:0 
+System.OverflowException: Value was either too large or too small for an Int32.
+  at System.Convert.ToInt32 (System.Double value) [0x00084] in <fb001e01371b4adca20013e0ac763896>:0 
+  at System.Convert.ToInt32 (System.Single value) [0x00000] in <fb001e01371b4adca20013e0ac763896>:0 
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x001c7] in <1973a04f326c46dd952e8ecfb6a109d2>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x00053] in <1973a04f326c46dd952e8ecfb6a109d2>:0 
+System.OverflowException: Value was either too large or too small for an Int32.
+  at System.Convert.ToInt32 (System.Double value) [0x00084] in <fb001e01371b4adca20013e0ac763896>:0 
+  at System.Convert.ToInt32 (System.Single value) [0x00000] in <fb001e01371b4adca20013e0ac763896>:0 
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x001c7] in <1973a04f326c46dd952e8ecfb6a109d2>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x00053] in <1973a04f326c46dd952e8ecfb6a109d2>:0 
+System.OverflowException: Value was either too large or too small for an Int32.
+  at System.Convert.ToInt32 (System.Double value) [0x00084] in <fb001e01371b4adca20013e0ac763896>:0 
+  at System.Convert.ToInt32 (System.Single value) [0x00000] in <fb001e01371b4adca20013e0ac763896>:0 
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x001c7] in <1973a04f326c46dd952e8ecfb6a109d2>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x00053] in <1973a04f326c46dd952e8ecfb6a109d2>:0 
+System.OverflowException: Value was either too large or too small for an Int32.
+  at System.Convert.ToInt32 (System.Double value) [0x00084] in <fb001e01371b4adca20013e0ac763896>:0 
+  at System.Convert.ToInt32 (System.Single value) [0x00000] in <fb001e01371b4adca20013e0ac763896>:0 
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x001c7] in <1973a04f326c46dd952e8ecfb6a109d2>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x00053] in <1973a04f326c46dd952e8ecfb6a109d2>:0 
+System.OverflowException: Value was either too large or too small for an Int32.
+  at System.Convert.ToInt32 (System.Double value) [0x00084] in <fb001e01371b4adca20013e0ac763896>:0 
+  at System.Convert.ToInt32 (System.Single value) [0x00000] in <fb001e01371b4adca20013e0ac763896>:0 
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x001c7] in <1973a04f326c46dd952e8ecfb6a109d2>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x00053] in <1973a04f326c46dd952e8ecfb6a109d2>:0 
+System.OverflowException: Value was either too large or too small for an Int32.
+  at System.Convert.ToInt32 (System.Double value) [0x00084] in <fb001e01371b4adca20013e0ac763896>:0 
+  at System.Convert.ToInt32 (System.Single value) [0x00000] in <fb001e01371b4adca20013e0ac763896>:0 
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x001c7] in <1973a04f326c46dd952e8ecfb6a109d2>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x00053] in <1973a04f326c46dd952e8ecfb6a109d2>:0 
+System.OverflowException: Value was either too large or too small for an Int32.
+  at System.Convert.ToInt32 (System.Double value) [0x00084] in <fb001e01371b4adca20013e0ac763896>:0 
+  at System.Convert.ToInt32 (System.Single value) [0x00000] in <fb001e01371b4adca20013e0ac763896>:0 
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x001c7] in <1973a04f326c46dd952e8ecfb6a109d2>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x00053] in <1973a04f326c46dd952e8ecfb6a109d2>:0 
+System.OverflowException: Value was either too large or too small for an Int32.
+  at System.Convert.ToInt32 (System.Double value) [0x00084] in <fb001e01371b4adca20013e0ac763896>:0 
+  at System.Convert.ToInt32 (System.Single value) [0x00000] in <fb001e01371b4adca20013e0ac763896>:0 
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x001c7] in <1973a04f326c46dd952e8ecfb6a109d2>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x00053] in <1973a04f326c46dd952e8ecfb6a109d2>:0 
+System.OverflowException: Value was either too large or too small for an Int32.
+  at System.Convert.ToInt32 (System.Double value) [0x00084] in <fb001e01371b4adca20013e0ac763896>:0 
+  at System.Convert.ToInt32 (System.Single value) [0x00000] in <fb001e01371b4adca20013e0ac763896>:0 
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x001c7] in <1973a04f326c46dd952e8ecfb6a109d2>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x00053] in <1973a04f326c46dd952e8ecfb6a109d2>:0 
+System.OverflowException: Value was either too large or too small for an Int32.
+  at System.Convert.ToInt32 (System.Double value) [0x00084] in <fb001e01371b4adca20013e0ac763896>:0 
+  at System.Convert.ToInt32 (System.Single value) [0x00000] in <fb001e01371b4adca20013e0ac763896>:0 
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x001c7] in <1973a04f326c46dd952e8ecfb6a109d2>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x00053] in <1973a04f326c46dd952e8ecfb6a109d2>:0 
+System.OverflowException: Value was either too large or too small for an Int32.
+  at System.Convert.ToInt32 (System.Double value) [0x00084] in <fb001e01371b4adca20013e0ac763896>:0 
+  at System.Convert.ToInt32 (System.Single value) [0x00000] in <fb001e01371b4adca20013e0ac763896>:0 
+  at Oxide.Plugins.DiscordStatus.Format (System.String message) [0x001c7] in <1973a04f326c46dd952e8ecfb6a109d2>:0 
+  at Oxide.Plugins.DiscordStatus.UpdateStatus () [0x00053] in <1973a04f326c46dd952e8ecfb6a109d2>:0 

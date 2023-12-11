@@ -1,0 +1,7 @@
+﻿[09:23:23] ERROR > Alienatedmammal: Tried to execute a command requiring the '' permission
+[02:37:41] INFO > Alienatedmammal: Opened the menu
+[04:09:14] INFO > Alienatedmammal: Opened the menu
+[04:09:20] INFO > Alienatedmammal: Healed user ID 76561198206232972 for 100 points
+[05:43:38] INFO > Alienatedmammal: Opened the menu
+[05:43:40] INFO > Alienatedmammal: Healed user ID 76561198206232972 for 100 points
+[05:43:43] INFO > Alienatedmammal: Recovered the metabolism of user ID 76561198206232972

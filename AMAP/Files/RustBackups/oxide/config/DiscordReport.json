@@ -1,0 +1,29 @@
+{
+  "Webhook URL": "https://discord.com/api/webhooks/1133207837091299502/AkNA2hMiq5tSoGeJVvKnOPmNM_7bHpoqZEpIY95sl2JTCrLO83bbH7eeigntVUKfqS9N",
+  "Message Content": "",
+  "Embed Title": "NoobsOnTheRun F7 Report",
+  "Embed Description": "Report sent by a player from your server",
+  "Embed Color": 1484265,
+  "Set Author Icon From Player Profile": true,
+  "Use Reporter (True) Or Suspect (False) As Author": true,
+  "Allow Reporting Admins": false,
+  "Report Commands": [
+    "report"
+  ],
+  "Allow Only Online Suspects Reports": true,
+  "Threshold Before Sending Reports": 0,
+  "Show Recent Suspect Combatlog": false,
+  "Show In-Game Subject": true,
+  "Minimum In-Game Report Subject Length": 0,
+  "Minimum In-Game Report Message Length": 0,
+  "Allowed In-Game Report Types": [
+    "cheat",
+    "abusive",
+    "name",
+    "spam"
+  ],
+  "Recent Combatlog Entries": 2,
+  "Cooldown In Seconds": 300,
+  "User Cache Validity In Seconds": 86400,
+  "Minimum Message Length": 0
+}

@@ -1,0 +1,74 @@
+{
+  "Building skin change commands": [
+    "bskin",
+    "building.skin"
+  ],
+  "Block building skin in building blocked": true,
+  "Number of blocks updated per tick": 5,
+  "Use separate permissions for skins": false,
+  "Image and description settings": {
+    "0": [
+      {
+        "Title": "Wood",
+        "Url": "https://i.ibb.co/yqsWpbp/wood.png",
+        "SkinId": 0
+      },
+      {
+        "Title": "Frontier",
+        "Url": "https://i.ibb.co/b2bZFXj/frontier.png",
+        "SkinId": 10224
+      },
+      {
+        "Title": "Gingerbread",
+        "Url": "https://i.ibb.co/Tw67yBM/gingerbread.png",
+        "SkinId": 10225
+      }
+    ],
+    "1": [
+      {
+        "Title": "Stone",
+        "Url": "https://i.ibb.co/jw9FJFP/stone.png",
+        "SkinId": 0
+      },
+      {
+        "Title": "Adobe",
+        "Url": "https://i.ibb.co/Ky1MBJ7/adobe.png",
+        "SkinId": 10220
+      },
+      {
+        "Title": "Brick",
+        "Url": "https://i.ibb.co/vjqh3Hj/brick.png",
+        "SkinId": 10223
+      },
+      {
+        "Title": "Brutalist",
+        "Url": "https://i.ibb.co/86bpvS2/brutalist.png",
+        "SkinId": 10225
+      }
+    ],
+    "2": [
+      {
+        "Title": "Metal",
+        "Url": "https://i.ibb.co/M9RPSZ2/metal.png",
+        "SkinId": 0
+      },
+      {
+        "Title": "Container",
+        "Url": "https://i.ibb.co/YWzfwS4/container.png",
+        "SkinId": 10221
+      }
+    ],
+    "3": [
+      {
+        "Title": "TopTier",
+        "Url": "https://i.ibb.co/T0Nwfvp/toptire.png",
+        "SkinId": 0
+      }
+    ]
+  },
+  "Version": {
+    "Major": 2,
+    "Minor": 0,
+    "Patch": 1
+  }
+}

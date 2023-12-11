@@ -1,0 +1,68 @@
+{
+  "Message Panels": {
+    "MagicMessagePanel_1": {
+      "Perm or Group messages": [
+        {
+          "Messages": [
+            "<color=#33FF14>Welcome to Noobs On The Run</color>",
+            "",
+            "<color=#33FF14>For more info type</color> <color=orange>/info</color> <color=#33FF14>in chat</color>",
+            "",
+            "<color=orange>ESC></color> <color=#39FF14>To View Webpage</color>",
+            "",
+            "<color=#33FF14>Join Our Discord ESC> For more info</color>",
+            "",
+            "<color=#33FF14>Type</color> <color=orange>/tod</color> <color=#39FF14>in chat for Time Of Day</color>",
+            "",
+            "<color=#33FF14>Type</color> <color=orange>/pop</color> <color=#39FF14>in chat for Server Population</color>"
+          ],
+          "Group or Permission": "default",
+          "Player Group or Permission State (In, NotIn)": "In",
+          "Enabled": true
+        },
+        {
+          "Messages": [
+            "<color=#33FF14>Thank You for your support!</color>",
+            "",
+            "<color=orange>/bskin</color> <color=#39FF14>Chnage the skin of building skins</color>",
+            "",
+            "<color=orange>/skin</color> <color=#39FF14>Change the skin of items</color>",
+            "",
+            "<color=orange>/color</color> <color=#39FF14>Change color of your name.</color>",
+            "",
+            "<color=orange>/bgrade</color> <color=#39FF14>Auto upgrade building blocks</color>"
+          ],
+          "Group or Permission": "VIP",
+          "Player Group or Permission State (In, NotIn)": "NotIn",
+          "Enabled": false
+        }
+      ],
+      "Panel Settings": {
+        "Dock": "bottom",
+        "Width": 0.2954,
+        "Order": 0,
+        "BackgroundColor": "#FFF2DF08"
+      },
+      "Panel Layout": {
+        "Text": {
+          "Text": "",
+          "FontSize": 14,
+          "TextAnchor": "MiddleCenter",
+          "Enabled": true,
+          "Color": "#FFFFFFFF",
+          "Order": 1,
+          "Width": 1.0,
+          "Padding": {
+            "Left": 0.05,
+            "Right": 0.05,
+            "Top": 0.1,
+            "Bottom": 0.0
+          }
+        }
+      },
+      "Random Message Display Order": false,
+      "Update Rate (Seconds)": 300.0,
+      "Enabled": true
+    }
+  }
+}

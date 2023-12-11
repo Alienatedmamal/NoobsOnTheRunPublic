@@ -1,0 +1,566 @@
+00:25 [Info] [Automated Events] Spawning Cargo Ship
+00:37 [Info] [Automated Events] Spawning Cargo Plane
+00:41 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+00:42 [Info] [Automated Events] Next CargoPlane event will be ran after 02:08:17
+1:14 AM [Warning] [Discord Extension] [Warning]: Discord WebSocket closed with abnormal close code. Code: 1006, reason: An exception has occurred while receiving.
+1:14 AM [Info] [Discord Extension] [Info]: Discord socket opened!
+1:14 AM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+01:25 [Info] [Automated Events] Next CargoShip event will be ran after 02:14:19
+1:27 AM [Warning] [Discord Extension] [Warning]: Discord WebSocket closed with abnormal close code. Code: 1006, reason: An exception has occurred while receiving.
+1:27 AM [Info] [Discord Extension] [Info]: Discord socket opened!
+1:27 AM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+01:38 [Info] [Automated Events] Spawning Helicopter
+01:38 [Error] [Automated Events] Helicopter prefab does not exist. Please notify the plugin developer
+02:08 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+2:19 AM [Info] [Discord Extension] [Info]: Discord has requested a reconnect. Reconnecting...
+2:19 AM [Info] [Discord Extension] [Info]: Discord socket opened!
+2:19 AM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+02:51 [Info] [Automated Events] Spawning PlaneCrash
+02:54 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+03:00 [Info] Unloaded plugin Admin AntiHack Fix v1.0.0 by Solarix
+03:00 [Warning] Calling 'Unload' on 'AdminHammer v1.13.0' took 316ms
+03:00 [Info] Unloaded plugin AdminHammer v1.13.0 by mvrb
+03:00 [Info] Unloaded plugin Admin No Loot v0.1.3 by Dana
+03:00 [Info] Unloaded plugin Admin Radar v5.3.2 by nivex
+03:00 [Info] Unloaded plugin Automated Events v1.0.11 by k1lly0u/mspeedie/Arainrr
+03:00 [Warning] Calling 'Unload' on 'BGrade v1.1.5' took 315ms
+03:00 [Info] Unloaded plugin BGrade v1.1.5 by Ryan / Rustoria.co
+03:00 [Info] Unloaded plugin Backpacks v3.13.3 by WhiteThunder
+03:00 [Info] Unloaded plugin Ban Delete By v1.0.4 by Ryan
+03:00 [Info] Unloaded plugin Better Chat v5.2.12 by LaserHydra
+03:00 [Info] Unloaded plugin BetterChatFlood v1.0.5 by Ryan
+03:00 [Info] Unloaded plugin Better Say v3.0.1 by LaserHydra
+03:00 [Info] Unloaded plugin Blueprint Manager v2.0.6 by Whispers88
+03:00 [Info] Unloaded plugin Bodies to Bags v2.0.0 by Ryan
+03:00 [Info] Unloaded plugin Building Skins v2.0.1 by Marat
+03:00 [Info] Unloaded plugin Bypass Queue v1.0.4 by Orange
+03:00 [Info] Unloaded plugin Coloured Chat v2.2.7 by collect_vood
+03:00 [Info] Unloaded plugin Copy Paste v4.1.37 by misticos
+03:00 [Info] Unloaded plugin Custom Icon v1.0.4 by collect_vood
+03:00 [Info] Unloaded plugin Discord Report v1.2.0 by misticos
+03:00 [Info] Unloaded plugin Discord Status v4.0.1 by Gonzi
+03:00 [Info] Unloaded plugin Firework Gun v1.1.0 by k1lly0u and Kusha
+03:00 [Info] Unloaded plugin Freeze v3.0.3 by Wulf
+03:00 [Info] Unloaded plugin Image Library v2.0.62 by Absolut & K1lly0u
+03:00 [Info] Unloaded plugin Infinite Ammo v1.3.0 by collect_vood & Mughisi
+03:00 [Info] Unloaded plugin Inventory Viewer v4.0.6 by Whispers88
+03:00 [Info] Unloaded plugin Kits v4.4.0 by k1lly0u
+03:00 [Info] Unloaded plugin Loading Messages v1.0.9 by CosaNostra/Def/klauz24
+03:00 [Info] Unloaded plugin Magic Images Panel v1.0.3 by MJSU
+03:00 [Info] Unloaded plugin Magic Message Panel v1.2.1 by MJSU
+03:00 [Info] Unloaded plugin Magic Panel v1.0.8 by MJSU
+03:00 [Info] Unloaded plugin No Give Notices v0.3.0 by Wulf
+03:00 [Info] Unloaded plugin Payback v2.0.9 by 1928Tommygun
+03:00 [Info] Unloaded plugin PermissionsManager v2.0.9 by Steenamaroo
+03:00 [Info] Unloaded plugin PlayerAdministration v1.6.8 by ThibmoRozier
+03:00 [Info] Unloaded plugin Rustcord v3.3.2 by Kirollos & OuTSMoKE
+03:00 [Info] Unloaded plugin Server Info v0.5.8 by FastBurst
+03:00 [Info] Unloaded plugin ServerPop v1.0.0 by Mabel
+03:00 [Info] Unloaded plugin Skins v2.2.3 by misticos
+03:00 [Error] ExType: WebException
+03:00 [Error] [Discord Extension] [Exception]: A web request exception occured (internal error) [RETRY=1/3].
+Request URL: [POST] https://discord.com/api/v9/channels/1139642380836937769/messages
+System.Net.WebException: Thread was being aborted. ---> System.Threading.ThreadAbortException: Thread was being aborted.
+  at (wrapper managed-to-native) System.Threading.Monitor.Monitor_wait(object,int)
+  at System.Threading.Monitor.ObjWait (System.Boolean exitContext, System.Int32 millisecondsTimeout, System.Object obj) [0x0002f] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at System.Threading.Monitor.Wait (System.Object obj, System.Int32 millisecondsTimeout, System.Boolean exitContext) [0x0000e] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at System.Threading.Monitor.Wait (System.Object obj, System.Int32 millisecondsTimeout) [0x00000] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at System.Threading.ManualResetEventSlim.Wait (System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken) [0x00100] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at System.Threading.Tasks.Task.SpinThenBlockingWait (System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken) [0x0002d] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at System.Threading.Tasks.Task.InternalWait (System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken) [0x00069] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at System.Threading.Tasks.Task`1[TResult].GetResultCore (System.Boolean waitCompletionNotification) [0x00008] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at System.Threading.Tasks.Task`1[TResult].get_Result () [0x0000f] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at System.Net.HttpWebRequest.GetResponse () [0x00006] in <a6e4b4aa6fb04ea29ee289948685adca>:0 
+   --- End of inner exception stack trace ---
+  at System.Net.HttpWebRequest.GetResponse () [0x00016] in <a6e4b4aa6fb04ea29ee289948685adca>:0 
+  at Oxide.Ext.Discord.Rest.Request.Fire () [0x0002a] in <04348bf9a35746d283d4a8b439245576>:0  (ThreadAbortException: Thread was being aborted.)
+  at (wrapper managed-to-native) System.Threading.Monitor.Monitor_wait(object,int)
+  at System.Threading.Monitor.ObjWait (System.Boolean exitContext, System.Int32 millisecondsTimeout, System.Object obj) [0x0002f] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at System.Threading.Monitor.Wait (System.Object obj, System.Int32 millisecondsTimeout, System.Boolean exitContext) [0x0000e] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at System.Threading.Monitor.Wait (System.Object obj, System.Int32 millisecondsTimeout) [0x00000] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at System.Threading.ManualResetEventSlim.Wait (System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken) [0x00100] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at System.Threading.Tasks.Task.SpinThenBlockingWait (System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken) [0x0002d] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at System.Threading.Tasks.Task.InternalWait (System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken) [0x00069] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at System.Threading.Tasks.Task`1[TResult].GetResultCore (System.Boolean waitCompletionNotification) [0x00008] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at System.Threading.Tasks.Task`1[TResult].get_Result () [0x0000f] in <2161c9885dd04ff291b79db9349c4b9b>:0 
+  at System.Net.HttpWebRequest.GetResponse () [0x00006] in <a6e4b4aa6fb04ea29ee289948685adca>:0 
+03:00 [Info] Unloaded plugin SkipNightVote v0.1.4 by k1lly0u
+03:00 [Info] Unloaded plugin Smart Chat Bot v2.0.13 by Iv Misticos
+03:00 [Info] Unloaded plugin TimeOfDay v2.3.4 by FuJiCuRa
+03:00 [Info] Unloaded plugin Timed Execute v0.7.4 by PaiN & misticos
+03:00 [Info] Unloaded plugin UFilter v5.1.2 by Wulf/lukespragg
+03:00 [Info] Unloaded plugin VIP Trial v1.3.5 by Maik8
+03:00 [Info] Unloaded plugin Vanish v1.8.0 by Whispers88
+03:00 [Info] Unloaded plugin Voice Mute v1.0.3 by Tori1157
+03:00 [Info] Unloaded plugin Welcomer v2.1.0 by Dana
+03:10 [Info] Loading Oxide Core v2.0.4073...
+03:10 [Info] Loading extensions...
+03:10 [Info] Loaded extension CSharp v2.0.4117 by Oxide Team and Contributors
+03:10 [Info] Loaded extension MySql v2.0.3774 by Oxide Team and Contributors
+03:10 [Info] Loaded extension SQLite v2.0.3804 by Oxide Team and Contributors
+03:10 [Info] Unity version: 2021.3.29f1
+03:10 [Info] Loaded extension Unity v2.0.3777 by Oxide Team and Contributors
+03:10 [Info] Loaded extension Rust v2.0.6058 by Oxide Team and Contributors
+03:10 [Info] Loaded extension Discord v2.1.9 by PsychoTea & DylanSMR & Tricky & Kirollos & MJSU
+03:10 [Info] [CSharp] Checking for updates for Oxide.Compiler | Local MD5: 3a0143f758249e0795072ff168a1197f | Last modified: 2023-09-12 08:10:27
+03:10 [Info] [CSharp] Oxide.Compiler is up to date
+03:10 [Info] File permissions set for Oxide.Compiler
+03:10 [Info] Using Covalence provider for game 'Rust'
+03:10 [Info] Loading plugins...
+03:10 [Info] Loaded plugin Unity v2.0.3777 by Oxide Team and Contributors
+03:10 [Info] Loaded plugin Rust v2.0.6058 by Oxide Team and Contributors
+03:10 [Info] Added '// Reference: Facepunch.Sqlite' in plugin 'ImageLibrary'
+03:10 [Info] Added '// Reference: UnityEngine.UnityWebRequestModule' in plugin 'ImageLibrary'
+03:10 [Info] [CSharp] Started Oxide.Compiler v successfully
+03:10 [Info] Shutting down compiler because no more jobs
+03:11 [Info] Compiler shutdown completed
+03:11 [Info] AdminAntiHackFix, AdminHammer, AdminNoLoot, AdminRadar, AutomatedEvents, BGrade, Backpacks, BanDeleteBy, BetterChat, BetterChatFlood, BetterSay, BlueprintManager, BodiesToBags, BuildingSkins, BypassQueue, ColouredChat, CopyPaste, CustomIcon, DiscordReport, DiscordStatus, FireworkGun, Freeze, ImageLibrary, InfiniteAmmo, InventoryViewer, Kits, LoadingMessages, MagicImagesPanel, MagicMessagePanel, MagicPanel, NoGiveNotices, Payback, PermissionsManager, PlayerAdministration, Rustcord, ServerInfo, ServerPop, Skins, SkipNightVote, SmartChatBot, TimeOfDay, TimedExecute, UFilter, VIPTrial, Vanish, VoiceMute and Welcomer were compiled successfully in 5774ms
+03:11 [Info] Loaded plugin Admin AntiHack Fix v1.0.0 by Solarix
+03:11 [Info] Loaded plugin AdminHammer v1.13.0 by mvrb
+03:11 [Warning] [Admin No Loot] Config Loaded
+03:11 [Info] Loaded plugin Admin No Loot v0.1.3 by Dana
+03:11 [Info] Loaded plugin Admin Radar v5.3.2 by nivex
+03:11 [Info] Loaded plugin Automated Events v1.0.11 by k1lly0u/mspeedie/Arainrr
+03:11 [Info] Loaded plugin BGrade v1.1.5 by Ryan / Rustoria.co
+03:11 [Info] Loaded plugin Backpacks v3.13.3 by WhiteThunder
+03:11 [Info] Loaded plugin Ban Delete By v1.0.4 by Ryan
+03:11 [Info] Loaded plugin Better Chat v5.2.12 by LaserHydra
+03:11 [Info] Loaded plugin BetterChatFlood v1.0.5 by Ryan
+03:11 [Info] Loaded plugin Better Say v3.0.1 by LaserHydra
+03:11 [Info] Loaded plugin Blueprint Manager v2.0.6 by Whispers88
+03:11 [Info] Loaded plugin Bodies to Bags v2.0.0 by Ryan
+03:11 [Info] Loaded plugin Building Skins v2.0.1 by Marat
+03:11 [Info] Loaded plugin Bypass Queue v1.0.4 by Orange
+03:11 [Info] Loaded plugin Coloured Chat v2.2.7 by collect_vood
+03:11 [Info] Loaded plugin Copy Paste v4.1.37 by misticos
+03:11 [Info] Loaded plugin Custom Icon v1.0.4 by collect_vood
+03:11 [Info] Loaded plugin Discord Report v1.2.0 by misticos
+03:11 [Info] Loaded plugin Discord Status v4.0.1 by Gonzi
+03:11 [Info] Loaded plugin Firework Gun v1.1.0 by k1lly0u and Kusha
+03:11 [Info] Loaded plugin Freeze v3.0.3 by Wulf
+03:11 [Info] Loaded plugin Image Library v2.0.62 by Absolut & K1lly0u
+03:11 [Info] Loaded plugin Infinite Ammo v1.3.0 by collect_vood & Mughisi
+03:11 [Info] Loaded plugin Inventory Viewer v4.0.6 by Whispers88
+03:11 [Info] Loaded plugin Kits v4.4.0 by k1lly0u
+03:11 [Info] Loaded plugin Loading Messages v1.0.9 by CosaNostra/Def/klauz24
+03:11 [Info] Loaded plugin Magic Images Panel v1.0.3 by MJSU
+03:11 [Info] Loaded plugin Magic Message Panel v1.2.1 by MJSU
+03:11 [Info] Loaded plugin Magic Panel v1.0.8 by MJSU
+03:11 [Info] Loaded plugin No Give Notices v0.3.0 by Wulf
+03:11 [Info] Loaded plugin Payback v2.0.9 by 1928Tommygun
+03:11 [Info] Loaded plugin PermissionsManager v2.0.9 by Steenamaroo
+03:11 [Info] Loaded plugin PlayerAdministration v1.6.8 by ThibmoRozier
+03:11 [Warning] Rustcord has replaced the 'report' command previously registered by DiscordReport
+03:11 [Info] Loaded plugin Rustcord v3.3.2 by Kirollos & OuTSMoKE
+03:11 [Info] Loaded plugin Server Info v0.5.8 by FastBurst
+03:11 [Info] Loaded plugin ServerPop v1.0.0 by Mabel
+03:11 [Info] Loaded plugin Skins v2.2.3 by misticos
+03:11 [Info] Loaded plugin SkipNightVote v0.1.4 by k1lly0u
+03:11 [Info] Loaded plugin Smart Chat Bot v2.0.13 by Iv Misticos
+03:11 [Info] Loaded plugin TimeOfDay v2.3.4 by FuJiCuRa
+03:11 [Error] TimedExecute v0.7.4: Failed to load config file (is the config file corrupt?) (Unexpected token: Comment)
+03:11 [Info] Loaded plugin Timed Execute v0.7.4 by PaiN & misticos
+03:11 [Info] Loaded plugin UFilter v5.1.2 by Wulf/lukespragg
+03:11 [Info] [VIP Trial] Nobody needs to be removed.
+03:11 [Info] Loaded plugin VIP Trial v1.3.5 by Maik8
+03:11 [Info] Loaded plugin Vanish v1.8.0 by Whispers88
+03:11 [Info] Loaded plugin Voice Mute v1.0.3 by Tori1157
+03:11 [Info] Loaded plugin Welcomer v2.1.0 by Dana
+3:11 AM [Info] [Discord Extension] [Info]: Discord socket opened!
+3:11 AM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+03:19 [Info] IP address from external API: 10.0.35.2
+03:19 [Info] [Blueprint Manager] Configuration changes saved to BlueprintManager.json
+03:19 [Warning] [Smart Chat Bot] Detected Better Chat. Make sure you enabled it in your configuration.
+03:19 [Info] [Payback] 
+Check out the sequel to this plugin Payback 2! there's a lot more Payback to be had at https://payback.fragmod.com !
+
+03:19 [Info] [Admin Radar] Cached 3080/78693 entities in 3.177019 seconds!
+03:19 [Info] [Image Library] Starting order Kits
+04:08 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+4:18 AM [Warning] [Discord Extension] [Warning]: Discord WebSocket closed with abnormal close code. Code: 1006, reason: An exception has occurred while receiving.
+4:18 AM [Info] [Discord Extension] [Info]: Discord socket opened!
+4:18 AM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+4:34 AM [Info] [Discord Extension] [Info]: Discord has requested a reconnect. Reconnecting...
+4:34 AM [Info] [Discord Extension] [Info]: Discord socket opened!
+4:34 AM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+05:21 [Info] [Automated Events] Spawning Cargo Plane
+05:27 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+05:27 [Info] [Automated Events] Next CargoPlane event will be ran after 02:10:06
+5:32 AM [Info] [Discord Extension] [Info]: Discord has requested a reconnect. Reconnecting...
+5:32 AM [Info] [Discord Extension] [Info]: Discord socket opened!
+5:32 AM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+05:45 [Info] [Automated Events] Spawning Cargo Ship
+05:59 [Warning] [Automated Events] The number of Helicopter auto events has reached the limit of 1
+06:02 [Warning] [Automated Events] The number of Helicopter vanilla events has reached the limit of 1
+6:02 AM [Info] [Discord Extension] [Info]: Discord has requested a reconnect. Reconnecting...
+6:02 AM [Info] [Discord Extension] [Info]: Discord socket opened!
+6:02 AM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+06:45 [Info] [Automated Events] Next CargoShip event will be ran after 02:24:13
+06:50 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+07:24 [Info] [Automated Events] Spawning Chinook
+7:28 AM [Info] [Discord Extension] [Info]: Discord has requested a reconnect. Reconnecting...
+7:28 AM [Info] [Discord Extension] [Info]: Discord socket opened!
+7:28 AM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+07:37 [Info] [Automated Events] Spawning FancyDrop
+07:54 [Info] [Automated Events] Next Chinook event will be ran after 03:46:33
+07:58 [Info] [CSharp] Started Oxide.Compiler v successfully
+07:59 [Info] Shutting down compiler because no more jobs
+07:59 [Info] Kits was compiled successfully in 1928ms
+07:59 [Info] Unloaded plugin Kits v4.4.0 by k1lly0u
+07:59 [Info] Loaded plugin Kits v4.4.0 by k1lly0u
+07:59 [Info] [Image Library] Starting order Kits
+07:59 [Info] Compiler shutdown completed
+08:05 [Info] Unloaded plugin Kits v4.4.0 by k1lly0u
+08:05 [Info] Loaded plugin Kits v4.4.0 by k1lly0u
+08:05 [Info] [Image Library] Starting order Kits
+08:12 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+8:20 AM [Info] [Discord Extension] [Info]: Discord has requested a reconnect. Reconnecting...
+8:20 AM [Info] [Discord Extension] [Info]: Discord socket opened!
+8:20 AM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+08:47 [Info] Unloaded plugin Kits v4.4.0 by k1lly0u
+08:47 [Info] Loaded plugin Kits v4.4.0 by k1lly0u
+08:47 [Info] [Image Library] Starting order Kits
+08:53 [Warning] [Automated Events] The number of Helicopter vanilla events has reached the limit of 1
+08:59 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+09:09 [Info] [Automated Events] Spawning RustTanic
+09:13 [Info] [Automated Events] Spawning Helicopter
+09:13 [Error] [Automated Events] Helicopter prefab does not exist. Please notify the plugin developer
+09:37 [Info] [Automated Events] Spawning PlaneCrash
+10:17 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+10:38 [Info] Listing 47 plugins:
+  01 "Admin AntiHack Fix" (1.0.0) by Solarix (0.00s) - AdminAntiHackFix.cs
+  02 "AdminHammer" (1.13.0) by mvrb (0.00s) - AdminHammer.cs
+  03 "Admin No Loot" (0.1.3) by Dana (0.00s) - AdminNoLoot.cs
+  04 "Admin Radar" (5.3.2) by nivex (0.47s) - AdminRadar.cs
+  05 "Automated Events" (1.0.11) by k1lly0u/mspeedie/Arainrr (0.41s) - AutomatedEvents.cs
+  06 "BGrade" (1.1.5) by Ryan / Rustoria.co (0.00s) - BGrade.cs
+  07 "Backpacks" (3.13.3) by WhiteThunder (0.07s) - Backpacks.cs
+  08 "Ban Delete By" (1.0.4) by Ryan (0.00s) - BanDeleteBy.cs
+  09 "Better Chat" (5.2.12) by LaserHydra (0.00s) - BetterChat.cs
+  10 "BetterChatFlood" (1.0.5) by Ryan (0.00s) - BetterChatFlood.cs
+  11 "Better Say" (3.0.1) by LaserHydra (0.00s) - BetterSay.cs
+  12 "Blueprint Manager" (2.0.6) by Whispers88 (0.03s) - BlueprintManager.cs
+  13 "Bodies to Bags" (2.0.0) by Ryan (0.17s) - BodiesToBags.cs
+  14 "Building Skins" (2.0.1) by Marat (0.03s) - BuildingSkins.cs
+  15 "Bypass Queue" (1.0.4) by Orange (0.00s) - BypassQueue.cs
+  16 "Coloured Chat" (2.2.7) by collect_vood (0.01s) - ColouredChat.cs
+  17 "Copy Paste" (4.1.37) by misticos (0.01s) - CopyPaste.cs
+  18 "Custom Icon" (1.0.4) by collect_vood (0.00s) - CustomIcon.cs
+  19 "Discord Report" (1.2.0) by misticos (0.00s) - DiscordReport.cs
+  20 "Discord Status" (4.0.1) by Gonzi (0.84s) - DiscordStatus.cs
+  21 "Firework Gun" (1.1.0) by k1lly0u and Kusha (0.00s) - FireworkGun.cs
+  22 "Freeze" (3.0.3) by Wulf (0.13s) - Freeze.cs
+  23 "Image Library" (2.0.62) by Absolut & K1lly0u (0.02s) - ImageLibrary.cs
+  24 "Infinite Ammo" (1.3.0) by collect_vood & Mughisi (0.01s) - InfiniteAmmo.cs
+  25 "Inventory Viewer" (4.0.6) by Whispers88 (0.00s) - InventoryViewer.cs
+  26 "Kits" (4.4.0) by k1lly0u (0.00s) - Kits.cs
+  27 "Loading Messages" (1.0.9) by CosaNostra/Def/klauz24 (0.00s) - LoadingMessages.cs
+  28 "Magic Images Panel" (1.0.3) by MJSU (0.01s) - MagicImagesPanel.cs
+  29 "Magic Message Panel" (1.2.1) by MJSU (0.01s) - MagicMessagePanel.cs
+  30 "Magic Panel" (1.0.8) by MJSU (0.01s) - MagicPanel.cs
+  31 "No Give Notices" (0.3.0) by Wulf (0.00s) - NoGiveNotices.cs
+  32 "Payback" (2.0.9) by 1928Tommygun (0.33s) - Payback.cs
+  33 "PermissionsManager" (2.0.9) by Steenamaroo (0.02s) - PermissionsManager.cs
+  34 "PlayerAdministration" (1.6.8) by ThibmoRozier (0.00s) - PlayerAdministration.cs
+  35 "Rustcord" (3.3.2) by Kirollos & OuTSMoKE (0.94s) - Rustcord.cs
+  36 "Server Info" (0.5.8) by FastBurst (0.03s) - ServerInfo.cs
+  37 "ServerPop" (1.0.0) by Mabel (0.00s) - ServerPop.cs
+  38 "Skins" (2.2.3) by misticos (0.39s) - Skins.cs
+  39 "SkipNightVote" (0.1.4) by k1lly0u (0.05s) - SkipNightVote.cs
+  40 "Smart Chat Bot" (2.0.13) by Iv Misticos (0.00s) - SmartChatBot.cs
+  41 "TimeOfDay" (2.3.4) by FuJiCuRa (0.00s) - TimeOfDay.cs
+  42 "Timed Execute" (0.7.4) by PaiN & misticos (0.00s) - TimedExecute.cs
+  43 "UFilter" (5.1.2) by Wulf/lukespragg (0.00s) - UFilter.cs
+  44 "VIP Trial" (1.3.5) by Maik8 (0.00s) - VIPTrial.cs
+  45 "Vanish" (1.8.0) by Whispers88 (0.02s) - Vanish.cs
+  46 "Voice Mute" (1.0.3) by Tori1157 (0.01s) - VoiceMute.cs
+  47 "Welcomer" (2.1.0) by Dana (0.01s) - Welcomer.cs
+10:43 AM [Info] [Discord Extension] [Info]: Discord has requested a reconnect. Reconnecting...
+10:43 AM [Info] [Discord Extension] [Info]: Discord socket opened!
+10:43 AM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+11:02 [Info] Player 'Alienatedmammal(76561198206232972)' added to group: admin
+11:36 [Warning] [Automated Events] The number of CargoShip auto events has reached the limit of 1
+11:39 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+11:41 [Info] [Automated Events] Spawning Chinook
+11:52 [Info] [Automated Events] Spawning FancyDrop
+12:05 [Info] [Better Chat] [Global] Alienatedmammal: test
+12:08 [Info] [Automated Events] Next Chinook event will be ran after 04:50:42
+12:41 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+12:41 [Info] Added '// Reference: Facepunch.Sqlite' in plugin 'ImageLibrary'
+12:41 [Info] Added '// Reference: UnityEngine.UnityWebRequestModule' in plugin 'ImageLibrary'
+12:41 [Info] [CSharp] Started Oxide.Compiler v successfully
+12:42 [Info] Shutting down compiler because no more jobs
+12:42 [Info] ImageLibrary was compiled successfully in 1754ms
+12:42 [Info] Unloaded plugin Image Library v2.0.62 by Absolut & K1lly0u
+12:42 [Info] Loaded plugin Image Library v2.0.62 by Absolut & K1lly0u
+12:42 [Info] Compiler shutdown completed
+1:27 PM [Info] [Discord Extension] [Info]: Discord has requested a reconnect. Reconnecting...
+1:27 PM [Info] [Discord Extension] [Info]: Discord socket opened!
+1:27 PM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+13:49 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+13:54 [Info] [Automated Events] Spawning RustTanic
+14:09 [Info] [Automated Events] Spawning FancyDrop
+2:28 PM [Info] [Discord Extension] [Info]: Discord has requested a reconnect. Reconnecting...
+2:28 PM [Info] [Discord Extension] [Info]: Discord socket opened!
+2:28 PM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+14:39 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+15:52 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+15:56 [Info] [Automated Events] Spawning Cargo Ship
+16:13 [Info] [Automated Events] Spawning PlaneCrash
+4:43 PM [Info] [Discord Extension] [Info]: Discord has requested a reconnect. Reconnecting...
+4:43 PM [Info] [Discord Extension] [Info]: Discord socket opened!
+4:43 PM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+16:52 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+16:56 [Info] [Automated Events] Next CargoShip event will be ran after 02:09:01
+16:58 [Info] [Automated Events] Spawning Chinook
+17:28 [Info] [Automated Events] Next Chinook event will be ran after 03:44:59
+17:51 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+6:11 PM [Info] [Discord Extension] [Info]: Discord has requested a reconnect. Reconnecting...
+6:11 PM [Info] [Discord Extension] [Info]: Discord socket opened!
+6:11 PM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+18:23 [Info] Player 'Alienatedmammal(76561198206232972)' removed from group 'admin'
+18:25 [Info] [Welcomer] Alienatedmammal joined for the very first time from 
+18:26 [Info] Player 'Alienatedmammal(76561198206232972)' added to group: admin
+18:27 [Info] Player 'Alienatedmammal(76561198206232972)' removed from group 'admin'
+18:27 [Info] Player 'Alienatedmammal (76561198206232972)' permissions:
+adminradar.bypass, ufilter.admin, ufilter.bypass, colouredchat.message.show, colouredchat.name.show, smartchatbot.response, viptrial.allowed
+
+Player 'Alienatedmammal (76561198206232972)' groups:
+default
+18:27 [Info] [Automated Events] Spawning PlaneCrash
+18:28 [Info] Player 'Alienatedmammal(76561198206232972)' added to group: admin
+18:28 [Error] Could not load plugin 'kits' (no plugin found with that file name)
+18:28 [Info] Unloaded plugin Kits v4.4.0 by k1lly0u
+18:28 [Info] Loaded plugin Kits v4.4.0 by k1lly0u
+18:28 [Info] [Image Library] Starting order Kits
+18:28 [Info] Player 'Alienatedmammal(76561198206232972)' removed from group 'admin'
+18:28 [Info] Player 'Alienatedmammal (76561198206232972)' permissions:
+adminradar.bypass, ufilter.admin, ufilter.bypass, colouredchat.message.show, colouredchat.name.show, smartchatbot.response, viptrial.allowed
+
+Player 'Alienatedmammal (76561198206232972)' groups:
+default
+18:29 [Info] Player 'Alienatedmammal(76561198206232972)' added to group: admin
+18:30 [Info] Player 'Alienatedmammal(76561198206232972)' removed from group 'admin'
+18:31 [Error] ExType: TypeInitializationException
+18:31 [Error] Exception while calling NextTick callback (DllNotFoundException: libgdiplus.so.0 assembly:<unknown assembly> type:<unknown type> member:(null))
+  at (wrapper managed-to-native) System.Drawing.GDIPlus.GdiplusStartup(ulong&,System.Drawing.GdiplusStartupInput&,System.Drawing.GdiplusStartupOutput&)
+  at System.Drawing.GDIPlus..cctor () [0x000b0] in <04abc238e1e64b378e01047493bf1e72>:0 
+18:31 [Info] Player 'Alienatedmammal(76561198206232972)' added to group: admin
+6:31 PM [Info] [Discord Extension] [Info]: Discord has requested a reconnect. Reconnecting...
+6:31 PM [Info] [Discord Extension] [Info]: Discord socket opened!
+6:31 PM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+18:32 [Error] ExType: TypeInitializationException
+18:32 [Error] Exception while calling NextTick callback (DllNotFoundException: libgdiplus.so.0 assembly:<unknown assembly> type:<unknown type> member:(null))
+  at (wrapper managed-to-native) System.Drawing.GDIPlus.GdiplusStartup(ulong&,System.Drawing.GdiplusStartupInput&,System.Drawing.GdiplusStartupOutput&)
+  at System.Drawing.GDIPlus..cctor () [0x000b0] in <04abc238e1e64b378e01047493bf1e72>:0 
+18:32 [Info] Player 'Alienatedmammal(76561198206232972)' added to group: admin
+18:33 [Info] Group 'admin' granted permission 'copypaste.*'
+18:35 [Error] ExType: TypeInitializationException
+18:35 [Error] Exception while calling NextTick callback (DllNotFoundException: libgdiplus.so.0 assembly:<unknown assembly> type:<unknown type> member:(null))
+  at (wrapper managed-to-native) System.Drawing.GDIPlus.GdiplusStartup(ulong&,System.Drawing.GdiplusStartupInput&,System.Drawing.GdiplusStartupOutput&)
+  at System.Drawing.GDIPlus..cctor () [0x000b0] in <04abc238e1e64b378e01047493bf1e72>:0 
+18:35 [Error] ExType: TypeInitializationException
+18:35 [Error] Exception while calling NextTick callback (DllNotFoundException: libgdiplus.so.0 assembly:<unknown assembly> type:<unknown type> member:(null))
+  at (wrapper managed-to-native) System.Drawing.GDIPlus.GdiplusStartup(ulong&,System.Drawing.GdiplusStartupInput&,System.Drawing.GdiplusStartupOutput&)
+  at System.Drawing.GDIPlus..cctor () [0x000b0] in <04abc238e1e64b378e01047493bf1e72>:0 
+18:36 [Error] ExType: TypeInitializationException
+18:36 [Error] Exception while calling NextTick callback (DllNotFoundException: libgdiplus.so.0 assembly:<unknown assembly> type:<unknown type> member:(null))
+  at (wrapper managed-to-native) System.Drawing.GDIPlus.GdiplusStartup(ulong&,System.Drawing.GdiplusStartupInput&,System.Drawing.GdiplusStartupOutput&)
+  at System.Drawing.GDIPlus..cctor () [0x000b0] in <04abc238e1e64b378e01047493bf1e72>:0 
+18:36 [Error] ExType: TypeInitializationException
+18:36 [Error] Exception while calling NextTick callback (DllNotFoundException: libgdiplus.so.0 assembly:<unknown assembly> type:<unknown type> member:(null))
+  at (wrapper managed-to-native) System.Drawing.GDIPlus.GdiplusStartup(ulong&,System.Drawing.GdiplusStartupInput&,System.Drawing.GdiplusStartupOutput&)
+  at System.Drawing.GDIPlus..cctor () [0x000b0] in <04abc238e1e64b378e01047493bf1e72>:0 
+18:36 [Error] ExType: TypeInitializationException
+18:36 [Error] Exception while calling NextTick callback (DllNotFoundException: libgdiplus.so.0 assembly:<unknown assembly> type:<unknown type> member:(null))
+  at (wrapper managed-to-native) System.Drawing.GDIPlus.GdiplusStartup(ulong&,System.Drawing.GdiplusStartupInput&,System.Drawing.GdiplusStartupOutput&)
+  at System.Drawing.GDIPlus..cctor () [0x000b0] in <04abc238e1e64b378e01047493bf1e72>:0 
+18:36 [Error] ExType: TypeInitializationException
+18:36 [Error] Exception while calling NextTick callback (DllNotFoundException: libgdiplus.so.0 assembly:<unknown assembly> type:<unknown type> member:(null))
+  at (wrapper managed-to-native) System.Drawing.GDIPlus.GdiplusStartup(ulong&,System.Drawing.GdiplusStartupInput&,System.Drawing.GdiplusStartupOutput&)
+  at System.Drawing.GDIPlus..cctor () [0x000b0] in <04abc238e1e64b378e01047493bf1e72>:0 
+18:37 [Error] ExType: TypeInitializationException
+18:37 [Error] Exception while calling NextTick callback (DllNotFoundException: libgdiplus.so.0 assembly:<unknown assembly> type:<unknown type> member:(null))
+  at (wrapper managed-to-native) System.Drawing.GDIPlus.GdiplusStartup(ulong&,System.Drawing.GdiplusStartupInput&,System.Drawing.GdiplusStartupOutput&)
+  at System.Drawing.GDIPlus..cctor () [0x000b0] in <04abc238e1e64b378e01047493bf1e72>:0 
+18:45 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+18:48 [Info] [Better Chat] [Global] Alienatedmammal: test
+18:48 [Info] [Better Chat] [Global] Godzilla: balls
+18:53 [Warning] 'RustCore v2.0.6058' is using deprecated hook 'OnMapMarkerRemove', which will stop working on Sunday, 31 December 2023. Please ask the author to update to 'OnMapMarkerRemove(BasePlayer player, List<MapNote> mapMarker, int index)'
+18:54 [Info] [CSharp] Started Oxide.Compiler v successfully
+18:54 [Info] Shutting down compiler because no more jobs
+18:54 [Info] MagicImagesPanel was compiled successfully in 1520ms
+18:54 [Warning] Calling 'Unload' on 'MagicImagesPanel v1.0.3' took 790ms [GARBAGE COLLECT]
+18:54 [Info] Unloaded plugin Magic Images Panel v1.0.3 by MJSU
+18:54 [Info] Loaded plugin Magic Images Panel v1.0.3 by MJSU
+18:54 [Info] Compiler shutdown completed
+18:54 [Info] Unloaded plugin Magic Images Panel v1.0.3 by MJSU
+18:54 [Info] Loaded plugin Magic Images Panel v1.0.3 by MJSU
+18:55 [Info] Unloaded plugin Magic Images Panel v1.0.3 by MJSU
+18:55 [Info] Loaded plugin Magic Images Panel v1.0.3 by MJSU
+18:55 [Info] [CSharp] Started Oxide.Compiler v successfully
+18:55 [Info] Shutting down compiler because no more jobs
+18:55 [Info] MagicPanel was compiled successfully in 1727ms
+18:55 [Info] Unloaded plugin Magic Panel v1.0.8 by MJSU
+18:55 [Info] Loaded plugin Magic Panel v1.0.8 by MJSU
+18:55 [Info] Compiler shutdown completed
+18:55 [Info] Unloaded plugin Magic Panel v1.0.8 by MJSU
+18:55 [Info] Loaded plugin Magic Panel v1.0.8 by MJSU
+18:56 [Info] Unloaded plugin Magic Panel v1.0.8 by MJSU
+18:56 [Info] Loaded plugin Magic Panel v1.0.8 by MJSU
+18:56 [Info] Unloaded plugin Magic Images Panel v1.0.3 by MJSU
+18:56 [Info] Loaded plugin Magic Images Panel v1.0.3 by MJSU
+19:05 [Info] [Automated Events] Spawning RustTanic
+19:10 [Info] [AdminHammer] This wall is owned by www.steamcommunity.com/profiles/76561197992384542
+19:10 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a wall owned by <color=green> Godzilla </color> (76561197992384542) [76561197992384542] located at (462.76, 30.68, 902.03)
+19:11 [Info] [AdminHammer] This wall is owned by www.steamcommunity.com/profiles/76561197992384542
+19:11 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a wall owned by <color=green> Godzilla </color> (76561197992384542) [76561197992384542] located at (462.14, 30.68, 903.39)
+19:13 [Info] [Better Chat] [Global] Alienatedmammal: :eyes:
+7:15 PM [Info] [Discord Extension] [Info]: Discord has requested a reconnect. Reconnecting...
+7:15 PM [Info] [Discord Extension] [Info]: Discord socket opened!
+7:15 PM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+19:17 [Info] Unloaded plugin Kits v4.4.0 by k1lly0u
+19:17 [Info] Loaded plugin Kits v4.4.0 by k1lly0u
+19:17 [Info] [Image Library] Starting order Kits
+19:35 [Info] Loading Oxide Core v2.0.4073...
+19:35 [Info] Loading extensions...
+19:35 [Info] Loaded extension CSharp v2.0.4117 by Oxide Team and Contributors
+19:35 [Info] Loaded extension MySql v2.0.3774 by Oxide Team and Contributors
+19:35 [Info] Loaded extension SQLite v2.0.3804 by Oxide Team and Contributors
+19:35 [Info] Unity version: 2021.3.29f1
+19:35 [Info] Loaded extension Unity v2.0.3777 by Oxide Team and Contributors
+19:35 [Info] Loaded extension Rust v2.0.6058 by Oxide Team and Contributors
+19:35 [Info] Loaded extension Discord v2.1.9 by PsychoTea & DylanSMR & Tricky & Kirollos & MJSU
+19:35 [Info] [CSharp] Checking for updates for Oxide.Compiler | Local MD5: 3a0143f758249e0795072ff168a1197f | Last modified: 2023-09-12 08:10:27
+19:35 [Info] [CSharp] Oxide.Compiler is up to date
+19:35 [Info] File permissions set for Oxide.Compiler
+19:35 [Info] Using Covalence provider for game 'Rust'
+19:35 [Info] Loading plugins...
+19:35 [Info] Loaded plugin Unity v2.0.3777 by Oxide Team and Contributors
+19:35 [Info] Loaded plugin Rust v2.0.6058 by Oxide Team and Contributors
+19:35 [Info] Added '// Reference: Facepunch.Sqlite' in plugin 'ImageLibrary'
+19:35 [Info] Added '// Reference: UnityEngine.UnityWebRequestModule' in plugin 'ImageLibrary'
+19:35 [Info] [CSharp] Started Oxide.Compiler v successfully
+19:35 [Info] Shutting down compiler because no more jobs
+19:35 [Info] Compiler shutdown completed
+19:35 [Info] AdminAntiHackFix, AdminHammer, AdminNoLoot, AdminRadar, AutomatedEvents, BGrade, Backpacks, BanDeleteBy, BetterChat, BetterChatFlood, BetterSay, BlueprintManager, BodiesToBags, BuildingSkins, BypassQueue, ColouredChat, CopyPaste, CustomIcon, DiscordReport, DiscordStatus, FireworkGun, Freeze, ImageLibrary, InfiniteAmmo, InventoryViewer, Kits, LoadingMessages, MagicImagesPanel, MagicMessagePanel, MagicPanel, NoGiveNotices, Payback, PermissionsManager, PlayerAdministration, Rustcord, ServerInfo, ServerPop, Skins, SkipNightVote, SmartChatBot, TimeOfDay, TimedExecute, UFilter, VIPTrial, Vanish, VoiceMute and Welcomer were compiled successfully in 5742ms
+19:35 [Info] Loaded plugin Admin AntiHack Fix v1.0.0 by Solarix
+19:35 [Info] Loaded plugin AdminHammer v1.13.0 by mvrb
+19:35 [Warning] [Admin No Loot] Config Loaded
+19:35 [Info] Loaded plugin Admin No Loot v0.1.3 by Dana
+19:35 [Info] Loaded plugin Admin Radar v5.3.2 by nivex
+19:35 [Info] Loaded plugin Automated Events v1.0.11 by k1lly0u/mspeedie/Arainrr
+19:35 [Info] Loaded plugin BGrade v1.1.5 by Ryan / Rustoria.co
+19:35 [Info] Loaded plugin Backpacks v3.13.3 by WhiteThunder
+19:35 [Info] Loaded plugin Ban Delete By v1.0.4 by Ryan
+19:35 [Info] Loaded plugin Better Chat v5.2.12 by LaserHydra
+19:35 [Info] Loaded plugin BetterChatFlood v1.0.5 by Ryan
+19:35 [Info] Loaded plugin Better Say v3.0.1 by LaserHydra
+19:35 [Info] Loaded plugin Blueprint Manager v2.0.6 by Whispers88
+19:35 [Info] Loaded plugin Bodies to Bags v2.0.0 by Ryan
+19:35 [Info] Loaded plugin Building Skins v2.0.1 by Marat
+19:35 [Info] Loaded plugin Bypass Queue v1.0.4 by Orange
+19:35 [Info] Loaded plugin Coloured Chat v2.2.7 by collect_vood
+19:35 [Info] Loaded plugin Copy Paste v4.1.37 by misticos
+19:35 [Info] Loaded plugin Custom Icon v1.0.4 by collect_vood
+19:35 [Info] Loaded plugin Discord Report v1.2.0 by misticos
+19:35 [Info] Loaded plugin Discord Status v4.0.1 by Gonzi
+19:35 [Info] Loaded plugin Firework Gun v1.1.0 by k1lly0u and Kusha
+19:35 [Info] Loaded plugin Freeze v3.0.3 by Wulf
+19:35 [Info] Loaded plugin Image Library v2.0.62 by Absolut & K1lly0u
+19:35 [Info] Loaded plugin Infinite Ammo v1.3.0 by collect_vood & Mughisi
+19:35 [Info] Loaded plugin Inventory Viewer v4.0.6 by Whispers88
+19:35 [Info] Loaded plugin Kits v4.4.0 by k1lly0u
+19:35 [Info] Loaded plugin Loading Messages v1.0.9 by CosaNostra/Def/klauz24
+19:35 [Info] Loaded plugin Magic Images Panel v1.0.3 by MJSU
+19:35 [Info] Loaded plugin Magic Message Panel v1.2.1 by MJSU
+19:35 [Info] Loaded plugin Magic Panel v1.0.8 by MJSU
+19:35 [Info] Loaded plugin No Give Notices v0.3.0 by Wulf
+19:35 [Info] Loaded plugin Payback v2.0.9 by 1928Tommygun
+19:35 [Info] Loaded plugin PermissionsManager v2.0.9 by Steenamaroo
+19:35 [Info] Loaded plugin PlayerAdministration v1.6.8 by ThibmoRozier
+19:35 [Warning] Rustcord has replaced the 'report' command previously registered by DiscordReport
+19:35 [Info] Loaded plugin Rustcord v3.3.2 by Kirollos & OuTSMoKE
+19:35 [Info] Loaded plugin Server Info v0.5.8 by FastBurst
+19:35 [Info] Loaded plugin ServerPop v1.0.0 by Mabel
+19:35 [Info] Loaded plugin Skins v2.2.3 by misticos
+19:35 [Info] Loaded plugin SkipNightVote v0.1.4 by k1lly0u
+19:35 [Info] Loaded plugin Smart Chat Bot v2.0.13 by Iv Misticos
+19:35 [Info] Loaded plugin TimeOfDay v2.3.4 by FuJiCuRa
+19:35 [Error] TimedExecute v0.7.4: Failed to load config file (is the config file corrupt?) (Unexpected token: Comment)
+19:35 [Info] Loaded plugin Timed Execute v0.7.4 by PaiN & misticos
+19:35 [Info] Loaded plugin UFilter v5.1.2 by Wulf/lukespragg
+19:35 [Info] [VIP Trial] Nobody needs to be removed.
+19:35 [Info] Loaded plugin VIP Trial v1.3.5 by Maik8
+19:35 [Info] Loaded plugin Vanish v1.8.0 by Whispers88
+19:35 [Info] Loaded plugin Voice Mute v1.0.3 by Tori1157
+19:35 [Info] Loaded plugin Welcomer v2.1.0 by Dana
+7:35 PM [Info] [Discord Extension] [Info]: Discord socket opened!
+7:35 PM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+19:44 [Info] IP address from external API: 10.0.35.2
+19:44 [Info] [Blueprint Manager] Configuration changes saved to BlueprintManager.json
+19:44 [Warning] [Smart Chat Bot] Detected Better Chat. Make sure you enabled it in your configuration.
+19:44 [Info] [Payback] 
+Check out the sequel to this plugin Payback 2! there's a lot more Payback to be had at https://payback.fragmod.com !
+
+19:44 [Info] [Admin Radar] Cached 3123/81641 entities in 3.247041 seconds!
+19:44 [Info] [Image Library] Starting order Kits
+20:08 [Info] [CSharp] Started Oxide.Compiler v successfully
+20:08 [Info] Shutting down compiler because no more jobs
+20:08 [Info] BaseRepair was compiled successfully in 1643ms
+20:08 [Warning] [Base Repair] Loading Default Config
+20:08 [Info] Loaded plugin Base Repair v1.0.24 by MJSU
+20:08 [Info] Compiler shutdown completed
+20:08 [Info] Permission 'baserepai.use' doesn't exist
+20:09 [Info] Group 'admin' granted permission 'baserepair.nocost'
+20:12 [Info] Group 'admin' granted permission 'baserepair.noauth'
+20:12 [Info] Unloaded plugin Base Repair v1.0.24 by MJSU
+20:12 [Info] Loaded plugin Base Repair v1.0.24 by MJSU
+20:13 [Info] Unloaded plugin Base Repair v1.0.24 by MJSU
+20:34 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+20:58 [Info] Player 'Godzilla (76561197992384542)' permissions:
+payback.admin, blueprintmanager.admin, adminradar.allowed, adminradar.list, vanish.allow, vanish.unlock, vanish.damage, kits.admin, adminhammer.allow, betterchatflood.bypass, permissionsmanager.allowed, colouredchat.message.show, colouredchat.name.show, colouredchat.name.use, colouredchat.name.setothers, colouredchat.message.use, colouredchat.message.setothers, colouredchat.name.random, colouredchat.name.gradient, colouredchat.message.random, colouredchat.message.rainbow, colouredchat.message.gradient, welcomer.bypass, bettersay.use, skipnightvote.admin, discordreport.admin, betterchat.admin, playerlist.allow, ufilter.bypass, playeradministration.protect.ban, playeradministration.protect.hurt, playeradministration.protect.kick, playeradministration.protect.kill, playeradministration.protect.reset, playeradministration.access.show, playeradministration.access.kick, playeradministration.access.ban, playeradministration.access.kill, playeradministration.access.perms, playeradministration.access.mute, playeradministration.access.allowfreeze, playeradministration.access.clearinventory, playeradministration.access.resetblueprint, playeradministration.access.resetmetabolism, playeradministration.access.recovermetabolism, playeradministration.access.hurt, playeradministration.access.heal, playeradministration.access.teleport, playeradministration.access.spectate, playeradministration.access.detailedinfo, freeze.use, freeze.protect, inventoryviewer.unlock, inventoryviewer.allowed, skins.use, skins.admin, bypassqueue.allow, copypaste.copy, copypaste.list, copypaste.paste, copypaste.pasteback, copypaste.undo, adminnoloot.bypass, buildingskins.use, buildingskins.all, buildingskins.build, buildingskins.admin, buildingskins.autoSkin, smartchatbot.response, bgrade.all, voicemute.mute, voicemute.list, voicemute.unmute, viptrial.admin, backpacks.use, backpacks.admin, backpacks.keepondeath, backpacks.gui, kits.vip, kits.vip_trial, kits.vip1, baserepair.nocost, baserepair.noauth, viptrial.allowed
+
+Player 'Godzilla (76561197992384542)' groups:
+admin, default
+20:59 [Info] Player 'Alienatedmammal (76561198206232972)' permissions:
+adminradar.bypass, ufilter.admin, ufilter.bypass, colouredchat.message.show, colouredchat.name.show, smartchatbot.response, viptrial.allowed, payback.admin, blueprintmanager.admin, adminradar.allowed, adminradar.list, vanish.allow, vanish.unlock, vanish.damage, kits.admin, adminhammer.allow, betterchatflood.bypass, permissionsmanager.allowed, colouredchat.name.use, colouredchat.name.setothers, colouredchat.message.use, colouredchat.message.setothers, colouredchat.name.random, colouredchat.name.gradient, colouredchat.message.random, colouredchat.message.rainbow, colouredchat.message.gradient, welcomer.bypass, bettersay.use, skipnightvote.admin, discordreport.admin, betterchat.admin, playerlist.allow, playeradministration.protect.ban, playeradministration.protect.hurt, playeradministration.protect.kick, playeradministration.protect.kill, playeradministration.protect.reset, playeradministration.access.show, playeradministration.access.kick, playeradministration.access.ban, playeradministration.access.kill, playeradministration.access.perms, playeradministration.access.mute, playeradministration.access.allowfreeze, playeradministration.access.clearinventory, playeradministration.access.resetblueprint, playeradministration.access.resetmetabolism, playeradministration.access.recovermetabolism, playeradministration.access.hurt, playeradministration.access.heal, playeradministration.access.teleport, playeradministration.access.spectate, playeradministration.access.detailedinfo, freeze.use, freeze.protect, inventoryviewer.unlock, inventoryviewer.allowed, skins.use, skins.admin, bypassqueue.allow, copypaste.copy, copypaste.list, copypaste.paste, copypaste.pasteback, copypaste.undo, adminnoloot.bypass, buildingskins.use, buildingskins.all, buildingskins.build, buildingskins.admin, buildingskins.autoSkin, bgrade.all, voicemute.mute, voicemute.list, voicemute.unmute, viptrial.admin, backpacks.use, backpacks.admin, backpacks.keepondeath, backpacks.gui, kits.vip, kits.vip_trial, kits.vip1, baserepair.nocost, baserepair.noauth
+
+Player 'Alienatedmammal (76561198206232972)' groups:
+default, admin
+21:24 [Info] Player 'Godzilla(76561197992384542)' removed from group 'admin'
+21:25 [Info] Player 'Godzilla(76561197992384542)' added to group: admin
+21:25 [Info] [Better Say] SERVER
+ there you go godzilla
+21:25 [Info] [Better Say] SERVER
+ :eyes:
+21:25 [Info] [Better Say] SERVER
+ :eyes:
+21:27 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+21:49 [Info] [Automated Events] Spawning FancyDrop
+21:54 [Info] [Automated Events] Spawning Cargo Ship
+22:12 [Error] ExType: TypeInitializationException
+22:12 [Error] Exception while calling NextTick callback (DllNotFoundException: libgdiplus.so.0 assembly:<unknown assembly> type:<unknown type> member:(null))
+  at (wrapper managed-to-native) System.Drawing.GDIPlus.GdiplusStartup(ulong&,System.Drawing.GdiplusStartupInput&,System.Drawing.GdiplusStartupOutput&)
+  at System.Drawing.GDIPlus..cctor () [0x000b0] in <04abc238e1e64b378e01047493bf1e72>:0 
+22:15 [Info] [CSharp] Started Oxide.Compiler v successfully
+22:15 [Info] Shutting down compiler because no more jobs
+22:15 [Info] CopyPaste was compiled successfully in 1935ms
+22:15 [Info] Unloaded plugin Copy Paste v4.1.37 by misticos
+22:15 [Info] Loaded plugin Copy Paste v4.1.37 by misticos
+22:15 [Info] Compiler shutdown completed
+22:15 [Error] ExType: TypeInitializationException
+22:15 [Error] Exception while calling NextTick callback (DllNotFoundException: libgdiplus.so.0 assembly:<unknown assembly> type:<unknown type> member:(null))
+  at (wrapper managed-to-native) System.Drawing.GDIPlus.GdiplusStartup(ulong&,System.Drawing.GdiplusStartupInput&,System.Drawing.GdiplusStartupOutput&)
+  at System.Drawing.GDIPlus..cctor () [0x000b0] in <04abc238e1e64b378e01047493bf1e72>:0 
+22:26 [Info] [Automated Events] Spawning Helicopter
+22:26 [Error] [Automated Events] Helicopter prefab does not exist. Please notify the plugin developer
+22:31 [Info] [Better Chat] [Global] Alienatedmammal: votenight
+22:35 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1
+22:54 [Info] [Automated Events] Next CargoShip event will be ran after 02:00:20
+11:05 PM [Info] [Discord Extension] [Info]: Discord has requested a reconnect. Reconnecting...
+11:05 PM [Info] [Discord Extension] [Info]: Discord socket opened!
+11:05 PM [Info] [Discord Extension] [Info]: Your bot was found in 1 Guilds!
+23:49 [Info] [Automated Events] Spawning Cargo Plane
+23:55 [Info] [Automated Events] Next CargoPlane event will be ran after 02:20:50
+23:59 [Warning] [Automated Events] The number of Bradley auto events has reached the limit of 1

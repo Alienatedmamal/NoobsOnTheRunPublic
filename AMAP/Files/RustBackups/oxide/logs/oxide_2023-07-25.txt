@@ -1,0 +1,559 @@
+00:14 [Info] [Better Say] SERVER
+ Join our Discord discord.gg/hQXFYgtrzZ
+00:14 [Info] [Timed Execute] ran CMD: say Join our Discord discord.gg/hQXFYgtrzZ
+01:01 [Info] [Better Say] SERVER
+ <color=red>/info</color> for server info
+01:01 [Info] [Timed Execute] ran CMD: say <color=red>/info</color> for server info
+01:14 [Info] [Better Say] SERVER
+ Join our Discord discord.gg/hQXFYgtrzZ
+01:14 [Info] [Timed Execute] ran CMD: say Join our Discord discord.gg/hQXFYgtrzZ
+01:37 [Info] [Better Say] SERVER
+ <color=red>/pop</color> for population
+01:37 [Info] [Timed Execute] ran CMD: say <color=red>/pop</color> for population
+02:14 [Info] [Better Say] SERVER
+ Join our Discord discord.gg/hQXFYgtrzZ
+02:14 [Info] [Timed Execute] ran CMD: say Join our Discord discord.gg/hQXFYgtrzZ
+02:30 [Info] [Better Say] SERVER
+ will restart in 30 Mins
+02:30 [Info] [Timed Execute] ran CMD: say will restart in 30 Mins
+02:45 [Info] [Better Say] SERVER
+ will restart in 15 Mins
+02:45 [Info] [Timed Execute] ran CMD: say will restart in 15 Mins
+02:55 [Info] [Better Say] SERVER
+ will restart in 5 Mins
+02:55 [Info] [Timed Execute] ran CMD: say will restart in 5 Mins
+02:55 [Info] [Timed Execute] ran CMD: save
+02:56 [Info] [Timed Execute] ran CMD: server.writecfg
+02:59 [Info] [Better Say] SERVER
+ is now restarting we will be back soon
+02:59 [Info] [Timed Execute] ran CMD: say is now restarting we will be back soon
+03:00 [Info] Unloaded plugin Admin AntiHack Fix v1.0.0 by Solarix
+03:00 [Warning] Calling 'Unload' on 'AdminHammer v1.13.0' took 164ms
+03:00 [Info] Unloaded plugin AdminHammer v1.13.0 by mvrb
+03:00 [Info] Unloaded plugin Admin No Loot v0.1.3 by Dana
+03:00 [Info] Unloaded plugin Admin Radar v5.3.1 by nivex
+03:00 [Info] Unloaded plugin Ban Delete By v1.0.4 by Ryan
+03:00 [Info] Unloaded plugin BetterChatFlood v1.0.5 by Ryan
+03:00 [Info] Unloaded plugin Better Say v3.0.1 by LaserHydra
+03:00 [Info] Unloaded plugin Blueprint Manager v2.0.6 by Whispers88
+03:00 [Info] Unloaded plugin Bodies to Bags v2.0.0 by Ryan
+03:00 [Info] Unloaded plugin Coloured Chat v2.2.7 by collect_vood
+03:00 [Info] Unloaded plugin Custom Icon v1.0.4 by collect_vood
+03:00 [Info] Unloaded plugin Image Library v2.0.61 by Absolut & K1lly0u
+03:00 [Info] Unloaded plugin Infinite Ammo v1.3.0 by collect_vood & Mughisi
+03:00 [Info] Unloaded plugin Kits v4.4.0 by k1lly0u
+03:00 [Info] Unloaded plugin Loading Messages v1.0.9 by CosaNostra/Def/klauz24
+03:00 [Info] Unloaded plugin No Give Notices v0.3.0 by Wulf
+03:00 [Info] Unloaded plugin Payback v2.0.0 by 1928Tommygun
+03:00 [Info] Unloaded plugin PermissionsManager v2.0.9 by Steenamaroo
+03:00 [Info] Unloaded plugin Server Info v0.5.8 by FastBurst
+03:00 [Info] Unloaded plugin ServerPop v1.0.0 by Mabel
+03:00 [Info] Unloaded plugin TimeOfDay v2.3.4 by FuJiCuRa
+03:00 [Info] Unloaded plugin Timed Execute v0.7.4 by PaiN & misticos
+03:00 [Info] Unloaded plugin Vanish v1.8.0 by Whispers88
+03:00 [Info] Unloaded plugin Welcomer v2.1.0 by Dana
+03:00 [Info] Unloaded plugin SkipNightVote v0.1.4 by k1lly0u
+03:00 [Info] Unloaded plugin Firework Gun v1.1.0 by k1lly0u and Kusha
+03:00 [Info] Unloaded plugin Discord Report v1.2.0 by misticos
+03:10 [Info] Loading Oxide Core v2.0.4054...
+03:10 [Info] Loading extensions...
+03:10 [Info] Loaded extension CSharp v2.0.4083 by Oxide Team and Contributors
+03:10 [Info] Loaded extension MySql v2.0.3774 by Oxide Team and Contributors
+03:10 [Info] Loaded extension Rust v2.0.5925 by Oxide Team and Contributors
+03:10 [Info] Loaded extension SQLite v2.0.3804 by Oxide Team and Contributors
+03:10 [Info] Unity version: 2019.4.7f1
+03:10 [Info] Loaded extension Unity v2.0.3777 by Oxide Team and Contributors
+03:10 [Info] Latest compiler MD5: 8ce6d27e7718e3d164766bba8833537a
+03:10 [Info] Local compiler MD5: 8ce6d27e7718e3d164766bba8833537a
+03:10 [Info] Using Covalence provider for game 'Rust'
+03:10 [Info] Loading plugins...
+03:10 [Info] Loaded plugin Rust v2.0.5925 by Oxide Team and Contributors
+03:10 [Info] Loaded plugin Unity v2.0.3777 by Oxide Team and Contributors
+03:10 [Info] Added '// Reference: Facepunch.Sqlite' in plugin 'ImageLibrary'
+03:10 [Info] Added '// Reference: UnityEngine.UnityWebRequestModule' in plugin 'ImageLibrary'
+03:10 [Info] AdminAntiHackFix, AdminHammer, AdminNoLoot, AdminRadar, BanDeleteBy, BetterChatFlood, BetterSay, BlueprintManager, BodiesToBags, ColouredChat, CustomIcon, DiscordReport, FireworkGun, ImageLibrary, InfiniteAmmo, Kits, LoadingMessages, NoGiveNotices, Payback, PermissionsManager, ServerInfo, ServerPop, SkipNightVote, TimeOfDay, TimedExecute, Vanish and Welcomer were compiled successfully in 0ms
+03:10 [Info] Loaded plugin Admin AntiHack Fix v1.0.0 by Solarix
+03:10 [Info] Loaded plugin AdminHammer v1.13.0 by mvrb
+03:10 [Warning] [Admin No Loot] Config Loaded
+03:10 [Info] Loaded plugin Admin No Loot v0.1.3 by Dana
+03:10 [Info] Loaded plugin Admin Radar v5.3.1 by nivex
+03:10 [Info] Loaded plugin Ban Delete By v1.0.4 by Ryan
+03:10 [Info] Loaded plugin BetterChatFlood v1.0.5 by Ryan
+03:10 [Info] Loaded plugin Better Say v3.0.1 by LaserHydra
+03:10 [Info] Loaded plugin Blueprint Manager v2.0.6 by Whispers88
+03:10 [Info] Loaded plugin Bodies to Bags v2.0.0 by Ryan
+03:10 [Info] Loaded plugin Coloured Chat v2.2.7 by collect_vood
+03:10 [Info] Loaded plugin Custom Icon v1.0.4 by collect_vood
+03:10 [Info] Loaded plugin Discord Report v1.2.0 by misticos
+03:10 [Info] Loaded plugin Firework Gun v1.1.0 by k1lly0u and Kusha
+03:10 [Info] Loaded plugin Image Library v2.0.61 by Absolut & K1lly0u
+03:10 [Info] Loaded plugin Infinite Ammo v1.3.0 by collect_vood & Mughisi
+03:10 [Info] Loaded plugin Kits v4.4.0 by k1lly0u
+03:10 [Info] Loaded plugin Loading Messages v1.0.9 by CosaNostra/Def/klauz24
+03:10 [Info] Loaded plugin No Give Notices v0.3.0 by Wulf
+03:10 [Info] Loaded plugin Payback v2.0.0 by 1928Tommygun
+03:10 [Info] Loaded plugin PermissionsManager v2.0.9 by Steenamaroo
+03:10 [Info] Loaded plugin Server Info v0.5.8 by FastBurst
+03:10 [Info] Loaded plugin ServerPop v1.0.0 by Mabel
+03:10 [Info] Loaded plugin SkipNightVote v0.1.4 by k1lly0u
+03:10 [Info] Loaded plugin TimeOfDay v2.3.4 by FuJiCuRa
+03:10 [Info] Loaded plugin Timed Execute v0.7.4 by PaiN & misticos
+03:10 [Info] Loaded plugin Vanish v1.8.0 by Whispers88
+03:10 [Info] Loaded plugin Welcomer v2.1.0 by Dana
+03:14 [Info] IP address from external API: 10.0.35.2
+03:14 [Info] [Blueprint Manager] Configuration changes saved to BlueprintManager.json
+03:14 [Info] [Timed Execute] The RealTime timer has started
+03:14 [Info] [Timed Execute] The Repeat timer has started
+03:14 [Info] [Payback] 
+Payback2 is not loaded! Check out the sequel to this plugin, there's a lot more Payback to be had at https://payback.fragmod.com !
+
+03:14 [Info] [Image Library] Starting order Kits
+03:14 [Info] [Admin Radar] Cached 1895/54726 entities in 2.465589 seconds!
+04:14 [Info] [Better Say] SERVER
+ Join our Discord discord.gg/hQXFYgtrzZ
+04:14 [Info] [Timed Execute] ran CMD: say Join our Discord discord.gg/hQXFYgtrzZ
+04:57 [Info] [Better Say] SERVER
+ <color=red>/pop</color> for population
+04:57 [Info] [Timed Execute] ran CMD: say <color=red>/pop</color> for population
+05:14 [Info] [Better Say] SERVER
+ Join our Discord discord.gg/hQXFYgtrzZ
+05:14 [Info] [Timed Execute] ran CMD: say Join our Discord discord.gg/hQXFYgtrzZ
+05:57 [Info] [Better Say] SERVER
+ <color=red>/info</color> for server info
+05:57 [Info] [Timed Execute] ran CMD: say <color=red>/info</color> for server info
+06:14 [Info] [Better Say] SERVER
+ Join our Discord discord.gg/hQXFYgtrzZ
+06:14 [Info] [Timed Execute] ran CMD: say Join our Discord discord.gg/hQXFYgtrzZ
+06:41 [Info] [Better Say] SERVER
+ <color=red>/pop</color> for population
+06:41 [Info] [Timed Execute] ran CMD: say <color=red>/pop</color> for population
+07:14 [Info] [Better Say] SERVER
+ Join our Discord discord.gg/hQXFYgtrzZ
+07:14 [Info] [Timed Execute] ran CMD: say Join our Discord discord.gg/hQXFYgtrzZ
+08:14 [Info] [Better Say] SERVER
+ Join our Discord discord.gg/hQXFYgtrzZ
+08:14 [Info] [Timed Execute] ran CMD: say Join our Discord discord.gg/hQXFYgtrzZ
+08:24 [Info] [Better Say] SERVER
+ <color=red>/pop</color> for population
+08:24 [Info] [Timed Execute] ran CMD: say <color=red>/pop</color> for population
+08:41 [Info] [Better Say] SERVER
+ <color=red>/info</color> for server info
+08:41 [Info] [Timed Execute] ran CMD: say <color=red>/info</color> for server info
+09:14 [Info] [Better Say] SERVER
+ Join our Discord discord.gg/hQXFYgtrzZ
+09:14 [Info] [Timed Execute] ran CMD: say Join our Discord discord.gg/hQXFYgtrzZ
+10:07 [Info] [Better Say] SERVER
+ <color=red>/pop</color> for population
+10:07 [Info] [Timed Execute] ran CMD: say <color=red>/pop</color> for population
+10:14 [Info] [Better Say] SERVER
+ Join our Discord discord.gg/hQXFYgtrzZ
+10:14 [Info] [Timed Execute] ran CMD: say Join our Discord discord.gg/hQXFYgtrzZ
+11:11 [Info] Loading Oxide Core v2.0.4054...
+11:11 [Info] Loading extensions...
+11:11 [Info] Loaded extension CSharp v2.0.4083 by Oxide Team and Contributors
+11:11 [Info] Loaded extension MySql v2.0.3774 by Oxide Team and Contributors
+11:11 [Info] Loaded extension Rust v2.0.5925 by Oxide Team and Contributors
+11:11 [Info] Loaded extension SQLite v2.0.3804 by Oxide Team and Contributors
+11:11 [Info] Unity version: 2019.4.7f1
+11:11 [Info] Loaded extension Unity v2.0.3777 by Oxide Team and Contributors
+11:11 [Info] Latest compiler MD5: 8ce6d27e7718e3d164766bba8833537a
+11:11 [Info] Local compiler MD5: 8ce6d27e7718e3d164766bba8833537a
+11:11 [Info] Using Covalence provider for game 'Rust'
+11:11 [Info] Loading plugins...
+11:11 [Info] Loaded plugin Rust v2.0.5925 by Oxide Team and Contributors
+11:11 [Info] Loaded plugin Unity v2.0.3777 by Oxide Team and Contributors
+11:11 [Info] Added '// Reference: Facepunch.Sqlite' in plugin 'ImageLibrary'
+11:11 [Info] Added '// Reference: UnityEngine.UnityWebRequestModule' in plugin 'ImageLibrary'
+11:11 [Info] AdminAntiHackFix, AdminHammer, AdminNoLoot, AdminRadar, BanDeleteBy, BetterChatFlood, BetterSay, BlueprintManager, BodiesToBags, ColouredChat, CustomIcon, DiscordReport, FireworkGun, ImageLibrary, InfiniteAmmo, Kits, LoadingMessages, NoGiveNotices, Payback, PermissionsManager, ServerInfo, ServerPop, Skins, SkipNightVote, TimeOfDay, TimedExecute, Vanish and Welcomer were compiled successfully in 0ms
+11:11 [Info] Loaded plugin Admin AntiHack Fix v1.0.0 by Solarix
+11:11 [Info] Loaded plugin AdminHammer v1.13.0 by mvrb
+11:11 [Warning] [Admin No Loot] Config Loaded
+11:11 [Info] Loaded plugin Admin No Loot v0.1.3 by Dana
+11:11 [Info] Loaded plugin Admin Radar v5.3.1 by nivex
+11:11 [Info] Loaded plugin Ban Delete By v1.0.4 by Ryan
+11:11 [Info] Loaded plugin BetterChatFlood v1.0.5 by Ryan
+11:11 [Info] Loaded plugin Better Say v3.0.1 by LaserHydra
+11:11 [Info] Loaded plugin Blueprint Manager v2.0.6 by Whispers88
+11:11 [Info] Loaded plugin Bodies to Bags v2.0.0 by Ryan
+11:11 [Info] Loaded plugin Coloured Chat v2.2.7 by collect_vood
+11:11 [Info] Loaded plugin Custom Icon v1.0.4 by collect_vood
+11:11 [Info] Loaded plugin Discord Report v1.2.0 by misticos
+11:11 [Info] Loaded plugin Firework Gun v1.1.0 by k1lly0u and Kusha
+11:11 [Info] Loaded plugin Image Library v2.0.61 by Absolut & K1lly0u
+11:11 [Info] Loaded plugin Infinite Ammo v1.3.0 by collect_vood & Mughisi
+11:11 [Info] Loaded plugin Kits v4.4.0 by k1lly0u
+11:11 [Info] Loaded plugin Loading Messages v1.0.9 by CosaNostra/Def/klauz24
+11:11 [Info] Loaded plugin No Give Notices v0.3.0 by Wulf
+11:11 [Info] Loaded plugin Payback v2.0.0 by 1928Tommygun
+11:11 [Info] Loaded plugin PermissionsManager v2.0.9 by Steenamaroo
+11:11 [Info] Loaded plugin Server Info v0.5.8 by FastBurst
+11:11 [Info] Loaded plugin ServerPop v1.0.0 by Mabel
+11:11 [Info] Loaded plugin Skins v2.2.3 by misticos
+11:11 [Info] Loaded plugin SkipNightVote v0.1.4 by k1lly0u
+11:11 [Info] Loaded plugin TimeOfDay v2.3.4 by FuJiCuRa
+11:11 [Info] Loaded plugin Timed Execute v0.7.4 by PaiN & misticos
+11:11 [Info] Loaded plugin Vanish v1.8.0 by Whispers88
+11:11 [Info] Loaded plugin Welcomer v2.1.0 by Dana
+11:16 [Info] IP address from external API: 10.0.35.2
+11:16 [Info] [Blueprint Manager] Configuration changes saved to BlueprintManager.json
+11:16 [Warning] [Skins] Item with shortname "shortname" does not exist. Please review your Skins configuration.
+11:16 [Info] [Timed Execute] The RealTime timer has started
+11:16 [Info] [Timed Execute] The Repeat timer has started
+11:16 [Info] [Payback] 
+Payback2 is not loaded! Check out the sequel to this plugin, there's a lot more Payback to be had at https://payback.fragmod.com !
+
+11:16 [Info] [Image Library] Starting order Kits
+11:16 [Info] [Admin Radar] Cached 1901/56422 entities in 2.597 seconds!
+11:16 [Info] Group 'admin' granted permission 'skins.use'
+11:17 [Info] Group 'admin' granted permission 'skins.admin'
+11:23 [Info] Unloaded plugin Skins v2.2.3 by misticos
+11:25 [Info] Skins was compiled successfully in 2184ms
+11:25 [Warning] [Skins] Item with shortname "shortname" does not exist. Please review your Skins configuration.
+11:25 [Info] Loaded plugin Skins v2.2.3 by misticos
+11:26 [Info] Group 'admin' already has permission 'skins.admin'
+11:26 [Info] Group 'admin' already has permission 'skins.use'
+11:30 [Info] Unloaded plugin Skins v2.2.3 by misticos
+11:30 [Info] Loaded plugin Skins v2.2.3 by misticos
+11:41 [Info] Unloaded plugin Skins v2.2.3 by misticos
+11:41 [Info] Loaded plugin Skins v2.2.3 by misticos
+11:44 [Info] Group 'mod' granted permission 'skins.use'
+11:54 [Info] [AdminHammer] This wall.half is owned by www.steamcommunity.com/profiles/76561198206232972
+11:54 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a wall.half owned by <color=green> Alienatedmammal </color> (76561198206232972) [76561198206232972] located at (648.6, 13.0, 917.5)
+11:55 [Info] [AdminHammer] This floor.triangle is owned by www.steamcommunity.com/profiles/76561198206232972
+11:55 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a floor.triangle owned by <color=green> Alienatedmammal </color> (76561198206232972) [76561198206232972] located at (649.8, 14.5, 918.4)
+11:55 [Info] [AdminHammer] This roof is owned by www.steamcommunity.com/profiles/76561198206232972
+11:55 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a roof owned by <color=green> Alienatedmammal </color> (76561198206232972) [76561198206232972] located at (649.0, 14.5, 918.1)
+12:16 [Info] [Better Say] SERVER
+ Join our Discord discord.gg/hQXFYgtrzZ
+12:16 [Info] [Timed Execute] ran CMD: say Join our Discord discord.gg/hQXFYgtrzZ
+12:45 [Info] Group 'VIP' created
+12:48 [Info] Group 'admin' granted permission '*'
+12:59 [Info] [Better Say] SERVER
+ <color=red>/pop</color> for population
+12:59 [Info] [Timed Execute] ran CMD: say <color=red>/pop</color> for population
+13:16 [Info] [Better Say] SERVER
+ Join our Discord discord.gg/hQXFYgtrzZ
+13:16 [Info] [Timed Execute] ran CMD: say Join our Discord discord.gg/hQXFYgtrzZ
+13:32 [Info] ChatPrefix was compiled successfully in 2079ms
+13:32 [Info] Loaded plugin Chat Prefix v1.2.1 by Gonzi
+13:34 [Info] Unloaded plugin Chat Prefix v1.2.1 by Gonzi
+13:34 [Info] Loaded plugin Chat Prefix v1.2.1 by Gonzi
+13:34 [Info] [Chat Prefix] <color=#ff0000>test</color>
+13:34 [Warning] Calling hook OnPlayerChat resulted in a conflict between the following plugins: ColouredChat - False (Boolean), ChatPrefix (True (Boolean))
+13:34 [Info] [Chat Prefix] <color=#ff0000>test</color>
+13:34 [Warning] Calling hook OnPlayerChat resulted in a conflict between the following plugins: ColouredChat - False (Boolean), ChatPrefix (True (Boolean))
+13:35 [Info] Group 'admin' granted permission 'chatprefix.admin'
+13:35 [Info] [Chat Prefix] <color=#ff0000>test</color>
+13:35 [Warning] Calling hook OnPlayerChat resulted in a conflict between the following plugins: ColouredChat - False (Boolean), ChatPrefix (True (Boolean))
+13:37 [Info] Unloaded plugin Chat Prefix v1.2.1 by Gonzi
+13:37 [Info] Loaded plugin Chat Prefix v1.2.1 by Gonzi
+13:37 [Info] [Chat Prefix] <color=#ff0000>test</color>
+13:37 [Warning] Calling hook OnPlayerChat resulted in a conflict between the following plugins: ColouredChat - False (Boolean), ChatPrefix (True (Boolean))
+13:37 [Info] [Chat Prefix] <color=#ff0000>test</color>
+13:37 [Warning] Calling hook OnPlayerChat resulted in a conflict between the following plugins: ColouredChat - False (Boolean), ChatPrefix (True (Boolean))
+13:39 [Info] Player 'Alienatedmammal(76561198206232972)' added to group: admin
+13:39 [Info] [Chat Prefix] <color=#ff0000>test</color>
+13:39 [Warning] Calling hook OnPlayerChat resulted in a conflict between the following plugins: ColouredChat - False (Boolean), ChatPrefix (True (Boolean))
+13:42 [Info] Permission 'chatprefix.config.admin' doesn't exist
+13:43 [Info] Group 'admin' already has permission 'chatprefix.admin'
+13:45 [Info] [Chat Prefix] <color=#ff0000>test</color>
+13:45 [Warning] Calling hook OnPlayerChat resulted in a conflict between the following plugins: ColouredChat - False (Boolean), ChatPrefix (True (Boolean))
+13:45 [Info] [Chat Prefix] <color=#ff0000>test</color>
+13:45 [Warning] Calling hook OnPlayerChat resulted in a conflict between the following plugins: ColouredChat - False (Boolean), ChatPrefix (True (Boolean))
+13:46 [Info] Unloaded plugin Chat Prefix v1.2.1 by Gonzi
+13:46 [Info] Loaded plugin Chat Prefix v1.2.1 by Gonzi
+13:46 [Info] [Chat Prefix] <color=#ff0000>h</color>
+13:46 [Warning] Calling hook OnPlayerChat resulted in a conflict between the following plugins: ColouredChat - False (Boolean), ChatPrefix (True (Boolean))
+13:46 [Info] [Chat Prefix] <color=#ff0000>s</color>
+13:46 [Warning] Calling hook OnPlayerChat resulted in a conflict between the following plugins: ColouredChat - False (Boolean), ChatPrefix (True (Boolean))
+13:46 [Info] Unloaded plugin Chat Prefix v1.2.1 by Gonzi
+13:48 [Info] BetterChat was compiled successfully in 2155ms
+13:48 [Info] Loaded plugin Better Chat v5.2.12 by LaserHydra
+13:48 [Info] Group 'admin' granted permission 'betterchat.admin'
+13:50 [Info] [Better Chat] [Team] [Player] Alienatedmammal: chat group show
+13:51 [Info] [Better Chat] [Global] [Player] [admin] Alienatedmammal: test
+13:52 [Info] Unloaded plugin Better Chat v5.2.12 by LaserHydra
+13:53 [Info] Loaded plugin Better Chat v5.2.12 by LaserHydra
+13:53 [Info] Permission 'chatprefix.admin' doesn't exist
+13:53 [Info] Group 'admin' already has permission 'betterchat.admin'
+13:53 [Info] [Better Chat] [Global] [Player] [admin] Alienatedmammal: stte
+13:54 [Info] Unloaded plugin Better Chat v5.2.12 by LaserHydra
+13:59 [Info] [Better Say] SERVER
+ <color=red>/info</color> for server info
+13:59 [Info] [Timed Execute] ran CMD: say <color=red>/info</color> for server info
+14:16 [Info] [Better Say] SERVER
+ Join our Discord discord.gg/hQXFYgtrzZ
+14:16 [Info] [Timed Execute] ran CMD: say Join our Discord discord.gg/hQXFYgtrzZ
+14:42 [Info] [Better Say] SERVER
+ <color=red>/pop</color> for population
+14:42 [Info] [Timed Execute] ran CMD: say <color=red>/pop</color> for population
+15:16 [Info] [Better Say] SERVER
+ Join our Discord discord.gg/hQXFYgtrzZ
+15:16 [Info] [Timed Execute] ran CMD: say Join our Discord discord.gg/hQXFYgtrzZ
+15:34 [Info] [Welcomer] Scuba Steve joined for the very first time from United States
+15:39 [Info] Group 'admin' revoked permission 'vanish.permanent'
+16:00 [Info] [AdminHammer] 1. 76561198018231506 <color=green> Scuba Steve </color> (76561198018231506)
+
+16:00 [Info] [AdminHammer] 2. 76561198206232972 <color=green> Alienatedmammal </color> (76561198206232972)
+
+16:00 [Info] [AdminHammer] 1. 76561198018231506 <color=green> Scuba Steve </color> (76561198018231506)
+
+16:00 [Info] [AdminHammer] 2. 76561198206232972 <color=green> Alienatedmammal </color> (76561198206232972)
+
+16:00 [Info] [AdminHammer] This cupboard.tool.deployed is owned by www.steamcommunity.com/profiles/76561198018231506
+16:00 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a cupboard.tool.deployed owned by <color=green> Scuba Steve </color> (76561198018231506) [76561198018231506] located at (924.1, 12.5, 425.2)
+16:00 [Info] [AdminHammer] 1. 76561198018231506 <color=green> Scuba Steve </color> (76561198018231506)
+
+16:00 [Info] [AdminHammer] 2. 76561198206232972 <color=green> Alienatedmammal </color> (76561198206232972)
+
+16:00 [Info] [AdminHammer] 1. 76561198018231506 <color=green> Scuba Steve </color> (76561198018231506)
+
+16:00 [Info] [AdminHammer] 2. 76561198206232972 <color=green> Alienatedmammal </color> (76561198206232972)
+
+16:00 [Info] [AdminHammer] This cupboard.tool.deployed is owned by www.steamcommunity.com/profiles/76561198018231506
+16:00 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a cupboard.tool.deployed owned by <color=green> Scuba Steve </color> (76561198018231506) [76561198018231506] located at (924.1, 12.5, 425.2)
+16:00 [Info] [AdminHammer] This door.hinged.metal is owned by www.steamcommunity.com/profiles/76561198018231506
+16:00 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a door.hinged.metal owned by <color=green> Scuba Steve </color> (76561198018231506) [76561198018231506] located at (920.7, 12.4, 428.8)
+16:00 [Info] [AdminHammer] This box.wooden.large is owned by www.steamcommunity.com/profiles/76561198018231506
+16:00 [Info] [AdminHammer] This box.wooden.large is owned by www.steamcommunity.com/profiles/76561198018231506
+16:00 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a box.wooden.large owned by <color=green> Scuba Steve </color> (76561198018231506) [76561198018231506] located at (923.6, 12.5, 430.8)
+16:00 [Info] [AdminHammer] 1. 76561198018231506 <color=green> Scuba Steve </color> (76561198018231506)
+
+16:00 [Info] [AdminHammer] 2. 76561198206232972 <color=green> Alienatedmammal </color> (76561198206232972)
+
+16:00 [Info] [AdminHammer] 1. 76561198018231506 <color=green> Scuba Steve </color> (76561198018231506)
+
+16:00 [Info] [AdminHammer] 2. 76561198206232972 <color=green> Alienatedmammal </color> (76561198206232972)
+
+16:00 [Info] [AdminHammer] This cupboard.tool.deployed is owned by www.steamcommunity.com/profiles/76561198018231506
+16:00 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a cupboard.tool.deployed owned by <color=green> Scuba Steve </color> (76561198018231506) [76561198018231506] located at (924.1, 12.5, 425.2)
+16:01 [Info] [AdminHammer] This box.wooden.large is owned by www.steamcommunity.com/profiles/76561198018231506
+16:01 [Info] [AdminHammer] This box.wooden.large is owned by www.steamcommunity.com/profiles/76561198018231506
+16:01 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a box.wooden.large owned by <color=green> Scuba Steve </color> (76561198018231506) [76561198018231506] located at (923.6, 15.5, 424.6)
+16:01 [Info] [AdminHammer] This repairbench_deployed is owned by www.steamcommunity.com/profiles/76561198018231506
+16:01 [Info] [AdminHammer] This repairbench_deployed is owned by www.steamcommunity.com/profiles/76561198018231506
+16:01 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a repairbench_deployed owned by <color=green> Scuba Steve </color> (76561198018231506) [76561198018231506] located at (921.0, 18.5, 427.3)
+16:01 [Info] [AdminHammer] This water_catcher_small is owned by www.steamcommunity.com/profiles/76561198018231506
+16:01 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a water_catcher_small owned by <color=green> Scuba Steve </color> (76561198018231506) [76561198018231506] located at (926.1, 18.5, 427.7)
+16:06 [Info] [AdminHammer] This foundation.triangle is owned by www.steamcommunity.com/profiles/76561198206232972
+16:06 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a foundation.triangle owned by <color=green> Alienatedmammal </color> (76561198206232972) [76561198206232972] located at (655.6, 8.5, 918.6)
+16:06 [Info] [AdminHammer] This foundation.triangle is owned by www.steamcommunity.com/profiles/76561198206232972
+16:06 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a foundation.triangle owned by <color=green> Alienatedmammal </color> (76561198206232972) [76561198206232972] located at (654.7, 7.0, 919.7)
+16:06 [Info] [AdminHammer] This wall is owned by www.steamcommunity.com/profiles/76561198206232972
+16:06 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a wall owned by <color=green> Alienatedmammal </color> (76561198206232972) [76561198206232972] located at (654.7, 8.5, 919.7)
+16:06 [Info] [AdminHammer] This foundation.triangle is owned by www.steamcommunity.com/profiles/76561198206232972
+16:06 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a foundation.triangle owned by <color=green> Alienatedmammal </color> (76561198206232972) [76561198206232972] located at (655.6, 8.5, 918.6)
+16:07 [Info] [AdminHammer] This wall is owned by www.steamcommunity.com/profiles/76561198206232972
+16:07 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a wall owned by <color=green> Alienatedmammal </color> (76561198206232972) [76561198206232972] located at (653.2, 8.5, 919.5)
+16:07 [Info] [AdminHammer] This roof is owned by www.steamcommunity.com/profiles/76561198206232972
+16:07 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a roof owned by <color=green> Alienatedmammal </color> (76561198206232972) [76561198206232972] located at (651.4, 10.0, 922.6)
+16:08 [Info] [AdminHammer] This wall.half is owned by www.steamcommunity.com/profiles/76561198206232972
+16:08 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a wall.half owned by <color=green> Alienatedmammal </color> (76561198206232972) [76561198206232972] located at (653.7, 13.0, 920.9)
+16:08 [Info] [AdminHammer] This roof is owned by www.steamcommunity.com/profiles/76561198206232972
+16:08 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a roof owned by <color=green> Alienatedmammal </color> (76561198206232972) [76561198206232972] located at (657.8, 13.0, 925.1)
+16:09 [Info] [AdminHammer] This roof is owned by www.steamcommunity.com/profiles/76561198206232972
+16:09 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a roof owned by <color=green> Alienatedmammal </color> (76561198206232972) [76561198206232972] located at (648.6, 13.0, 923.7)
+16:09 [Info] [AdminHammer] This roof is owned by www.steamcommunity.com/profiles/76561198206232972
+16:09 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a roof owned by <color=green> Alienatedmammal </color> (76561198206232972) [76561198206232972] located at (655.4, 10.0, 923.2)
+16:09 [Info] [AdminHammer] This roof is owned by www.steamcommunity.com/profiles/76561198206232972
+16:09 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a roof owned by <color=green> Alienatedmammal </color> (76561198206232972) [76561198206232972] located at (655.4, 10.0, 923.2)
+16:09 [Info] [AdminHammer] This roof is owned by www.steamcommunity.com/profiles/76561198206232972
+16:09 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a roof owned by <color=green> Alienatedmammal </color> (76561198206232972) [76561198206232972] located at (655.4, 10.0, 923.2)
+16:09 [Info] [AdminHammer] This roof is owned by www.steamcommunity.com/profiles/76561198206232972
+16:09 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a roof owned by <color=green> Alienatedmammal </color> (76561198206232972) [76561198206232972] located at (655.4, 10.0, 923.2)
+16:09 [Info] [AdminHammer] This roof is owned by www.steamcommunity.com/profiles/76561198206232972
+16:09 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a roof owned by <color=green> Alienatedmammal </color> (76561198206232972) [76561198206232972] located at (655.4, 10.0, 923.2)
+16:09 [Info] [AdminHammer] This roof is owned by www.steamcommunity.com/profiles/76561198206232972
+16:09 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a roof owned by <color=green> Alienatedmammal </color> (76561198206232972) [76561198206232972] located at (651.4, 10.0, 922.6)
+16:09 [Info] [AdminHammer] This roof is owned by www.steamcommunity.com/profiles/76561198206232972
+16:09 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a roof owned by <color=green> Alienatedmammal </color> (76561198206232972) [76561198206232972] located at (651.4, 10.0, 922.6)
+16:16 [Info] [Better Say] SERVER
+ Join our Discord discord.gg/hQXFYgtrzZ
+16:16 [Info] [Timed Execute] ran CMD: say Join our Discord discord.gg/hQXFYgtrzZ
+16:26 [Info] [Better Say] SERVER
+ <color=red>/pop</color> for population
+16:26 [Info] [Timed Execute] ran CMD: say <color=red>/pop</color> for population
+16:42 [Info] [Better Say] SERVER
+ <color=red>/info</color> for server info
+16:42 [Info] [Timed Execute] ran CMD: say <color=red>/info</color> for server info
+17:16 [Info] [Better Say] SERVER
+ Join our Discord discord.gg/hQXFYgtrzZ
+17:16 [Info] [Timed Execute] ran CMD: say Join our Discord discord.gg/hQXFYgtrzZ
+18:09 [Info] [Better Say] SERVER
+ <color=red>/pop</color> for population
+18:09 [Info] [Timed Execute] ran CMD: say <color=red>/pop</color> for population
+18:16 [Info] [Better Say] SERVER
+ Join our Discord discord.gg/hQXFYgtrzZ
+18:16 [Info] [Timed Execute] ran CMD: say Join our Discord discord.gg/hQXFYgtrzZ
+18:27 [Info] Loaded plugin Better Chat v5.2.12 by LaserHydra
+18:27 [Info] Group 'admin' already has permission 'betterchat.admin'
+18:29 [Info] [Welcomer] Scuba Steve joined for the very first time from United States
+18:31 [Info] [Better Chat] [Team] [Player] [admin] Alienatedmammal: test
+18:34 [Info] Unloaded plugin Better Chat v5.2.12 by LaserHydra
+18:34 [Error] BetterChat v5.2.12: Failed to load config file (is the config file corrupt?) (Additional text found in JSON string after finishing deserializing object.)
+18:34 [Error] Could not initialize plugin 'BetterChat v5.2.12' (JsonSerializationException: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'Oxide.Plugins.BetterChat+Configuration' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path '', line 1, position 1.)
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract) [0x00058] in <271c58b7a8684db5a2c92be17a81f252>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, System.Object existingValue, System.String id) [0x00012] in <271c58b7a8684db5a2c92be17a81f252>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType, Newtonsoft.Json.Serialization.JsonContract contract, Newtonsoft.Json.Serialization.JsonProperty member, Newtonsoft.Json.Serialization.JsonContainerContract containerContract, Newtonsoft.Json.Serialization.JsonProperty containerMember, System.Object existingValue) [0x0007f] in <271c58b7a8684db5a2c92be17a81f252>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000d9] in <271c58b7a8684db5a2c92be17a81f252>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00053] in <271c58b7a8684db5a2c92be17a81f252>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <271c58b7a8684db5a2c92be17a81f252>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject (System.String value, System.Type type, Newtonsoft.Json.JsonSerializerSettings settings) [0x0002d] in <271c58b7a8684db5a2c92be17a81f252>:0 
+  at Newtonsoft.Json.JsonConvert.DeserializeObject[T] (System.String value, Newtonsoft.Json.JsonSerializerSettings settings) [0x00000] in <271c58b7a8684db5a2c92be17a81f252>:0 
+  at Oxide.Core.Configuration.DynamicConfigFile.ReadObject[T] (System.String filename) [0x00028] in <157a94ee66ab4a7991faecd1eb84be3b>:0 
+  at Oxide.Plugins.BetterChat.LoadConfig () [0x0000d] in <bc25086ab64c4635b3b50f4af7a7b191>:0 
+  at Oxide.Core.Plugins.Plugin.HandleAddedToManager (Oxide.Core.Plugins.PluginManager manager) [0x0000f] in <157a94ee66ab4a7991faecd1eb84be3b>:0 
+  at Oxide.Core.Plugins.CSPlugin.HandleAddedToManager (Oxide.Core.Plugins.PluginManager manager) [0x00000] in <157a94ee66ab4a7991faecd1eb84be3b>:0 
+  at Oxide.Plugins.CSharpPlugin.HandleAddedToManager (Oxide.Core.Plugins.PluginManager manager) [0x00000] in <23ba99f131254889867c71f0bd137b1d>:0 
+  at Oxide.Plugins.CovalencePlugin.HandleAddedToManager (Oxide.Core.Plugins.PluginManager manager) [0x000b3] in <23ba99f131254889867c71f0bd137b1d>:0 
+  at Oxide.Core.Plugins.PluginManager.AddPlugin (Oxide.Core.Plugins.Plugin plugin) [0x00027] in <157a94ee66ab4a7991faecd1eb84be3b>:0 
+  at Oxide.Core.OxideMod.PluginLoaded (Oxide.Core.Plugins.Plugin plugin) [0x00035] in <157a94ee66ab4a7991faecd1eb84be3b>:0 
+18:34 [Info] Previous version of plugin failed to load: BetterChat
+18:36 [Error] ClanTags plugin requires missing dependency: BetterChat
+18:38 [Info] Unloaded plugin Better Chat v5.2.12 by LaserHydra
+18:38 [Info] Loaded plugin Better Chat v5.2.12 by LaserHydra
+18:42 [Info] [Better Chat] [Global] [Player] Scuba Steve: dead
+18:43 [Info] Unloaded plugin Better Chat v5.2.12 by LaserHydra
+18:43 [Info] Loaded plugin Better Chat v5.2.12 by LaserHydra
+18:43 [Info] [Better Chat] [Team] Alienatedmammal: test
+18:43 [Info] [Better Chat] [Global] Alienatedmammal: test
+18:44 [Info] [Better Chat] [Global] Alienatedmammal: test
+18:46 [Info] Unloaded plugin Better Chat v5.2.12 by LaserHydra
+18:46 [Info] Loaded plugin Better Chat v5.2.12 by LaserHydra
+18:46 [Info] [Better Chat] [Global] Alienatedmammal: test
+18:46 [Info] [Better Chat] [Global] Scuba Steve: something
+18:47 [Info] [Better Chat] [Global] Alienatedmammal: test
+18:49 [Info] Unloaded plugin Better Chat v5.2.12 by LaserHydra
+18:49 [Info] Loaded plugin Better Chat v5.2.12 by LaserHydra
+18:49 [Info] [Better Chat] [Global] Alienatedmammal: test
+18:49 [Info] [Better Chat] [Global] Scuba Steve: good
+18:50 [Info] Unloaded plugin Better Chat v5.2.12 by LaserHydra
+18:50 [Info] Loaded plugin Better Chat v5.2.12 by LaserHydra
+18:50 [Info] [Better Chat] [Global] Alienatedmammal: test
+18:51 [Info] Group 'admin' already has permission 'betterchat.admin'
+18:51 [Info] Unloaded plugin Better Chat v5.2.12 by LaserHydra
+18:51 [Info] Loaded plugin Better Chat v5.2.12 by LaserHydra
+18:51 [Info] [Better Chat] [Global] Alienatedmammal: test
+18:51 [Info] [Better Chat] [Global] Scuba Steve: no
+18:52 [Info] [Better Chat] [Global] Alienatedmammal: chat group add mod
+18:55 [Info] [Better Chat] [Global] [mod]  Scuba Steve: blue
+18:56 [Info] Unloaded plugin Better Chat v5.2.12 by LaserHydra
+18:56 [Info] Loaded plugin Better Chat v5.2.12 by LaserHydra
+18:56 [Info] [Better Chat] [Global] Alienatedmammal: test
+18:56 [Info] [Better Chat] [Global] [MOD]  Scuba Steve: test
+18:57 [Info] Unloaded plugin Better Chat v5.2.12 by LaserHydra
+18:57 [Info] Loaded plugin Better Chat v5.2.12 by LaserHydra
+18:57 [Info] [Better Chat] [Global] Alienatedmammal: test
+18:57 [Info] [Better Chat] [Global] [MOD]  Scuba Steve: no
+19:06 [Info] [Better Chat] [Global] Alienatedmammal: hello server
+19:09 [Info] UFilter was compiled successfully in 2195ms
+19:09 [Warning] [UFilter] Could not load a valid configuration file, creating a new configuration file at /home/alienatedmammal/serverfiles/oxide/config/UFilter.json
+19:09 [Info] Loaded plugin UFilter v5.1.1 by Wulf/lukespragg
+19:09 [Info] [Better Chat] [Global] Alienatedmammal: fuck
+19:09 [Info] [Better Chat] [Global] Alienatedmammal: fudge
+19:09 [Info] [Better Chat] [Global] Alienatedmammal: butt
+19:09 [Info] [Better Chat] [Global] Alienatedmammal: ass
+19:09 [Info] [Better Chat] [Global] Alienatedmammal: asshole
+19:09 [Info] [Better Chat] [Global] Alienatedmammal: bitch
+19:11 [Info] Group 'admin' granted permission 'ufilter.bypass'
+19:11 [Info] Group 'admin' granted permission 'ufilter.admin'
+19:11 [Info] [Better Chat] [Global] Alienatedmammal: fuck
+19:13 [Info] Player 'Alienatedmammal (76561198206232972)' granted permission 'ufilter.bypass'
+19:13 [Info] [Better Chat] [Global] Alienatedmammal: fuck
+19:15 [Info] [Better Chat] [Global] Alienatedmammal: testing
+19:16 [Info] [Better Say] SERVER
+ Join our Discord discord.gg/hQXFYgtrzZ
+19:16 [Info] [Timed Execute] ran CMD: say Join our Discord discord.gg/hQXFYgtrzZ
+19:16 [Info] [Better Chat] [Team] Alienatedmammal: yeah lol
+19:16 [Info] [Better Say] SERVER
+ hello
+19:26 [Info] [Better Say] SERVER
+ <color=red>/info</color> for server info
+19:26 [Info] [Timed Execute] ran CMD: say <color=red>/info</color> for server info
+19:47 [Error] Could not load plugin 'InfoScreen' (no plugin found with that file name)
+19:47 [Info] ServerInfo was compiled successfully in 2152ms
+19:47 [Info] Unloaded plugin Server Info v0.5.8 by FastBurst
+19:47 [Info] Loaded plugin Server Info v0.5.8 by FastBurst
+19:52 [Info] [Better Say] SERVER
+ <color=red>/pop</color> for population
+19:52 [Info] [Timed Execute] ran CMD: say <color=red>/pop</color> for population
+20:06 [Info] AdminPanel was compiled successfully in 2109ms
+20:06 [Info] Loaded plugin Admin Panel v1.4.7 by nivex
+20:07 [Info] Usage: oxide.grant <group|user> <name|id> <permission>
+20:07 [Info] Group 'admin' granted permission 'adminpanel.autotoggle.admin'
+20:08 [Info] Group 'admin' granted permission 'adminpanel.allowed'
+20:10 [Info] Unloaded plugin Admin Panel v1.4.7 by nivex
+20:16 [Info] [Better Say] SERVER
+ Join our Discord discord.gg/hQXFYgtrzZ
+20:16 [Info] [Timed Execute] ran CMD: say Join our Discord discord.gg/hQXFYgtrzZ
+20:20 [Info] [Better Chat] [Global] Alienatedmammal: fuck
+20:20 [Info] [Better Chat] [Global] Alienatedmammal: nigger
+20:21 [Info] [Better Chat] [Global] Alienatedmammal: chink in my armor
+20:21 [Info] [Better Chat] [Global] Alienatedmammal: slant
+20:21 [Info] [Better Chat] [Global] Alienatedmammal: slants
+20:52 [Error] Error while compiling: PoliceVehicles.cs(743,67): error CS1503: Argument `#1' cannot convert `NetworkableId' expression to type `uint'
+20:52 [Info] Permission 'PoliceVehicles.unlimited' doesn't exist
+20:53 [Info] Permission 'policevehicles.use' doesn't exist
+20:54 [Info] Permission 'PoliceVehicles.unlimited' doesn't exist
+20:54 [Error] Error while compiling: PoliceVehicles.cs(743,67): error CS1503: Argument `#1' cannot convert `NetworkableId' expression to type `uint'
+20:57 [Info] [AdminHammer] This wall is owned by www.steamcommunity.com/profiles/76561198018231506
+20:57 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a wall owned by <color=red> Scuba Steve </color> (76561198018231506) [76561198018231506] located at (920.7, 15.4, 426.7)
+20:57 [Info] [AdminHammer] 1. 76561198018231506 <color=red> Scuba Steve </color> (76561198018231506)
+
+20:57 [Info] [AdminHammer] 2. 76561198206232972 <color=green> Alienatedmammal </color> (76561198206232972)
+
+20:57 [Info] [AdminHammer] 1. 76561198018231506 <color=red> Scuba Steve </color> (76561198018231506)
+
+20:57 [Info] [AdminHammer] 2. 76561198206232972 <color=green> Alienatedmammal </color> (76561198206232972)
+
+20:57 [Info] [AdminHammer] This cupboard.tool.deployed is owned by www.steamcommunity.com/profiles/76561198018231506
+20:57 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a cupboard.tool.deployed owned by <color=red> Scuba Steve </color> (76561198018231506) [76561198018231506] located at (924.1, 12.5, 425.2)
+20:57 [Info] [AdminHammer] This door.hinged.metal is owned by www.steamcommunity.com/profiles/76561198018231506
+20:57 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a door.hinged.metal owned by <color=red> Scuba Steve </color> (76561198018231506) [76561198018231506] located at (920.7, 12.4, 428.8)
+20:58 [Info] [AdminHammer] This door.hinged.metal is owned by www.steamcommunity.com/profiles/76561198018231506
+20:58 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a door.hinged.metal owned by <color=red> Scuba Steve </color> (76561198018231506) [76561198018231506] located at (920.3, 12.4, 430.2)
+20:58 [Info] [AdminHammer] This door.hinged.metal is owned by www.steamcommunity.com/profiles/76561198018231506
+20:58 [Info] [AdminHammer] Alienatedmammal [76561198206232972] used AdminHammer on a door.hinged.metal owned by <color=red> Scuba Steve </color> (76561198018231506) [76561198018231506] located at (920.3, 12.4, 430.2)
+21:16 [Info] [Better Say] SERVER
+ Join our Discord discord.gg/hQXFYgtrzZ
+21:16 [Info] [Timed Execute] ran CMD: say Join our Discord discord.gg/hQXFYgtrzZ
+21:31 [Info] Payback was compiled successfully in 2262ms
+21:31 [Info] Unloaded plugin Payback v2.0.0 by 1928Tommygun
+21:31 [Info] Loaded plugin Payback v2.0.0 by 1928Tommygun
+21:31 [Info] [Payback] 
+Payback2 is not loaded! Check out the sequel to this plugin, there's a lot more Payback to be had at https://payback.fragmod.com !
+
+21:31 [Info] Unloaded plugin Payback v2.0.0 by 1928Tommygun
+21:31 [Info] Loaded plugin Payback v2.0.0 by 1928Tommygun
+21:31 [Info] [Payback] 
+Payback2 is not loaded! Check out the sequel to this plugin, there's a lot more Payback to be had at https://payback.fragmod.com !
+
+21:36 [Info] [Better Say] SERVER
+ <color=red>/pop</color> for population
+21:36 [Info] [Timed Execute] ran CMD: say <color=red>/pop</color> for population
+21:37 [Info] Payback was compiled successfully in 2262ms
+21:37 [Info] Unloaded plugin Payback v2.0.0 by 1928Tommygun
+21:37 [Info] Loaded plugin Payback v2.0.9 by 1928Tommygun
+21:37 [Info] [Payback] 
+Check out the sequel to this plugin Payback 2! there's a lot more Payback to be had at https://payback.fragmod.com !
+
+21:37 [Info] Unloaded plugin Payback v2.0.9 by 1928Tommygun
+21:37 [Info] Loaded plugin Payback v2.0.9 by 1928Tommygun
+21:37 [Info] [Payback] 
+Check out the sequel to this plugin Payback 2! there's a lot more Payback to be had at https://payback.fragmod.com !
+
+21:37 [Info] Group 'admin' already has permission 'payback.admin'
+22:09 [Info] [Better Say] SERVER
+ <color=red>/info</color> for server info
+22:09 [Info] [Timed Execute] ran CMD: say <color=red>/info</color> for server info
+22:16 [Info] [Better Say] SERVER
+ Join our Discord discord.gg/hQXFYgtrzZ
+22:16 [Info] [Timed Execute] ran CMD: say Join our Discord discord.gg/hQXFYgtrzZ
+23:16 [Info] [Better Say] SERVER
+ Join our Discord discord.gg/hQXFYgtrzZ
+23:16 [Info] [Timed Execute] ran CMD: say Join our Discord discord.gg/hQXFYgtrzZ
+23:19 [Info] [Better Say] SERVER
+ <color=red>/pop</color> for population
+23:19 [Info] [Timed Execute] ran CMD: say <color=red>/pop</color> for population

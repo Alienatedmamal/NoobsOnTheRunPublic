@@ -1,0 +1,8 @@
+{
+  "Block chat while frozen": true,
+  "Block commands while frozen": true,
+  "Block damage while frozen": true,
+  "Block movement while frozen": true,
+  "Enable frozen effect": true,
+  "Notify target when frozen": true
+}
