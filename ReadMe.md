@@ -26,7 +26,8 @@ AAAAAAA                   AAAAAAAMMMMMMMM               MMMMMMMMAAAAAAA         
 ```
 
 # Description: 
-This management tool is to help with navigating Rust server. This tool can check Server Details, Console, Backups, Check/Clear logs, Modify Files and MORE. 
+This management tool is to help with navigating Rust server. This tool can check Server Details, 
+Console, Backups, Check/Clear logs, Modify Files and MORE. 
 
 
 # Install 
