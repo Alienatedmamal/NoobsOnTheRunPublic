@@ -5,47 +5,36 @@ source $DIR/config.sh
 echo "NOW STARTING....." && sleep 1
 echo "Making files Executable"
 
-# List of files to make executable
 files=(
-  Fullwipe.sh
-  Mapwipe.sh
-  LogCleaner.sh
-  Nightly.sh
-  Schedule.sh
-  ServerBackups.sh
-  ServerChecker.sh
-  ServerStart.sh
-  wipeconfigure.sh
-  Wipeconfigure.sh
+  "$DIR/$FILELOC/Fullwipe.sh"
+  "$DIR/$FILELOC/Mapwipe.sh"
+  "$DIR/$FILELOC/LogCleaner.sh"
+  "$DIR/$FILELOC/Nightly.sh"
+  "$DIR/$FILELOC/Schedule.sh"
+  "$DIR/$FILELOC/ServerBackups.sh"
+  "$DIR/$FILELOC/ServerChecker.sh"
+  "$DIR/$FILELOC/ServerStart.sh"
+  "$DIR/$FILELOC/wipeconfigure.sh"
+  "$DIR/$FILEMAIN/AMAP.sh"
+  "$DIR/$FILEMAIN/AMAPNC.sh"
 )
 
-# Function to display a progress bar
-progress_bar() {
-  local duration="$1"
-  local bar_length=30
-  local sleep_duration=$(echo "$duration / $bar_length" | bc -l)
+total_files=${#files[@]}
+current_file=1
 
-  for ((i = 0; i < bar_length; i++)); do
-    echo -ne "\r["
-    for ((j = 0; j <= i; j++)); do
-      echo -ne "="
-    done
-    for ((j = i + 1; j < bar_length; j++)); do
-      echo -ne " "
-    done
-    echo -ne "] $((i * 100 / (bar_length - 1)))%"
-    sleep "$sleep_duration"
-  done
-  echo -e "\nDone."
-}
-
-# Make files executable with progress bar
 for file in "${files[@]}"; do
-  chmod +x "$DIR/$FILELOC/$file"
-  echo "File $file is now executable"
-done | progress_bar 5  # Adjust the duration as needed
+  echo "Progress: [$((current_file * 100 / total_files))%]"
 
+  chmod +x "$file"
+
+  ((current_file++))
+done
+
+echo "Files are now Executable"
+sleep 1
 echo "Moving AMAP files"
-mv AMAP ..// &&
-echo "Move Completed" || echo "FAILED TO MOVE FILES"
 
+mv "$DIR/$FILEMAIN/AMAP.sh" "..//" &&
+mv "$DIR/$FILEMAIN/AMAPNC.sh" "..//"
+
+echo "Move Completed" || echo "FAILED TO MOVE FILES"
