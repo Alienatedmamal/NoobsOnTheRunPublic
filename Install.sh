@@ -6,6 +6,7 @@ echo "NOW STARTING....." && sleep 1
 echo "Making files Executable"
 
 files=(
+  "$DIR/$FILELOC/RustServerInstall.sh"
   "$DIR/$FILELOC/Fullwipe.sh"
   "$DIR/$FILELOC/Mapwipe.sh"
   "$DIR/$FILELOC/LogCleaner.sh"
