@@ -62,7 +62,7 @@ SERVERINFO="$SCRIPT_DIR/serverfiles/oxide/config/ServerInfo.json"
 SMARTCHATBOT="$SCRIPT_DIR/serverfiles/oxide/config/SmartChatBot.json"
 TIMEDEXECUTE="$SCRIPT_DIR/serverfiles/oxide/config/TimedExecute.json"
 VIPTRIAL="$SCRIPT_DIR/serverfiles/oxide/config/VIPTrial.json"
-INSTALLRUST="wget -O linuxgsm.sh https://linuxgsm.sh && chmod +x linuxgsm.sh && bash linuxgsm.sh rustserver"
+RUSTMOVE="mv lgsm /home/$USERNAME/ && mv rustserver /home/$USERNAME/ && mv linuxgsm.sh /home/$USERNAME/"
 
 # Scripts
 SERVERNAME="Rust"
