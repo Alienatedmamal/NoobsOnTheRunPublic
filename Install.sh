@@ -10,7 +10,7 @@ chmod +x $DIR/$FILELOC/Mapwipe.sh
 chmod +x $DIR/$FILELOC/LogCleaner.sh
 chmod +x $DIR/$FILELOC/Nightly.sh
 chmod +x $DIR/$FILELOC/Schedule.sh
-chmod +x $DIR/$FILELOC/ServerBackup.sh
+chmod +x $DIR/$FILELOC/ServerBackups.sh
 chmod +x $DIR/$FILELOC/ServerChecker.sh
 chmod +x $DIR/$FILELOC/ServerStart.sh
 chmod +x $DIR/$FILELOC/wipeconfigure.sh
