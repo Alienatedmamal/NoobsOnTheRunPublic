@@ -34,7 +34,5 @@ echo "Files are now Executable"
 sleep 1
 echo "Moving AMAP files"
 
-mv "$DIR/$FILEMAIN/AMAP.sh" "..//" &&
-mv "$DIR/$FILEMAIN/AMAPNC.sh" "..//"
-
+mv "$DIR/$FILEMAIN/AMAP" "..//"
 echo "Move Completed" || echo "FAILED TO MOVE FILES"
