@@ -5,7 +5,14 @@ source "$DIR/config.sh"
 echo "This is going to the install of the rust server"
 
 # Download and install the rust server then run 
-$INSTALLRUST
+wget -O linuxgsm.sh https://linuxgsm.sh && chmod +x linuxgsm.sh && bash linuxgsm.sh rustserver
 sleep 3
-echo "Starting Rust Server" 
+echo "Install Completed" 
+echo "Moving files" 
+mv lgsm /home/$USERNAME/
+mv rusterver /home/$USERNAME/
+mv linuxgsm.sh /home/$USERNAME/
+echo "Files have been moved"
+echo "Starting Rust Server Install" 
+/home/$USERNAME/./rustserver install
 
