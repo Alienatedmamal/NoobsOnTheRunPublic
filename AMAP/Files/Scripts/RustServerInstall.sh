@@ -9,9 +9,7 @@ wget -O linuxgsm.sh https://linuxgsm.sh && chmod +x linuxgsm.sh && bash linuxgsm
 sleep 3
 echo "Install Completed" 
 echo "Moving files" 
-mv lgsm /home/$USERNAME/
-mv rustserver /home/$USERNAME/
-mv linuxgsm.sh /home/$USERNAME/
+$RUSTMOVE
 echo "Files have been moved"
 echo "Starting Rust Server Install" 
 /home/$USERNAME/./rustserver install
