@@ -1,25 +1,16 @@
 # config.sh
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 
-
-
-
+# Replace with your information
 USERNAME="SYSTEMS USER HERE"
+HOSTNAME="NAME OF RUST SERVER"
 
 
 
-LOGS="$DIR/Files/Logs/Logs.txt"
-SERVERNAME="Rust"
-CLEANLOGS="echo > $LOGS"
-
-# Replace USERNAME
-SERVER="/home/$USERNAME/./rustserver"
-#SERVER="$SCRIPT_DIR/./rustserver"
 
 
 # Location of Rust Server
 SERVER_LOCATION="/home/$USERNAME/"
-#SERVER_LOCATION="$SCRIPT_DIR/"
 
 # Rust Server Control:
 SERVERDETAILS="$SERVER details"
@@ -37,12 +28,10 @@ CONFIG="Files/config.sh"
 AMAPLOGO="Files/logo"
 OPTIONS="Files/menu"
 
-
 # Running Scripts:
 LOGCLEANER="$SCRIPT_DIR/Files/Scripts/./LogCleaner.sh"
 SERVERBACKUP="$SCRIPT_DIR/Files/Scripts/./ServerBackups.sh"
 WIPECONFIGURE="$SCRIPT_DIR/Files/Scripts/./WipeConfigure.sh"
-
 
 # Sripts File Locations:
 FULLWIPESH="$SCRIPT_DIR/Files/Scripts/Fullwipe.sh"
@@ -54,7 +43,6 @@ SERVERSTARTSH="$SCRIPT_DIR/Files/Scripts/ServerStart.sh"
 SCHEDULESH="$SCRIPT_DIR/Files/Scripts/Schedule.sh"
 LOGCLEANERSH="$SCRIPT_DIR/Files/Scripts/LogCleaner.sh"
 EAMAPSH="$SCRIPT_DIR/AMAP.sh"
-
 
 #OXIDE LOCATIONS:
 OXIDECONFIG="$SCRIPT_DIR/serverfiles/oxide/config/"
@@ -75,12 +63,14 @@ SMARTCHATBOT="$SCRIPT_DIR/serverfiles/oxide/config/SmartChatBot.json"
 TIMEDEXECUTE="$SCRIPT_DIR/serverfiles/oxide/config/TimedExecute.json"
 VIPTRIAL="$SCRIPT_DIR/serverfiles/oxide/config/VIPTrial.json"
 
-
 # Scripts
 SERVERNAME="Rust"
 SAYDATE="echo $(date)"
-#Change User Name
 USER="sudo -u $USERNAME "
 SYNC="rsync --copy-links -avzh -s --delete"
 SAY="echo $(date)"
 BACKUPS="$DIR/Files/RustBackups/"
+LOGS="$DIR/Files/Logs/Logs.txt"
+SERVERNAME="Rust"
+CLEANLOGS="echo > $LOGS"
+SERVER="/home/$USERNAME/./rustserver"
