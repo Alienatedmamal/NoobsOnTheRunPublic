@@ -91,9 +91,10 @@ while true; do
                                         echo "Backup and configuration Options:"
                                         echo "1. Server Backup"
                                         echo "2. Edit Plugin Configs"
-                    echo "3. List of Plugins"
-                    echo "4. Oxide Config Path"
-                    echo "5. Oxide Plugin Path"
+										echo "3. Edit AMAP Configs"
+                    echo "4. List of Plugins"
+                    echo "5. Oxide Config Path"
+                    echo "6. Oxide Plugin Path"
                                         echo "6. Back to Menu"
                         read -p "Enter your choice: " subchoice
 
@@ -180,7 +181,52 @@ while true; do
                                                 read -p "Press Enter to continue..."
                                                 done
                                                 ;;
-                        3) ls $OXIDEPLUGINS > $DIR/Files/pluginlist
+                        
+						3)while true; do
+                clear  # Clear the screen for a cleaner sub-menu
+
+                echo "Options:"
+                echo "1. FullWipe"
+                echo "2. MapWipe"
+                echo "3. Nightly"
+                echo "4. ServerBackup"
+                echo "5. ServerChecker"
+                echo "6. ServerStart"
+                echo "7. Schedule"
+                echo "8. LogCleaner"
+                                echo "9. AMAP"
+                echo "10. Exit"
+                read -p "Enter your choice: " subchoice
+                case $subchoice in
+                    1) echo "Editing Fullwipe.sh"
+                       nano $FULLWIPESH && $AMAP && exit ;;
+                    2) echo "Editing Mapwipe.sh"
+                       nano $MAPWIPESH && $AMAP && exit ;;
+                    3) echo "Editing Nightly.sh"
+                       nano $NIGHTLYSH && $AMAP && exit ;;
+                    4) echo "Editing ServerBackup.sh"
+                       nano $SERVERBACKUPSH && $AMAP && exit ;;
+                    5) echo "Editing ServerChecker.sh"
+                       nano $SERVERCHECKERSH && $AMAP && exit ;;
+                    6) echo "Editing ServerStart.sh"
+                       nano $SERVERSTARTSH && $AMAP && exit ;;
+                    7) echo "Editing Schedule.sh"
+                       nano $SCHEDULESH && $AMAP && exit ;;
+                    8) echo "Editing LogCleaner.sh"
+                       nano $LOGCLEANERSH && $AMAP && exit ;;
+                                        9) echo "Editing AMAP.sh"
+                       nano $EMAPSH && $AMAP && exit ;;
+                    10) echo "Going Back " && clear && $AMAP && exit ;;
+                    *) echo "Invalid choice. Please enter a valid sub-option."
+                                                ;;
+                                                esac
+                                                read -p "Press Enter to continue..."
+                                                done
+                                                ;;
+						
+						
+						
+						4) ls $OXIDEPLUGINS > $DIR/Files/pluginlist
                                         while true; do
                 clear  # Clear the screen for a cleaner sub-menu
                                 cat $DIR/Files/pluginlist
@@ -193,7 +239,7 @@ while true; do
                 read -p "Press Enter to continue..."
                                 done
                                 ;;
-                        4) while true; do
+                        5) while true; do
                clear  # Clear the screen for a cleaner sub-menu
                                 echo $OXIDECONFIG
                                 read -p "1 to go back:" subchoices
@@ -205,7 +251,7 @@ while true; do
                                         read -p "Press Enter to continue..."
                                         done
                                         ;;
-                        5) while true; do
+                        6) while true; do
                clear  # Clear the screen for a cleaner sub-menu
                            echo $PLUGINS
                            read -p "1 to go back:" subchoices
@@ -217,7 +263,7 @@ while true; do
                 read -p "Press Enter to continue..."
                                 done
                                 ;;
-                        6) echo "Going Back " && clear && $AMAP && exit ;;
+                        7) echo "Going Back " && clear && $AMAP && exit ;;
             *) echo "Invalid choice. Please enter a valid sub-option."
                                 ;;
                                 esac
@@ -258,29 +304,34 @@ while true; do
                 echo "6. ServerStart"
                 echo "7. Schedule"
                 echo "8. LogCleaner"
-                                echo "9. AMAP"
-                echo "10. Exit"
+                echo "9. Exit"
                 read -p "Enter your choice: " subchoice
                 case $subchoice in
-                    1) echo "Editing Fullwipe.sh"
-                       nano $FULLWIPESH && $AMAP && exit ;;
-                    2) echo "Editing Mapwipe.sh"
-                       nano $MAPWIPESH && $AMAP && exit ;;
-                    3) echo "Editing Nightly.sh"
-                       nano $NIGHTLYSH && $AMAP && exit ;;
-                    4) echo "Editing ServerBackup.sh"
-                       nano $SERVERBACKUPSH && $AMAP && exit ;;
-                    5) echo "Editing ServerChecker.sh"
-                       nano $SERVERCHECKERSH && $AMAP && exit ;;
-                    6) echo "Editing ServerStart.sh"
-                       nano $SERVERSTARTSH && $AMAP && exit ;;
-                    7) echo "Editing Schedule.sh"
-                       nano $SCHEDULESH && $AMAP && exit ;;
-                    8) echo "Editing LogCleaner.sh"
-                       nano $LOGCLEANERSH && $AMAP && exit ;;
-                                        9) echo "Editing AMAP.sh"
-                       nano $EMAPSH && $AMAP && exit ;;
-                    10) echo "Going Back " && clear && $AMAP && exit ;;
+                    1) echo "Starting Fullwipe.sh"
+                        $FULLWIPE && $AMAP && exit ;;
+                    
+					2) echo "Starting Mapwipe.sh"
+                       $MAPWIPE && $AMAP && exit ;;
+                    
+					3) echo "Starting Nightly.sh"
+                       $NIGHTLY && $AMAP && exit ;;
+                    
+					4) echo "Starting ServerBackup.sh"
+                       $SERVERBACKUP && $AMAP && exit ;;
+                    
+					5) echo "Starting ServerChecker.sh"
+                       $SERVERCHECKER && $AMAP && exit ;;
+                    
+					6) echo "Starting ServerStart.sh"
+                       $SERVERSTART && $AMAP && exit ;;
+                    
+					7) echo "Starting Schedule.sh"
+                       $SCHEDULE && $AMAP && exit ;;
+                    
+					8) echo "Starting LogCleaner.sh"
+                       $LOGCLEANER && $AMAP && exit ;;
+                    					                    
+					9) echo "Going Back " && clear && $AMAP && exit ;;
                     *) echo "Invalid choice. Please enter a valid sub-option."
                                                 ;;
                                                 esac
