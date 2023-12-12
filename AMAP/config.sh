@@ -28,6 +28,10 @@ CONFIG="Files/config.sh"
 AMAPLOGO="Files/logo"
 OPTIONS="Files/menu"
 SERVERMAN="Files/servman"
+WIPECON="Files/wipecon"
+LOGGING="Files/logging"
+BACKUPCON="Files/backup"
+RUSTINSTALL="Files/rustinstall"
 
 # Running Scripts:
 LOGCLEANER="$SCRIPT_DIR/Files/Scripts/./LogCleaner.sh"

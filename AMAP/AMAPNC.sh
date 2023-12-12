@@ -3,7 +3,6 @@ DIR="$(cd "$(dirname "$0")" && pwd)"
 source $DIR/config.sh
 
 # Options
-clear
 cat $DIR/$AMAPLOGO
 cat $DIR/$OPTIONS
 
@@ -61,6 +60,7 @@ cat $DIR/$OPTIONS
 2)
 while true; do
                  clear  # Clear the screen for a cleaner sub-menu
+                                        cat $DIR/$LOGGING
                                         echo "Log Options:"
                                         echo "1. Check Logs"
                                         echo "2. Tail Logs"
@@ -87,6 +87,7 @@ while true; do
                                         ;;
 3) while true; do
                 clear  # Clear the screen for a cleaner sub-menu
+                                        cat $DIR/$BACKUPCON
                                         echo "Backup and configuration Options:"
                                         echo "1. Server Backup"
                                         echo "2. Edit Plugin Configs"
@@ -227,7 +228,7 @@ while true; do
    clear
             while true; do
         clear  # Clear the screen for a cleaner sub-menu
-                cat $AMAPLOGO
+                cat $DIR/wipecon
                 echo "1. To Start Configurator"
                 echo "2. Clear flie before starting"
                 echo "3. Check File"
@@ -288,6 +289,7 @@ while true; do
                                                 ;;
 6)  while true; do
                 clear  # Clear the screen for a cleaner sub-menu
+                                        cat $DIR/$RUSTINSTALL
                                         echo " Choose an option"
                                         echo "1. Update Rust Server"
                                         echo "2. Update Rust Plugins"
