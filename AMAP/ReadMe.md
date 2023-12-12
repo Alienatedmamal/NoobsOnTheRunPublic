@@ -26,3 +26,53 @@ AAAAAAA                   AAAAAAAMMMMMMMM               MMMMMMMMAAAAAAA         
 ```
 
 ## More information coming SOON!
+
+### 1) Server Management  
+> - Server Details
+> - Server Console
+> - Server Backup
+> - ServerStop
+
+### 2) Logging
+>- Check Logs
+>- Tail Logs
+>- Clear Logs
+
+### 3) Server Backup/Configuration
+> - Server Backup
+> - Edit Plugin Configs
+> - List of Plugins
+> - Oxide Config Path
+> - Oxide Plugin Path
+
+### 4) Wipe Configure
+> - Start Configurator
+> - Clear Configurator File
+> - Check Configurator File 
+
+### 5) AMAP CONFIGS
+> - Fullewipe
+> - Mapwipe
+> - Nightly
+> - ServerBackup
+> - ServerChecker
+> - ServerStart
+> - Schedule
+> - LogCleaner
+
+### 6) Rust Updater/Installer
+>- Update Rust Server
+>- Update Rust Plugins
+>- Install Rust Server
+>- Install Oxide
+>- Install Plugins
+>- Create Server Config File
+>- Copy Configs 
+
+### 7) Help
+>- more to come 
+
+### 8) Clear Screen
+>- Clear Screen
+
+### 9) Quit 
