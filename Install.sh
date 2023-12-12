@@ -49,11 +49,22 @@ then
 else
     echo "RSYNC is already installed"
 fi
+if ! command -v nano &> /dev/null
+then
+    echo "RSYNC is not installed, installing now..."
+    sudo apt-get update
+    sudo apt-get install nano -y
+    echo "Nano Editor Installed" || { echo "NANO Failed to install"; exit 1; }
+else
+    echo "Nano is already installed"
+fi
 sleep 1 
 echo "Installation is now completed. Starting AMAP"
+echo "Edit config.sh file"
 cd ..//
 rm -fr NoobsOnTheRunPublic
 cd AMAP 
-./AMAP.sh
+nano AMAP.sh
+
 
 
