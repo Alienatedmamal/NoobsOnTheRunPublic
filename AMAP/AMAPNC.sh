@@ -3,7 +3,6 @@ DIR="$(cd "$(dirname "$0")" && pwd)"
 source $DIR/config.sh
 
 # Options
-clear
 cat $DIR/$AMAPLOGO
 cat $DIR/$OPTIONS
 
