@@ -43,6 +43,7 @@ echo "Moving AMAP files"
 mv AMAP ..//
 echo "Move Completed" || echo "Failed"
 echo "Checking for RSYNC installation"
+sleep 1 
 if ! command -v rsync &> /dev/null
 then
     echo "RSYNC is not installed, installing now..."
@@ -53,6 +54,7 @@ else
     echo "RSYNC is already installed"
 fi
 echo "Checking for nano text editor"
+sleep 1
 if ! command -v nano &> /dev/null
 then
     echo "RSYNC is not installed, installing now..."
