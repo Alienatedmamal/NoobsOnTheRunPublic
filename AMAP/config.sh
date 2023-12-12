@@ -32,6 +32,7 @@ WIPECON="Files/wipecon"
 LOGGING="Files/logging"
 BACKUPCON="Files/backup"
 RUSTINSTALL="Files/rustinstall"
+WARNING="Files/warning"
 
 # Running Scripts:
 LOGCLEANER="$SCRIPT_DIR/Files/Scripts/./LogCleaner.sh"
