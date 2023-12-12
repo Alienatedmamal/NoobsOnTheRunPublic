@@ -73,6 +73,7 @@ SMARTCHATBOT="/home/$USERNAME/serverfiles/oxide/config/SmartChatBot.json"
 TIMEDEXECUTE="/home/$USERNAME/serverfiles/oxide/config/TimedExecute.json"
 VIPTRIAL="/home/$USERNAME/serverfiles/oxide/config/VIPTrial.json"
 RUSTMOVE="mv lgsm /home/$USERNAME/ && mv rustserver /home/$USERNAME/ && mv linuxgsm.sh /home/$USERNAME/"
+RUSTCONFIGS="lgsm/config-lgsm/rustserver"
 # Scripts
 SERVERNAME="Rust"
 SAYDATE="echo $(date)"
