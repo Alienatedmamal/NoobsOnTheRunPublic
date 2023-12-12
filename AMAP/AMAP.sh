@@ -355,9 +355,9 @@ while true; do
                 		fi
 		  		;;
 	  
-                        7) cp $DIR/Files/common.cfg /home/$USERNAME/$RUSTCONFIGS/common.cfg && cat /$DIR/Files/common.cfg > /home/$USERNAME/$RUSTCONFIGS/rustserver.cfg
+                        7) cp "$DIR/Files/common.cfg" "/home/$USERNAME/$RUSTCONFIGS/common.cfg" && cat "/$DIR/Files/common.cfg" > "/home/$USERNAME/$RUSTCONFIGS/rustserver.cfg"
 			   echo "Files Copied Successful" || echo "Files Failed to Copied" 
-      			   $AMAP && exit ;;
+      			   $AMAPNC && exit ;;
 			8) echo "Going Back " && clear && $AMAP && exit ;;
                         *)echo "Invalid choice. Please enter a valid sub-option." ;;
                                                 esac
