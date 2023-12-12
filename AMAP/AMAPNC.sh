@@ -294,9 +294,19 @@ while true; do
 					echo "3. Install Rust Server"
 					echo "4. Install Oxide Plugins"
 					echo "5. Return to Menu
-					
-					
-echo "This feature coming soon" && sleep 1 && $AMAP ;;
+			read -p "Enter your choice: " subchoice
+				case $subchoice in
+			1) echo "Updating Rust server" ;;
+   			2) echo "Updating Rust Plugins" ;;
+      			3) echo "Install Rust Server"
+	 		4) echo "Install Oxide Plugins"
+    			5) echo "Return to Menu"
+       			*)echo "Invalid choice. Please enter a valid sub-option."
+						;;
+						esac
+						read -p "Press Enter to continue..."
+						done
+						;;
 
 7) echo "This feature coming soon" && sleep 1 && $AMAP ;;
 8) echo "Exiting AMAP." && sleep 1 && clear && exit ;;
