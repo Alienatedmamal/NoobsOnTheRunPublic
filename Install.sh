@@ -66,7 +66,9 @@ else
 fi
 sleep 1 
 echo "Installation is now completed. Starting AMAP"
+sleep 1 
 echo "Edit config.sh file to finish Installation"
+sleep 1 
 cd ..//
 rm -fr NoobsOnTheRunPublic
 cd AMAP 
