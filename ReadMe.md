@@ -46,5 +46,7 @@ Console, Backups, Check/Clear logs, Modify Files and MORE.
 5) Once installer is completed go back a directory and go into the AMAP folder.<br>
 ``` cd ..//``` then ```cd AMAP```
 
+6) To run AMAP<br>
+```./AMAP.sh```
    
 
