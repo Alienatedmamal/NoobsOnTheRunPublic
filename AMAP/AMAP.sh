@@ -296,8 +296,8 @@ while true; do
                                         echo "2. Update Rust Plugins"
                                         echo "3. Install Rust Server"
                                         echo "4. Install Oxide"
-										echo "5. Install Plugins"
-                                        echo "5. Return to Menu"
+					echo "5. Install Plugins"
+                                        echo "6. Return to Menu"
 
                         read -p "Enter your choice: " subchoice
                                 case $subchoice in
@@ -338,8 +338,14 @@ while true; do
                               echo "Server MODS Install aborted." && $AMAP
                               fi
                               ;;
-                        5) echo "Feature coming soon" && $AMAP $$ exit ;;
-						6) echo "Going Back " && clear && $AMAP && exit ;;
+                        5) read -p "Are you sure you want to install Plugins? (Y/n): " confirm_PluginMove
+                		if [ "$confirm_PluginMove" == "Y" ]; then
+                        	$PLUGINMOVE && $AMAPNC && exit
+                		else
+                        	echo "Plugin Install Aborted." && $AMAPNC
+                		fi
+		  		;;
+                        6) echo "Going Back " && clear && $AMAP && exit ;;
                         *)echo "Invalid choice. Please enter a valid sub-option." ;;
                                                 esac
                                                 read -p "Press Enter to continue..."
