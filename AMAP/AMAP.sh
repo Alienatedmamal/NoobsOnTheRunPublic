@@ -346,6 +346,7 @@ while true; do
 
 
 7) echo "This feature coming soon" && sleep 1 && $AMAP ;;
-8) echo "Exiting AMAP." && sleep 1 && clear && exit ;;
+8) clear && $AMAP ;;
+9) echo "Exiting AMAP." && sleep 1 && clear && exit ;;
 *) echo "Invalid choice. Please enter a number between 1 and 8." && sleep 1 && clear && $AMAP ;;
    esac
