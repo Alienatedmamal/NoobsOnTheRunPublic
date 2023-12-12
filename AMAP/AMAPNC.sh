@@ -3,6 +3,7 @@ DIR="$(cd "$(dirname "$0")" && pwd)"
 source $DIR/config.sh
 
 # Options
+
 cat $DIR/$AMAPLOGO
 cat $DIR/$OPTIONS
 
@@ -44,7 +45,7 @@ cat $DIR/$OPTIONS
                                 ;;
                         5) read -p "Are you sure you want to start the Rust server? (Y/n): " confirm_start
                                 if [ "$confirm_start" == "Y" ]; then
-                         $SERVER start && $AMAP && exit 
+                         $SERVER start && $AMAP && exit
                                 else
                         echo "Starting Rust server aborted." && $AMAP
                                 fi
@@ -295,17 +296,18 @@ while true; do
                                         echo "2. Update Rust Plugins"
                                         echo "3. Install Rust Server"
                                         echo "4. Install Oxide"
-					echo "5. Install Plugins"
-     					echo "6. Create Server Config File"
-                                        echo "7. Return to Menu"
+                                        echo "5. Install Plugins"
+                                        echo "6. Create Server Config File"
+                                        echo "7. Copy Configs to Rust Server"
+                                        echo "8. Return to Menu"
 
                         read -p "Enter your choice: " subchoice
                                 case $subchoice in
                         1) cat $DIR/$WARNING
                         read -p "Are you sure you want to Update Rust Server? (Y/n): " confirm_stop
                                 if [ "$confirm_stop" == "Y" ]; then
-					                          echo "Updating Rust server"
-					                          /home/$USERNAME/./rustserver update
+                                                                  echo "Updating Rust server"
+                                                                  /home/$USERNAME/./rustserver update
                                 else
                                     echo "Server MODS Install aborted." && $AMAP
                                 fi
@@ -313,8 +315,8 @@ while true; do
                         2) cat $DIR/$WARNING
                         read -p "Are you sure you want to Update Rust Server MODS? (Y/n): " confirm_stop
                                 if [ "$confirm_stop" == "Y" ]; then
-					                          echo "Updating Rust Server MODS"
-					                          /home/$USERNAME/.rustserver mods-update
+                                                                  echo "Updating Rust Server MODS"
+                                                                  /home/$USERNAME/.rustserver mods-update
                                 else
                                     echo "Server MODS Install aborted." && $AMAP
                                 fi
@@ -323,7 +325,7 @@ while true; do
                         3) cat $DIR/$WARNING
                         read -p "Are you sure you want to Install Rust server? (Y/n): " confirm_stop
                               if [ "$confirm_stop" == "Y" ]; then
-					                        echo "Installing Rust Server..."
+                                                                echo "Installing Rust Server..."
                                   $DIR/Files/Scripts/./RustServerInstall.sh
                               else
                                   echo "Server Install aborted." && $AMAP
@@ -332,28 +334,31 @@ while true; do
                         4) cat $DIR/$WARNING
                         read -p "Are you sure you want to Install Rust MODS? (Y/n): " confirm_stop
                               if [ "$confirm_stop" == "Y" ]; then
-					                        echo "Installing Rust MODS..."
+                                                                echo "Installing Rust MODS..."
                                   /home/$USERNAME/.rustserver mods-install
                               else
                               echo "Server MODS Install aborted." && $AMAP
                               fi
                               ;;
                         5) read -p "Are you sure you want to install Plugins? (Y/n): " confirm_PluginMove
-                		if [ "$confirm_PluginMove" == "Y" ]; then
-                        	$PLUGINMOVE && $AMAPNC && exit
-                		else
-                        	echo "Plugin Install Aborted." && $AMAPNC
-                		fi
-		  		;;
-      			6) read -p "Are you sure you want to create a Server config file? (Y/n): " confirm_Serverconfig
-                		if [ "$confirm_Serverconfig" == "Y" ]; then
-                        	$SERVERCONFIG && cat /$DIR/Files/common.cfg && $$AMAPNC && exit
-                		else
-                        	echo "Server Configurator Aborted." && $AMAPNC
-                		fi
-		  		;;
-	  
-                        7) echo "Going Back " && clear && $AMAP && exit ;;
+                                if [ "$confirm_PluginMove" == "Y" ]; then
+                                $PLUGINMOVE && $AMAPNC && exit
+                                else
+                                echo "Plugin Install Aborted." && $AMAPNC
+                                fi
+                                ;;
+                        6) read -p "Are you sure you want to create a Server config file? (Y/n): " confirm_Serverconfig
+                                if [ "$confirm_Serverconfig" == "Y" ]; then
+                                $SERVERCONFIG && cat /$DIR/Files/common.cfg && $$AMAPNC && exit
+                                else
+                                echo "Server Configurator Aborted." && $AMAPNC
+                                fi
+                                ;;
+
+                        7) cp $DIR/Files/common.cfg /home/$USERNAME/$RUSTCONFIGS/common.cfg && cat /$DIR/Files/common.cfg > /home/$USERNAME/$RUSTCONFIGS/rustserver.cfg
+                           echo "Files Copied Successful" || echo "Files Failed to Copied"
+                           $AMAP && exit ;;
+                        8) echo "Going Back " && clear && $AMAP && exit ;;
                         *)echo "Invalid choice. Please enter a valid sub-option." ;;
                                                 esac
                                                 read -p "Press Enter to continue..."
