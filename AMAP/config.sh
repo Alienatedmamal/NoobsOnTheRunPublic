@@ -54,6 +54,11 @@ SERVERSTARTSH="$SCRIPT_DIR/Files/Scripts/ServerStart.sh"
 SCHEDULESH="$SCRIPT_DIR/Files/Scripts/Schedule.sh"
 LOGCLEANERSH="$SCRIPT_DIR/Files/Scripts/LogCleaner.sh"
 EAMAPSH="$SCRIPT_DIR/AMAP.sh"
+FULLWIPE="$SCRIPT_DIR/Files/Scripts/./Fullwipe.sh"
+MAPWIPE="$SCRIPT_DIR/Files/Scripts/./Mapwipe.sh"
+NIGHTLY="$SCRIPT_DIR/Files/Scripts/./Nightly.sh
+BACKUPSERVER="$SCRIPT_DIR/Files/Scripts/./ServerBackup.sh"
+
 #OXIDE LOCATIONS:
 OXIDECONFIG="/home/$USERNAME/serverfiles/oxide/config/"
 OXIDEPLUGINS="/home/$USERNAME/serverfiles/oxide/plugins/"
