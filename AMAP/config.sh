@@ -29,7 +29,7 @@ AMAPLOGO="Files/logo"
 OPTIONS="Files/menu"
 SERVERMAN="Files/servman"
 WIPECON="Files/wipecon"
-LOGGING="Files/loggin"
+LOGGING="Files/logging"
 BACKUPCON="Files/backup"
 
 # Running Scripts:
