@@ -45,7 +45,7 @@ cat $DIR/$OPTIONS
                                 ;;
                         5) read -p "Are you sure you want to start the Rust server? (Y/n): " confirm_start
                                 if [ "$confirm_start" == "Y" ]; then
-                         $SERVERSTOP && $AMAP
+                         $SERVERSTART && $AMAP
                                 else
                         echo "Starting Rust server aborted." && $AMAP
                                 fi
