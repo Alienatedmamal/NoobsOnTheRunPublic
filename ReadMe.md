@@ -26,7 +26,7 @@ AAAAAAA                   AAAAAAAMMMMMMMM               MMMMMMMMAAAAAAA         
 ```
 
 # Description: 
-This management tool is to help with navigating Rust server. This tool can check Server Details, 
+This management tool is to help with navigating the Rust server. This tool can check Server Details, 
 Console, Backups, Check/Clear logs, Modify Files and MORE. 
 
 
@@ -43,7 +43,7 @@ Console, Backups, Check/Clear logs, Modify Files and MORE.
 4) Run the Install file.<br>
 ```./Install.sh```
 
-5) Once the installer is completed the config file will open in nano.<br>
+5) Once the installer is completed the config file will open in Nano.<br>
 
 6) Edit the config file.<br>
 ```USERNAME="SYSTEMS USER HERE"```<br>
@@ -57,10 +57,11 @@ Console, Backups, Check/Clear logs, Modify Files and MORE.
 8) From the main menu in AMAP select #6 (Rust Updated/Installer) and then create a config file with #6. Follow the instructions. 
 
 9) Now from the same Rust Installer/Update screen select #3.
-	This will install the rust server automatically. 
+	This will install the Rust server automatically. 
 
 10) Once the installation is completed copy the configs you made in step 8. Use # 7 in the Rust Installer/Update.
-11) Now start the rust server with option # 
+
+11) Now start the Rust server with option #4 in Server Management. 
 
 
 
