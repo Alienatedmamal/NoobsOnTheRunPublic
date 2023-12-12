@@ -29,6 +29,57 @@ files=(
 total_files=${#files[@]}
 current_file=1
 
+# List of packages to install
+packages=(
+    bc
+    binutils
+    bsdmainutils
+    bzip2
+    ca-certificates
+    cpio
+    curl
+    distro-info
+    file
+    gzip
+    hostname
+    jq
+    lib32gcc-s1
+    lib32stdc++6
+    lib32z1
+    libsdl2-2.0-0:i386
+    netcat
+    python3
+    steamcmd
+    tar
+    tmux
+    unzip
+    util-linux
+    uuid-runtime
+    wget
+    xz-utils
+)
+
+# Function to display the progress bar
+function show_progress {
+    local current=$1
+    local total=$2
+    local width=50
+    local progress=$((current * width / total))
+    local dots=$((width - progress))
+    
+    printf "\r[%-${progress}s%*s] %d/%d" "" "$dots" "$current" "$total"
+}
+
+# Function to check if a package is installed
+function is_installed {
+    dpkg -l "$1" &> /dev/null
+}
+
+# Install packages with status bar
+total_packages=${#packages[@]}
+current_package=0
+
+
 for file in "${files[@]}"; do
   echo "Progress: [$((current_file * 100 / total_files))%]"
 
@@ -64,6 +115,29 @@ then
 else
     echo "Nano is already installed"
 fi
+sleep 1 
+echo "Installing packages:"
+sleep 1 
+for package in "${packages[@]}"; do
+    ((current_package++))
+    show_progress "$current_package" "$total_packages"
+    
+    # Check if the package is already installed
+    if is_installed "$package"; then
+        echo -e "\nPackage $package is already installed. Skipping."
+    else
+        # Install the package
+        sudo apt-get install -y "$package" > /dev/null 2>&1
+        
+        # Check installation status
+        if [ $? -eq 0 ]; then
+            echo -e "\nPackage $package installed successfully."
+        else
+            echo -e "\nFailed to install package $package."
+        fi
+    fi
+done
+echo
 sleep 1 
 echo "Installation is now completed. Starting AMAP"
 sleep 1 
