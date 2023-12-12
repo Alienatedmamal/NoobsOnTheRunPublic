@@ -12,5 +12,5 @@ $RUSTMOVE
 cd /home/$USERNAME/
 echo "Files have been moved"
 echo "Starting Rust Server Install" 
-$USER $SERVER install
+$USER $SERVER auto-install
 
