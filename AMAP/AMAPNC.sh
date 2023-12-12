@@ -3,6 +3,7 @@ DIR="$(cd "$(dirname "$0")" && pwd)"
 source $DIR/config.sh
 
 # Options
+clear
 cat $DIR/$AMAPLOGO
 cat $DIR/$OPTIONS
 		
@@ -285,7 +286,17 @@ while true; do
 						read -p "Press Enter to continue..."
 						done
 						;;
-6) echo "This feature coming soon" && sleep 1 && $AMAP ;;
+6)while true; do
+                clear  # Clear the screen for a cleaner sub-menu
+					echo " Choose an option"
+					echo "1. Update Rust Server"
+					echo "2. Update Rust Plugins"
+					echo "3. Install Rust Server"
+					echo "4. Install Oxide Plugins"
+					echo "5. Return to Menu
+					
+					
+echo "This feature coming soon" && sleep 1 && $AMAP ;;
 
 7) echo "This feature coming soon" && sleep 1 && $AMAP ;;
 8) echo "Exiting AMAP." && sleep 1 && clear && exit ;;
