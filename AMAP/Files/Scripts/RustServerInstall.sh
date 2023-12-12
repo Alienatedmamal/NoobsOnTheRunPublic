@@ -11,5 +11,5 @@ echo "Moving files"
 $RUSTMOVE
 echo "Files have been moved"
 echo "Starting Rust Server Install" 
-$SERVER install
+$USER $SERVER install
 
