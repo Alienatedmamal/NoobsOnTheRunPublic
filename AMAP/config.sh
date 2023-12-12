@@ -38,7 +38,7 @@ BACKUPCON="Files/Images/backup"
 RUSTINSTALL="Files/Images/rustinstall"
 WARNING="Files/Images/warning"
 PLUGINMOVE="Files/Scripts/./PluginsMove.sh"
-SERVERCONFIG="Files/Scripts/./ServerConfiurator.sh"
+SERVERCONFIG="Files/Scripts/./ServerConfigurator.sh"
 
 # Running Scripts:
 LOGCLEANER="$SCRIPT_DIR/Files/Scripts/./LogCleaner.sh"
