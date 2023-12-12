@@ -43,8 +43,7 @@ Console, Backups, Check/Clear logs, Modify Files and MORE.
 4) Run the Install file.<br>
 ```./Install.sh```
 
-5) Once installer is completed go back a directory and go into the AMAP folder.<br>
-``` cd ..//``` then ```cd AMAP```
+5) Once the installer is completed the config file will open in nano.<br>
 
 6) Edit the config file.<br>
 ```USERNAME="SYSTEMS USER HERE"```<br>
@@ -53,7 +52,7 @@ Console, Backups, Check/Clear logs, Modify Files and MORE.
 ```USERNAME="alienatedmammal"```<br>
 ```HOSTNAME="NoobsOnTheRun"```
 
-8) To run AMAP<br>
+7) To run AMAP<br>
 ```./AMAP.sh```
    
 
