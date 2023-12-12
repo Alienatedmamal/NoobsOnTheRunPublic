@@ -289,6 +289,7 @@ while true; do
                                                 ;;
 6)  while true; do
                 clear  # Clear the screen for a cleaner sub-menu
+                                        cat $DIR/$RUSTINSTALL
                                         echo " Choose an option"
                                         echo "1. Update Rust Server"
                                         echo "2. Update Rust Plugins"
