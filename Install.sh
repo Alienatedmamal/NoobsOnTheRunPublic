@@ -4,7 +4,8 @@ source $DIR/config.sh
 
 echo "This project is still in the works any issues please report"
 sleep 1 
-echo "NOW STARTING....." && sleep 1
+echo "NOW STARTING....."
+sleep 1
 echo "Making files Executable"
 sleep 1 
 
@@ -49,6 +50,7 @@ then
 else
     echo "RSYNC is already installed"
 fi
+echo "Checking for nano text editor"
 if ! command -v nano &> /dev/null
 then
     echo "RSYNC is not installed, installing now..."
@@ -60,11 +62,11 @@ else
 fi
 sleep 1 
 echo "Installation is now completed. Starting AMAP"
-echo "Edit config.sh file"
+echo "Edit config.sh file to finish Installation"
 cd ..//
 rm -fr NoobsOnTheRunPublic
 cd AMAP 
 nano config.sh
-
+./AMAP.sh
 
 
