@@ -1,9 +1,15 @@
 # config.sh
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 
-# Replace with your information
-USERNAME="SYSTEMS USER HERE"
-HOSTNAME="NAME OF RUST SERVER"
+
+#### Replace with your information####
+  USERNAME="SYSTEMS USER HERE"       #
+  HOSTNAME="NAME OF RUST SERVER"     #
+######################################
+
+
+
+
 
 
 
@@ -11,14 +17,12 @@ HOSTNAME="NAME OF RUST SERVER"
 
 # Location of Rust Server
 SERVER_LOCATION="/home/$USERNAME/"
-
 # Rust Server Control:
 SERVERDETAILS="$SERVER details"
 SERVERCONSOLE="$SERVER console"
 SERVERSTOP="$SERVER stop"
 SERVERSTART="$SERVER start"
 SERVERUPDATE="$SERVER update && $SERVER mods-update"
-
 # AMAP:
 SCRIPTS="$SCRIPT_DIR/Files/Scripts"
 FILES="$SCRIPT_DIR/Files/"
@@ -34,12 +38,12 @@ BACKUPCON="Files/Images/backup"
 RUSTINSTALL="Files/Images/rustinstall"
 WARNING="Files/Images/warning"
 PLUGINMOVE="Files/Scripts/./PluginsMove.sh"
+SERVERCONFIG="Files/Scripts/./ServerConfiurator.sh"
 
 # Running Scripts:
 LOGCLEANER="$SCRIPT_DIR/Files/Scripts/./LogCleaner.sh"
 SERVERBACKUP="$SCRIPT_DIR/Files/Scripts/./ServerBackups.sh"
 WIPECONFIGURE="$SCRIPT_DIR/Files/Scripts/./wipeConfigure.sh"
-
 # Sripts File Locations:
 FULLWIPESH="$SCRIPT_DIR/Files/Scripts/Fullwipe.sh"
 MAPWIPESH="$SCRIPT_DIR/Files/Scripts/Mapwipe.sh"
@@ -50,7 +54,6 @@ SERVERSTARTSH="$SCRIPT_DIR/Files/Scripts/ServerStart.sh"
 SCHEDULESH="$SCRIPT_DIR/Files/Scripts/Schedule.sh"
 LOGCLEANERSH="$SCRIPT_DIR/Files/Scripts/LogCleaner.sh"
 EAMAPSH="$SCRIPT_DIR/AMAP.sh"
-
 #OXIDE LOCATIONS:
 OXIDECONFIG="/home/$USERNAME/serverfiles/oxide/config/"
 OXIDEPLUGINS="/home/$USERNAME/serverfiles/oxide/plugins/"
@@ -70,7 +73,6 @@ SMARTCHATBOT="/home/$USERNAME/serverfiles/oxide/config/SmartChatBot.json"
 TIMEDEXECUTE="/home/$USERNAME/serverfiles/oxide/config/TimedExecute.json"
 VIPTRIAL="/home/$USERNAME/serverfiles/oxide/config/VIPTrial.json"
 RUSTMOVE="mv lgsm /home/$USERNAME/ && mv rustserver /home/$USERNAME/ && mv linuxgsm.sh /home/$USERNAME/"
-
 # Scripts
 SERVERNAME="Rust"
 SAYDATE="echo $(date)"
