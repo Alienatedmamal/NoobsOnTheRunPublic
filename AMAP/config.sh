@@ -27,6 +27,7 @@ AMAP="$SCRIPT_DIR/./AMAP.sh"
 CONFIG="Files/config.sh"
 AMAPLOGO="Files/logo"
 OPTIONS="Files/menu"
+SERVERMAN="Files/servman"
 
 # Running Scripts:
 LOGCLEANER="$SCRIPT_DIR/Files/Scripts/./LogCleaner.sh"
