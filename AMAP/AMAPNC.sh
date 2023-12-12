@@ -61,7 +61,7 @@ cat $DIR/$OPTIONS
 2)
 while true; do
                  clear  # Clear the screen for a cleaner sub-menu
-                                        cat $DIR/logging
+                                        cat $DIR/$LOGGING
                                         echo "Log Options:"
                                         echo "1. Check Logs"
                                         echo "2. Tail Logs"
@@ -88,7 +88,7 @@ while true; do
                                         ;;
 3) while true; do
                 clear  # Clear the screen for a cleaner sub-menu
-                                        cat $DIR/backup
+                                        cat $DIR/$BACKUPCON
                                         echo "Backup and configuration Options:"
                                         echo "1. Server Backup"
                                         echo "2. Edit Plugin Configs"
