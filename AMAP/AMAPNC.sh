@@ -26,8 +26,8 @@ cat $DIR/$OPTIONS
                         read -p "Enter your choice: " subchoice
 
                 case $subchoice in
-                        1) clear && $SERVERDETAILS && $AMAPNC && exit;;
-                        2) $SERVERCONSOLE && $AMAP ;;
+                        1) clear && $SERVER details && $AMAPNC && exit;;
+                        2) $SERVER console && $AMAP && exit ;;
                     3) read -p "Are you sure you want to BACK UP SERVER? (y/n): " confirm_ServerBackup
                 if [ "$confirm_ServerBackup" == "y" ]; then
                         $SERVERBACKUP && $AMAPNC && exit
