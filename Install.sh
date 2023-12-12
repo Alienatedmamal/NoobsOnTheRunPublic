@@ -64,7 +64,7 @@ echo "Edit config.sh file"
 cd ..//
 rm -fr NoobsOnTheRunPublic
 cd AMAP 
-nano AMAP.sh
+nano config.sh
 
 
 
