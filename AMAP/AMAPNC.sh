@@ -3,6 +3,7 @@ DIR="$(cd "$(dirname "$0")" && pwd)"
 source $DIR/config.sh
 
 # Options
+clear
 cat $DIR/$AMAPLOGO
 cat $DIR/$OPTIONS
 
@@ -15,6 +16,7 @@ cat $DIR/$OPTIONS
 1)
         while true; do
                 clear  # Clear the screen for a cleaner sub-menu
+                                        cat $DIR/$SERVERMAN
                                         echo "Server Management Options:"
                                         echo "1. Server Details"
                             echo "2. Server Console"
