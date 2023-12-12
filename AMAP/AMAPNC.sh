@@ -355,7 +355,7 @@ while true; do
                 		fi
 		  		;;
 	  
-                        7) cp "$DIR/Files/common.cfg" "/home/$USERNAME/$RUSTCONFIGS/common.cfg" && cat "/$DIR/Files/common.cfg" > "/home/$USERNAME/$RUSTCONFIGS/rustserver.cfg"
+                        7) cp "/home/$USERNAME/AMAP/Files/common.cfg" "/home/$USERNAME/$RUSTCONFIGS/common.cfg" && cat "/home/$USERNAME/Files/common.cfg" > "/home/$USERNAME/$RUSTCONFIGS/rustserver.cfg"
 			   echo "Files Copied Successful" || echo "Files Failed to Copied" 
       			   $AMAPNC && exit ;;
 			8) echo "Going Back " && clear && $AMAP && exit ;;
