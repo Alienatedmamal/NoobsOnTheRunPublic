@@ -38,14 +38,14 @@ cat $DIR/$OPTIONS
                                 ;;
                         4) read -p "Are you sure you want to stop the Rust server? (Y/n): " confirm_stop
                                 if [ "$confirm_stop" == "Y" ]; then
-                        $SERVERSTOP && $AMAP
+                        $SERVER stop && $AMAP
                                 else
                         echo "Stopping Rust server aborted." && $AMAP
                                 fi
                                 ;;
                         5) read -p "Are you sure you want to start the Rust server? (Y/n): " confirm_start
                                 if [ "$confirm_start" == "Y" ]; then
-                         $SERVERSTART && $AMAP
+                         $SERVER start && $AMAP
                                 else
                         echo "Starting Rust server aborted." && $AMAP
                                 fi
