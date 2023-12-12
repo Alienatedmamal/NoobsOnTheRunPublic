@@ -43,8 +43,6 @@ echo "Install RSYNC"
 sudo apt install rsync -y 
 echo "Installation of RSYNC Completed" || echo "RSYNC Failed to install"
 sleep 1 
-cd ..//
-cd AMAP 
-./AMAP
+
 
 
