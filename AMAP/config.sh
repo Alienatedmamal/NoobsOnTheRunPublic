@@ -44,6 +44,13 @@ SERVERCONFIG="Files/Scripts/./ServerConfigurator.sh"
 LOGCLEANER="$SCRIPT_DIR/Files/Scripts/./LogCleaner.sh"
 SERVERBACKUP="$SCRIPT_DIR/Files/Scripts/./ServerBackups.sh"
 WIPECONFIGURE="$SCRIPT_DIR/Files/Scripts/./wipeConfigure.sh"
+FULLWIPE="$SCRIPT_DIR/Files/Scripts/./Fullwipe.sh"
+MAPWIPE="$SCRIPT_DIR/Files/Scripts/./Mapwipe.sh"
+NIGHTLY="$SCRIPT_DIR/Files/Scripts/./Nightly.sh"
+SERVERCHECKER="$SCRIPT_DIR/Files/Scripts/./ServerChecker.sh"
+SERVERSTART="$SCRIPT_DIR/Files/Scripts/./ServerStart.sh"
+SCHEDULE="$SCRIPT_DIR/Files/Scripts/./Schedule.sh"
+
 # Sripts File Locations:
 FULLWIPESH="$SCRIPT_DIR/Files/Scripts/Fullwipe.sh"
 MAPWIPESH="$SCRIPT_DIR/Files/Scripts/Mapwipe.sh"
@@ -54,11 +61,6 @@ SERVERSTARTSH="$SCRIPT_DIR/Files/Scripts/ServerStart.sh"
 SCHEDULESH="$SCRIPT_DIR/Files/Scripts/Schedule.sh"
 LOGCLEANERSH="$SCRIPT_DIR/Files/Scripts/LogCleaner.sh"
 EAMAPSH="$SCRIPT_DIR/AMAP.sh"
-FULLWIPE="$SCRIPT_DIR/Files/Scripts/./Fullwipe.sh"
-MAPWIPE="$SCRIPT_DIR/Files/Scripts/./Mapwipe.sh"
-NIGHTLY="$SCRIPT_DIR/Files/Scripts/./Nightly.sh
-BACKUPSERVER="$SCRIPT_DIR/Files/Scripts/./ServerBackup.sh"
-
 #OXIDE LOCATIONS:
 OXIDECONFIG="/home/$USERNAME/serverfiles/oxide/config/"
 OXIDEPLUGINS="/home/$USERNAME/serverfiles/oxide/plugins/"
