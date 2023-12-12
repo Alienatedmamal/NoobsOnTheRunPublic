@@ -36,7 +36,7 @@ RUSTINSTALL="Files/rustinstall"
 # Running Scripts:
 LOGCLEANER="$SCRIPT_DIR/Files/Scripts/./LogCleaner.sh"
 SERVERBACKUP="$SCRIPT_DIR/Files/Scripts/./ServerBackups.sh"
-WIPECONFIGURE="$SCRIPT_DIR/Files/Scripts/./WipeConfigure.sh"
+WIPECONFIGURE="$SCRIPT_DIR/Files/Scripts/./wipeConfigure.sh"
 
 # Sripts File Locations:
 FULLWIPESH="$SCRIPT_DIR/Files/Scripts/Fullwipe.sh"
