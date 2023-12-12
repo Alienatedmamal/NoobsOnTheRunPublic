@@ -22,7 +22,8 @@ files=(
   "$DIR/$FILELOC/wipeconfigure.sh"
   "$DIR/$FILEMAIN/AMAP.sh"
   "$DIR/$FILEMAIN/AMAPNC.sh"
-  "$DIR/$FILEMAIN/PluginsMove.sh"
+  "$DIR/$FILELOC/PluginsMove.sh"
+  "$DIR/$FILELOC/ServerConfigurator.sh"
 )
 
 total_files=${#files[@]}
