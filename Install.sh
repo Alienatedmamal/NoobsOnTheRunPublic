@@ -39,10 +39,18 @@ sleep 1
 echo "Moving AMAP files"
 mv AMAP ..//
 echo "Move Completed" || echo "Failed"
-echo "Install RSYNC" 
-sudo apt install rsync -y 
-echo "Installation of RSYNC Completed" || echo "RSYNC Failed to install"
+echo "Checking for RSYNC installation"
+if ! command -v rsync &> /dev/null
+then
+    echo "RSYNC is not installed, installing now..."
+    sudo apt-get update
+    sudo apt-get install rsync -y
+    echo "Installation of RSYNC Completed" || { echo "RSYNC Failed to install"; exit 1; }
+else
+    echo "RSYNC is already installed"
+fi
 sleep 1 
+echo "Installation is now completed. Starting AMAP"
 cd ..//
 rm -fr NoobsOnTheRunPublic
 cd AMAP 
