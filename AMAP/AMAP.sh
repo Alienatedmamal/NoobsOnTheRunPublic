@@ -165,15 +165,15 @@ while true; do
                                                 done
                                                 ;;
                     9) echo "Editing Rustcord.json"
-                       nano /home/alienatedmammal/serverfiles/oxide/config/Rustcord.json && $AMAP && exit ;;
+                       nano /home/$USERNAME/serverfiles/oxide/config/Rustcord.json && $AMAP && exit ;;
                     10) echo "Editing ServerInfo.json"
-                        nano /home/alienatedmammal/serverfiles/oxide/config/ServerInfo.json && $AMAP && exit ;;
+                        nano /home/$USERNAME/serverfiles/oxide/config/ServerInfo.json && $AMAP && exit ;;
                                         11) echo "Editing SmartChatBot.json"
-                                                nano /home/alienatedmammal/serverfiles/oxide/config/SmartChatBot.json && $AMAP && exit ;;
+                                                nano /home/$USERNAME/serverfiles/oxide/config/SmartChatBot.json && $AMAP && exit ;;
                                         12)     echo "Editing TimedExecute.json"
-                                                nano /home/alienatedmammal/serverfiles/oxide/config/TimedExecute.json && $AMAP && exit ;;
+                                                nano /home/$USERNAME/serverfiles/oxide/config/TimedExecute.json && $AMAP && exit ;;
                                         13) echo "Editing VIPTrial.json"
-                                                nano/home/alienatedmammal/serverfiles/oxide/config/VIPTrial.json && $AMAP && exit ;;
+                                                nano /home/$USERNAME/serverfiles/oxide/config/VIPTrial.json && $AMAP && exit ;;
                     14) echo "Going Back " && clear && $AMAP && exit ;;
                      *) echo "Invalid choice. Please enter a valid sub-option."
                         ;;
@@ -236,7 +236,7 @@ while true; do
                 echo "4. Return to Menu"
                 read -p "Enter Number and press enter:" subchoice
                 case $subchoice in
-                1) /home/alienatedmammal/Documents/RustBackups/wipescripts/./WipeConfigure.sh ;;
+                1) /$DIR/Files/Scripts/./wipeConfigure.sh ;;
                 2) echo > $DIR/Files/Logs/WipeOutput.txt ;;
                 3) cat $DIR/Files/Logs/WipeOutput.txt;;
                 4) echo "Going Back " && clear && $AMAP && exit ;;
