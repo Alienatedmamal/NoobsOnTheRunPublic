@@ -3,6 +3,7 @@ DIR="$(cd "$(dirname "$0")" && pwd)"
 source $DIR/config.sh
 
 # Options
+clear
 cat $DIR/$AMAPLOGO
 cat $DIR/$OPTIONS
 
@@ -299,11 +300,43 @@ while true; do
 
                         read -p "Enter your choice: " subchoice
                                 case $subchoice in
-                        1) echo "Updating Rust server"
-                           /home/$USERNAME/./rustserver update ;;
-                        2) /home/$USERNAME/.rustserver mods-update ;;
-                        3) $DIR/Files/Scripts/./RustServerInstall.sh ;;
-                        4) /home/$USERNAME/.rustserver mods-install ;;
+                        1) cat $DIR/$WARNING
+                        read -p "Are you sure you want to Update Rust Server? (y/n): " confirm_stop
+                                if [ "$confirm_stop" == "y" ]; then
+					                          echo "Updating Rust server"
+					                          /home/$USERNAME/./rustserver update
+                                else
+                                    echo "Server MODS Install aborted." && $AMAP
+                                fi
+                                ;;
+                        2) cat $DIR/$WARNING
+                        read -p "Are you sure you want to Update Rust Server MODS? (y/n): " confirm_stop
+                                if [ "$confirm_stop" == "y" ]; then
+					                          echo "Updating Rust Server MODS"
+					                          /home/$USERNAME/.rustserver mods-update
+                                else
+                                    echo "Server MODS Install aborted." && $AMAP
+                                fi
+                                ;;
+
+                        3) cat $DIR/$WARNING
+                        read -p "Are you sure you want to Install Rust server? (y/n): " confirm_stop
+                              if [ "$confirm_stop" == "y" ]; then
+					                        echo "Installing Rust Server..."
+                                  $DIR/Files/Scripts/./RustServerInstall.sh
+                              else
+                                  echo "Server Install aborted." && $AMAP
+                              fi
+                              ;;
+                        4) cat $DIR/$WARNING
+                        read -p "Are you sure you want to Install Rust MODS? (y/n): " confirm_stop
+                              if [ "$confirm_stop" == "y" ]; then
+					                        echo "Installing Rust MODS..."
+                                  /home/$USERNAME/.rustserver mods-install
+                              else
+                              echo "Server MODS Install aborted." && $AMAP
+                              fi
+                              ;;
                         5) echo "Going Back " && clear && $AMAP && exit ;;
                         *)echo "Invalid choice. Please enter a valid sub-option." ;;
                                                 esac
@@ -314,5 +347,5 @@ while true; do
 
 7) echo "This feature coming soon" && sleep 1 && $AMAP ;;
 8) echo "Exiting AMAP." && sleep 1 && clear && exit ;;
-*) echo "Invalid choice. Please enter a number between 1 and 16." && sleep 1 && clear && $AMAP ;;
+*) echo "Invalid choice. Please enter a number between 1 and 8." && sleep 1 && clear && $AMAP ;;
    esac
