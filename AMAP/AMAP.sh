@@ -297,7 +297,8 @@ while true; do
                                         echo "3. Install Rust Server"
                                         echo "4. Install Oxide"
 					echo "5. Install Plugins"
-                                        echo "6. Return to Menu"
+     					echo "6. Create Server Config File"
+                                        echo "7. Return to Menu"
 
                         read -p "Enter your choice: " subchoice
                                 case $subchoice in
@@ -345,7 +346,15 @@ while true; do
                         	echo "Plugin Install Aborted." && $AMAPNC
                 		fi
 		  		;;
-                        6) echo "Going Back " && clear && $AMAP && exit ;;
+      			6) read -p "Are you sure you want to create a Server config file? (Y/n): " confirm_Serverconfig
+                		if [ "$confirm_Serverconfig" == "Y" ]; then
+                        	$SERVERCONFIG && $AMAPNC && exit
+                		else
+                        	echo "Server Configurator Aborted." && $AMAPNC
+                		fi
+		  		;;
+	  
+                        7) echo "Going Back " && clear && $AMAP && exit ;;
                         *)echo "Invalid choice. Please enter a valid sub-option." ;;
                                                 esac
                                                 read -p "Press Enter to continue..."
