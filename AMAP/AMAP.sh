@@ -298,7 +298,8 @@ while true; do
                                         echo "4. Install Oxide"
 					echo "5. Install Plugins"
      					echo "6. Create Server Config File"
-                                        echo "7. Return to Menu"
+                                        echo "7. Copy Configs to Rust Server"
+					echo "8. Return to Menu"
 
                         read -p "Enter your choice: " subchoice
                                 case $subchoice in
@@ -354,7 +355,10 @@ while true; do
                 		fi
 		  		;;
 	  
-                        7) echo "Going Back " && clear && $AMAP && exit ;;
+                        7) cp $DIR/Files/common.cfg /home/$USERNAME/$RUSTCONFIGS/common.cfg && cat /$DIR/Files/common.cfg > /home/$USERNAME/$RUSTCONFIGS/rustserver.cfg
+			   echo "Files Copied Successful" || echo "Files Failed to Copied" 
+      			   $AMAP && exit ;;
+			8) echo "Going Back " && clear && $AMAP && exit ;;
                         *)echo "Invalid choice. Please enter a valid sub-option." ;;
                                                 esac
                                                 read -p "Press Enter to continue..."
