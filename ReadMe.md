@@ -56,13 +56,13 @@ Console, Backups, Check/Clear logs, Modify Files and MORE.
 
 8) From the main menu in AMAP select #6 (Rust Updated/Installer) and then create a config file with #6. Follow the instructions. 
 
-9) Now start the Rust server. From the main menu select #1 and then #5.
+9) Now from the same Rust Installer/Update screen select #3.
+	This will install the rust server automatically. 
 
-10) Once the server is running, stop the server by selecting from the main menu options #1 and then #4.
+10) Once the installation is completed copy the configs you made in step 8. Use # 7 in the Rust Installer/Update.
+11) Now start the rust server with option # 
 
-11) When the server stops copy the config file created in step #8 to the rust server files by using option #6 from the main menu and then selecting #7.
 
-12) Start the rust server with option #1 from the main menu then select #4.
 
 
 You can always start AMAP by going into the AMAP directory and run 
