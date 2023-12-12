@@ -61,6 +61,12 @@ Console, Backups, Check/Clear logs, Modify Files and MORE.
 9) Now from the same Rust Installer/Update screen select #3.
    This will install the Rust server automatically. 
 
+10) Start the rust server from Server Management #5.
+
+11) When server is up and running stop server from Server Management #4.
+
+12) Copy files created in #8 with option #7 in the Rust Installer/Update
+
 10) Once the installation is completed copy the configs you made in step 8. 
     Use # 7 in the Rust Installer/Update.
 
