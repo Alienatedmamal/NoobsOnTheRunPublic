@@ -3,7 +3,7 @@ DIR="$(cd "$(dirname "$0")/../../" && pwd)"
 source "$DIR/config.sh"
 
 # Define source and target directories
-source_dir="$DIR/plugins"
+source_dir="$DIR/Files/plugins"
 target_dir="/home/$USERNAME/serverfiles/oxide/plugins"
 
 # Create target directory if it doesn't exist
