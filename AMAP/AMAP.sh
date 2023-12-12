@@ -300,10 +300,11 @@ while true; do
 
                         read -p "Enter your choice: " subchoice
                                 case $subchoice in
-                        1) echo "Updating Rust server" ;;
-                        2) echo "Updating Rust Plugins" ;;
-                        3) echo "Install Rust Server" ;;
-                        4) echo "Install Oxide Plugins" ;;
+                        1) echo "Updating Rust server"
+                           /home/$USERNAME/./rustserver update ;;
+                        2) /home/$USERNAME/.rustserver mods-update ;;
+                        3) $DIR/Files/Scripts/./RustServerInstall.sh ;;
+                        4) /home/$USERNAME/.rustserver mods-install ;;
                         5) echo "Going Back " && clear && $AMAP && exit ;;
                         *)echo "Invalid choice. Please enter a valid sub-option." ;;
                                                 esac
