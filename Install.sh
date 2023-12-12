@@ -2,6 +2,7 @@
 DIR="$(cd "$(dirname "$0")" && pwd)"
 source $DIR/config.sh
 
+echo "This project is still in the works any issues please report"
 echo "NOW STARTING....." && sleep 1
 echo "Making files Executable"
 
