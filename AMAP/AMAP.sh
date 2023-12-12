@@ -348,7 +348,7 @@ while true; do
 		  		;;
       			6) read -p "Are you sure you want to create a Server config file? (Y/n): " confirm_Serverconfig
                 		if [ "$confirm_Serverconfig" == "Y" ]; then
-                        	$SERVERCONFIG && $AMAPNC && exit
+                        	$SERVERCONFIG && cat /$DIR/Files/common.cfg && $$AMAPNC && exit
                 		else
                         	echo "Server Configurator Aborted." && $AMAPNC
                 		fi
