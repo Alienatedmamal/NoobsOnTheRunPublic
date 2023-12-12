@@ -117,32 +117,31 @@ else
 fi
 sleep 1 
 echo "Installing packages:"
-sleep 1 
+sleep 2 
 for package in "${packages[@]}"; do
     ((current_package++))
     show_progress "$current_package" "$total_packages"
     
     # Check if the package is already installed
     if is_installed "$package"; then
-        echo -e "\nPackage $package is already installed. Skipping."
+        echo -e "Package $package is already installed. Skipping."
     else
         # Install the package
         sudo apt-get install -y "$package" > /dev/null 2>&1
         
         # Check installation status
         if [ $? -eq 0 ]; then
-            echo -e "\nPackage $package installed successfully."
+            echo -e "Package $package installed successfully."
         else
-            echo -e "\nFailed to install package $package."
+            echo -e "Failed to install package $package."
         fi
     fi
 done
-echo
-sleep 1 
+echo 
 echo "Installation is now completed. Starting AMAP"
-sleep 1 
+sleep 2 
 echo "Edit config.sh file to finish Installation"
-sleep 1 
+sleep 2 
 cd ..//
 rm -fr NoobsOnTheRunPublic
 cd AMAP 
