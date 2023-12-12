@@ -52,7 +52,9 @@ Console, Backups, Check/Clear logs, Modify Files and MORE.
 ```USERNAME="alienatedmammal"```<br>
 ```HOSTNAME="NoobsOnTheRun"```
 
-7) To run AMAP<br>
+7) Now go into the AMAP folder that was installed. 
+
+8) Run AMAP<br>
 ```./AMAP.sh```
    
 
