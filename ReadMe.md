@@ -52,9 +52,9 @@ Console, Backups, Check/Clear logs, Modify Files and MORE.
 ```USERNAME="alienatedmammal"```<br>
 ```HOSTNAME="NoobsOnTheRun"```
 
-7) Now go into the AMAP folder that was installed. 
+7) AMAP will start editing the config.sh file is completed.
 
-8) Run AMAP<br>
+You can always start AMAP by going in to the AMAP directory and run 
 ```./AMAP.sh```
    
 
