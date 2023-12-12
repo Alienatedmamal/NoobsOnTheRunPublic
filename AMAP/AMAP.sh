@@ -29,22 +29,22 @@ cat $DIR/$OPTIONS
                 case $subchoice in
                         1) clear && $SERVER details && $AMAPNC && exit;;
                         2) $SERVER console && $AMAP && exit ;;
-                    3) read -p "Are you sure you want to BACK UP SERVER? (y/n): " confirm_ServerBackup
-                if [ "$confirm_ServerBackup" == "y" ]; then
+                    3) read -p "Are you sure you want to BACK UP SERVER? (Y/n): " confirm_ServerBackup
+                if [ "$confirm_ServerBackup" == "Y" ]; then
                         $SERVERBACKUP && $AMAPNC && exit
                 else
                         echo "ServerBackup Aborted." && $AMAPNC
                 fi
                                 ;;
-                        4) read -p "Are you sure you want to stop the Rust server? (y/n): " confirm_stop
-                                if [ "$confirm_stop" == "y" ]; then
+                        4) read -p "Are you sure you want to stop the Rust server? (Y/n): " confirm_stop
+                                if [ "$confirm_stop" == "Y" ]; then
                         $SERVERSTOP && $AMAP
                                 else
                         echo "Stopping Rust server aborted." && $AMAP
                                 fi
                                 ;;
-                        5) read -p "Are you sure you want to start the Rust server? (y/n): " confirm_start
-                                if [ "$confirm_start" == "y" ]; then
+                        5) read -p "Are you sure you want to start the Rust server? (Y/n): " confirm_start
+                                if [ "$confirm_start" == "Y" ]; then
                          $SERVERSTOP && $AMAP
                                 else
                         echo "Starting Rust server aborted." && $AMAP
@@ -72,8 +72,8 @@ while true; do
                 case $subchoice in
                         1) cat $LOGS && $AMAPNC && exit ;;
                         2) tail -f $LOGS && $AMAPNC && exit ;;
-                        3) read -p "Are you sure you want to CLEAR SERVER LOGS? (y/n): " confirm_LogCleaner
-                        if [ "$confirm_LogCleaner" == "y" ]; then
+                        3) read -p "Are you sure you want to CLEAR SERVER LOGS? (Y/n): " confirm_LogCleaner
+                        if [ "$confirm_LogCleaner" == "Y" ]; then
                                 $LOGCLEANER && $AMAPNC && exit
                         else
                                 echo "LogCleaner Aborted." && $AMAPNC && exit
@@ -99,8 +99,8 @@ while true; do
                         read -p "Enter your choice: " subchoice
 
                 case $subchoice in
-                        1) read -p "Are you sure you want to BACK UP SERVER? (y/n): " confirm_ServerBackup
-                if [ "$confirm_ServerBackup" == "y" ]; then
+                        1) read -p "Are you sure you want to BACK UP SERVER? (Y/n): " confirm_ServerBackup
+                if [ "$confirm_ServerBackup" == "Y" ]; then
                         $SERVERBACKUP && $AMAPNC && exit
                 else
                         echo "ServerBackup Aborted." && $AMAPNC && exit
@@ -301,8 +301,8 @@ while true; do
                         read -p "Enter your choice: " subchoice
                                 case $subchoice in
                         1) cat $DIR/$WARNING
-                        read -p "Are you sure you want to Update Rust Server? (y/n): " confirm_stop
-                                if [ "$confirm_stop" == "y" ]; then
+                        read -p "Are you sure you want to Update Rust Server? (Y/n): " confirm_stop
+                                if [ "$confirm_stop" == "Y" ]; then
 					                          echo "Updating Rust server"
 					                          /home/$USERNAME/./rustserver update
                                 else
@@ -310,8 +310,8 @@ while true; do
                                 fi
                                 ;;
                         2) cat $DIR/$WARNING
-                        read -p "Are you sure you want to Update Rust Server MODS? (y/n): " confirm_stop
-                                if [ "$confirm_stop" == "y" ]; then
+                        read -p "Are you sure you want to Update Rust Server MODS? (Y/n): " confirm_stop
+                                if [ "$confirm_stop" == "Y" ]; then
 					                          echo "Updating Rust Server MODS"
 					                          /home/$USERNAME/.rustserver mods-update
                                 else
@@ -320,8 +320,8 @@ while true; do
                                 ;;
 
                         3) cat $DIR/$WARNING
-                        read -p "Are you sure you want to Install Rust server? (y/n): " confirm_stop
-                              if [ "$confirm_stop" == "y" ]; then
+                        read -p "Are you sure you want to Install Rust server? (Y/n): " confirm_stop
+                              if [ "$confirm_stop" == "Y" ]; then
 					                        echo "Installing Rust Server..."
                                   $DIR/Files/Scripts/./RustServerInstall.sh
                               else
@@ -329,8 +329,8 @@ while true; do
                               fi
                               ;;
                         4) cat $DIR/$WARNING
-                        read -p "Are you sure you want to Install Rust MODS? (y/n): " confirm_stop
-                              if [ "$confirm_stop" == "y" ]; then
+                        read -p "Are you sure you want to Install Rust MODS? (Y/n): " confirm_stop
+                              if [ "$confirm_stop" == "Y" ]; then
 					                        echo "Installing Rust MODS..."
                                   /home/$USERNAME/.rustserver mods-install
                               else
