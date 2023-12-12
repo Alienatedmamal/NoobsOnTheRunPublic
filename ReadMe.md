@@ -52,9 +52,20 @@ Console, Backups, Check/Clear logs, Modify Files and MORE.
 ```USERNAME="alienatedmammal"```<br>
 ```HOSTNAME="NoobsOnTheRun"```
 
-7) AMAP will start editing the config.sh file is completed.
+7) AMAP will start after the config is saved. 
 
-You can always start AMAP by going in to the AMAP directory and run 
+8) From the main menu in AMAP select #6 (Rust Updated/Installer) and then create a config file with #6. Follow the instructions. 
+
+9) Now start the Rust server. From the main menu select #1 and then #5.
+
+10) Once the server is running, stop the server by selecting from the main menu options #1 and then #4.
+
+11) When the server stops copy the config file created in step #8 to the rust server files by using option #6 from the main menu and then selecting #7.
+
+12) Start the rust server with option #1 from the main menu then select #4.
+
+
+You can always start AMAP by going into the AMAP directory and run 
 ```./AMAP.sh```
    
 
