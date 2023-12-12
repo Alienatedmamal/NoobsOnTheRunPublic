@@ -28,6 +28,9 @@ CONFIG="Files/config.sh"
 AMAPLOGO="Files/logo"
 OPTIONS="Files/menu"
 SERVERMAN="Files/servman"
+WIPECON="Files/wipecon"
+LOGGING="Files/loggin"
+BACKUPCON="Files/backup"
 
 # Running Scripts:
 LOGCLEANER="$SCRIPT_DIR/Files/Scripts/./LogCleaner.sh"
