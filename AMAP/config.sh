@@ -5,6 +5,7 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 #### Replace with your information####
   USERNAME="SYSTEMS USER HERE"       #
   HOSTNAME="NAME OF RUST SERVER"     #
+  DISCORDURL="DISCORD URL HERE"      #
 ######################################
 
 
