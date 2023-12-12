@@ -33,6 +33,7 @@ LOGGING="Files/Images/logging"
 BACKUPCON="Files/Images/backup"
 RUSTINSTALL="Files/Images/rustinstall"
 WARNING="Files/Images/warning"
+PLUGINMOVE="Files/Scripts/./PluginsMove.sh"
 
 # Running Scripts:
 LOGCLEANER="$SCRIPT_DIR/Files/Scripts/./LogCleaner.sh"
