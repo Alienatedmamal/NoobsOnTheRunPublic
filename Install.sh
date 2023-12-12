@@ -3,8 +3,10 @@ DIR="$(cd "$(dirname "$0")" && pwd)"
 source $DIR/config.sh
 
 echo "This project is still in the works any issues please report"
+sleep 1 
 echo "NOW STARTING....." && sleep 1
 echo "Making files Executable"
+sleep 1 
 
 files=(
   "$DIR/$FILELOC/RustServerInstall.sh"
@@ -40,8 +42,9 @@ echo "Move Completed" || echo "Failed"
 echo "Install RSYNC" 
 sudo apt install rsync -y 
 echo "Installation of RSYNC Completed" || echo "RSYNC Failed to install"
+sleep 1 
 cd ..//
-cd AMAP/ 
+cd AMAP 
 ./AMAP
 
 
