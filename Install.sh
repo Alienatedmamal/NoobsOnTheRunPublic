@@ -36,4 +36,11 @@ sleep 1
 echo "Moving AMAP files"
 mv AMAP ..//
 echo "Move Completed" || echo "Failed"
+echo "Install RSYNC" 
+sudo apt install rsync -y 
+echo "Installation of RSYNC Completed" || echo "RSYNC Failed to install"
+cd ..//
+cd AMAP/ 
+./AMAP
+
 
