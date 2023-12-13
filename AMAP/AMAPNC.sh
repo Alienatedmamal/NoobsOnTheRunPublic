@@ -3,7 +3,6 @@ DIR="$(cd "$(dirname "$0")" && pwd)"
 source $DIR/config.sh
 
 # Options
-clear
 cat $DIR/$AMAPLOGO
 cat $DIR/$OPTIONS
 
@@ -227,10 +226,10 @@ while true; do
 						
 						
 						
-						4) ls $OXIDEPLUGINS > $DIR/Files/pluginlist
+						4) ls $OXIDEPLUGINS > $DIR/Files/Logs/pluginlist
                                         while true; do
                 clear  # Clear the screen for a cleaner sub-menu
-                                cat $DIR/Files/pluginlist
+                                cat $DIR/Files/Logs/pluginlist
                 read -p "Press 1 to go back: " subchoice
                                 case $subchoice in
                                 1) echo "Going Back" && clear && $AMAP && exit ;;
