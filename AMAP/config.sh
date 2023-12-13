@@ -41,7 +41,7 @@ WARNING="Files/Images/warning"
 AWAP="Files/Images/awap"
 PLUGINMOVE="Files/Scripts/./PluginsMove.sh"
 SERVERCONFIG="Files/Scripts/./ServerConfigurator.sh"
-wiper="Files/Logs/"
+WIPER="Files/Logs/"
 
 # Running Scripts:
 LOGCLEANER="$SCRIPT_DIR/Files/Scripts/./LogCleaner.sh"
