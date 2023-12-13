@@ -386,7 +386,7 @@ while true; do
                         read -p "Are you sure you want to Install Rust MODS? (Y/n): " confirm_stop
                               if [ "$confirm_stop" == "Y" ]; then
 					                        echo "Installing Rust MODS..."
-                                  /home/$USERNAME/.rustserver mods-install
+                                  /home/$USERNAME/./rustserver mods-install
                               else
                               echo "Server MODS Install aborted." && $AMAP
                               fi
