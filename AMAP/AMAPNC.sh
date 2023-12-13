@@ -3,6 +3,7 @@ DIR="$(cd "$(dirname "$0")" && pwd)"
 source $DIR/config.sh
 
 # Options
+clear
 cat $DIR/$AMAPLOGO
 cat $DIR/$OPTIONS
 
@@ -73,9 +74,9 @@ while true; do
                         2) tail -f $LOGS && $AMAPNC && exit ;;
                         3) read -p "Are you sure you want to CLEAR SERVER LOGS? (Y/n): " confirm_LogCleaner
                         if [ "$confirm_LogCleaner" == "Y" ]; then
-                                $LOGCLEANER && $AMAPNC && exit
+                                $LOGCLEANER && $AMAP && exit
                         else
-                                echo "LogCleaner Aborted." >> $LOGS && $AMAPNC && exit
+                                echo "LogCleaner Aborted." >> $LOGS && $AMAP && exit
                         fi
                         ;;
                         4) echo "Going Back " && clear && $AMAP && exit ;;
