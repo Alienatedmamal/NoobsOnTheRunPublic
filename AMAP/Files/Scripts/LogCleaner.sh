@@ -1,8 +1,7 @@
 #!/bin/bash
 DIR="$(cd "$(dirname "$0")/../../" && pwd)"
 source $DIR/config.sh
-
-#SCRIPT="LogCleaner:"
+SCRIPT="LogCleaner:"
 
 # Yuup just need it to do one thing...Clean the logs. 
 echo > $LOGS
