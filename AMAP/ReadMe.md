@@ -76,3 +76,24 @@ AAAAAAA                   AAAAAAAMMMMMMMM               MMMMMMMMAAAAAAA         
 >- Clear Screen
 
 ### 9) Quit 
+
+
+
+# Cron Configs 
+Replace ```USERNAME``` 
+```
+#Stops,Updates, Updates Mods and restart server.
+0 3 * * * /home/USERNAME/AMAP/Files/Scripts/./Nightly.sh && sudo shutdown -r now
+
+#Starts Rust Server Upon Reboot
+@reboot /home/USERNAME/AMAP/Files/Scripts/./ServerStart.sh
+
+#Backup Server Files.
+55 2 * * * /home/USERNAME/AMAP/Files/Scripts/./ServerBackups.sh
+
+#The Magic Sauce.
+0 14 * * 4 /home/alienatedmammal/Documents/RustBackups/wipescripts/./Schedule.sh
+
+#Log Cleaner.
+0 3 1 * * /home/alienatedmammal/Documents/RustBackups/wipescripts/./LogCleaner.sh
+```
