@@ -63,7 +63,8 @@ Console, Backups, Check/Clear logs, Modify Files and MORE.
 
 10) Start the rust server from #1 Server Control #5 Server Start.
 
-11) In the #1 Server Control open the #2 console. When the server is up and running stop the server press ctrl+c and it will close the server.
+11) In the #1 Server Control open the #2 console. When the server is up and running stop the server by
+    pressing ctrl+c and it will close the server.
 
 12) Copy files created in step #8 with option #7 in the #6 Rust Installer/Update
 
