@@ -2,13 +2,19 @@
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 
 
-#### Replace with your information####
-  USERNAME="SYSTEMS USER HERE"       #
-  HOSTNAME="NAME OF RUST SERVER"     #
-  DISCORDURL="DISCORD URL HERE"      #
-######################################
 
 
+
+##### Replace with your information ########
+       USERNAME="SYSTEMS USER HERE"       ##
+       HOSTNAME="NAME OF RUST SERVER"     ##
+      DISCORDURL="DISCORD URL HERE"       ##
+############################################
+
+
+###########################################################################################################################################################################
+### !!!!!Do not edit below this line!!!!! ### !!!!!Do not edit below this line!!!!! ### !!!!!Do not edit below this line!!!!! ### !!!!!Do not edit below this line!!!!! ### 
+###########################################################################################################################################################################
 
 
 
@@ -24,6 +30,11 @@ SERVERCONSOLE="$SERVER console"
 SERVERSTOP="$SERVER stop"
 SERVERSTART="$SERVER start"
 SERVERUPDATE="$SERVER update && $SERVER mods-update"
+
+
+
+
+
 # AMAP:
 SCRIPTS="$SCRIPT_DIR/Files/Scripts"
 FILES="$SCRIPT_DIR/Files/"
@@ -44,6 +55,11 @@ SERVERCONFIG="Files/Scripts/./ServerConfigurator.sh"
 WIPER="$DIR/Files/Logs/WipeOutput.txt"
 FINISH="$DIR/Files/Config/finish"
 
+
+
+
+
+
 # Running Scripts:
 LOGCLEANER="$SCRIPT_DIR/Files/Scripts/./LogCleaner.sh"
 SERVERBACKUP="$SCRIPT_DIR/Files/Scripts/./ServerBackups.sh"
@@ -61,6 +77,11 @@ SCRIPTNIGHTLY="Nightly:"
 SCRIPTBACKUPS="ServerBackup:"
 SCRIPTSERVERSTART="ServerStart:"
 
+
+
+
+
+
 # Sripts File Locations:
 FULLWIPESH="$SCRIPT_DIR/Files/Scripts/Fullwipe.sh"
 MAPWIPESH="$SCRIPT_DIR/Files/Scripts/Mapwipe.sh"
@@ -71,6 +92,12 @@ SERVERSTARTSH="$SCRIPT_DIR/Files/Scripts/ServerStart.sh"
 SCHEDULESH="$SCRIPT_DIR/Files/Scripts/Schedule.sh"
 LOGCLEANERSH="$SCRIPT_DIR/Files/Scripts/LogCleaner.sh"
 EAMAPSH="$SCRIPT_DIR/AMAP.sh"
+
+
+
+
+
+
 #OXIDE LOCATIONS:
 OXIDECONFIG="/home/$USERNAME/serverfiles/oxide/config/"
 OXIDEPLUGINS="/home/$USERNAME/serverfiles/oxide/plugins/"
@@ -91,6 +118,11 @@ TIMEDEXECUTE="/home/$USERNAME/serverfiles/oxide/config/TimedExecute.json"
 VIPTRIAL="/home/$USERNAME/serverfiles/oxide/config/VIPTrial.json"
 RUSTMOVE="mv lgsm /home/$USERNAME/ && mv rustserver /home/$USERNAME/ && mv linuxgsm.sh /home/$USERNAME/"
 RUSTCONFIGS="lgsm/config-lgsm/rustserver"
+
+
+
+
+
 # Scripts
 SERVERNAME="Rust"
 SAYDATE="echo $(date)"
@@ -101,3 +133,37 @@ BACKUPS="$DIR/Files/RustBackups/"
 LOGS="$DIR/Files/Logs/Logs.txt"
 CLEANLOGS="echo > $LOGS"
 SERVER="/home/$USERNAME/./rustserver"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ha ha ha ha 69 
