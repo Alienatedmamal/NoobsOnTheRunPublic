@@ -2,12 +2,12 @@
 DIR="$(cd "$(dirname "$0")" && pwd)"
 source $DIR/config.sh
 
-echo "This project is still in the works any issues please report"
+echo "This project is still in the works any issues please report any issues."
 sleep 1 
 echo "NOW STARTING....."
 sleep 1
 echo "Making files Executable"
-sleep 1 
+sleep 2 
 
 files=(
   "$DIR/$FILELOC/RustServerInstall.sh"
@@ -141,7 +141,7 @@ echo
 echo "Installation is now completed. Starting AMAP"
 sleep 2 
 echo "Edit config.sh file to finish Installation"
-sleep 2 
+sleep 3 
 cd ..//
 rm -fr NoobsOnTheRunPublic
 cd AMAP 
