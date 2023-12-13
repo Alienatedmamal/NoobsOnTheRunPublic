@@ -35,48 +35,31 @@ Console, Backups, Check/Clear logs, Modify Files and MORE.
 1) Download AMAP<br>
 ```git clone https://github.com/Alienatedmamal/NoobsOnTheRunPublic.git```
 
-2) Go into the NoobsOnTheRunPublic<br>
-   ```cd NoobsOnTheRunPublic```
+2) Run this command to start the install.<br>
+```cd NoobsOnTheRunPublic/ && chmod +x Install.sh && ./Install.sh```
 
-3) Make the Install file an executable.<br>
-```chmod +x Install.sh```
-
-4) Run the Install file.<br>
-```./Install.sh```
-
-5) Once the installer is completed the config file will open in Nano.<br>
-
-6) Edit the config file.<br>
+5) Once the installer is completed the config file will open to be edited.<br>
 ```USERNAME="SYSTEMS USER HERE"```<br>
 ```HOSTNAME="NAME OF RUST SERVER"```<br>
 >- Example:<br>
 ```USERNAME="alienatedmammal"```<br>
-```HOSTNAME="NoobsOnTheRun"```
+```HOSTNAME="NoobsOnTheRun"```<br>
 
-7) AMAP will start after the config is saved. 
+6) From the main menu select option #6 **Rust Updater/Installer**. Once in **Rust Updater/Installer** select #3 **Install Rust Server**<br>
 
-8) From the main menu in AMAP select #6 (Rust Updated/Installer) and then create a config file with #6. 
-   Follow the instructions. 
+7) When the installation is complete press ```Enter``` to return to AMAP.<br>
 
-9) Now from the same Rust Installer/Update screen select #3.
-   This will install the Rust server automatically. 
+8) Now select option #6 **Create Server Config Fill** in the **Rust Updater/Installer** menu<br>
 
-10) Start the rust server from #1 Server Control #5 Server Start.
+9) Copy config file to Rust Server with option #7 **Copt Configs to Rust Server** If successful you will see ```Files Copied Successful```<br>
 
-11) In the #1 Server Control open the #2 console. When the server is up and running stop the server by
-    pressing ctrl+c and it will close the server.
+10) Now go into option #1 **Server Control** and select option #5 **Server Start**<br>
 
-12) Copy files created in step #8 with option #7 in the #6 Rust Installer/Update
+11) Now repeat step #10 Thi is due to the files had to reconfigure on start up. <br
 
-13) Once the installation is completed copy the configs you made in step 8. 
-    Use # 7 in the Rust Installer/Update.
-
-14) Now start the Rust server with option #4 in Server Management. You may have to start it twice.  
-
-
-
-
-You can always start AMAP by going into the AMAP directory and run 
-```./AMAP.sh```
+12) Server is now up and running. <br>
+<br>
+<br>
+You can always start AMAP by going into the AMAP directory and run ```./AMAP.sh```
    
 
