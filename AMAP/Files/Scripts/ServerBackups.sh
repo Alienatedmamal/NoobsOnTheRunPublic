@@ -9,8 +9,8 @@ SCRIPT="ServerBackup:"
 $SAYDATE $SCRIPT ServerBackups starting >> $LOGS && 
 	$SYNC /home/$USERNAME/serverfiles/oxide $BACKUPS && 
 $SAYDATE $SCRIPT Oxide Files Have Been Backed Up >> $LOGS || $SAYDATE Failed To Backup Oxide >> $LOGS && 
-	$SYNC /home/$USERNAME/serverfiles/server/NoobsOnTheRun $BACKUPS && 
-$SAYDATE $SCRIPT $HOSTNAME Files Have Been Backed Up >> $LOGS || $SAYDATE Failed To Backup NoobsOnTheRun >> $LOGS && 
+	$SYNC /home/$USERNAME/serverfiles/server/$HOSTNAME $BACKUPS && 
+$SAYDATE $SCRIPT $HOSTNAME Files Have Been Backed Up >> $LOGS || $SAYDATE Failed To Backup $HOSTNAME >> $LOGS && 
 	$SYNC /home/$USERNAME/lgsm $BACKUPS && 
 $SAYDATE $SCRIPT lgsm Files Have Been Backed Up >> $LOGS || $SAYDATE Failed To Backup lgsm >> $LOGS &&
 	$SYNC /home/$USERNAME/lgsm/config-lgsm/rustserver $BACKUPS && 
