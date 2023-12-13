@@ -54,6 +54,12 @@ NIGHTLY="$SCRIPT_DIR/Files/Scripts/./Nightly.sh"
 SERVERCHECKER="$SCRIPT_DIR/Files/Scripts/./ServerChecker.sh"
 SERVERSTART="$SCRIPT_DIR/Files/Scripts/./ServerStart.sh"
 SCHEDULE="$SCRIPT_DIR/Files/Scripts/./Schedule.sh"
+SCRIPTFULL="Fullwipe:"
+SCRIPTLOGCLEAN="LogCleaner:"
+SCRIPTMAPWIPE="MapWipe:"
+SCRIPTNIGHTLY="Nightly:"
+SCRIPTBACKUPS="ServerBackup:"
+SCRIPTSERVERSTART="ServerStart:"
 
 # Sripts File Locations:
 FULLWIPESH="$SCRIPT_DIR/Files/Scripts/Fullwipe.sh"
