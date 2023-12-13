@@ -104,6 +104,7 @@ then
 else
     echo "RSYNC is already installed"
 fi
+# D2s Fav editor ;D 
 echo "Checking for nano text editor"
 sleep 1
 if ! command -v nano &> /dev/null
