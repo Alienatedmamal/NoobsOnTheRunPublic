@@ -295,7 +295,7 @@ while true; do
         ;;
 5) while true; do
                 clear  # Clear the screen for a cleaner sub-menu
-
+                cat $AWAP
                 echo "Options:"
                 echo "1. FullWipe"
                 echo "2. MapWipe"
