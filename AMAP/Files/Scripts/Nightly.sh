@@ -1,14 +1,12 @@
 #!/bin/bash
 DIR="$(cd "$(dirname "$0")/../../" && pwd)"
 source "$DIR/config.sh"
-SCRIPTNAME="Nightly:"
-
 
 #Stops Server, Updates, Updates Mods, and Restart.  
-	$SAYDATE $SCRIPTNAME Server will now stop >> $LOGS &&
+	$SAYDATE $SCRIPTNIGHTLY Server will now stop >> $LOGS &&
 $USER $SERVER stop >> $LOGS &&
-	$SAYDATE $SERVERNAME $SCRITPNAME Server Has Stopped >> $LOGS || 
-	$SAYDATE $SERVERNAME $SCRITPNAME Server Has Failed to Stop >> $LOGS 
+	$SAYDATE $SERVERNAME $SCRIPTNIGHTLY Server Has Stopped >> $LOGS || 
+	$SAYDATE $SERVERNAME $SCRIPTNIGHTLY Server Has Failed to Stop >> $LOGS 
 # Currently this stops any plugins from working after an update. Working on a fix. See GitHub for more information 
 #	$SAYDATE $SERVERNAME $SCRITPNAME will Now Update >> $LOGS &&
 #$USER $SERVER update >> $LOGS &&
