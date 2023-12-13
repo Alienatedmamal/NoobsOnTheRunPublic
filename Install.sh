@@ -108,7 +108,7 @@ echo "Checking for nano text editor"
 sleep 1
 if ! command -v nano &> /dev/null
 then
-    echo "RSYNC is not installed, installing now..."
+    echo "Nano is not installed, installing now..."
     sudo apt-get update
     sudo apt-get install nano -y
     echo "Nano Editor Installed" || { echo "NANO Failed to install"; exit 1; }
