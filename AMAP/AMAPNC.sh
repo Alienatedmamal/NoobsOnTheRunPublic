@@ -32,21 +32,21 @@ cat $DIR/$OPTIONS
                 if [ "$confirm_ServerBackup" == "Y" ]; then
                         $SERVERBACKUP && $AMAPNC && exit
                 else
-                        echo "ServerBackup Aborted." && $AMAPNC
+                        echo "ServerBackup Aborted." >> $LOGS && $AMAPNC
                 fi
                                 ;;
                         4) read -p "Are you sure you want to stop the Rust server? (Y/n): " confirm_stop
                                 if [ "$confirm_stop" == "Y" ]; then
-                        $SERVER stop && $AMAP && exit
+                        $SERVER stop >> $LOGS && $AMAP && exit
                                 else
-                        echo "Stopping Rust server aborted." && $AMAP
+                        echo "Stopping Rust server aborted." >> $LOGS && $AMAP && exit
                                 fi
                                 ;;
                         5) read -p "Are you sure you want to start the Rust server? (Y/n): " confirm_start
                                 if [ "$confirm_start" == "Y" ]; then
-                         $SERVER start && $AMAP && exit 
+                         $SERVER start >> $LOGS && $AMAP && exit 
                                 else
-                        echo "Starting Rust server aborted." && $AMAP
+                        echo "Starting Rust server aborted." >> $LOGS && $AMAP && exit
                                 fi
                                 ;;
                         6) echo "Going Back " && clear && $AMAP && break ;;
@@ -75,7 +75,7 @@ while true; do
                         if [ "$confirm_LogCleaner" == "Y" ]; then
                                 $LOGCLEANER && $AMAPNC && exit
                         else
-                                echo "LogCleaner Aborted." && $AMAPNC && exit
+                                echo "LogCleaner Aborted." >> $LOGS && $AMAPNC && exit
                         fi
                         ;;
                         4) echo "Going Back " && clear && $AMAP && exit ;;
@@ -356,26 +356,26 @@ while true; do
                         1) cat $DIR/$WARNING
                         read -p "Are you sure you want to Update Rust Server? (Y/n): " confirm_stop
                                 if [ "$confirm_stop" == "Y" ]; then
-					                          echo "Updating Rust server"
-					                          /home/$USERNAME/./rustserver update
+				
+    				echo "Updating Rust server" >> $logs && /home/$USERNAME/./rustserver update
                                 else
-                                    echo "Server MODS Install aborted." && $AMAP
+                                    echo "Server MODS Install aborted." >> $logs && $AMAP && exit
                                 fi
                                 ;;
                         2) cat $DIR/$WARNING
                         read -p "Are you sure you want to Update Rust Server MODS? (Y/n): " confirm_stop
                                 if [ "$confirm_stop" == "Y" ]; then
-					                          echo "Updating Rust Server MODS"
+					                          echo "Updating Rust Server MODS" >> $LOGS
 					                          /home/$USERNAME/.rustserver mods-update
                                 else
-                                    echo "Server MODS Install aborted." && $AMAP
+                                    echo "Server MODS Install aborted." >> $LOGS && $AMAP
                                 fi
                                 ;;
 
                         3) cat $DIR/$WARNING
                         read -p "Are you sure you want to Install Rust server? (Y/n): " confirm_stop
                               if [ "$confirm_stop" == "Y" ]; then
-					                        echo "Installing Rust Server..."
+					                        echo "Installing Rust Server..." >> $LOGS
                                   $DIR/Files/Scripts/./RustServerInstall.sh
                               else
                                   echo "Server Install aborted." && $AMAP
