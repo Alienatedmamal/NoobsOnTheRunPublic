@@ -1,18 +1,15 @@
 #!/bin/bash
 DIR="$(cd "$(dirname "$0")/../../" && pwd)"
 source "$DIR/config.sh"
-SCRIPT="ServerBackup:"
 
 
-
-
-$SAYDATE $SCRIPT ServerBackups starting >> $LOGS && 
+$SAYDATE $SCRIPTBACKUPS ServerBackups starting >> $LOGS && 
 	$SYNC /home/$USERNAME/serverfiles/oxide $BACKUPS && 
-$SAYDATE $SCRIPT Oxide Files Have Been Backed Up >> $LOGS || $SAYDATE Failed To Backup Oxide >> $LOGS && 
+$SAYDATE $SCRIPTBACKUPS Oxide Files Have Been Backed Up >> $LOGS || $SAYDATE $SCRIPTBACKUPS Failed To Backup Oxide >> $LOGS && 
 	$SYNC /home/$USERNAME/serverfiles/server/$HOSTNAME $BACKUPS && 
-$SAYDATE $SCRIPT $HOSTNAME Files Have Been Backed Up >> $LOGS || $SAYDATE Failed To Backup $HOSTNAME >> $LOGS && 
+$SAYDATE $SCRIPTBACKUPS $HOSTNAME Files Have Been Backed Up >> $LOGS || $SAYDATE $SCRIPTBACKUPS Failed To Backup $HOSTNAME >> $LOGS && 
 	$SYNC /home/$USERNAME/lgsm $BACKUPS && 
-$SAYDATE $SCRIPT lgsm Files Have Been Backed Up >> $LOGS || $SAYDATE Failed To Backup lgsm >> $LOGS &&
+$SAYDATE $SCRIPTBACKUPS lgsm Files Have Been Backed Up >> $LOGS || $SAYDATE $SCRIPTBACKUPSFailed To Backup lgsm >> $LOGS &&
 	$SYNC /home/$USERNAME/lgsm/config-lgsm/rustserver $BACKUPS && 
-$SAYDATE $SCRIPT rustserver Files Have Been Backed Up >> $LOGS || $SAYDATE $SCRIPT Failed To Backup rustserver >> $LOGS &&
-$SAYDATE $SCRIPT ServerBackup Has Finished >> $LOGS 
+$SAYDATE $SCRIPTBACKUPS rustserver Files Have Been Backed Up >> $LOGS || $SAYDATE $SCRIPTBACKUPS Failed To Backup rustserver >> $LOGS &&
+$SAYDATE $SCRIPTBACKUPS ServerBackup Has Finished >> $LOGS 
