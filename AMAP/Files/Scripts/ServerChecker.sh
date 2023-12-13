@@ -19,7 +19,7 @@ else
     then
         echo "$(date)" "ServerChecker: Rust Server is now running." >> "$LOGS"
     else
-        discord_url=""$DISCORDURL""
+        discord_url="$DISCORDURL"
 
 generate_post_data() {
   cat <<EOF
