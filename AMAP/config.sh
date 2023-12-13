@@ -38,6 +38,7 @@ LOGGING="Files/Images/logging"
 BACKUPCON="Files/Images/backup"
 RUSTINSTALL="Files/Images/rustinstall"
 WARNING="Files/Images/warning"
+AWAP="Files/Images/awap"
 PLUGINMOVE="Files/Scripts/./PluginsMove.sh"
 SERVERCONFIG="Files/Scripts/./ServerConfigurator.sh"
 
