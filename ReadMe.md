@@ -60,6 +60,6 @@ Console, Backups, Check/Clear logs, Modify Files and MORE.
 12) Server is now up and running. <br>
 <br>
 <br>
-You can always start AMAP by going into the AMAP directory and run ```./AMAP.sh```
+You can always start AMAP by going into the AMAP directory and run **./AMAP.sh**
    
 
