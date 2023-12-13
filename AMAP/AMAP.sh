@@ -282,7 +282,7 @@ while true; do
                 echo "4. Return to Menu"
                 read -p "Enter Number and press enter:" subchoice
                 case $subchoice in
-                1) $DIR/Files/Scripts/./wipeConfigure.sh ;;
+                1) $DIR/Files/Scripts/./wipeconfigure.sh ;;
                 2) echo > $DIR/Files/Logs/WipeOutput.txt ;;
                 3) cat $DIR/Files/Logs/WipeOutput.txt;;
                 4) echo "Going Back " && clear && $AMAP && exit ;;
