@@ -23,8 +23,8 @@ read -p "Header image URL: " headerimage
 read -p "Server URL: " serverurl
 
 # Create a copy in /home/alienatedmammal/Documents
-backup_dir="/home/$USERNAME/AMAP/Files/"
-backup_file="/home/$USERNAME/AMAP/Files/common.cfg"
+backup_dir="$DIR/Files/"
+backup_file="$DIR/Files/common.cfg"
 
 # Create a backup directory if it doesn't exist
 mkdir -p "$backup_dir"
@@ -54,7 +54,7 @@ description="$description"
 headerimage="$headerimage"
 serverurl="$serverurl"
 #Add to config
-$(cat "$SERVER_LOCATION/AMAP/Files/Config/finish")
+$(cat "$FINISH")
 EOL
 
 echo "Configuration backup created at: $backup_file"
