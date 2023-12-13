@@ -1,4 +1,5 @@
 # AlienatedMammal's Admin Panel 
+## More information coming SOON!
 ```
        	       AAA               MMMMMMMM               MMMMMMMM               AAA               PPPPPPPPPPPPPPPPP
               A:::A              M:::::::M             M:::::::M              A:::A              P::::::::::::::::P
@@ -25,7 +26,26 @@ AAAAAAA                   AAAAAAAMMMMMMMM               MMMMMMMMAAAAAAA         
 						MANAGEMENT TOOL
 ```
 
-## More information coming SOON!
+# Cron Configs 
+Replace **USERNAME** <br>
+Copy and paste this in your corn.<br> 
+```sudo crontab -e```<br>
+```
+#Stops, Updates, Updates Mods and restart the server.
+0 3 * * * /home/USERNAME/AMAP/Files/Scripts/./Nightly.sh && sudo shutdown -r now
+
+#Starts Rust Server Upon Reboot
+@reboot /home/USERNAME/AMAP/Files/Scripts/./ServerStart.sh
+
+#Backup Server Files.
+55 2 * * * /home/USERNAME/AMAP/Files/Scripts/./ServerBackups.sh
+
+#Checks if its a wipe day.
+0 14 * * 4 /home/USERNAME/AMAP/Files/Scripts/./Schedule.sh
+
+#Log Cleaner.
+0 3 1 * * /home/USERNAME/AMAP/Files/Scripts/./LogCleaner.sh
+```
 
 ### 1) Server Management  
 > - Server Details
@@ -79,21 +99,4 @@ AAAAAAA                   AAAAAAAMMMMMMMM               MMMMMMMMAAAAAAA         
 
 
 
-# Cron Configs 
-Replace ```USERNAME``` 
-```
-#Stops,Updates, Updates Mods and restart server.
-0 3 * * * /home/USERNAME/AMAP/Files/Scripts/./Nightly.sh && sudo shutdown -r now
 
-#Starts Rust Server Upon Reboot
-@reboot /home/USERNAME/AMAP/Files/Scripts/./ServerStart.sh
-
-#Backup Server Files.
-55 2 * * * /home/USERNAME/AMAP/Files/Scripts/./ServerBackups.sh
-
-#The Magic Sauce.
-0 14 * * 4 /home/alienatedmammal/Documents/RustBackups/wipescripts/./Schedule.sh
-
-#Log Cleaner.
-0 3 1 * * /home/alienatedmammal/Documents/RustBackups/wipescripts/./LogCleaner.sh
-```
