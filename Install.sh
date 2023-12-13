@@ -6,9 +6,12 @@ source $DIR/config.sh
 clear
 echo "Getting AMAP Ready.."
 sleep 1 
+clear
 echo "Getting AMAP Ready..."
 sleep 1
+clear
 echo "Getting AMAP Ready...."
+sleep 1 
 clear
 echo "This project is still in the works any issues please report on Github."
 sleep 1 
