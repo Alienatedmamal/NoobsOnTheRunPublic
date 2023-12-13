@@ -2,8 +2,12 @@
 DIR="$(cd "$(dirname "$0")" && pwd)"
 source $DIR/config.sh
 
+
+clear
 echo "Getting AMAP Ready.."
+sleep 1 
 echo "Getting AMAP Ready..."
+sleep 1
 echo "Getting AMAP Ready...."
 clear
 echo "This project is still in the works any issues please report on Github."
