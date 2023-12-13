@@ -3,7 +3,6 @@ DIR="$(cd "$(dirname "$0")" && pwd)"
 source $DIR/config.sh
 
 # Options
-clear
 cat $DIR/$AMAPLOGO
 cat $DIR/$OPTIONS
 
@@ -275,7 +274,7 @@ while true; do
    clear
             while true; do
         clear  # Clear the screen for a cleaner sub-menu
-                cat $DIR/wipecon
+                cat $DIR/$WIPECON
                 echo "1. To Start Configurator"
                 echo "2. Clear flie before starting"
                 echo "3. Check File"
