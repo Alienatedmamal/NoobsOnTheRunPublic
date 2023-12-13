@@ -50,7 +50,7 @@ AAAAAAA                   AAAAAAAMMMMMMMM               MMMMMMMMAAAAAAA         
 > - Clear Configurator File
 > - Check Configurator File 
 
-### 5) AMAP CONFIGS
+### 5) AMAP Controls
 > - Fullewipe
 > - Mapwipe
 > - Nightly
