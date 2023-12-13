@@ -357,9 +357,9 @@ while true; do
                         read -p "Are you sure you want to Update Rust Server? (Y/n): " confirm_stop
                                 if [ "$confirm_stop" == "Y" ]; then
 				
-    				echo "Updating Rust server" >> $logs && /home/$USERNAME/./rustserver update
+    				echo "Updating Rust server" >> $LOGS && /home/$USERNAME/./rustserver update
                                 else
-                                    echo "Server MODS Install aborted." >> $logs && $AMAP && exit
+                                    echo "Server MODS Install aborted." >> $LOGS && $AMAP && exit
                                 fi
                                 ;;
                         2) cat $DIR/$WARNING
