@@ -2,7 +2,11 @@
 DIR="$(cd "$(dirname "$0")" && pwd)"
 source $DIR/config.sh
 
-echo "This project is still in the works any issues please report."
+echo "Getting AMAP Ready.."
+echo "Getting AMAP Ready..."
+echo "Getting AMAP Ready...."
+clear
+echo "This project is still in the works any issues please report on Github."
 sleep 1 
 echo "NOW STARTING....."
 sleep 1
@@ -139,8 +143,10 @@ for package in "${packages[@]}"; do
     fi
 done
 echo 
+clear
 echo "Installation is now completed. Starting AMAP"
 sleep 2 
+clear
 echo "Edit config.sh file to finish Installation"
 sleep 3 
 cd ..//
