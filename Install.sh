@@ -2,7 +2,7 @@
 DIR="$(cd "$(dirname "$0")" && pwd)"
 source $DIR/config.sh
 
-echo "This project is still in the works any issues please report any issues."
+echo "This project is still in the works any issues please report."
 sleep 1 
 echo "NOW STARTING....."
 sleep 1
