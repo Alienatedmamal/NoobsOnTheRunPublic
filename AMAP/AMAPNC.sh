@@ -385,7 +385,7 @@ while true; do
                         read -p "Are you sure you want to Install Rust MODS? (Y/n): " confirm_stop
                               if [ "$confirm_stop" == "Y" ]; then
 					                        echo "Installing Rust MODS..."
-                                  /home/$USERNAME/.rustserver mods-install
+                                  /home/$USERNAME/./rustserver mods-install
                               else
                               echo "Server MODS Install aborted." && $AMAP
                               fi
@@ -399,7 +399,7 @@ while true; do
 		  		;;
       			6) read -p "Are you sure you want to create a Server config file? (Y/n): " confirm_Serverconfig
                 		if [ "$confirm_Serverconfig" == "Y" ]; then
-                        	$SERVERCONFIG && cat /$DIR/Files/common.cfg && $$AMAPNC && exit
+                        	$SERVERCONFIG && cat /$DIR/Files/common.cfg && $AMAPNC && exit
                 		else
                         	echo "Server Configurator Aborted." && $AMAPNC
                 		fi
