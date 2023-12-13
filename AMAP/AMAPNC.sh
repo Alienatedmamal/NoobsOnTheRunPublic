@@ -96,7 +96,7 @@ while true; do
                     echo "4. List of Plugins"
                     echo "5. Oxide Config Path"
                     echo "6. Oxide Plugin Path"
-                                        echo "6. Back to Menu"
+                                        echo "7. Back to Menu"
                         read -p "Enter your choice: " subchoice
 
                 case $subchoice in
