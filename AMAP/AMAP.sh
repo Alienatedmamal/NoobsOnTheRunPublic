@@ -275,7 +275,7 @@ while true; do
    clear
             while true; do
         clear  # Clear the screen for a cleaner sub-menu
-                cat $DIR/wipecon
+                cat $DIR/$WIPECON
                 echo "1. To Start Configurator"
                 echo "2. Clear flie before starting"
                 echo "3. Check File"
