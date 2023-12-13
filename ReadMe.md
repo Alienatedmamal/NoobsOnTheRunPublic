@@ -1,16 +1,16 @@
 # AlienatedMammal's Admin Panel 
 
 ```
-       	       AAA               MMMMMMMM               MMMMMMMM               AAA               PPPPPPPPPPPPPPPPP
+               AAA               MMMMMMMM               MMMMMMMM               AAA               PPPPPPPPPPPPPPPPP
               A:::A              M:::::::M             M:::::::M              A:::A              P::::::::::::::::P
              A:::::A             M::::::::M           M::::::::M             A:::::A             P::::::PPPPPP:::::P
             A:::::::A            M:::::::::M         M:::::::::M            A:::::::A            PP:::::P     P:::::P
            A:::::::::A           M::::::::::M       M::::::::::M           A:::::::::A             P::::P     P:::::P
           A:::::A:::::A          M:::::::::::M     M:::::::::::M          A:::::A:::::A            P::::P     P:::::P
-       	 A:::::A A:::::A         M:::::::M::::M   M::::M:::::::M         A:::::A A:::::A           P::::PPPPPP:::::P
+         A:::::A A:::::A         M:::::::M::::M   M::::M:::::::M         A:::::A A:::::A           P::::PPPPPP:::::P
         A:::::A   A:::::A        M::::::M M::::M M::::M M::::::M        A:::::A   A:::::A          P:::::::::::::PP
-       A:::::A     A:::::A       M::::::M  M::::M::::M  M::::::M       A:::::A     A:::::A         P::::PPPPPPPPP  
-      A:::::AAAAAAAAA:::::A      M::::::M   M:::::::M   M::::::M      A:::::AAAAAAAAA:::::A        P::::P    
+       A:::::A     A:::::A       M::::::M  M::::M::::M  M::::::M       A:::::A     A:::::A         P::::PPPPPPPPP
+      A:::::AAAAAAAAA:::::A      M::::::M   M:::::::M   M::::::M      A:::::AAAAAAAAA:::::A        P::::P
      A:::::::::::::::::::::A     M::::::M    M:::::M    M::::::M     A:::::::::::::::::::::A       P::::P
     A:::::AAAAAAAAAAAAA:::::A    M::::::M     MMMMM     M::::::M    A:::::AAAAAAAAAAAAA:::::A      P::::P
    A:::::A             A:::::A   M::::::M               M::::::M   A:::::A             A:::::A   PP::::::PP
@@ -18,12 +18,14 @@
  A:::::A                 A:::::A M::::::M               M::::::M A:::::A                 A:::::A P::::::::P
 AAAAAAA                   AAAAAAAMMMMMMMM               MMMMMMMMAAAAAAA                   AAAAAAAPPPPPPPPPP
 
-					     _  _  ___     ___  
-					    ( \/ )(__ \   / _ \ 
-					     \  /  / _/  ( (_) )
-					      \/  (____)()\___/ 
-					ALIENATEDMAMMAL'S ADMIN PANEL
-						MANAGEMENT TOOL
+
+					           ___     ___
+                                                  (__ \   / _ \
+                                             \  /  / _/  ( (_) )
+                                              \/  (____)()\___/
+
+                                        ALIENATEDMAMMAL'S ADMIN PANEL                                                 
+                                                MANAGEMENT TOOL
 ```
 
 # Description: 
