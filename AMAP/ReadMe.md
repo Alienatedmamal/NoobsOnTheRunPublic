@@ -45,6 +45,9 @@ Copy and paste this in your corn.<br>
 
 #Log Cleaner.
 0 3 1 * * /home/USERNAME/AMAP/Files/Scripts/./LogCleaner.sh
+
+# New Server Check Will not check from, 1355-1430(Wipe days and time) and 0258-0315 (Server Update/Reboot)
+*/5 * * * * [ "$(date +\%H\%M)" -lt "1355" -o "$(date +\%H\%M)" -ge "1430" ] && [ "$(date +\%H\%M)" -lt "0258" -o "$(date +\%H\%M)" -ge "0315" ] && /home/USERNAME/AMAP/Files/Scripts/./ServerChecker.sh
 ```
 
 ### 1) Server Management  
