@@ -3,7 +3,6 @@ DIR="$(cd "$(dirname "$0")" && pwd)"
 source $DIR/config.sh
 
 # Options
-clear
 cat $DIR/$AMAPLOGO
 cat $DIR/$OPTIONS
 
@@ -367,7 +366,7 @@ while true; do
                         read -p "Are you sure you want to Update Rust Server MODS? (Y/n): " confirm_stop
                                 if [ "$confirm_stop" == "Y" ]; then
 					                          echo "Updating Rust Server MODS" >> $LOGS
-					                          /home/$USERNAME/.rustserver mods-update
+					                          /home/$USERNAME/./rustserver mods-update
                                 else
                                     echo "Server MODS Install aborted." >> $LOGS && $AMAP
                                 fi
