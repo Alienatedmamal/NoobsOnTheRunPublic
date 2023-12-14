@@ -7,18 +7,21 @@ source "$DIR/config.sh"
 if pgrep -x "RustDedicated" > /dev/null
 then
     echo "$(date)" "ServerChecker: Rust Server  is running." >> "$LOGS"
+    cat $DIR/Files/Scripts/Online > $DIR/Files/Scripts/Status
 else
     # If RustDedicated is not running, run the test script
     $SERVERSTART
-
+    cat $DIR/Files/Scripts/Offline > $DIR/Files/Scripts/Status
     # Wait for 5 seconds
-    sleep 5 
+    sleep 5
 
     # Check again if RustDedicated is running after 5 seconds
-    if pgrep -x "RustDedicated" > /dev/null
+    if pgrep -x "Rustedicated" > /dev/null
     then
         echo "$(date)" "ServerChecker: Rust Server is now running." >> "$LOGS"
+        cat $DIR/Files/Scripts/Online > $DIR/Files/Scripts/Status
     else
+        cat $DIR/Files/Scripts/Offline > $DIR/Files/Scripts/Status
         discord_url="$DISCORDURL"
 
 generate_post_data() {
