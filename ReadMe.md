@@ -41,8 +41,8 @@ Console, Backups, Check/Clear logs, Modify Files and MORE.
 ```cd NoobsOnTheRunPublic/ && chmod +x Install.sh && ./Install.sh```
 
 5) Once the installer is completed the config file will open to be edited.<br>
-```USERNAME="SYSTEMS USER HERE"```<br>
-```HOSTNAME="NAME OF RUST SERVER"```<br>
+```HOSTNAME="NAME OF RUST SERVER"```     
+```DISCORDURL="DISCORD URL HERE"```
 >- Example:<br>
 ```USERNAME="alienatedmammal"```<br>
 ```HOSTNAME="NoobsOnTheRun"```<br>
