@@ -31,6 +31,7 @@ AAAAAAA                   AAAAAAAMMMMMMMM               MMMMMMMMAAAAAAA         
 # Description: 
 This management tool is to help with navigating the Rust server. This tool can check Server Details, 
 Console, Backups, Check/Clear logs, Modify Files and MORE. 
+Works with LGSM
 
 
 # Install 
