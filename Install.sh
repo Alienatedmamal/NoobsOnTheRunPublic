@@ -101,7 +101,7 @@ done
 
 echo "Files are now Executable"
 sleep 1
-chmod +x checkuser
+chmod +x Scripts/checkuser
 echo "Getting Systems Username for Config file...."
 sleep 1 
 ./checkuser
