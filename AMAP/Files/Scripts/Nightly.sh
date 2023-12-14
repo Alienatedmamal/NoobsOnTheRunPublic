@@ -7,6 +7,7 @@ source "$DIR/config.sh"
 $USER $SERVER stop >> $LOGS &&
 	$SAYDATE $SERVERNAME $SCRIPTNIGHTLY Server Has Stopped >> $LOGS || 
 	$SAYDATE $SERVERNAME $SCRIPTNIGHTLY Server Has Failed to Stop >> $LOGS 
+ 	$SAYDATE $SCRITPNAME Nightly Restart Completed. Restarting Now.... >> $LOGS
 # Currently this stops any plugins from working after an update. Working on a fix. See GitHub for more information 
 #	$SAYDATE $SERVERNAME $SCRITPNAME will Now Update >> $LOGS &&
 #$USER $SERVER update >> $LOGS &&
