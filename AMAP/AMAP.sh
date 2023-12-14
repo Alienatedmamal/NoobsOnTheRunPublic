@@ -9,6 +9,7 @@ cat $DIR/Files/Images/Status
 echo ""
 cat $DIR/$OPTIONS
 
+
 # User Input
 read -p "Enter your choice:" choice
 # Inputs process
