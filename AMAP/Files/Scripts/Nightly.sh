@@ -5,9 +5,9 @@ source "$DIR/config.sh"
 #Stops Server, Updates, Updates Mods, and Restart.  
 	$SAYDATE $SCRIPTNIGHTLY Server will now stop >> $LOGS &&
 $USER $SERVER stop >> $LOGS &&
-	$SAYDATE $SERVERNAME $SCRIPTNIGHTLY Server Has Stopped >> $LOGS || 
-	$SAYDATE $SERVERNAME $SCRIPTNIGHTLY Server Has Failed to Stop >> $LOGS 
- 	$SAYDATE $SCRITPNAME Nightly Restart Completed. Restarting Now.... >> $LOGS
+	$SAYDATE $SCRIPTNIGHTLY $SERVERNAME Server Has Stopped >> $LOGS || 
+	$SAYDATE $SCRIPTNIGHTLY $SERVERNAME Server Has Failed to Stop >> $LOGS 
+ 	$SAYDATE $SCRIPTNIGHTLY Restart Completed. Restarting Now.... >> $LOGS
 # Currently this stops any plugins from working after an update. Working on a fix. See GitHub for more information 
 #	$SAYDATE $SERVERNAME $SCRITPNAME will Now Update >> $LOGS &&
 #$USER $SERVER update >> $LOGS &&
