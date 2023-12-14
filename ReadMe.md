@@ -57,7 +57,7 @@ Console, Backups, Check/Clear logs, Modify Files and MORE.
 
 10) Now go into option #1 **Server Control** and select option #5 **Server Start**<br>
 
-11) Now repeat step #10 Thi is due to the files had to reconfigure on start up. <br>
+11) Now repeat step #10 This is due to the files having to reconfigure on start-up. <br>
 
 12) Server is now up and running. <br>
 <br>
