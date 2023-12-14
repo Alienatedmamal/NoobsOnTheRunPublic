@@ -6,6 +6,8 @@ source "$DIR/config.sh"
 source_dir="$DIR/Files/plugins"
 target_dir="/home/$USERNAME/serverfiles/oxide/plugins"
 
+# Start right with a good old clean screen. 
+clear 
 # Create target directory if it doesn't exist
 mkdir -p "$target_dir"
 
