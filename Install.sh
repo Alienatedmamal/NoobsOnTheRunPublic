@@ -154,6 +154,7 @@ clear
 echo "Installation is now completed. Starting AMAP"
 sleep 2 
 clear
+echo "Edit Config File Before Starting AMAP"
 echo "Press ENTER to continue"
 read -r
 cd ..//
