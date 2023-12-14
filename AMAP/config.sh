@@ -4,14 +4,15 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 
 
 
-############################################
-##### Replace with your information ########
+###############################################################
+################## Replace with your information ##############
+#########This Should Auto-Fill if not replace USER NAME########
+                     USERNAME="USER NAME"       
 
-       USERNAME="SYSTEMS USER HERE"       
-       HOSTNAME="NAME OF RUST SERVER"     
-      DISCORDURL="DISCORD URL HERE"       
+               HOSTNAME="NAME OF RUST SERVER"     
+               DISCORDURL="DISCORD URL HERE"       
 
-############################################
+###############################################################
 
 
 
