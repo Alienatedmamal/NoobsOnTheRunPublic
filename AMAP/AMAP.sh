@@ -6,6 +6,7 @@ source $DIR/config.sh
 clear
 cat $DIR/$AMAPLOGO
 cat $DIR/$OPTIONS
+cat $DIR/Files/Scripts/Status
 # User Input
 read -p "Enter your choice:" choice
 # Inputs process
