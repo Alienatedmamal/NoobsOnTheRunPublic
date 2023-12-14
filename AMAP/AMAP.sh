@@ -27,7 +27,9 @@ case $choice in
             read -p "Enter your choice: " subchoice
             case $subchoice in
                 1) clear && $SERVER details && $AMAPNC && exit;;
-                2) $SERVER console && $AMAP && exit ;;
+                2) echo "To exit the console: Press CTRL + b, then, press d" 
+                   sleep 1 
+                   $SERVER console && $AMAP && exit ;;
                 3) read -p "Are you sure you want to BACK UP SERVER? (Y/n): " confirm_ServerBackup
                     if [ "$confirm_ServerBackup" == "Y" ]; then
                         $SERVERBACKUP && $AMAPNC && exit
