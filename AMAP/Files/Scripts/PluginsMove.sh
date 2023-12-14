@@ -9,6 +9,7 @@ target_dir="/home/$USERNAME/serverfiles/oxide/plugins"
 # Create target directory if it doesn't exist
 mkdir -p "$target_dir"
 
+# Array of available plugins
 files=(
 "BetterChatFlood.cs"
 "BetterSay.cs"
@@ -51,15 +52,33 @@ files=(
 "Welcomer.cs"
 )
 
-total_files=${#files[@]}
-current_file=1
-
-for file in "${files[@]}"; do
-  echo "Progress: [$((current_file * 100 / total_files))%]"
-
-  cp "$source_dir/$file" "$target_dir/"
-
-  ((current_file++))
+# Display the list of available plugins
+echo "Available plugins:"
+for ((i = 0; i < ${#files[@]}; i++)); do
+  echo "$((i + 1)): ${files[i]}"
 done
 
-echo "Files copied to $target_dir"
+# Prompt user to select plugins to move
+echo "Select plugins to move (e.g., 1-4,6-11,9,13,16):"
+read -r input
+
+# Split the input into an array of selected indices
+IFS=',' read -ra indices <<< "$input"
+
+for index in "${indices[@]}"; do
+  # Check if the index is a range
+  if [[ $index =~ ^([0-9]+)-([0-9]+)$ ]]; then
+    start=${BASH_REMATCH[1]}
+    end=${BASH_REMATCH[2]}
+    for ((i = start; i <= end; i++)); do
+      plugin="${files[i - 1]}"
+      cp "$source_dir/$plugin" "$target_dir/"
+      echo "Plugin '$plugin' copied to $target_dir"
+    done
+  else
+    # If it's a single index
+    plugin="${files[index - 1]}"
+    cp "$source_dir/$plugin" "$target_dir/"
+    echo "Plugin '$plugin' copied to $target_dir"
+  fi
+done
