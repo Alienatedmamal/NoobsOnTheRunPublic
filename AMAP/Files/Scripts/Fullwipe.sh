@@ -18,3 +18,8 @@ $USER $SERVER update >> $LOGS &&
 $USER $SERVER mods-update >> $LOGS &&
 	$SAYDATE $SCRIPTFULL $SERVERNAME Server Mods Have Been Updated >> $LOGS || 
 	$SAYDATE $SCRIPTFULL $SERVERNAME Server Mods Have Failed to Update
+
+ 	$SAYDATE $SCRIPTFULL $SERVERNAME Server will now Full wipe >> $LOGS
+  $USER $SERVER full-wipe >> $LOGS 
+  	$SAYDATE $SCRIPTFULL $SERVERNAME Server Has Been Full-wiped>> $LOGS || 
+	$SAYDATE $SCRIPTFULL $SERVERNAME Full-wipe Has Failed to Wipe    
