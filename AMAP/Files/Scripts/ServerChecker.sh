@@ -10,6 +10,7 @@ then
     cat $DIR/Files/Scripts/Online > $DIR/Files/Scripts/Status
 else
     # If RustDedicated is not running, run the test script
+    echo "$(date)" "ServerChecker: Rust not running. Attempting restart" >> "$LOGS"
     $SERVERSTART
     cat $DIR/Files/Scripts/Offline > $DIR/Files/Scripts/Status
     # Wait for 5 seconds
