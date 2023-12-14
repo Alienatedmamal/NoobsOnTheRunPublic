@@ -154,7 +154,7 @@ clear
 echo "Installation is now completed. Starting AMAP"
 sleep 2 
 clear
-cat $DIR/img
+cat $IMG1
 echo "Press ENTER to continue"
 read -r
 cd ..//
