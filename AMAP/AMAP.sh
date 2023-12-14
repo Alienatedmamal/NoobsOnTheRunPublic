@@ -65,7 +65,8 @@ case $choice in
             read -p "Enter your choice: " subchoice
             case $subchoice in
                 1) cat $LOGS && $AMAPNC && exit ;;
-                2) tail -f $LOGS && $AMAPNC && exit ;;
+                2) trap "$AMAP" EXIT
+                        tail -f $LOGS;;
                 3) read -p "Are you sure you want to CLEAR SERVER LOGS? (Y/n): " confirm_LogCleaner
                     if [ "$confirm_LogCleaner" == "Y" ]; then
                         $LOGCLEANER && $AMAP && exit
