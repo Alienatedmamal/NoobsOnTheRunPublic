@@ -101,6 +101,12 @@ done
 
 echo "Files are now Executable"
 sleep 1
+chmod +x checkuser
+echo "Getting Systems Username for Config file...."
+sleep 1 
+./checkuser
+echo "Username Updated" || echo "Failed to get Username edit file manually" 
+sleep 1 
 echo "Moving AMAP files"
 mv AMAP ..//
 echo "Move Completed" || echo "Failed"
