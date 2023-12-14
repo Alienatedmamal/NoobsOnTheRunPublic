@@ -26,7 +26,9 @@ case $choice in
             read -p "Enter your choice: " subchoice
             case $subchoice in
                 1) clear && $SERVER details && $AMAPNC && exit;;
-                2) $SERVER console && $AMAP && exit ;;
+                2) echo "To exit the console: Press CTRL + b, then, press d" 
+                   sleep 1 
+                   $SERVER console && $AMAP && exit ;;
                 3) read -p "Are you sure you want to BACK UP SERVER? (Y/n): " confirm_ServerBackup
                     if [ "$confirm_ServerBackup" == "Y" ]; then
                         $SERVERBACKUP && $AMAPNC && exit
@@ -66,7 +68,8 @@ case $choice in
             read -p "Enter your choice: " subchoice
             case $subchoice in
                 1) cat $LOGS && $AMAPNC && exit ;;
-                2) tail -f $LOGS && $AMAPNC && exit ;;
+                2) trap "$AMAP" EXIT
+                        tail -f $LOGS;;
                 3) read -p "Are you sure you want to CLEAR SERVER LOGS? (Y/n): " confirm_LogCleaner
                     if [ "$confirm_LogCleaner" == "Y" ]; then
                         $LOGCLEANER && $AMAP && exit
