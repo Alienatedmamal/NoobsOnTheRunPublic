@@ -4,6 +4,7 @@ source $DIR/config.sh
 
 
 clear
+sleep 1 
 echo "Getting AMAP Ready.."
 sleep 1 
 clear
@@ -14,9 +15,9 @@ echo "Getting AMAP Ready...."
 sleep 1 
 clear
 echo "This project is still in the works any issues please report on Github."
-sleep 1 
+sleep 3
 echo "NOW STARTING....."
-sleep 1
+sleep 2
 echo "Making files Executable"
 sleep 2 
 
@@ -100,18 +101,18 @@ for file in "${files[@]}"; do
 done
 
 echo "Files are now Executable"
-sleep 1
+sleep 2
 chmod +x Scripts/checkuser
 echo "Getting Systems Username for Config file...."
-sleep 1 
-./checkuser
+sleep 2 
+$USER
 echo "Username Updated" || echo "Failed to get Username edit file manually" 
-sleep 1 
+sleep 2 
 echo "Moving AMAP files"
 mv AMAP ..//
 echo "Move Completed" || echo "Failed"
 echo "Checking for RSYNC installation"
-sleep 1 
+sleep 2 
 if ! command -v rsync &> /dev/null
 then
     echo "RSYNC is not installed, installing now..."
@@ -123,7 +124,7 @@ else
 fi
 # D2s Fav editor ;D 
 echo "Checking for nano text editor"
-sleep 1
+sleep 2
 if ! command -v nano &> /dev/null
 then
     echo "Nano is not installed, installing now..."
@@ -133,7 +134,7 @@ then
 else
     echo "Nano is already installed"
 fi
-sleep 1 
+sleep 2 
 echo "Installing packages:"
 sleep 2 
 for package in "${packages[@]}"; do
@@ -168,5 +169,3 @@ rm -fr NoobsOnTheRunPublic
 cd AMAP 
 nano config.sh
 ./AMAP.sh
-
-
