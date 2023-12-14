@@ -66,6 +66,7 @@ FULLWIPE="$SCRIPT_DIR/Files/Scripts/./Fullwipe.sh"
 MAPWIPE="$SCRIPT_DIR/Files/Scripts/./Mapwipe.sh"
 NIGHTLY="$SCRIPT_DIR/Files/Scripts/./Nightly.sh"
 SERVERCHECKER="$SCRIPT_DIR/Files/Scripts/./ServerChecker.sh"
+# HA 69!
 SERVERSTART="$SCRIPT_DIR/Files/Scripts/./ServerStart.sh"
 SCHEDULE="$SCRIPT_DIR/Files/Scripts/./Schedule.sh"
 SCRIPTFULL="Fullwipe:"
