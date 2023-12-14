@@ -154,8 +154,9 @@ clear
 echo "Installation is now completed. Starting AMAP"
 sleep 2 
 clear
-echo "Edit config.sh file to finish Installation"
-sleep 3 
+cat img
+echo "Press ENTER to continue"
+read -r
 cd ..//
 rm -fr NoobsOnTheRunPublic
 cd AMAP 
