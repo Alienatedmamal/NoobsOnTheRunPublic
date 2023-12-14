@@ -41,9 +41,8 @@ Works with LGSM
 2) Once the installer is completed the config file will open to be edited.<br>
 ```HOSTNAME="NAME OF RUST SERVER"```     
 ```DISCORDURL="DISCORD URL HERE"```
->- Example:<br>
-```USERNAME="alienatedmammal"```<br>
-```HOSTNAME="NoobsOnTheRun"```<br>
+
+> Edit the 2 lines. You may also have to replace USERNAME if the install didn't get a user<br>
 
 3) From the main menu select option #6 **Rust Updater/Installer**. Once in **Rust Updater/Installer** select #3 **Install Rust Server**<br>
 
