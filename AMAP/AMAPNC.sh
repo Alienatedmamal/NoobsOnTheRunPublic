@@ -4,8 +4,10 @@ source $DIR/config.sh
 
 # Options
 cat $DIR/$AMAPLOGO
+cat $DIR/Files/Images/Status
+echo ""
 cat $DIR/$OPTIONS
-cat $DIR/Files/Scripts/Status
+
 # User Input
 read -p "Enter your choice:" choice
 # Inputs process
