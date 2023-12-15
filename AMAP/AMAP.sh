@@ -28,8 +28,8 @@ case $choice in
             read -p "Enter your choice: " subchoice
             case $subchoice in
                 1) clear && $SERVER details && $AMAPNC && exit;;
-                2) echo "To exit the console: Press CTRL + b, then, press d" 
-                   sleep 1 
+                2) echo "To exit the console: Press CTRL + b, then, press d"
+                   sleep 1
                    $SERVER console && $AMAP && exit ;;
                 3) read -p "Are you sure you want to BACK UP SERVER? (Y/n): " confirm_ServerBackup
                     if [ "$confirm_ServerBackup" == "Y" ]; then
@@ -331,9 +331,10 @@ done
     echo "3. Install Rust Server"
     echo "4. Install Oxide"
     echo "5. Install Plugins"
-    echo "6. Create Server Config File"
-    echo "7. Copy Configs to Rust Server"
-    echo "8. Return to Menu"
+    echo "6. Remove/Uninstall Plugins"
+    echo "7. Create Server Config File"
+    echo "8. Copy Configs to Rust Server"
+    echo "9. Return to Menu"
 
     read -p "Enter your choice: " subchoice
     case $subchoice in
@@ -380,18 +381,25 @@ done
                 echo "Plugin Install Aborted." && $AMAPNC
             fi
             ;;
-        6) read -p "Are you sure you want to create a Server config file? (Y/n): " confirm_Serverconfig
+        6) read -p "Are you sure you want to Remove/Uninstall Plugins? (Y/n): " confirm_RMPlugin
+            if [ "$confirm_RMPlugin" == "Y" ]; then
+                $RMPLUGIN && $AMAPNC && exit
+            else
+                echo "Removal/Uninstall Aborted." && $AMAPNC
+            fi
+            ;;
+        7) read -p "Are you sure you want to create a Server config file? (Y/n): " confirm_Serverconfig
             if [ "$confirm_Serverconfig" == "Y" ]; then
                 $SERVERCONFIG && cat /$DIR/Files/common.cfg && $AMAPNC && exit
             else
                 echo "Server Configurator Aborted." && $AMAPNC
             fi
             ;;
-        7) cp "/home/$USERNAME/AMAP/Files/common.cfg" "/home/$USERNAME/$RUSTCONFIGS/common.cfg"
+        8) cp "/home/$USERNAME/AMAP/Files/common.cfg" "/home/$USERNAME/$RUSTCONFIGS/common.cfg"
             cat "/home/$USERNAME/AMAP/Files/common.cfg" > "/home/$USERNAME/$RUSTCONFIGS/rustserver.cfg"
             echo "Files Copied Successful" || echo "Files Failed to Copied"
             sleep 1 && $AMAPNC && exit ;;
-        8) echo "Going Back " && clear && $AMAP && exit ;;
+        9) echo "Going Back " && clear && $AMAP && exit ;;
         *) echo "Invalid choice. Please enter a valid sub-option." ;;
     esac
     read -p "Press Enter to continue..."
