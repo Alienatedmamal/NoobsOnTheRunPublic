@@ -95,7 +95,7 @@ $PACKINSTALL &&
 echo "Installation is now completed. Starting AMAP"
 sleep 2 
 cd ..//
-rm -fr NoobsOnTheRunPublic
+#rm -fr NoobsOnTheRunPublic
 cd AMAP 
 echo "Getting Updates Ready...."
 sleep 1
