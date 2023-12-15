@@ -41,35 +41,6 @@ files=(
 total_files=${#files[@]}
 current_file=1
 
-# List of packages to install
-packages=(
-    bc
-    binutils
-    bsdmainutils
-    bzip2
-    ca-certificates
-    cpio
-    curl
-    distro-info
-    file
-    gzip
-    hostname
-    jq
-    lib32gcc-s1
-    lib32stdc++6
-    lib32z1
-    libsdl2-2.0-0:i386
-    netcat
-    python3
-    steamcmd
-    tar
-    tmux
-    unzip
-    util-linux
-    uuid-runtime
-    wget
-    xz-utils
-)
 
 # Function to display the progress bar
 function show_progress {
@@ -82,14 +53,6 @@ function show_progress {
     printf "\r[%-${progress}s%*s] %d/%d" "" "$dots" "$current" "$total"
 }
 
-# Function to check if a package is installed
-function is_installed {
-    dpkg -l "$1" &> /dev/null
-}
-
-# Install packages with status bar
-total_packages=${#packages[@]}
-current_package=0
 
 
 for file in "${files[@]}"; do
