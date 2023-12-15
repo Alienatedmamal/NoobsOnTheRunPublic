@@ -25,13 +25,6 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 ### !!!!!Do not edit below this line!!!!! ### !!!!!Do not edit below this line!!!!! ### !!!!!Do not edit below this line!!!!! ### !!!!!Do not edit below this line!!!!! ### 
 ###########################################################################################################################################################################
 
-
-
-
-
-
-
-
 # Location of Rust Server
 SERVER_LOCATION="/home/$USERNAME/"
 # Rust Server Control:
@@ -66,7 +59,7 @@ WIPECONFIGURE="$SCRIPT_DIR/Files/Scripts/./wipeConfigure.sh"
 FULLWIPE="$SCRIPT_DIR/Files/Scripts/./Fullwipe.sh"
 MAPWIPE="$SCRIPT_DIR/Files/Scripts/./Mapwipe.sh"
 NIGHTLY="$SCRIPT_DIR/Files/Scripts/./Nightly.sh"
-# HA 69!
+RMPLUGIN="$DIR/Files/Scripts/./RMPlugins.sh"
 SERVERCHECKER="$SCRIPT_DIR/Files/Scripts/./ServerChecker.sh"
 SERVERSTART="$SCRIPT_DIR/Files/Scripts/./ServerStart.sh"
 SCHEDULE="$SCRIPT_DIR/Files/Scripts/./Schedule.sh"
