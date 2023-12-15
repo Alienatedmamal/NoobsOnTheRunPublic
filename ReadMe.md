@@ -35,7 +35,8 @@ Works with LGSM
 
 
 # Install 
-1) Download and Install AMAP<be>
+1) Download and Install AMAP<br>
+	This will update, download, and install AMAP. 
 
 		sudo apt-get update -y && sudo apt-get upgrade -y && git clone https://github.com/Alienatedmamal/NoobsOnTheRunPublic.git && cd NoobsOnTheRunPublic/ && chmod +x Install.sh && ./Install.sh
 
