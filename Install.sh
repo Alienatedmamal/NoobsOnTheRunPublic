@@ -1,6 +1,8 @@
 #!/bin/bash
 DIR="$(cd "$(dirname "$0")" && pwd)"
 source $DIR/config.sh
+
+
 clear
 sleep 1 
 echo "Getting AMAP Ready.."
@@ -12,7 +14,7 @@ clear
 echo "Getting AMAP Ready...."
 sleep 1 
 clear
-echo "This project is still in the works any issues please report them on GitHub."
+echo "This project is still in the works any issues please report on Github."
 sleep 3
 echo "NOW STARTING....."
 sleep 2
@@ -32,12 +34,15 @@ files=(
   "$DIR/$FILELOC/wipeconfigure.sh"
   "$DIR/$FILEMAIN/AMAP.sh"
   "$DIR/$FILEMAIN/AMAPNC.sh"
+  "$DIR/$FILEMAIN/AMAP"
   "$DIR/$FILELOC/PluginsMove.sh"
   "$DIR/$FILELOC/ServerConfigurator.sh"
+  "$DIR/$FILELOC/RMPlugins.sh"
 )
 
 total_files=${#files[@]}
 current_file=1
+
 
 for file in "${files[@]}"; do
   echo "Progress: [$((current_file * 100 / total_files))%]"
@@ -90,6 +95,7 @@ $PACKINSTALL &&
 clear
 echo "Installation is now completed. Starting AMAP"
 sleep 2 
+clear
 echo "Edit Config File Before Starting AMAP"
 echo "Press ENTER to continue"
 read -r
