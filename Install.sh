@@ -18,7 +18,6 @@ echo "This project is still in the works any issues please report on Github."
 sleep 3
 echo "NOW STARTING....."
 sleep 2
-
 echo "Making files Executable"
 sleep 2 
 
@@ -56,7 +55,7 @@ done
 echo "Files are now Executable"
 sleep 2
 chmod +x Scripts/checkuser
-echo "Getting Systems Username for Config file...."
+echo "Getting System Username for Config file...."
 sleep 2 
 $USER
 echo "Username Updated" || echo "Failed to get Username edit file manually" 
@@ -93,15 +92,11 @@ sleep 2
 chmod +x Scripts/PackageInstaller.sh
 sleep 2
 $PACKINSTALL &&
-clear
 echo "Installation is now completed. Starting AMAP"
 sleep 2 
 cd ..//
 rm -fr NoobsOnTheRunPublic
 cd AMAP 
-Files/Scripts/./Updater.sh
-# clear
-echo "Edit Config File Before Starting AMAP"
 echo "Press ENTER to continue"
 read -r
 nano config.sh 
