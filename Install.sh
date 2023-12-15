@@ -121,16 +121,6 @@ then
 else
     echo "RSYNC is already installed"
 fi
-
-if ! command -v curl &> /dev/null
-then
-    echo "RSYNC is not installed, installing now..."
-    sudo apt-get update
-    sudo apt-get install curl -y
-    echo "Installation of curl Completed" || { echo "curl Failed to install"; exit 1; }
-else
-    echo "curl is already installed"
-fi
 sleep 2 
 if 
 # D2s Fav editor ;D 
