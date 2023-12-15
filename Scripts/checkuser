@@ -1,7 +1,0 @@
-DIR="$(cd "$(dirname "$0")/../" && pwd)"
-source $DIR/config.sh
-
-USERNAME=$(whoami)
-CONFIG_FILE="$DIR/AMAP/config.sh"
-sed -i "s/USERNAME=\".*\"/USERNAME=\"$USERNAME\"/" "$CONFIG_FILE"
-echo "Username updated in the config file to: $USERNAME" 
