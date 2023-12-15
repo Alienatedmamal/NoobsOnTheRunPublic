@@ -8,3 +8,4 @@ $USER $SERVER stop >> $LOGS &&
 	$SAYDATE $SCRIPTNIGHTLY $SERVERNAME Server Has Stopped >> $LOGS || 
 	$SAYDATE $SCRIPTNIGHTLY $SERVERNAME Server Has Failed to Stop >> $LOGS 
  	$SAYDATE $SCRIPTNIGHTLY Restart Completed. Restarting Now.... >> $LOGS
+
