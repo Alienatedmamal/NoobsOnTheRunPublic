@@ -96,13 +96,13 @@ $PACKINSTALL &&
 clear
 echo "Installation is now completed. Starting AMAP"
 sleep 2 
+cd ..//
+rm -fr NoobsOnTheRunPublic
+cd AMAP 
+Files/Scripts/./Updater.sh
 clear
 echo "Edit Config File Before Starting AMAP"
 echo "Press ENTER to continue"
 read -r
-cd ..//
-rm -fr NoobsOnTheRunPublic
-cd AMAP 
 nano config.sh 
-Files/Scripts/./Updater.sh
 ./AMAP.sh
