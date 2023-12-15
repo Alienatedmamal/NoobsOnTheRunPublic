@@ -95,15 +95,11 @@ $PACKINSTALL &&
 echo "Installation is now completed. Starting AMAP"
 sleep 2 
 cd ..//
-#rm -fr NoobsOnTheRunPublic
+rm -fr NoobsOnTheRunPublic
 cd AMAP 
-echo "Getting Updates Ready...."
-sleep 1
-git clone https://github.com/Alienatedmamal/Updater.git &&
-echo "Update Download Completed"
-mv -f Updater/ $DIR/AMAP/Files/
-
-#echo "Press ENTER to continue"
-#read -r
-#nano config.sh 
-#./AMAP.sh
+cd Files/Scripts/./Updater.sh
+echo 'Passed' || echo 'Failed'
+echo "Press ENTER to continue"
+read -r
+nano config.sh 
+./AMAP.sh
