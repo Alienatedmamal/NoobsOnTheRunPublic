@@ -38,6 +38,7 @@ files=(
   "$DIR/$FILELOC/PluginsMove.sh"
   "$DIR/$FILELOC/ServerConfigurator.sh"
   "$DIR/$FILELOC/RMPlugins.sh"
+  "$DIR/$FILELOC/Updater.sh"
 )
 
 total_files=${#files[@]}
