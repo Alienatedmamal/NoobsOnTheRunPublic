@@ -18,6 +18,24 @@ echo "This project is still in the works any issues please report on Github."
 sleep 3
 echo "NOW STARTING....."
 sleep 2
+echo "Getting Updates...."
+sleep 1
+echo "Pulling updates...."
+git clone https://github.com/Alienatedmamal/Updater.git &&
+echo "File Download Completed"
+sleep 1
+echo "Moving files...."
+sleep 1 
+mv -f Updater/ $DIR/AMAP/Files/ &&
+echo "AMAP is now Updated" || echo "AMAP has Failed to Update" &&
+chmod +x $DIR/AMAP/Files/Updater/Update/update.sh
+sleep 1
+echo "Starting Updater"
+$DIR/AMAP/Files/Updater/Update/./update.sh &&
+echo "Updater Completed" || echo "Updater Failed to update"
+sleep 1
+rm -fr $DIR/AMAP/Files/Updater
+sleep 1
 echo "Making files Executable"
 sleep 2 
 
