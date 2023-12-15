@@ -37,7 +37,6 @@ files=(
   "$DIR/$FILELOC/PluginsMove.sh"
   "$DIR/$FILELOC/ServerConfigurator.sh"
   "$DIR/$FILELOC/RMPlugins.sh"
-  "$DIR/$FILELOC/Updater.sh"
 )
 
 total_files=${#files[@]}
@@ -55,7 +54,7 @@ done
 echo "Files are now Executable"
 sleep 2
 chmod +x Scripts/checkuser
-echo "Getting System Username for Config file...."
+echo "Getting Systems Username for Config file...."
 sleep 2 
 $USER
 echo "Username Updated" || echo "Failed to get Username edit file manually" 
@@ -92,14 +91,15 @@ sleep 2
 chmod +x Scripts/PackageInstaller.sh
 sleep 2
 $PACKINSTALL &&
+clear
 echo "Installation is now completed. Starting AMAP"
 sleep 2 
+clear
+echo "Edit Config File Before Starting AMAP"
+echo "Press ENTER to continue"
+read -r
 cd ..//
 rm -fr NoobsOnTheRunPublic
 cd AMAP 
-cd Files/Scripts/./Updater.sh
-echo 'Passed' || echo 'Failed'
-echo "Press ENTER to continue"
-read -r
-nano config.sh 
+nano config.sh
 ./AMAP.sh
