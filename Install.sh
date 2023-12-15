@@ -100,7 +100,7 @@ cd ..//
 rm -fr NoobsOnTheRunPublic
 cd AMAP 
 Files/Scripts/./Updater.sh
-clear
+# clear
 echo "Edit Config File Before Starting AMAP"
 echo "Press ENTER to continue"
 read -r
