@@ -40,7 +40,7 @@ for package in "${packages[@]}"; do
 
     if ! dpkg -l | grep -q "^ii  $package"; then
         echo "Installing $package [$current_package/$total_packages] - $percentage%"
-        sudo apt-get install -y "$package"
+        sudo apt-get install "$package"
     else
         echo "$package is already installed. Skipping [$current_package/$total_packages] - $percentage%"
     fi
