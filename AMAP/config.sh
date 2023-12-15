@@ -36,6 +36,7 @@ SERVERUPDATE="$SERVER update && $SERVER mods-update"
 # AMAP:
 SCRIPTS="$SCRIPT_DIR/Files/Scripts"
 FILES="$SCRIPT_DIR/Files/"
+UPDATER="$DIR/Files/Updater/Update/./update.sh"
 AMAPNC="$SCRIPT_DIR/./AMAPNC.sh"
 AMAP="$SCRIPT_DIR/./AMAP.sh"
 CONFIG="Files/config.sh"
