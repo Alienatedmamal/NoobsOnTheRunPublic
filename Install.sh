@@ -18,19 +18,20 @@ echo "This project is still in the works any issues please report on Github."
 sleep 3
 echo "NOW STARTING....."
 sleep 2
-echo "Getting Updates...."
+echo "Getting Updates Ready...."
 sleep 1
-echo "Pulling updates...."
 git clone https://github.com/Alienatedmamal/Updater.git &&
-echo "File Download Completed"
+echo "Update Download Completed"
 sleep 1
-echo "Moving files...."
+echo "Prepairing Updates...."
 sleep 1 
 mv -f Updater/ $DIR/AMAP/Files/ &&
 echo "Files Moved" || echo "Files failed to move" &&
+sleep 1
 chmod +x $DIR/AMAP/Files/Updater/Update/update.sh
 sleep 1
 echo "Starting AMAP Updater"
+sleep 1 
 $DIR/AMAP/Files/Updater/Update/./update.sh &&
 echo "Updater Completed" || echo "Updater Failed to update"
 sleep 1
