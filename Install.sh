@@ -148,7 +148,7 @@ for package in "${packages[@]}"; do
         echo -e "Package $package is already installed. Skipping."
     else
         # Install the package
-        sudo apt-get install -y "$package" > /dev/null 2>&1
+        sudo apt-get install -y "$package" 
         
         # Check installation status
         if [ $? -eq 0 ]; then
