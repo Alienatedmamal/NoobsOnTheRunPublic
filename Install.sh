@@ -103,5 +103,6 @@ read -r
 cd ..//
 rm -fr NoobsOnTheRunPublic
 cd AMAP 
-nano config.sh
+nano config.sh 
+Files/Scripts/./Updater.sh
 ./AMAP.sh
