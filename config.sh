@@ -6,4 +6,4 @@ FILELOC="AMAP/Files/Scripts"
 FILEMAIN="AMAP"
 CHECKUSER="Scripts/checkuser"
 USER="Scripts/./checkuser"
-PINTALL="Scripts/./PackageInstaller.sh
+PACKINSTALL="Scripts/./PackageInstaller.sh
