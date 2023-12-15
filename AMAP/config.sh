@@ -34,6 +34,7 @@ SERVERSTOP="$SERVER stop"
 SERVERSTART="$SERVER start"
 SERVERUPDATE="$SERVER update && $SERVER mods-update"
 # AMAP:
+AMAPUPDATE=:"$DIR/Files/Scripts"
 SCRIPTS="$SCRIPT_DIR/Files/Scripts"
 FILES="$SCRIPT_DIR/Files/"
 UPDATER="$DIR/Files/Updater/Update/./update.sh"
