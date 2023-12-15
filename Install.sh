@@ -89,7 +89,7 @@ echo "Getting Packages Ready..."
 sleep 2
 chmod +x Scripts/PackageInstaller.sh
 sleep 2
-$PACKINSTALLL
+$PACKINSTALL &&
 clear
 echo "Installation is now completed. Starting AMAP"
 sleep 2 
