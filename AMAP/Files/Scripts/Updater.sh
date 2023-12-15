@@ -10,7 +10,7 @@ echo "Download Completed"
 sleep 1
 echo "Moving Updates...."
 sleep 1
-mv -f $DIR/Files/Scripts/Updater $DIR/Files/
+mv -f $DIR/Files/Scripts/Updater/ $DIR/Files/
 sleep 1
 echo "Files have moved" || echo "Files have FAILED to move"
 chmod +x $DIR/Files/Updater/Update/update.sh
