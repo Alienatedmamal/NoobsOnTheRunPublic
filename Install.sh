@@ -49,7 +49,6 @@ packages=(
     bzip2
     ca-certificates
     cpio
-    curl
     distro-info
     file
     gzip
