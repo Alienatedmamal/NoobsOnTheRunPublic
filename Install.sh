@@ -34,7 +34,6 @@ files=(
   "$DIR/$FILELOC/wipeconfigure.sh"
   "$DIR/$FILEMAIN/AMAP.sh"
   "$DIR/$FILEMAIN/AMAPNC.sh"
-  "$DIR/$FILEMAIN/AMAP"
   "$DIR/$FILELOC/PluginsMove.sh"
   "$DIR/$FILELOC/ServerConfigurator.sh"
   "$DIR/$FILELOC/RMPlugins.sh"
