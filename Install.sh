@@ -97,7 +97,13 @@ sleep 2
 cd ..//
 rm -fr NoobsOnTheRunPublic
 cd AMAP 
-echo "Press ENTER to continue"
-read -r
-nano config.sh 
-./AMAP.sh
+echo "Getting Updates Ready...."
+sleep 1
+git clone https://github.com/Alienatedmamal/Updater.git &&
+echo "Update Download Completed"
+mv -f Updater/ $DIR/AMAP/Files/
+
+#echo "Press ENTER to continue"
+#read -r
+#nano config.sh 
+#./AMAP.sh
