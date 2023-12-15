@@ -36,7 +36,7 @@ Works with LGSM
 
 # Install 
 1) Download and Install AMAP<br>
-```git clone https://github.com/Alienatedmamal/NoobsOnTheRunPublic.git && cd NoobsOnTheRunPublic/ && chmod +x Install.sh && ./Install.sh```
+```sudo apt-get update -y && sudo apt-get upgrade -y &&git clone https://github.com/Alienatedmamal/NoobsOnTheRunPublic.git && cd NoobsOnTheRunPublic/ && chmod +x Install.sh && ./Install.sh```
 
 2) Once the installer is completed the config file will open to be edited.<br>
 ```HOSTNAME="NAME OF RUST SERVER"```     
