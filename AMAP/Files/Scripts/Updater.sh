@@ -1,18 +1,35 @@
 #!/bin/bash
-DIR="$(cd "$(dirname "$0")"/../../ && pwd)"
+DIR="$(cd "$(dirname "$0")/../../" && pwd)"
 source "$DIR/config.sh"
 
-echo "Getting Updates Ready...."
-sleep 1
-echo "Downloading Updates...."
+
+echo "Getting Updates Ready"
+sleep 2
+echo "Clear old updates...."
+updater_directory="$DIR/Files/Updater/"
+
+# Check if the directory exists
+if [ -d "$updater_directory" ]; then
+    # Directory exists, remove it
+    rm -fr "$updater_directory"
+    echo "Updater directory deleted."
+else
+    echo "Updater directory does not exist."
+fi
+sleep 2
+echo "Downloading latest Updates....."
+sleep 2
 git clone https://github.com/Alienatedmamal/Updater.git
-echo "Download Completed"
-sleep 1
-echo "Moving Updates...."
-sleep 1
-mv -f "$DIR/Files/Scripts/Updater" "$DIR/Files/"
-sleep 1
-echo "Files have moved" || echo "Files have FAILED to move"
-chmod +x "$DIR/Files/Update/update.sh"
-echo "Update is now executable"
-$UPDATER
+echo "Download Completed" || echo "Failed to Download"
+sleep 2
+mv $SCRIPT_DIR/Updater $DIR/Files
+echo "File move complted.." || echo "Failed to move files"
+sleep 2
+chmod +x $DIR/Files/Updater/Update/update.sh
+echo "Updater is now ready to start...." || echo "Updater Failed to execute...."
+sleep 2
+echo "Starting Updater...."
+$STARTUPDATER
+
+echo "Updates completed" || echo "Updates Failed"
+exit 0
