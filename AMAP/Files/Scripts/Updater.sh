@@ -22,7 +22,7 @@ sleep 2
 git clone https://github.com/Alienatedmamal/Updater.git
 echo "Download Completed" || echo "Failed to Download"
 sleep 2
-mv $SCRIPT_DIR/Updater $DIR/Files
+mv $DIR/Updater $DIR/Files
 echo "File move complted.." || echo "Failed to move files"
 sleep 2
 chmod +x $DIR/Updater/Update/update.sh
