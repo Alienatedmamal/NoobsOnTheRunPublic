@@ -103,3 +103,4 @@ else
             echo "Updater directory does not exist."
         fi
     fi
+exit 0
