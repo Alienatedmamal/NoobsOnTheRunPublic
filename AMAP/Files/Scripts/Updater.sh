@@ -102,5 +102,4 @@ else
         else
             echo "Updater directory does not exist."
         fi
-
-fi
+    fi
