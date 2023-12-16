@@ -25,6 +25,7 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 ### !!!!!Do not edit below this line!!!!! ### !!!!!Do not edit below this line!!!!! ### !!!!!Do not edit below this line!!!!! ### !!!!!Do not edit below this line!!!!! ### 
 ###########################################################################################################################################################################
 
+
 # Location of Rust Server
 SERVER_LOCATION="/home/$USERNAME/"
 # Rust Server Control:
