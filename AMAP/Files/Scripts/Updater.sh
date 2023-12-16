@@ -22,21 +22,21 @@ if [ -e "$version_file" ]; then
         sleep 3
         exit 0  # Exit with success status
     else
-        echo "Getting Updates Ready"
+        echo "Getting Updater Ready"
         sleep 2
-        echo "Clear old updates...."
+        echo "Getting update directory ready...."
         updater_directory="$DIR/Updater/"
 
         # Check if the directory exists
         if [ -d "$updater_directory" ]; then
             # Directory exists, remove it
             rm -fr "$updater_directory"
-            echo "Updater directory deleted."
+            echo "Updater directory was cleaned."
         else
-            echo "Updater directory does not exist."
+            echo "Updater directory is ready."
         fi
         sleep 2
-        echo "Downloading latest Updates....."
+        echo "Downloading Update Package....."
         sleep 2
         git clone https://github.com/Alienatedmamal/Updater.git
         echo "Download Completed" || echo "Failed to Download"
@@ -54,28 +54,28 @@ if [ -e "$version_file" ]; then
         if [ -d "$updater_directory" ]; then
             # Directory exists, remove it
             rm -fr "$updater_directory"
-            echo "Updater directory deleted."
+            echo "Updater directory was cleaned."
             sleep 1
         else
-            echo "Updater directory does not exist."
+            echo "Updater directory is ready."
         fi
     fi
 else
     echo "Getting Updates Ready"
     sleep 2
-    echo "Clear old updates...."
+    echo "Getting update directory ready...."
     updater_directory="$DIR/Updater/"
 
     # Check if the directory exists
     if [ -d "$updater_directory" ]; then
         # Directory exists, remove it
         rm -fr "$updater_directory"
-        echo "Updater directory deleted."
+        echo "Updater directory was cleaned."
     else
-        echo "Updater directory does not exist."
+        echo "Updater directory is ready."
     fi
     sleep 2
-    echo "Downloading latest Updates....."
+    echo "Downloading Update Package....."
     sleep 2
     git clone https://github.com/Alienatedmamal/Updater.git
     echo "Download Completed" || echo "Failed to Download"
@@ -93,10 +93,10 @@ else
         if [ -d "$updater_directory" ]; then
             # Directory exists, remove it
             rm -fr "$updater_directory"
-            echo "Updater directory deleted."
+            echo "Updater directory was cleaned."
             sleep 1
         else
-            echo "Updater directory does not exist."
+            echo "Updater directory is ready."
         fi
     fi
 exit 0
