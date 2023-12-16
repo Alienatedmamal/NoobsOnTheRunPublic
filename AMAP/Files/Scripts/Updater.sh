@@ -41,8 +41,6 @@ if [ -e "$version_file" ]; then
         git clone https://github.com/Alienatedmamal/Updater.git
         echo "Download Completed" || echo "Failed to Download"
         sleep 2
-        echo "File move completed.." || echo "Failed to move files"
-        sleep 2
         chmod +x "$DIR/Updater/Update/update.sh"
         echo "Updater is now ready to start...." || echo "Updater Failed to execute...."
         sleep 2
@@ -81,8 +79,6 @@ else
     sleep 2
     git clone https://github.com/Alienatedmamal/Updater.git
     echo "Download Completed" || echo "Failed to Download"
-    sleep 2
-    echo "File move completed.." || echo "Failed to move files"
     sleep 2
     chmod +x "$DIR/Updater/Update/update.sh"
     echo "Updater is now ready to start...." || echo "Updater Failed to execute...."
