@@ -100,7 +100,9 @@ Copy and paste this in your corn.<br>
 ### 8) Clear Screen
 >- Clear Screen
 
-### 9) Quit 
+### 9) Update AMAP
+
+### 10) Quit
 
 
 
