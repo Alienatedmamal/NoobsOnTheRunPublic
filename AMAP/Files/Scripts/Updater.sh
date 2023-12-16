@@ -25,11 +25,11 @@ sleep 2
 mv $SCRIPT_DIR/Updater $DIR/Files
 echo "File move complted.." || echo "Failed to move files"
 sleep 2
-chmod +x $DIR/Files/Updater/Update/update.sh
+chmod +x $DIR/Updater/Update/update.sh
 echo "Updater is now ready to start...." || echo "Updater Failed to execute...."
 sleep 2
 echo "Starting Updater...."
-$DIR/Files/Updater/Update/./update.sh
+$DIR/Updater/Update/./update.sh
 
 echo "Updates completed" || echo "Updates Failed"
 exit 0
