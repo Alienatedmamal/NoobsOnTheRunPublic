@@ -29,7 +29,7 @@ chmod +x $DIR/Files/Updater/Update/update.sh
 echo "Updater is now ready to start...." || echo "Updater Failed to execute...."
 sleep 2
 echo "Starting Updater...."
-$STARTUPDATER
+$DIR/Files/Updater/Update/./update.sh
 
 echo "Updates completed" || echo "Updates Failed"
 exit 0
