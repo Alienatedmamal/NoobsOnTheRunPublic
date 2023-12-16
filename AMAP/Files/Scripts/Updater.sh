@@ -49,6 +49,18 @@ if [ -e "$version_file" ]; then
         echo "Starting Updater...."
         "$DIR/Updater/Update/./update.sh"
         echo "Updates completed" || echo "Updates Failed"
+        sleep 2
+        echo "Removing Updater"
+        sleep 1
+        # Check if the directory exists
+        if [ -d "$updater_directory" ]; then
+            # Directory exists, remove it
+            rm -fr "$updater_directory"
+            echo "Updater directory deleted."
+            sleep 1
+        else
+            echo "Updater directory does not exist."
+        fi
     fi
 else
     echo "Getting Updates Ready"
@@ -78,4 +90,17 @@ else
     echo "Starting Updater...."
     "$DIR/Updater/Update/./update.sh"
     echo "Updates completed" || echo "Updates Failed"
+        sleep 2
+        echo "Removing Updater"
+        sleep 1
+        # Check if the directory exists
+        if [ -d "$updater_directory" ]; then
+            # Directory exists, remove it
+            rm -fr "$updater_directory"
+            echo "Updater directory deleted."
+            sleep 1
+        else
+            echo "Updater directory does not exist."
+        fi
+
 fi
