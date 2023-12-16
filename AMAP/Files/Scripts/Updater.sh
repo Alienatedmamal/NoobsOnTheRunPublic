@@ -6,7 +6,7 @@ source "$DIR/config.sh"
 echo "Getting Updates Ready"
 sleep 2
 echo "Clear old updates...."
-updater_directory="$DIR/Files/Updater/"
+updater_directory="$DIR/Updater/"
 
 # Check if the directory exists
 if [ -d "$updater_directory" ]; then
