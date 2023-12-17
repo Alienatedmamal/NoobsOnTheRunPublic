@@ -2,10 +2,10 @@
 DIR="$(cd "$(dirname "$0")/../../" && pwd)"
 source "$DIR/config.sh"
 
-# Specify the URL to the file containing the version number
+# URL to the file containing the version number
 version_url="https://raw.githubusercontent.com/Alienatedmamal/Updater/main/Update/version.txt"
 
-# Download the version number from the web link
+# Download the version number GitHub
 desired_version=$(curl -s "$version_url")
 
 # Specify the path to the file containing the version number
@@ -20,7 +20,7 @@ if [ -e "$version_file" ]; then
     if [ "$current_version" = "$desired_version" ]; then
         echo "Version is already up to date. Stopping further actions."
         sleep 3
-        exit 0  # Exit with success status
+        exit 0  
     else
         echo "Getting Updater Ready"
         sleep 2
