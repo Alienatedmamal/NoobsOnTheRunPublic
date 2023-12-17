@@ -25,6 +25,7 @@ else
         echo -e "\e[1;31m$(cat $DIR/Files/Images/Offline)\e[0m" > $DIR/Files/Images/Status
         discord_url="$DISCORDURL"
 
+#Discord Message 
 generate_post_data() {
   cat <<EOF
 {
