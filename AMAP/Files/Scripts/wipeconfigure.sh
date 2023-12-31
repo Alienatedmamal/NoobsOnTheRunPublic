@@ -2,16 +2,26 @@
 DIR="$(cd "$(dirname "$0")/../../" && pwd)"
 source "$DIR/config.sh"
 
-# Ask for user input
-read -p "Enter the Year : " YR
-read -p "Enter the Month : " MN
-read -p "Enter the Day : " DY
-read -p "Enter the old Seed: " OS
-read -p "Enter the new Seed: " NS
-read -p "Enter the old Year: " OYR
-read -p "Enter the old Month: " OMN
-read -p "Enter the old Day: " ODY
-read -p "Is it a Full-wipe or a Map-wipe? (Type 'Full' or 'Map'): " WIPE_TYPE
+# Function to print in green
+print_green() {
+  echo -e "\e[32m$1\e[0m"
+}
+# Ask for user input in green
+print_green "Enter the Start date of wipe must include space (MN DY YR) e.g. 1 4 21 : "
+read OMN ODY OYR
+
+print_green "Enter the End Date of wipe (YR MN DY) e.g. 1 18 24 : "
+read MN DY YR
+
+print_green "Enter the Previous Seed (see WipeOutput.txt) : "
+read OS
+
+print_green "Enter the New map Seed: "
+read NS
+
+print_green "Is it a Full-wipe (including BP's) or a Map-wipe (BP's Not Included)? (Type 'Full' or 'Map'): "
+read WIPE_TYPE
+
 
 # Define the output file path
 OUTPUT_FILE="$WIPER"
