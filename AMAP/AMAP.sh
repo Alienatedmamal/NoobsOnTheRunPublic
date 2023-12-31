@@ -214,7 +214,7 @@ case $choice in
                             8) echo "Editing LogCleaner.sh"
                                nano $LOGCLEANERSH && $AMAP && exit ;;
                             9) echo "Editing AMAP.sh"
-                               nano $EMAPSH && $AMAP && exit ;;
+                               nano $EAMAPSH && $AMAP && exit ;;
                             10) echo "Going Back " && clear && $AMAP && exit ;;
                             *) echo "Invalid choice. Please enter a valid sub-option." ;;
                         esac
