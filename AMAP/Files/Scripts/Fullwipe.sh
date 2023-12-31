@@ -5,7 +5,7 @@ source "$DIR/config.sh"
 
 #Stops Server, Updates, Updates Mods, Performs Full Wipe.  
 	$SAYDATE $SCRIPTFULL $SERVERNAME Server will now Full wipe >> $LOGS
-$USER $SERVER full-wipe >> $LOGS 
+rm -fr /home/$USERNAME/serverfiles/server/$HOSTNAME/player* >> $LOGS
   	$SAYDATE $SCRIPTFULL $SERVERNAME Server Has Been Full-wiped>> $LOGS || 
 	$SAYDATE $SCRIPTFULL $SERVERNAME Full-wipe Has Failed to Wipe   
 
