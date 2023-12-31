@@ -53,15 +53,21 @@ Copy and paste this in your corn.<br>
 ```
 
 ### 1) Server Management  
-> - Server Details
-> - Server Console
-> - Server Backup
-> - ServerStop
+- Server Details<br>
+Gives details about the rust server. 
+- Server Console<br>
+Opens a console window to the rust server **NO COMMAND INPUTS** 
+- Server Backup<br>
+Backsup the Rust server to the backup folder.
+- ServerStop<br>
+Stops the rust server
 
 ### 2) Logging
->- Check Logs
->- Tail Logs
->- Clear Logs
+- Check Logs<br>
+- Tail Logs<br>
+Live input of log file
+- Clear Logs<br>
+Clears the log file. 
 
 ### 3) Server Backup/Configuration
 > - Server Backup
