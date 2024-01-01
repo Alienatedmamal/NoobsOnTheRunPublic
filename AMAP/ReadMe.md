@@ -65,21 +65,30 @@ Stops the rust server
 ### 2) Logging
 - Check Logs<br>
 - Tail Logs<br>
-Live input of log file
+Live view of log file
 - Clear Logs<br>
 Clears the log file. 
 
 ### 3) Server Backup/Configuration
-> - Server Backup
-> - Edit Plugin Configs
-> - List of Plugins
-> - Oxide Config Path
-> - Oxide Plugin Path
+- Server Backup<br>
+Backs up the server to the backup folder in AMAP.
+- Edit Plugin Configs<br>
+Edit the configs of installed plugins. 
+- List of Plugins<br>
+List of Plugins
+- Oxide Config Path<br>
+Shows the path to the plugin config folder.
+- Oxide Plugin Path<br>
+Shows the path to the installed plugins.
+
 
 ### 4) Wipe Configure
-> - Start Configurator
-> - Clear Configurator File
-> - Check Configurator File 
+- Start Configurator<br>
+Starts the wipe configurator. This will create the string needed for the scheduler to run. You will need to know the last wipe seed and date for the scheduler to know what seed and date to look for. Follow the prompts. Once completed it will output it to the WipeOutput.txt file that is read by the scheduler. 
+- Clear Configurator File<br>
+This will clear all prior wipe configs in the WipeOutput.txt 
+- Check Configurator File<br>
+Shows the current WipeOutput.txt file. 
 
 ### 5) AMAP Controls
 > - Fullewipe
