@@ -7,10 +7,10 @@ print_green() {
   echo -e "\e[32m$1\e[0m"
 }
 # Ask for user input in green
-print_green "Enter the Start date of wipe must include space (MN DY YR) e.g. 1 4 21 : "
+print_green "Enter the Start date of wipe must include space (MN DY YR) e.g. 01 04 21 : "
 read OMN ODY OYR
 
-print_green "Enter the End Date of wipe (YR MN DY) e.g. 1 18 24 : "
+print_green "Enter the End Date of wipe (YR MN DY) e.g. 01 18 24 : "
 read MN DY YR
 
 print_green "Enter the Previous Seed (see WipeOutput.txt) : "
