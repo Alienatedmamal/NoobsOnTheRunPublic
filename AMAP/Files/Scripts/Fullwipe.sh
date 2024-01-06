@@ -20,6 +20,8 @@ $USER $SERVER mods-update >> $LOGS
         $SAYDATE $SCRIPTFULL $SERVERNAME Removing Players Data..... >> $LOGS
 rm -fr /home/$USERNAME/serverfiles/server/$HOSTNAME/player* >> $LOGS
         $SAYDATE $SCRIPTFULL $SERVERNAME Player Data has been removed >> $LOGS
-        $SAYDATE $SCRIPTFULL $SERVERNAME Map data does not need to be removed >> $LOGS
+        $SAYDATE $SCRIPTFULL $SERVERNAME Removing Map Data.... >> $LOGS
+rm -fr /home/$USERNAME/serverfiles/server/$HOSTNAME/proceduralmap* >> $LOGS
+        $SAYDATE $SCRIPTFULL $SERVERNAME Map Data has been removed >> $LOGS
         $SAYDATE $SCRIPTFULL $SERVERNAME Server Has Been Full-wiped>> $LOGS ||
         $SAYDATE $SCRIPTFULL $SERVERNAME Full-wipe Has Failed to Wipe >> $LOGS
