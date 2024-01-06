@@ -8,6 +8,10 @@ source "$DIR/config.sh"
 $USER $SERVER stop >> $LOGS
         $SAYDATE $SCRIPTMAPWIPE $SERVERNAME Server Has Stopped >> $LOGS ||
         $SAYDATE $SCRIPTMAPWIPE $SERVERNAME Server Has Failed to Stop >> $LOGS
+        $SAYDATE $SCRIPTMAPWIPE $SERVERNAME Server will now update.... >> $LOGS
+ $USER $SERVER update >> $LOGS
+        $SAYDATE $SCRIPTMAPWIPE $SERVERNAME Server has updated >> $LOGS ||
+ $SAYDATE $SCRIPTMAPWIPE $SERVERNAME Server has failed to update >> $LOGS
         $SAYDATE $SCRIPTMAPWIPE $SERVERNAME Server will now begin map wipe....  >> $LOGS
         $SAYDATE $SCRIPTMAPWIPE $SERVERNAME Removing Map Data..... >> $LOGS
 rm -fr /home/$USERNAME/serverfiles/server/$HOSTNAME/proceduralmap* >> $LOGS
