@@ -140,21 +140,22 @@ Copy and paste this in your corn.<br>
 	Updates the Rust server automatically
 
  2) Update Rust Plugins<br>
- 
-
+ 	Updates Rust Plugins/Mods
+	
  3) Install Rust Server<br>
-
+	Installs Rust Serve automatically 
 
  4) Install Oxide<br>
-
+	Installs Oxide(plugins/mods) for Rust server automatically
 
  5) Install Plugins<br>
-
+	Installs Plugins from list 
 
  6) Create Server Config File<br>
+	Creates a server config. Use before starting Rust server for the first time. 
 
-
- 7) Copy Configs<br> 
+ 7) Copy created Server Configs<br> 
+	Copies the created server config file to the main config file of the rust server.
 
 
 
