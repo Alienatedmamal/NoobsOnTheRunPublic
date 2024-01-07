@@ -175,3 +175,5 @@ This will update AMAP if there is an update available.
 
 ### 10) Quit
 Quits/Closes AMAP 
+
+[GitHub](https://github.com/Alienatedmamal/NoobsOnTheRunPublic)
