@@ -3,6 +3,7 @@ DIR="$(cd "$(dirname "$0")" && pwd)"
 source $DIR/config.sh
 
 # Options
+
 cat $DIR/$AMAPLOGO
 cat $DIR/Files/Images/Status
 echo ""
