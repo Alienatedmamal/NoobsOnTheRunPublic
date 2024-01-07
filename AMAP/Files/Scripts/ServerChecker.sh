@@ -17,7 +17,7 @@ else
     sleep 5
 
     # Check again if RustDedicated is running after 5 seconds
-    if pgrep -x "RustDedicated" > /dev/null
+    if pgrep -x "Rustedicated" > /dev/null
     then
         echo "$(date)" "ServerChecker: Rust Server is now running." >> "$LOGS"
         echo -e "\e[1;32m$(cat $DIR/Files/Images/Online)\e[0m" > $DIR/Files/Images/Status
