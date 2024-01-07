@@ -96,7 +96,8 @@ case $choice in
             echo "4. List of Plugins"
             echo "5. Oxide Config Path"
             echo "6. Oxide Plugin Path"
-            echo "7. Back to Menu"
+            echo "7. Edit Rust Server Configs"
+            echo "8. Back to Menu"
             read -p "Enter your choice: " subchoice
 
             case $subchoice in
@@ -129,25 +130,25 @@ case $choice in
                         read -p "Enter your choice: " subchoice
                         case $subchoice in
                             1) echo "Editing AutomatedEvents.json"
-                                sleep 2
+                                sleep 1
                                nano $AUTOMATEDEVENTS && $AMAP && exit ;;
                             2) echo "Editing Backpacks.json"
-                                sleep 2
+                                sleep 1
                                nano $BACKPACKS && $AMAP && exit ;;
                             3) echo "Editing BetterChat.json"
-                                sleep 2
+                                sleep 1
                                nano $BETTERCHAT && $AMAP && exit ;;
                             4) echo "Editing BGrade.json"
-                                sleep 2
+                                sleep 1
                                nano $BGRADE && $AMAP && exit ;;
                             5) echo "Editing CustomIcon.json"
-                                sleep 2
+                                sleep 1
                                nano $CUSTOMICON && $AMAP && exit ;;
                             6) echo "Editing DiscordReport.json"
-                                sleep 2
+                                sleep 1
                                nano $DISCORDREPORT && $AMAP && exit ;;
                             7) echo "Editing Kits.json"
-                                sleep 2
+                                sleep 1
                                nano $EDITKITS && $AMAP && exit ;;
                             8)
                                     while true; do
@@ -161,13 +162,13 @@ case $choice in
 
                                     case $subchoice in
                                         1) echo "Editing MagicImagesPanel.json"
-                                            sleep 2
+                                            sleep 1
                                            nano $MAGICIMAGESPANEL && $AMAP && exit ;;
                                         2) echo "Editing MagicMessagePanel.json"
-                                            sleep 2
+                                            sleep 1
                                            nano $MAGICMESSAGEPANEL && $AMAP && exit ;;
                                         3) echo "Editing MagicPanel.json"
-                                            sleep 2
+                                            sleep 1
                                            nano $MAGICPANEL && $AMAP && exit ;;
                                         4) echo "Going Back " && sleep 2 && clear && $AMAP && exit ;;
                                         *) echo "Invalid choice. Please enter a valid sub-option." ;;
@@ -176,19 +177,19 @@ case $choice in
                                 done
                                 ;;
                             9) echo "Editing Rustcord.json"
-                                sleep 2
+                                sleep 1
                                nano /home/$USERNAME/serverfiles/oxide/config/Rustcord.json && $AMAP && exit ;;
                             10) echo "Editing ServerInfo.json"
-                                sleep 2
+                                sleep 1
                                 nano /home/$USERNAME/serverfiles/oxide/config/ServerInfo.json && $AMAP && exit ;;
                             11) echo "Editing SmartChatBot.json"
-                                sleep 2
+                                sleep 1
                                 nano /home/$USERNAME/serverfiles/oxide/config/SmartChatBot.json && $AMAP && exit ;;
                             12) echo "Editing TimedExecute.json"
-                                sleep 2
+                                sleep 1
                                 nano /home/$USERNAME/serverfiles/oxide/config/TimedExecute.json && $AMAP && exit ;;
                             13) echo "Editing VIPTrial.json"
-                                sleep 2
+                                sleep 1
                                 nano /home/$USERNAME/serverfiles/oxide/config/VIPTrial.json && $AMAP && exit ;;
                             14) echo "Going Back " && sleep 2 && clear && $AMAP && exit ;;
                                 
@@ -217,40 +218,40 @@ case $choice in
                         read -p "Enter your choice: " subchoice
                         case $subchoice in
                             1) echo "Editing Fullwipe.sh"
-                                sleep 2
+                                sleep 1
                                nano $FULLWIPESH && $AMAP && exit ;;
                             2) echo "Editing Mapwipe.sh"
-                                sleep 2
+                                sleep 1
                                nano $MAPWIPESH && $AMAP && exit ;;
                             3) echo "Editing Nightly.sh"
-                                sleep 2
+                                sleep 1
                                nano $NIGHTLYSH && $AMAP && exit ;;
                             4) echo "Editing ServerBackup.sh"
-                                sleep 2
+                                sleep 1
                                nano $SERVERBACKUPSH && $AMAP && exit ;;
                             5) echo "Editing ServerChecker.sh"
-                                sleep 2
+                                sleep 1
                                nano $SERVERCHECKERSH && $AMAP && exit ;;
                             6) echo "Editing ServerStart.sh"
-                                sleep 2
+                                sleep 1
                                nano $SERVERSTARTSH && $AMAP && exit ;;
                             7) echo "Editing Schedule.sh"
-                                sleep 2
+                                sleep 1
                                nano $SCHEDULESH && $AMAP && exit ;;
                             8) echo "Editing LogCleaner.sh"
-                                sleep 2
+                                sleep 1
                                nano $LOGCLEANERSH && $AMAP && exit ;;
                             9) echo "Editing AMAP.sh"
-                                sleep 2
+                                sleep 1
                                nano $EAMAPSH && $AMAP && exit ;;
                             10) echo "Editing PulginsMove"
-                                sleep 2
+                                sleep 1
                                 nano $DIR/Files/Scripts/PluginsMove.sh && $AMAP && exit ;;
                             11) echo "Editing ServerConfigurator" 
-                                sleep 2
+                                sleep 1
                                 nano $DIR/Files/Scripts/ServerConfigurator.sh && $AMAP && exit ;;
                             12) echo "Editing WipeConfigurator"
-                                sleep 2 
+                                sleep 1 
                                 nano $DIR/Files/Scripts/wipeconfigure.sh && $AMAP && exit ;;
                             13) echo "Going Back " && clear && $AMAP && exit ;;
                             *) echo "Invalid choice. Please enter a valid sub-option." ;;
@@ -295,7 +296,10 @@ case $choice in
                         read -p "Press Enter to continue..."
                     done
                     ;;
-                7) echo "Going Back " && clear && $AMAP && exit ;;
+                7) echo "Editing Rust Configs"
+                    sleep 1
+                nano /home/$USERNAME/lgsm/config-lgsm/rustserver/common.cfg && cp -f /home/$USERNAME/lgsm/config-lgsm/rustserver/common.cfg /home/$USERNAME/lgsm/config-lgsm/rustserver/rustserver.cfg && $AMAP && exit ;; 
+                8) echo "Going Back " && clear && $AMAP && exit ;;
                 *) echo "Invalid choice. Please enter a valid sub-option." ;;
             esac
             read -p "Press Enter to continue..."
@@ -344,28 +348,28 @@ case $choice in
     read -p "Enter your choice: " subchoice
     case $subchoice in
         1) echo "Starting Fullwipe.sh"
-            sleep 2
+            sleep 1
             $FULLWIPE && $AMAP && exit ;;
         2) echo "Starting Mapwipe.sh"
-            sleep 2
+            sleep 1
             $MAPWIPE && $AMAP && exit ;;
         3) echo "Starting Nightly.sh"
-            sleep 2
+            sleep 1
             $NIGHTLY && $AMAP && exit ;;
         4) echo "Starting ServerBackup.sh"
-            sleep 2
+            sleep 1
             $SERVERBACKUP && $AMAP && exit ;;
         5) echo "Starting ServerChecker.sh"
-            sleep 2
+            sleep 1
             $SERVERCHECKER && $AMAP && exit ;;
         6) echo "Starting ServerStart.sh"
-            sleep 2
+            sleep 1
             $SERVERSTART && $AMAP && exit ;;
         7) echo "Starting Schedule.sh"
-            sleep 2
+            sleep 1
             $SCHEDULE && $AMAP && exit ;;
         8) echo "Starting LogCleaner.sh"
-            sleep 2
+            sleep 1
             $LOGCLEANER && $AMAP && exit ;;
         9) echo "Going Back " && clear && $AMAP && exit ;;
         *) echo "Invalid choice. Please enter a valid sub-option." ;;
