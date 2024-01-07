@@ -79,7 +79,7 @@ case $choice in
                         echo "LogCleaner Aborted." >> $LOGS && $AMAP && exit
                     fi
                     ;;
-                4) echo "Going Back " && clear && $AMAP && exit ;;
+                4) echo "Going Back " && sleep 2 && clear && $AMAP && exit ;;
                 *) echo "Invalid choice. Please enter a valid sub-option." ;;
             esac
             read -p "Press Enter to continue..."
@@ -129,21 +129,28 @@ case $choice in
                         read -p "Enter your choice: " subchoice
                         case $subchoice in
                             1) echo "Editing AutomatedEvents.json"
+                                sleep 2
                                nano $AUTOMATEDEVENTS && $AMAP && exit ;;
                             2) echo "Editing Backpacks.json"
+                                sleep 2
                                nano $BACKPACKS && $AMAP && exit ;;
                             3) echo "Editing BetterChat.json"
+                                sleep 2
                                nano $BETTERCHAT && $AMAP && exit ;;
                             4) echo "Editing BGrade.json"
+                                sleep 2
                                nano $BGRADE && $AMAP && exit ;;
                             5) echo "Editing CustomIcon.json"
+                                sleep 2
                                nano $CUSTOMICON && $AMAP && exit ;;
                             6) echo "Editing DiscordReport.json"
+                                sleep 2
                                nano $DISCORDREPORT && $AMAP && exit ;;
                             7) echo "Editing Kits.json"
+                                sleep 2
                                nano $EDITKITS && $AMAP && exit ;;
                             8)
-                                while true; do
+                                    while true; do
                                     clear  # Clear the screen for a cleaner sub-menu
                                     echo "Options:"
                                     echo "1. Magic Images Panel"
@@ -154,28 +161,37 @@ case $choice in
 
                                     case $subchoice in
                                         1) echo "Editing MagicImagesPanel.json"
+                                            sleep 2
                                            nano $MAGICIMAGESPANEL && $AMAP && exit ;;
                                         2) echo "Editing MagicMessagePanel.json"
+                                            sleep 2
                                            nano $MAGICMESSAGEPANEL && $AMAP && exit ;;
                                         3) echo "Editing MagicPanel.json"
+                                            sleep 2
                                            nano $MAGICPANEL && $AMAP && exit ;;
-                                        4) echo "Going Back " && clear && $AMAP && exit ;;
+                                        4) echo "Going Back " && sleep 2 && clear && $AMAP && exit ;;
                                         *) echo "Invalid choice. Please enter a valid sub-option." ;;
                                     esac
                                     read -p "Press Enter to continue..."
                                 done
                                 ;;
                             9) echo "Editing Rustcord.json"
+                                sleep 2
                                nano /home/$USERNAME/serverfiles/oxide/config/Rustcord.json && $AMAP && exit ;;
                             10) echo "Editing ServerInfo.json"
+                                sleep 2
                                 nano /home/$USERNAME/serverfiles/oxide/config/ServerInfo.json && $AMAP && exit ;;
                             11) echo "Editing SmartChatBot.json"
+                                sleep 2
                                 nano /home/$USERNAME/serverfiles/oxide/config/SmartChatBot.json && $AMAP && exit ;;
                             12) echo "Editing TimedExecute.json"
+                                sleep 2
                                 nano /home/$USERNAME/serverfiles/oxide/config/TimedExecute.json && $AMAP && exit ;;
                             13) echo "Editing VIPTrial.json"
+                                sleep 2
                                 nano /home/$USERNAME/serverfiles/oxide/config/VIPTrial.json && $AMAP && exit ;;
-                            14) echo "Going Back " && clear && $AMAP && exit ;;
+                            14) echo "Going Back " && sleep 2 && clear && $AMAP && exit ;;
+                                
                             *) echo "Invalid choice. Please enter a valid sub-option." ;;
                         esac
                         read -p "Press Enter to continue..."
@@ -194,28 +210,49 @@ case $choice in
                         echo "7. Schedule"
                         echo "8. LogCleaner"
                         echo "9. AMAP"
-                        echo "10. Exit"
+                        echo "10. PluginsMove"
+                        echo "11. ServerConfigurator"
+                        echo "12. WipeConfigurator"
+                        echo "13. Exit"
                         read -p "Enter your choice: " subchoice
                         case $subchoice in
                             1) echo "Editing Fullwipe.sh"
+                                sleep 2
                                nano $FULLWIPESH && $AMAP && exit ;;
                             2) echo "Editing Mapwipe.sh"
+                                sleep 2
                                nano $MAPWIPESH && $AMAP && exit ;;
                             3) echo "Editing Nightly.sh"
+                                sleep 2
                                nano $NIGHTLYSH && $AMAP && exit ;;
                             4) echo "Editing ServerBackup.sh"
+                                sleep 2
                                nano $SERVERBACKUPSH && $AMAP && exit ;;
                             5) echo "Editing ServerChecker.sh"
+                                sleep 2
                                nano $SERVERCHECKERSH && $AMAP && exit ;;
                             6) echo "Editing ServerStart.sh"
+                                sleep 2
                                nano $SERVERSTARTSH && $AMAP && exit ;;
                             7) echo "Editing Schedule.sh"
+                                sleep 2
                                nano $SCHEDULESH && $AMAP && exit ;;
                             8) echo "Editing LogCleaner.sh"
+                                sleep 2
                                nano $LOGCLEANERSH && $AMAP && exit ;;
                             9) echo "Editing AMAP.sh"
+                                sleep 2
                                nano $EAMAPSH && $AMAP && exit ;;
-                            10) echo "Going Back " && clear && $AMAP && exit ;;
+                            10) echo "Editing PulginsMove"
+                                sleep 2
+                                nano $DIR/Files/Scripts/PluginsMove.sh && $AMAP && exit ;;
+                            11) echo "Editing ServerConfigurator" 
+                                sleep 2
+                                nano $DIR/Files/Scripts/ServerConfigurator.sh && $AMAP && exit ;;
+                            12) echo "Editing WipeConfigurator"
+                                sleep 2 
+                                nano $DIR/Files/Scripts/wipeconfigure.sh && $AMAP && exit ;;
+                            13) echo "Going Back " && clear && $AMAP && exit ;;
                             *) echo "Invalid choice. Please enter a valid sub-option." ;;
                         esac
                         read -p "Press Enter to continue..."
@@ -277,7 +314,13 @@ case $choice in
             read -p "Enter Number and press enter:" subchoice
             case $subchoice in
                 1) $DIR/Files/Scripts/./wipeconfigure.sh ;;
-                2) echo > $DIR/Files/Logs/WipeOutput.txt ;;
+                2) read -p "Are you sure you want to CLEAR WIPE CONFIGURATIONS? (Y/n): " confirm_WipeClear
+                    if [ "$confirm_WipeClear" == "Y" ]; then
+                        echo > $DIR/Files/Logs/WipeOutput.txt
+                    else
+                        echo "Clear Wipeconfiguration Aborted." && $AMAP && exit
+                    fi
+                    ;; 
                 3) cat $DIR/Files/Logs/WipeOutput.txt ;;
                 4) echo "Going Back " && clear && $AMAP && exit ;;
                 *) echo "Invalid choice. Please enter a valid sub-option." ;;
@@ -301,20 +344,28 @@ case $choice in
     read -p "Enter your choice: " subchoice
     case $subchoice in
         1) echo "Starting Fullwipe.sh"
+            sleep 2
             $FULLWIPE && $AMAP && exit ;;
         2) echo "Starting Mapwipe.sh"
+            sleep 2
             $MAPWIPE && $AMAP && exit ;;
         3) echo "Starting Nightly.sh"
+            sleep 2
             $NIGHTLY && $AMAP && exit ;;
         4) echo "Starting ServerBackup.sh"
+            sleep 2
             $SERVERBACKUP && $AMAP && exit ;;
         5) echo "Starting ServerChecker.sh"
+            sleep 2
             $SERVERCHECKER && $AMAP && exit ;;
         6) echo "Starting ServerStart.sh"
+            sleep 2
             $SERVERSTART && $AMAP && exit ;;
         7) echo "Starting Schedule.sh"
+            sleep 2
             $SCHEDULE && $AMAP && exit ;;
         8) echo "Starting LogCleaner.sh"
+            sleep 2
             $LOGCLEANER && $AMAP && exit ;;
         9) echo "Going Back " && clear && $AMAP && exit ;;
         *) echo "Invalid choice. Please enter a valid sub-option." ;;
