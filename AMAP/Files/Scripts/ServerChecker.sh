@@ -11,7 +11,7 @@ then
 else
     # If RustDedicated is not running, run the test script
     echo "$(date)" "ServerChecker: Rust not running. Attempting restart" >> "$LOGS"
-    $SERVER start
+    $USER $SERVER start
     echo -e "\e[1;31m$(cat $DIR/Files/Images/Offline)\e[0m" > $DIR/Files/Images/Status
     # Wait for 5 seconds
     sleep 5
