@@ -6,12 +6,27 @@ source "$DIR/config.sh"
 print_green() {
   echo -e "\e[32m$1\e[0m"
 }
+
+# Function to validate 2-digit date
+validate_date() {
+  if ! [[ $1 =~ ^[0-9]{2}$ ]]; then
+    echo "Invalid date. Please enter a 2-digit date."
+    exit 1
+  fi
+}
+
 # Ask for user input in green
-print_green "Enter the Start date of wipe must include space (MN DY YR) e.g. 01 04 21 : "
+print_green "Enter the Start date of wipe (MN DY YR) e.g. 01 04 21 : "
 read OMN ODY OYR
+validate_date "$OMN"
+validate_date "$ODY"
+validate_date "$OYR"
 
 print_green "Enter the End Date of wipe (YR MN DY) e.g. 01 18 24 : "
 read MN DY YR
+validate_date "$MN"
+validate_date "$DY"
+validate_date "$YR"
 
 print_green "Enter the Previous Seed (see WipeOutput.txt) : "
 read OS
