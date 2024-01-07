@@ -3,7 +3,6 @@ DIR="$(cd "$(dirname "$0")" && pwd)"
 source $DIR/config.sh
 
 # Options
-
 cat $DIR/$AMAPLOGO
 cat $DIR/Files/Images/Status
 echo ""
@@ -457,7 +456,7 @@ done
 done
 ;;
 
-        7) echo "This feature coming soon" && sleep 1 && $AMAP ;;
+        7) cat $DIR/ReadMe.md && $AMAPNC && exit ;;
         8) clear && $AMAP ;;
         9) $UPDATER && $AMAP && exit ;;
         10) echo "Exiting AMAP." && sleep 1 && clear && exit ;;
